@@ -1,0 +1,28 @@
+INSTALLATION
+============
+
+
+1. Read and follow all instructions from https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora carefully. Make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9-full, not ruby-full. The database used in the development is MySQL, so some ActiveRecords might not work with PostgreSQL.
+
+2. Do not run jammit, jammit will be removed from the next versions, and the entire stylesheet and javascript structure will also be changed.
+
+3. Get a free SSL certificate for your pod at http://www.startssl.com/. Always use SSL.
+
+4. Copy all *.example files in the config folder as themselves minus .example (eg. application.yml.example becomes application.yml).
+
+5. Carefully edit all this files - double check each for the correct pod url, correct administrator, correct location of SSL certificate, etc.
+
+6. Copy diaspora-init.d as /etc/init.d/diaspora, and then chmod +x /etc/init.d/diaspora
+
+7. Again, make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9, not ruby.
+
+8. Run "bundle install && bundle update"
+
+9. Start the server with SERVER_ROOT/start.sh , restart with SERVER_ROOT/restart.sh.
+
+10. Read the file log/production.log as often as you can, All errors and performance statistics are input in this file. 
+
+11. Do not get frustrated if it fails at first, it is normal, a bit of patience, and the log file above will help you diagnose and know your system better.
+
+
+If you run into any problems, please contact the developer at https://diaspora.happeningin.eu/u/rovemonteux, via Twitter @monteuxrove, or via web http://rovemonteux.net/. 

@@ -1,0 +1,79 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+.container{:style => "position:relative;"}
+  - if !current_user
+    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream"
+  - elsif (current_user || !@landing_page)
+    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream"
+
+  - if !current_user
+    .right
+      %ul#landing_nav
+        %li= link_to t('terms_and_conditions'), AppConfig[:pod_url] + "disclaimer.html"
+        %li= link_to 'Podmin', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
+        %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
+        %li= link_to t('.login'), new_user_session_path, :class => 'login'
+
+  - elsif (current_user || !@landing_page)
+
+    #nav_badges
+      #message_inbox_badge.badge
+        = link_to conversations_path, :title => new_message_text(@unread_message_count) do
+          = image_tag 'icons/mail_grey.png', :alt => new_message_text(@unread_message_count)
+          .badge_count{:class => ("hidden" if @unread_message_count == 0)}
+            = @unread_message_count
+
+      #notification_badge.badge
+        = link_to notifications_path, :title => new_notification_text(@notification_count) do
+          = image_tag 'icons/notifications_grey.png', :id => "notification-flag", :alt => new_notification_text(@notification_count)
+          .badge_count{:class => ("hidden" if @notification_count == 0)}
+            = @notification_count
+
+    #notification_dropdown
+      .header
+        .right
+          = link_to t('notifications.index.mark_all_as_read'), read_all_notifications_path
+          \|
+          = link_to t('.view_all'), notifications_path, :id => "view_all_notifications"
+        %h4
+          = t('.recent_notifications')
+      .notifications
+        .ajax_loader
+          = image_tag("ajax-loader.gif")
+
+    #hovercard_container
+      #hovercard
+        %img.avatar
+        %h4
+          %a.person
+        %p.handle
+        #hovercard_dropdown_container
+
+        .hovercard_footer
+          .footer_container
+            .hashtags
+
+    %ul#user_menu.dropdown
+      %li
+        .right
+          &#9660;
+        .avatar
+          = owner_image_tag(:thumb_small)
+        = link_to current_user.name, '#', :title => current_user.diaspora_handle
+      %li= link_to t('.profile'), local_or_remote_person_path(current_user.person)
+      %li= link_to t('_contacts'), contacts_link
+      %li= link_to t('.settings'), edit_user_path
+      -if current_user.admin?
+        %li= link_to t('.admin'), user_search_path
+      %li= link_to t('.logout'), destroy_user_session_path
+
+  #lightbox
+    #lightbox-content
+      = link_to "[x] close", '#', :id => 'lightbox-close-link'
+      %img#lightbox-image
+      #lightbox-imageset
+
+  #lightbox-backdrop
+

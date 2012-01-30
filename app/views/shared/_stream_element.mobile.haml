@@ -1,0 +1,44 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+.stream_element{:data=>{:guid=>post.id}}
+
+  - if post.is_a?(Reshare)
+    = render 'reshares/reshare', :reshare => post, :post => post.root
+
+  = render 'shared/photo_area', :post => post
+
+  .content
+    = render 'shared/post_info', :post => post
+
+    - if post.is_a?(StatusMessage)
+      = render 'status_messages/status_message', :post => post, :photos => post.photos
+
+  .bottom_bar
+    .floater
+      = mobile_reshare_icon(post)
+      = mobile_comment_icon(post)
+      = mobile_like_icon(post)
+
+    != reactions_link(post)
+
+    - if defined?(expanded_info) && expanded_info
+      .comment_container
+        .post_stats
+          - if post.public?
+            %span.comment_count
+              = post.reshares.size
+
+          %span.comment_count
+            = post.comments.size
+
+          %span.like_count
+            = post.likes.size
+
+        %ul.comments
+          = render :partial => 'comments/comment', :collection => post.comments, :locals => {:post => post}
+
+          %li.comment.add_comment_bottom_link_container
+            = link_to "Add a comment", new_post_comment_path(post), :class => 'add_comment_bottom_link btn comment_action inactive'
+

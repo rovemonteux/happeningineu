@@ -1,0 +1,71 @@
+#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+
+en:
+  javascripts:
+      confirm_dialog: "Are you sure?"
+      timeago:
+        prefixAgo: ""
+        prefixFromNow: ""
+        suffixAgo: "ago"
+        suffixFromNow: "from now"
+        seconds: "less than a minute"
+        minute: "about a minute"
+        minutes: "%d minutes"
+        hour: "about an hour"
+        hours: "about %d hours"
+        day: "a day"
+        days: "%d days"
+        month: "about a month"
+        months: "%d months"
+        year: "about a year"
+        years: "%d years"
+      videos:
+          watch: "Watch this video on {{provider}}"
+          unknown: "Unknown video type"
+      search_for: "Search for {{name}}"
+      publisher:
+        at_least_one_aspect: "You must publish to at least one aspect"
+        limited: "Limited - your post will only be seen by people you are sharing with"
+        public: "Public - your post will be visible to everyone and found by search engines"
+      infinite_scroll:
+        no_more: "No more posts."
+      web_sockets:
+        disconnected: "The websocket is closed; posts will no longer be streamed live."
+      aspect_dropdown:
+        add_to_aspect: "Add contact"
+        select_aspects: "Select aspects"
+        all_aspects: "All aspects"
+        stopped_sharing_with: "You have stopped sharing with {{name}}."
+        started_sharing_with: "You have started sharing with {{name}}!"
+        error: "Couldn't start sharing with {{name}}.  Are you ignoring them?"
+        toggle:
+          zero: "Select aspects"
+          one: "In {{count}} aspect"
+          two: "In {{count}} aspects"
+          few: "In {{count}} aspects"
+          many: "In {{count}} aspects"
+          other: "In {{count}} aspects"
+      show_more: "show more"
+      failed_to_like: "Failed to like!"
+      failed_to_post_message: "Failed to post message!"
+      comments:
+        show: "show all comments"
+        hide: "hide comments"
+      reshares:
+        duplicate: "That good, huh?  You've already reshared that post!"
+      aspect_navigation:
+        select_all: "Select all"
+        deselect_all: "Deselect all"
+        no_aspects: "No aspects selected"
+      getting_started:
+        hey: "Hey, {{name}}!"
+        no_tags: "Hey, you haven't followed any tags!  Continue anyway?"
+        alright_ill_wait: "Alright, I'll wait."
+        preparing_your_stream: "Preparing your personalized stream..."
+      photo_uploader:
+        looking_good: "OMG, you look awesome!"
+      tags:
+        wasnt_that_interesting: "OK, I suppose #{{tagName}} wasn't all that interesting..."

@@ -1,0 +1,51 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+- content_for :page_title do
+  = t('search')
+
+- content_for :head do
+  = include_javascripts :people
+  = javascript_include_tag 'contact-list'
+
+.span-24.last
+  - if params[:q].blank?
+    %h2
+      =t('.no_results')
+  - else
+    %h2#search_title
+      =t('.results_for')
+      %span.term
+        = params[:q]
+    %h4
+      %small
+        = t('.looking_for', :tag_link => tag_page_link(params[:q])).html_safe
+.span-15
+  %hr
+.clearfix
+.span-15.append-1
+  #people_stream.stream
+    - if @hashes.empty?
+      %p
+        =t('.no_one_found')
+
+    - else
+      - for hash in @hashes
+        = render :partial => 'people/person', :locals => hash
+
+      = will_paginate @people
+
+- if user_signed_in?
+  %h4
+    = t('find_people')
+  #global_search
+    = form_tag(people_path, :method => 'get') do
+      = text_field_tag 'q', params[:q], :placeholder => t('find_people'), :type => 'search', :results => 10, :style => "border-style: dotted; border-width: 1px; transition: all 0.25s ease-in-out; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; margin-top: 5px; width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
+%br
+
+.span-8.last
+  %h4
+    = t('.couldnt_find_them_send_invite')
+  = render "shared/invitations"
+

@@ -1,0 +1,95 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+!!!
+%html{:lang => content_language(clean_content(yield(:page_description))), :dir => (rtl?) ? 'rtl' : 'ltr'}
+  %head
+    %meta{:charset => 'utf-8'}/
+
+    %title
+      = page_title clean_content(yield(:page_title))
+
+    %meta{:name => 'content-language', :content => content_language(clean_content(yield(:page_description))) }/
+
+    %meta{:name => 'description', :content => clean_content(yield(:page_description)) }/
+
+    %meta{:name => 'keywords', :content => yield(:page_keywords) }/
+
+    %meta{:name => 'author', :content => yield(:page_author) }/
+
+    %meta{:property => 'og:title', :content => clean_content(yield(:page_title)) }/
+
+    %meta{:property => 'og:description', :content => clean_content(yield(:page_description)) }/
+
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
+    / Viewport scale
+    %meta{:name =>'viewport', :content => "width=device-width, minimum-scale=1 maximum-scale=1"}
+    %meta{:name => "HandheldFriendly", :content => "True"}
+    %meta{:name => "MobileOptimized", :content => "320"}
+    / Force cleartype on WP7
+    %meta{'http-equiv' => "cleartype", :content => 'on'}
+
+    / Home screen icon (sized for retina displays)
+    %link{:rel => 'apple-touch-icon', :href => '/apple-touch-icon.png'}
+    / For Nokia devices
+    %link{:rel => 'shortcut icon', :href => '/apple-touch-icon.png'}
+
+    / iOS mobile web app indicator
+    / NOTE(we will enable these once we don't have to rely on back/forward buttons anymore)
+    /%meta{:name => "apple-mobile-web-app-capable", :content => "yes"}
+    /%link{:rel => "apple-touch-startup-image", :href => "/images/apple-splash.png"}
+
+    / Stylesheets
+    = include_stylesheets :mobile, :format => 'all'
+    = yield(:custom_css)
+
+    %script{:src => "/javascripts/vendor/mbp-modernizr-custom.js"}
+    / Media Queries Polyfill https://github.com/shichuan/mobile-html5-boilerplate/wiki/Media-Queries-Polyfill
+    :javascript
+      Modernizr.mq('(min-width:0)') || document.write('<script src="javascripts/vendor/mbp-respond.min.js">\x3C/script>')
+
+    = csrf_meta_tag
+
+    - if rtl?
+      = include_stylesheets :rtl, :media => 'all'
+
+    = yield(:head)
+
+  %body
+    #main{:role => "main"}
+      = yield
+
+    %header
+      = link_to(image_tag('white@2x.png', :height => 20, :width => 127, :id => 'header_title'), multi_path)
+      - if user_signed_in?
+        - if yield(:header_action).present?
+          = yield(:header_action)
+        - else
+          = link_to(image_tag('icons/compose_mobile2.png', :height => 28, :width => 28), new_status_message_path, :class => 'compose_icon')
+
+    - if user_signed_in?
+      = render :partial =>'shared/footer'
+
+    / javascripts at the bottom
+    = include_javascripts :mobile
+
+    :javascript
+      MBP.hideUrlBar();
+
+    -if AppConfig[:google_a_site]
+      :javascript
+        var _gaq=[["_setAccount","#{AppConfig[:google_a_site]}"],["_trackPageview"]];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+        g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+        s.parentNode.insertBefore(g,s)}(document,"script"));
+
+    -if AppConfig[:piwik_id]
+      :javascript
+        var pkBaseURL = (("https:" == document.location.protocol) ? "https://#{AppConfig[:piwik_url]}/" : "http://#{AppConfig[:piwik_url]}/");
+        document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+        try {
+        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", #{AppConfig[:piwik_id]});
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+        } catch( err ) {}

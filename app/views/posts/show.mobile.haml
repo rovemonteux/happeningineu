@@ -1,0 +1,20 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+- content_for :page_title do
+  = if @post.text.blank? then @post.author.name else truncate(@post.text.gsub(%r{</?[^>]+?>}, '').gsub(/[()]/, " ").gsub(/[\[\]]/, " ").gsub(/[#]/, "").gsub(/(?:f|ht)tps?:\/[^\s]+/, ''), :length => 150).split.join(' ') end
+
+- content_for :page_description do
+  = if @post.text.blank? then @post.author.name else truncate(@post.text.gsub(%r{</?[^>]+?>}, '').gsub(/[()]/, " ").gsub(/[\[\]]/, " ").gsub(/[#]/, "").gsub(/(?:f|ht)tps?:\/[^\s]+/, ''), :length => 300).split.join(' ') end
+
+- content_for :page_keywords do
+  = if @post.text.blank? then @post.author.name else truncate(@post.text.gsub(%r{</?[^>]+?>}, '').gsub(/[()]/, " ").gsub(/(?:f|ht)tps?:\/[^\s]+/, '').gsub(/[^0-9a-z ]/i, ' '), :length => 500).split.join(',') end
+
+- content_for :page_author do
+  = @post.author.name
+
+.stream
+  = render :partial => 'shared/stream_element',
+    :locals => {:post => @post, :commenting_disabled => commenting_disabled?(@post), :expanded_info => true}
+

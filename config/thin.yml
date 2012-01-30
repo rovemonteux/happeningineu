@@ -1,0 +1,19 @@
+#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+rackup: /home/sites/diaspora/config.ru
+pid: /home/sites/diaspora/tmp/thin.pid
+wait: 30
+timeout: 60 
+log: /var/log/thin
+max_conns: 512 
+require: []
+
+max_persistent_conns: 512
+environment: production 
+servers: 1
+daemonize: true
+#chdir: /usr/applications/localhash/current
+#socket: /tmp/thin.sock
+port: 80

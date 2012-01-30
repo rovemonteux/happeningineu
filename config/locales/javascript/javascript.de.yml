@@ -1,0 +1,71 @@
+#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
+
+
+de:
+  javascripts:
+    aspect_dropdown:
+      add_to_aspect: "Kontakt hinzufügen"
+      all_aspects: "Alle Aspekte"
+      error: "Konnte nicht anfangen, mit {{name}} zu teilen. Ignorierst du sie/ihn?"
+      select_aspects: "Wähle Aspekte aus"
+      started_sharing_with: "Du hast angefangen, mit {{name}} zu teilen!"
+      stopped_sharing_with: "Du hast aufgehört, mit {{name}} zu teilen!"
+      toggle:
+        few: "In {{count}} Aspekten"
+        many: "In {{count}} Aspekten"
+        one: "In einem Aspekt"
+        other: "In {{count}} Aspekten"
+        two: "In {{count}} Aspekten"
+        zero: "Aspekt auswählen"
+    aspect_navigation:
+      deselect_all: "Auswahl aufheben"
+      no_aspects: "Keine Aspekte ausgewählt"
+      select_all: "Alle auswählen"
+    comments:
+      hide: "Kommentare verbergen"
+      show: "Alle Kommentare zeigen"
+    confirm_dialog: "Bist du dir sicher?"
+    failed_to_like: "Gefällt mir fehlgeschlagen."
+    failed_to_post_message: "Konnte Beitrag nicht senden!"
+    getting_started:
+      alright_ill_wait: "Alles klar, ich warte."
+      no_tags: "Hey, du folgst noch keinen Tags! Trotzdem weitermachen?"
+      preparing_your_stream: "Dein persönlicher Stream wird zusammengestellt …"
+    infinite_scroll:
+      no_more: "Keine weiteren Beiträge."
+    photo_uploader:
+      looking_good: "OMG, du siehst toll aus!"
+    publisher:
+      at_least_one_aspect: "Du musst zumindest zu einem Aspekt posten"
+      limited: "Eingeschränkt - dein Beitrag wird nur Leuten sichtbar sein, mit denen du teilst"
+      public: "Öffentlich - dein Beitrag ist für alle sichtbar und kann von Suchmaschinen gefunden werden"
+    reshares:
+      duplicate: "Du hast diesen Beitrag bereits weitergesagt!"
+    search_for: "Nach {{name}} suchen"
+    show_more: "Mehr zeigen"
+    tags:
+      wasnt_that_interesting: "OK, ich nehme an, #{{tagName}} war nicht so interessant..."
+    timeago:
+      day: "einem Tag"
+      days: "%d Tagen"
+      hour: "etwa einer Stunde"
+      hours: "etwa %d Stunden"
+      minute: "etwa einer Minute"
+      minutes: "%d Minuten"
+      month: "etwa einem Monat"
+      months: "%d Monaten"
+      prefixAgo: vor
+      prefixFromNow: in
+      seconds: "wenigen Sekunden"
+      suffixAgo: ""
+      suffixFromNow: ""
+      year: "etwa einem Jahr"
+      years: "%d Jahren"
+    videos:
+      unknown: "Unbekanntes Videoformat"
+      watch: "Dieses Video auf {{provider}} ansehen"
+    web_sockets:
+      disconnected: "Der Websocket ist geschlossen. Beiträge werden nicht länger in Echtzeit aktualisiert."

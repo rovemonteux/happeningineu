@@ -1,0 +1,29 @@
+-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+#aspect_stream_header
+  #sort_by
+    = t('streams.recently')
+    %span.controls
+      = link_to_if(session[:sort_order] == 'created_at', t('streams.commented_on'), stream.link(:sort_order => 'updated_at'))
+      ·
+      = link_to_if(session[:sort_order] == 'updated_at', t('streams.posted'), stream.link(:sort_order => 'created_at' ))
+
+  %h3
+    = stream.title
+
+= render 'shared/publisher', :selected_aspects => stream.aspects, :aspect_ids => stream.aspect_ids, :for_all_aspects => stream.for_all_aspects?, :aspect => stream.aspect
+= render 'aspects/no_posts_message'
+
+#gs-shim{:title => popover_with_close_html("3. #{t('.stay_updated')}"), 'data-content' => t('.stay_updated_explanation')}
+
+#main_stream.stream{:data => {:guids => stream.aspect_ids.join(','), :time_for_scroll => time_for_scroll(stream.ajax_stream?, stream)}}
+  - if !stream.ajax_stream? && stream.stream_posts.length > 0
+    = render 'shared/stream', :posts => stream.stream_posts
+  #pagination
+    =link_to(t('more'), next_page_path(:ajax_stream => stream.ajax_stream?), :class => 'paginate')
+
+- if current_user.contacts.size < 2
+  = render 'aspects/no_contacts_message'
+
