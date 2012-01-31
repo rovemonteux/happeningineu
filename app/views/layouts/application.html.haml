@@ -29,41 +29,10 @@
     %link{:rel => 'shortcut icon', :href => '/favicon.png'}/
     %link{:rel => 'apple-touch-icon', :href => '/apple-touch-icon.png'}/
 
-    :css
-      @-webkit-keyframes fade-in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-      }
-
-      @-webkit-keyframes spin {
-        0%   { -webkit-transform: rotate(0deg); }
-        100% { -webkit-transform: rotate(360deg); }
-      }
-
-      @-moz-keyframes fade-in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-      }
-
-      @-moz-keyframes spin {
-        0%   { -moz-transform: rotate(0deg); }
-        100% { -moz-transform: rotate(360deg); }
-      }
-
-      .loaded {
-        -webkit-animation: fade-in 0.16s linear;
-        -moz-animation: fade-in 0.16s linear;
-      }
-
-      .loader {
-        -webkit-animation: spin 1s infinite ease-in-out,
-                           fade-in 0.2s ease-in;
-        -moz-animation: spin 1s infinite ease-in-out,
-                           fade-in 0.2s ease-in;
-      }
-
 
     / Social Media Icons are by Paul Robert Lloyd @ http://paulrobertlloyd.com/2009/06/social_media_icons
+
+    / Application icons are by Everaldo Coelho @ http://everaldo.com/crystal/
 
     / bootstrap/blueprint switch
     - if @aspect == :getting_started || @page == :logged_out
@@ -74,7 +43,8 @@
 
     = stylesheet_link_tag "login", :media => 'screen'
 
-    = include_stylesheets :default, :media => 'all'
+    = stylesheet_link_tag "diaspora_default", :media => 'screen'
+
     - if rtl?
       = include_stylesheets :rtl, :media => 'all'
 
@@ -155,12 +125,12 @@
 
     %footer
       .container
-        #footertags{:style => "font-size: 10px;  font-family:Arial, sans-serif; text-align: justify;"}
-          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 24 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,33').each do |tagname|
+        #footertags
+          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 24 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,34').each do |tagname|
             = link_to("#"+"#{tagname}", "/tags/#{tagname}")
             &nbsp;&middot;&nbsp;
         %br
-        %ul#footer_nav{:style => "font-size: 10px; font-family:Arial, sans-serif;"}
+        %ul#footer_nav
           %li= link_to t('terms_and_conditions'), AppConfig[:pod_url] + "disclaimer.html"
           %li= link_to 'Podmin', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
           %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
