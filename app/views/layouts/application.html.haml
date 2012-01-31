@@ -156,7 +156,7 @@
     %footer
       .container
         #footertags{:style => "font-size: 10px;  font-family:Arial, sans-serif; text-align: justify;"}
-          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 24 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,35').each do |tagname|
+          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 24 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,33').each do |tagname|
             = link_to("#"+"#{tagname}", "/tags/#{tagname}")
             &nbsp;&middot;&nbsp;
         %br
