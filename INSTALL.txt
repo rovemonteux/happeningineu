@@ -4,6 +4,11 @@ INSTALLATION
 
 1. Read and follow all instructions from https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora carefully. Make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9-full, not ruby-full. The database used in the development is MySQL, so some ActiveRecords might not work with PostgreSQL.
 
+Just, of course, grab the Diaspora source from the happeningin.eu repository rather the official repository, using the following commands:
+
+git clone git://github.com/rovemonteux/happeningineu.git
+cd happeningineu
+
 2. Do not run jammit, jammit will be removed from the next versions, and the entire stylesheet and javascript structure will also be changed.
 
 3. Get a free SSL certificate for your pod at http://www.startssl.com/. Always use SSL.
