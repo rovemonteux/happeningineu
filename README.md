@@ -13,8 +13,12 @@ This code is live at
 
 
 ## Are you a user?
+
 You can get an account on any Diaspora pod(http://podupti.me or http://dspr.tk/a for a list of pods), or sign up for an invite
 at the pod run by the original development team at https://joindiaspora.com
+
+[List of pods using the happeningin.eu Diaspora* fork](https://github.com/rovemonteux/happeningineu/wiki/Pods-using-the-happeningin.eu-Diaspora*-fork)
+
 
 ## Are you a developer?
 
