@@ -17,6 +17,9 @@ defaults: &defaults
 
   pod_min: "rovemonteux"
 
+  # number of passed hours to compute trends from
+  trends_hours: "8"
+
   PassengerMaxRequests: 60
   # Websocket host - leave as 0.0.0.0 unless you know what you are doing
   socket_host: 0.0.0.0

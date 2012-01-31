@@ -8,7 +8,7 @@
     %h5
       = t('streams.public.contacts_title') 
   .content
-    - ActiveRecord::Base.connection.select_rows('select DISTINCT posts.author_id, profiles.first_name, profiles.last_name, profiles.image_url_small, people.id, people.diaspora_handle from posts LEFT JOIN profiles ON posts.author_id = profiles.person_id LEFT JOIN people on profiles.person_id = people.id WHERE posts.public = 1 AND posts.type = \'StatusMessage\' AND LENGTH(posts.text) > 120 AND posts.created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 12 HOUR) AND profiles.searchable > 0 ORDER BY posts.comments_count DESC LIMIT 0,30').each do |author_id,first_name,last_name,image_url_small,peopleid,diaspora_handle|
+    - ActiveRecord::Base.connection.select_rows('select DISTINCT posts.author_id, profiles.first_name, profiles.last_name, profiles.image_url_small, people.id, people.diaspora_handle from posts LEFT JOIN profiles ON posts.author_id = profiles.person_id LEFT JOIN people on profiles.person_id = people.id WHERE posts.public = 1 AND posts.type = \'StatusMessage\' AND LENGTH(posts.text) > 120 AND posts.created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND profiles.searchable > 0 ORDER BY posts.comments_count DESC LIMIT 0,30').each do |author_id,first_name,last_name,image_url_small,peopleid,diaspora_handle|
       %a{:href => "/people/#{peopleid}", :class => "", :"data-hovercard" => "/people/#{peopleid}"}
         %img{:alt => "#{first_name} #{last_name}", :class => "avatar", :"data-person_id" => "#{peopleid}", :src => "#{image_url_small}", :title => "#{first_name} #{last_name}"}
 
@@ -26,7 +26,7 @@
     = image_tag('/images/icons/pencil.png')
     %h5
       = t('people.show.recent_public_posts')
-  - ActiveRecord::Base.connection.select_rows('select SUBSTRING(text,-(LENGTH(text)),174) as statustext,id,comments_count,likes_count,reshares_count from posts WHERE public = 1 AND type = \'StatusMessage\' AND comments_count > 1 AND LENGTH(text) > 50 AND created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 8 HOUR) ORDER BY comments_count DESC LIMIT 0,14').each do |postname,postid,postcomments,postlikes,postreshares|
+  - ActiveRecord::Base.connection.select_rows('select SUBSTRING(text,-(LENGTH(text)),174) as statustext,id,comments_count,likes_count,reshares_count from posts WHERE public = 1 AND type = \'StatusMessage\' AND comments_count > 1 AND LENGTH(text) > 50 AND created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) ORDER BY comments_count DESC LIMIT 0,14').each do |postname,postid,postcomments,postlikes,postreshares|
     - if postname.length > 1 
       .content
         %i

@@ -13,7 +13,7 @@
     %b=link_to t('tags.show.follow', :tag => 'trends'), tag_followings_path, :class => 'home_selector'
 
     %ul.sub_nav
-      - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 8 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,30').each do |tagname|
+      - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,30').each do |tagname|
         %li
           = link_to "#"+"#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
 
