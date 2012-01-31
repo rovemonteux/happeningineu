@@ -42,7 +42,6 @@ gem 'jammit'
 # mail
 
 gem 'messagebus_ruby_api', '1.0.3'
-gem 'airbrake'
 gem "rpm_contrib", "~> 2.1.7"
 
 group :production do # we don't install these on travis to speed up test runs
