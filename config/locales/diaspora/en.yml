@@ -436,6 +436,7 @@ en:
       many: "%{actors} have reshared your %{post_link}."
       other: "%{actors} have reshared your %{post_link}."
     post: "post"
+    comment_on: 'comment on this post'
     also_commented_deleted:
       zero: "%{actors} commented on a deleted post."
       one: "%{actors} commented on a deleted post."
@@ -507,6 +508,7 @@ en:
         reply_to_or_view: "Reply to or view this conversation >"
     liked:
         liked: "%{name} liked your post"
+        liked_comment: "%{name} liked your comment on a post"
         view_post: "View post >"
     reshared:
         reshared: "%{name} reshared your post"

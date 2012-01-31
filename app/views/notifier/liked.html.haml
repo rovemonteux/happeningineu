@@ -1,8 +1,18 @@
-%p
-  = "#{t('.liked', :name => "#{@notification.sender.name}")}:"
+- if @notification.like.target.instance_of?(Comment)
+  %p
+    = "#{t('.liked_comment', :name => "#{@notification.sender.name}")}:"
 
-%p{:style => "font-style:italic;color:#666"}
-  = post_message(@notification.like.target, :process_newlines => true)
+  %p{:style => "font-style:italic;color:#666"}
+    = @notification.like.target.hint
 
-%p
-  = link_to t('.view_post'), post_url(@notification.like.target)
+  %p
+    = link_to t('.view_post'), post_url(@notification.like.target.post)
+- else
+  %p
+    = "#{t('.liked', :name => "#{@notification.sender.name}")}:"
+
+  %p{:style => "font-style:italic;color:#666"}
+    = post_message(@notification.like.target, :process_newlines => true)
+
+  %p
+    = link_to t('.view_post'), post_url(@notification.like.target)

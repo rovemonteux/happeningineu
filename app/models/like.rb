@@ -51,8 +51,6 @@ class Like < ActiveRecord::Base
   end
 
   def notification_type(user, person)
-    #TODO(dan) need to have a notification for likes on comments, until then, return nil
-    return nil if self.target_type == "Comment"
     Notifications::Liked if self.target.author == user.person && user.person != person
   end
 end
