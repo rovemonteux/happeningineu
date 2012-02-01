@@ -41,7 +41,7 @@
     = t('find_people')
   #global_search
     = form_tag(people_path, :method => 'get') do
-      = text_field_tag 'q', params[:q], :placeholder => t('find_people'), :type => 'search', :results => 10, :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); transition: all 0.25s ease-in-out; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; margin-top: 5px; width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
+      = text_field_tag 'q', params[:q], :placeholder => t('find_people'), :type => 'search', :results => 10, :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
 %br
 
 .span-8.last
