@@ -708,8 +708,8 @@ cs:
       ignore_user: "Ignorovat %{name}"
       like: "to se mi lÃ­bÃ­"
       shared_with: "SdÃ­leno s: %{aspect_names}"
-      nsfw: "Tento pøíspìvek byl oznaèen jako nejsou bezpeèné pro práci (#nsfw). To by mohlo obsahovat dospìlıch anebo kontroverzní materiál. Kliknutím %{link} potvrzujete, e jste 18 let nebo starší, a pochopit, e zobrazenı materiál není bezpeène pro prohlíení v práci."
-      show: ukázat
+      nsfw: "Tento pÅ™Ã­spÄ›vek byl oznaÄen jako nebezpeÄnÃ© pro prÃ¡ci (#nsfw). To by mohlo obsahovat dospÄ›lÃ½ch anebo kontroverznÃ­ materiÃ¡l. KliknutÃ­m %{link} potvrzujete, Å¾e jste 18 let nebo starÅ¡Ã­, a pochopit, Å¾e zobrazenÃ½ materiÃ¡l nenÃ­ bezpeÄne pro prohlÃ­Å¾enÃ­ v prÃ¡ci"
+      show: ukÃ¡zat
       unlike: "to se mi uÅ¾ nelÃ­bÃ­"
       via: "skrz %{link}"
       viewable_to_anyone: "Tento pÅ™Ã­spÄ›vek je viditelnÃ½ komukoli na webu"

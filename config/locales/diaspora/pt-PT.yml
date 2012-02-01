@@ -763,6 +763,8 @@ pt-PT:
       ignore_user: "Ignorar %{name}"
       ignore_user_description: "Ignorar e remover o utilizador de todos os aspectos?"
       like: Gosto
+      nsfw: "Este post foi marcado como não seguro para o trabalho (#nsfw) pelo seu autor. Ele pode conter material adulto e/ou controversial. Ao clicar %{link} voce certifica que tem 18 anos de idade ou mais, e entende que o material exibido não é seguro para visualização no trabalho."
+      show: mostrar
       shared_with: "Partilhado com: %{aspect_names}"
       unlike: "Não Gosto"
       viewable_to_anyone: "Esta publicação é visível para todos na internet"
