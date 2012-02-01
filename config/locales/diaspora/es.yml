@@ -767,7 +767,7 @@ es:
       ignore_user: "Ignorar a %{name}"
       ignore_user_description: "¿Ignorar y quitar a esa persona de todos los aspectos?"
       like: "Me gusta"
-      nsfw: "Esta publicación es considerada por su autor como no apta para verla en el trabajo (NSFW). %{link}"
+      nsfw: "Esta mensaje se ha marcado como no segura para el trabajo (#nsfw) por su autor. Es posible que contenga material adulto y/o controversial. Al hacer clic en %{link} usted certifica que es mayor de 18 anos de edad, y entiende que el material que se muestra no es seguro para su visualizaci�n en el trabajo."
       shared_with: "Compartido con: %{aspect_names}"
       show: mostrar
       unlike: "No me gusta"

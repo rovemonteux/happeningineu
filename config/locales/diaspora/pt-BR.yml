@@ -764,7 +764,7 @@ pt-BR:
       ignore_user: "Ignorar %{name}"
       ignore_user_description: "Ignorar e remover usuÃ¡rio de todos os aspectos?"
       like: Curtir
-      nsfw: "Esse post foi censurado (NSFW) por seu autor. %{link}"
+      nsfw: "Este post foi marcado como nao seguro para o trabalho (#nsfw) pelo seu autor. Ele pode conter material adulto e/ou controversial. Ao clicar %{link} voce certifica que tem 18 anos de idade ou mais, e entende que o material exibido nao é seguro para visualizaçao no trabalho."
       shared_with: "Compartilhado com: %{aspect_names}"
       show: mostrar
       unlike: Descurtir

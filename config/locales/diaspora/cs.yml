@@ -708,6 +708,8 @@ cs:
       ignore_user: "Ignorovat %{name}"
       like: "to se mi lÃ­bÃ­"
       shared_with: "SdÃ­leno s: %{aspect_names}"
+      nsfw: "Tento pøíspìvek byl oznaèen jako nejsou bezpeèné pro práci (#nsfw). To by mohlo obsahovat dospìlıch anebo kontroverzní materiál. Kliknutím %{link} potvrzujete, e jste 18 let nebo starší, a pochopit, e zobrazenı materiál není bezpeène pro prohlíení v práci."
+      show: ukázat
       unlike: "to se mi uÅ¾ nelÃ­bÃ­"
       via: "skrz %{link}"
       viewable_to_anyone: "Tento pÅ™Ã­spÄ›vek je viditelnÃ½ komukoli na webu"

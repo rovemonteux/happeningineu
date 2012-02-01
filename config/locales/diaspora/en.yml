@@ -817,7 +817,7 @@ en:
       unlike: "Unlike"
       dislike: "Dislike"
       shared_with: "Shared with: %{aspect_names}"
-      nsfw: "This post has been flagged as NSFW by its author. %{link}"
+      nsfw: "This post has been flagged as not safe for work (#nsfw) by its author. It might contain adult and/or controversial material. By clicking %{link} you certify that you are 18 years of age or older, and understand that the displayed material is not safe for viewing at work."
       show: "show"
     footer:
       logged_in_as: "logged in as %{name}"
