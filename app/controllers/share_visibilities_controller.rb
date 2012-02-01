@@ -8,22 +8,44 @@ class ShareVisibilitiesController < ApplicationController
 
   def update
     #note :id references a postvisibility
-    params[:shareable_id] ||= params[:post_id]
-    params[:shareable_type] ||= 'Post'
+    shareable_id = ( params[:shareable_id] || params[:post_id] ).to_i
+    shareable_type = params[:shareable_type] || 'Post'
 
     @post = accessible_post
     @contact = current_user.contact_for(@post.author)
+    if @contact.nil?
+      @contact = current_user.contacts.create!(
+        :person_id => @post.author.id,
+        :sharing => false,
+        :receiving => false
+      )
+    end
 
-    if @contact && @vis = ShareVisibility.where(:contact_id => @contact.id,
-                                                :shareable_id => params[:shareable_id],
-                                                :shareable_type => params[:shareable_type]).first
+    @vis = ShareVisibility.where(
+      :contact_id => @contact.id,
+      :shareable_id => shareable_id,
+      :shareable_type => shareable_type
+    ).first
+
+    if @vis
       @vis.hidden = !@vis.hidden
       if @vis.save
         update_cache(@vis)
         render 'update'
         return
       end
+    else
+      @vis = ShareVisibility.create!(
+        :shareable_id => shareable_id,
+        :shareable_type => shareable_type,
+        :contact_id => @contact.id,
+        :hidden => true
+      )
+      update_cache @vis
+      render 'update'
+      return
     end
+
     render :nothing => true, :status => 403
   end
 

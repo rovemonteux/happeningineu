@@ -17,7 +17,7 @@ class Stream::Multi < Stream::Base
 
   def posts
     @posts ||= lambda do
-      post_ids = aspects_post_ids + followed_tags_post_ids + mentioned_post_ids
+      post_ids = aspects_post_ids + followed_tags_post_ids + mentioned_post_ids 
       post_ids += community_spotlight_post_ids if include_community_spotlight?
       Post.where(:id => post_ids)
     end.call
@@ -71,7 +71,7 @@ class Stream::Multi < Stream::Base
   # @return [Array<Symbol>]
   def streams_included
     @streams_included ||= lambda do
-      array = [:mentioned, :aspects, :followed_tags]
+      array = [:mentioned, :aspects, :followed_tags, ]
       array << :community_spotlight if include_community_spotlight?
       array
     end.call
@@ -90,7 +90,7 @@ class Stream::Multi < Stream::Base
   end
 
   def aspects_post_ids
-    @aspects_post_ids ||= user.visible_shareable_ids(Post, :limit => 8, :order => "#{order} DESC", :max_time => max_time, :all_aspects? => true, :by_members_of => aspect_ids)
+    @aspects_post_ids ||= user.visible_shareable_ids(Post, :limit => 15, :order => "#{order} DESC", :max_time => max_time, :all_aspects? => true, :by_members_of => aspect_ids)
   end
 
   def followed_tags_post_ids
@@ -115,7 +115,27 @@ class Stream::Multi < Stream::Base
   end
 
   def ids(query)
-    Post.connection.select_values(query.for_a_stream(max_time, order).select('posts.id').to_sql)
+    Post.connection.select_values(
+      query.
+      for_a_stream(max_time, order).
+      select('posts.id').
+      where(
+        %{
+          COALESCE(
+            (
+              SELECT NOT sv.hidden
+              FROM share_visibilities sv
+              WHERE
+                sv.shareable_type = 'Post'
+                AND sv.shareable_id = posts.id
+              LIMIT 1
+            ),
+            TRUE
+          )
+        }
+      ).
+      to_sql
+    )
   end
 
 end

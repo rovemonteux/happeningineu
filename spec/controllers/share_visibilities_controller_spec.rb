@@ -28,15 +28,31 @@ describe ShareVisibilitiesController do
       end
 
       it 'marks hidden if visible' do
+        @vis.hidden.should be_false
         put :update, :format => :js, :id => 42, :post_id => @status.id
         @vis.reload.hidden.should be_true
       end
 
       it 'marks visible if hidden' do
+        @vis.hidden.should be_false
         @vis.update_attributes(:hidden => true)
+        @vis.hidden.should be_true
 
         put :update, :format => :js, :id => 42, :post_id => @status.id
         @vis.reload.hidden.should be_false
+      end
+
+      context 'authored by a non-contact' do
+        before do
+          @message = eve.post(:status_message, :text => 'howdy', :to => eve.aspects.first, :public => true)
+          bob.contacts.should_not include(eve)
+        end
+
+        it 'marks hidden if visible' do
+          @message.share_visibilities.where(:hidden => true).should be_empty
+          put :update, :format => :js, :id => 42, :post_id => @message.id
+          @message.share_visibilities.where(:hidden => true).should_not be_empty
+        end
       end
     end
 
@@ -50,14 +66,9 @@ describe ShareVisibilitiesController do
           put :update, :format => :js, :id => 42, :post_id => @status.id
         }.should_not change(@vis.reload, :hidden).to(true)
       end
-
-      it 'does not succeed' do
-        put :update, :format => :js, :id => 42, :post_id => @status.id
-        response.should_not be_success
-      end
     end
   end
-  
+
   describe '#update_cache' do
     before do
       @controller.params[:post_id] = @status.id
