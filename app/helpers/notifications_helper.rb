@@ -24,7 +24,7 @@ module NotificationsHelper
       else
         if post_or_comment.respond_to?(:post)
           link = link_to(
-            t('notifications.comment_on'),
+            t('comments.new_comment.comment').downcase,
             post_path(post_or_comment.post),
             'data-ref' => post_or_comment.id,
             :class     => 'hard_object_link',
