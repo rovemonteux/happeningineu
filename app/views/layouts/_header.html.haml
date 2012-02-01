@@ -4,9 +4,9 @@
 
 .container{:style => "position:relative;"}
   - if !current_user
-    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream"
+    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream" 
   - elsif (current_user || !@landing_page)
-    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream"
+    = link_to image_tag('logo_small.png', :style => 'position:relative;top:5px;'), "/stream" 
 
   - if !current_user
     .right
