@@ -37,7 +37,11 @@ text-align:right}
 .hidden{display:none}
 
 .avatar{width:50px;
-height:50px}
+height:50px;
+-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+box-shadow:0 1px 2px rgba(0,0,0,0.5);
+}
 
 #content{background-color:white;
 border:1px solid #ccc;
