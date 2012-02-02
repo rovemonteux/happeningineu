@@ -36,7 +36,7 @@ module NotificationsHelper
             post_path(post_or_comment),
             'data-ref' => post_or_comment.id,
             :class     => 'hard_object_link',
-            :title     => truncate(post_or_comment.text.gsub(%r{</?[^>]+?>}, '').gsub(/[()]/, " ").gsub(/[\[\]]/, " ").gsub(/[##]/, "").gsub(/(?:f|ht)tps?:\/[^\s]+/, ''), :length => 112)
+            :title     => t('notifications.post') 
           ).html_safe
         end
 
