@@ -30,7 +30,7 @@ You can get an account on any Diaspora pod(http://podupti.me or http://dspr.tk/a
 
 Read the INSTALL.txt file for how to get started.
 
-You should first read the AUTHORs, COPYRIGHT and GNU-AGPL-3.0 files.
+Please also read the AUTHORS, COPYRIGHT and GNU-AGPL-3.0 files.
 
 **THIS IS ALPHA SOFTWARE AND SHOULD BE TREATED ACCORDINGLY.**
 **IT IS FUN TO GET RUNNING, BUT EXPECT THINGS TO BE BROKEN.**
