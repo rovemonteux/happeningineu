@@ -22,7 +22,7 @@ class NotificationsController < VannaController
     @aspect = :notification
     conditions = {:recipient_id => current_user.id}
     page = opts[:page] || 1
-    per_page = opts[:per_page] || 25
+    per_page = opts[:per_page] || 30
     notifications = WillPaginate::Collection.create(page, per_page, Notification.where(conditions).count ) do |pager|
       result = Notification.find(:all,
                                  :conditions => conditions,
