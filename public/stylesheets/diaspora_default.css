@@ -1321,6 +1321,12 @@ position:relative}
 margin-top:0;
 float:right}
 
+.social_icon {
+-webkit-border-radius: 1em; 
+-moz-border-radius: 1em; 
+border-radius: 1em;
+}
+
 .contact_list,.aspect_list{-moz-border-radius:3px 3px 3px 3px;
 -webkit-border-radius:3px 3px 3px 3px;
 border-radius:3px 3px 3px 3px;
