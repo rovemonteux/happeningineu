@@ -5,12 +5,19 @@ network.
 
 [Diaspora Project](http://diasporaproject.org)
 
-This is a fork of the Diapora* source code.
+This is a fork of the Diapora* source code, meaning, while this code is based on the 2011 Diaspora* source code, this is not the same code as used today on joindiaspora.com, nor diasp0ra.ca.
 
-This code is live at 
+Bug reports are not the same either, something broken in many other Diaspora* pods might be working perfectly in the happeningin.eu fork, and vice versa.
+
+While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy are not the same.
+ 
+If you have never used the happeningin.eu Diaspora* fork, this code is live at, 
 
 ###[diaspora.happeningin.eu](https://diaspora.happeningin.eu/)
 
+And in other pods as listed in 
+
+[List of pods using the happeningin.eu Diaspora* fork](https://github.com/rovemonteux/happeningineu/wiki/Pods-using-the-happeningin.eu-Diaspora*-fork)
 
 ## Are you a user?
 
@@ -23,6 +30,8 @@ at the pod run by the original development team at https://joindiaspora.com
 ## Are you a developer?
 
 Read the INSTALL.txt file for how to get started.
+
+You should first read the AUTHORs, COPYRIGHT and GNU-AGPL-3.0 files.
 
 **THIS IS ALPHA SOFTWARE AND SHOULD BE TREATED ACCORDINGLY.**
 **IT IS FUN TO GET RUNNING, BUT EXPECT THINGS TO BE BROKEN.**
