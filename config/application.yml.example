@@ -34,7 +34,7 @@ defaults: &defaults
 
   # Secure websocket confguration (wss://).
   # Requires SSL cert and key
-  socket_secure: true 
+  socket_secure: false 
   socket_cert_chain_location: '/etc/apache2/ssl/ssl.crt'
   socket_private_key_location: '/etc/apache2/ssl/ssl.key'
 
