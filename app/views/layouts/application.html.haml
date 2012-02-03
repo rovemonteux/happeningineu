@@ -135,7 +135,7 @@
     %footer
       .container
         #footertags
-          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL 24 HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,34').each do |tagname|
+          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,60;').each do |tagname|
             = link_to("#"+"#{tagname}", "/tags/#{tagname}")
             &nbsp;&middot;&nbsp;
         %br
