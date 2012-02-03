@@ -119,7 +119,7 @@ GEM
     cgi_multipart_eof_fix (2.5.0)
     childprocess (0.3.0)
       ffi (~> 1.0.6)
-    chronic (0.6.6)
+    chronic (0.6.7)
     client_side_validations (3.1.4)
     cloudfiles (1.5.0.1)
       json
@@ -204,7 +204,7 @@ GEM
       json (>= 1.4.6)
     haml (3.1.4)
     hashie (1.2.0)
-    heroku (2.19.1)
+    heroku (2.19.2)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       rubyzip
@@ -295,7 +295,7 @@ GEM
       omniauth-oauth (~> 1.0)
     open4 (1.3.0)
     orm_adapter (0.0.6)
-    parallel (0.5.12)
+    parallel (0.5.13)
     parallel_tests (0.6.17)
       parallel
     polyglot (0.3.3)
@@ -427,10 +427,10 @@ GEM
     whenever (0.7.2)
       activesupport (>= 2.3.4)
       chronic (~> 0.6.3)
-    will_paginate (3.0.2)
+    will_paginate (3.0.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
-    yard (0.7.4)
+    yard (0.7.5)
     yui-compressor (0.9.6)
       POpen4 (>= 0.1.4)
 
