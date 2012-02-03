@@ -8,15 +8,6 @@
       = text_field_tag 'q', params[:q], :placeholder => t('find_people'), :type => 'search', :results => 10, :style => "background: url('/images/icons/lupe.png'); background-repeat: no-repeat; background-position: right; border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
   %br
 
-%ul.left_nav
-  %li
-    %b=link_to t('tags.show.follow', :tag => 'trends'), tag_followings_path, :class => 'home_selector'
-
-    %ul.sub_nav
-      - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,30').each do |tagname|
-        %li
-          = link_to "#"+"#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
-
 - if user_signed_in?
   %ul.left_nav
     %li

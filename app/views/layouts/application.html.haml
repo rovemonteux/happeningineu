@@ -65,6 +65,15 @@
       = javascript_include_tag 'web-socket-receiver'
       = render 'js/websocket_js'
 
+    :javascript
+      $(document).ready(function() {
+      $(".trigger").click(function(){
+      $(".panel").toggle("fast");
+      $(this).toggleClass("active");
+      return false;
+      });
+      });
+
     = yield(:head)
 
     -unless Rails.env == "production" 
