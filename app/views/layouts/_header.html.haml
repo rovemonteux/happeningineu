@@ -11,9 +11,6 @@
   - if !current_user
     .right
       %ul#landing_nav
-        %li= link_to t('terms_and_conditions'), AppConfig[:pod_url] + "disclaimer.html"
-        %li= link_to 'Webmaster', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
-        %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
         %li= link_to t('.login'), new_user_session_path, :class => 'login'
     #nav_badges
       #tagcloud_badge.badge
