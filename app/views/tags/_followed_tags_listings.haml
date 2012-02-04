@@ -3,6 +3,7 @@
 -#   the COPYRIGHT file.
 
 - if user_signed_in?
+
   #global_search
     = form_tag(people_path, :method => 'get') do
       = text_field_tag 'q', params[:q], :placeholder => t('find_people'), :type => 'search', :results => 10, :style => "background: url('/images/icons/lupe.png'); background-repeat: no-repeat; background-position: right; border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
@@ -24,3 +25,23 @@
           = form_for TagFollowing.new do |tg|
             = text_field_tag :name, "", :class => "tag_input", :placeholder => t('streams.followed_tag.add_a_tag'),  :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 10px; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"
             = tg.submit t('streams.followed_tag.follow'), :class => "button hidden"
+
+  %hr
+
+  - if AppConfig[:open_invitations]
+    .section
+      .title
+        %h5
+          = t('shared.invitations.invite_your_friends')
+      = render "shared/invitations"
+
+  - unless AppConfig.configured_services.blank? || all_services_connected?
+    .section
+      .title
+        %h5
+          = t('aspects.index.services.heading')
+      #right_service_icons
+        - AppConfig.configured_services.each do |service|
+          - unless current_user.services.any?{|x| x.provider == service}
+            = link_to(image_tag("social_media_logos/#{service.to_s.downcase}-24x24.png", :title => service.to_s.titleize), "/auth/#{service}")
+

@@ -3,12 +3,12 @@
     %h5
       = @stream.contacts_title
 
-  .content
+  .content{:style => "text-align: left;"}
     - if @stream.people.size > 0
       - for person in @stream.people.sample(15)
         = person_image_link(person)
-      = link_to @stream.contacts_link_title, @stream.contacts_link, :id => "view_all_contacts_link"
     - else
-      = t('.no_contacts')
-      = link_to t('.manage_your_aspects'), contacts_link
+      %b
+        = t('.no_contacts')
+        = link_to t('.manage_your_aspects'), contacts_link
 

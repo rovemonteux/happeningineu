@@ -2208,6 +2208,8 @@ width:100%}
 
 ul.left_nav li.active>a.home_selector:not(.sub_selected){font-weight:700}
 
+ul.left_nav li.active>a.view_all_contacts_link:not(.sub_selected){font-weight:700}
+
 ul.left_nav li.active>a:not(.sub_selected){color:#333}
 
 ul.left_nav li.active>a:not(.sub_selected) .contact_count{font-weight:700;
@@ -2280,6 +2282,7 @@ width:172px}
 .section .user_card{margin-left:8px}
 
 .stream_container{min-height:500px;
+width: 100%;
 border-left:1px solid #ddd;
 padding-left:10px;
 padding-top:20px;
@@ -2339,15 +2342,6 @@ min-height:23px}
 #selected_aspect_contacts .avatar{height:32px;
 width:32px;
 margin-bottom:-2px}
-
-#view_all_contacts_link{display:block;
-padding:5px;
-border: none;
-text-align:center;
-margin:5px 0;
-margin-bottom: 0px;
- padding-bottom: 0px;
-}
 
 .bottom_submit_section{display:block;
 position:relative;

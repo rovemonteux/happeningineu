@@ -24,6 +24,17 @@
 
 .span-5.leftNavBar
 
+  = render 'aspects/selected_contacts', :stream => @stream
+
+  %br
+  %hr
+
+  .section  
+    %ul.left_nav
+      %li
+        %b
+          = link_to @stream.contacts_link_title, @stream.contacts_link, :class => "home_selector"
+
   .section
     %ul.left_nav
       %li
@@ -54,11 +65,6 @@
   .section#followed_tags_listing
     = render 'tags/followed_tags_listings'
 
-.span-13.append-1
+.span-18.last
   #aspect_stream_container.stream_container
     = render 'aspects/aspect_stream', :stream => @stream
-
-.span-5.rightBar.last
-  = render 'aspects/selected_contacts', :stream => @stream
-
-  = render 'shared/right_sections'

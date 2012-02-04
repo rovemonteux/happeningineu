@@ -1,7 +1,12 @@
-- if AppConfig.configured_services.include?('facebook')
-  - if defined? remote
-    = link_to t('.from_facebook'), friend_finder_path('facebook', :remote => remote)
-  -else
-    = link_to t('.from_facebook'), friend_finder_path('facebook')
-  %br
-= link_to t('.by_email'), new_user_invitation_path, :title => t('.invite_someone'), :rel => 'facebox'
+.section
+  %ul.left_nav
+    - if AppConfig.configured_services.include?('facebook')
+      %li
+        %b
+          - if defined? remote
+            = link_to t('.from_facebook'), friend_finder_path('facebook', :remote => remote), :class => "home_selector"
+          -else
+            = link_to t('.from_facebook'), friend_finder_path('facebook'), :class => "home_selector"
+    %li
+      %b  
+        = link_to t('.by_email'), new_user_invitation_path, :title => t('.invite_someone'), :class => "home_selector", :rel => 'facebox'
