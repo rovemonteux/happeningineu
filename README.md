@@ -3,9 +3,7 @@
 The privacy aware, personally controlled, do-it-all, open source social
 network.
 
-This is a fork of Diapora's 2011 source code, meaning that no code has been shared with the official source code since, but exclusively programmed for this fork.
-
-Bug reports are not the same either, something broken in many other Diaspora* pods might be working perfectly in the happeningin.eu fork, and vice versa.
+This is a fork of the 2011 Diapora* source code. No code has been shared since, and this project is taking a different direction from the Diaspora* main branch.
 
 While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this fork are not the same as the main Diaspora* software.
  
@@ -17,13 +15,13 @@ The service is free, and registrations are open.
 
 Or you can sign up for an account in the other hosts listed in 
 
-[List of hosts using Happening in EU (happeningin.eu)](https://github.com/rovemonteux/happeningineu/wiki/Pods-using-the-happeningin.eu-Diaspora*-fork)
+[List of hosts using the Happening in EU (happeningin.eu) software](https://github.com/rovemonteux/happeningineu/wiki/Hosts-using-the-happeningin.eu-software)
 
 ## Are you a user?
 
 You can sign up for an account in one of the hosts listed in the link below,
 
-[List of hosts using Happening in EU (happeningin.eu)](https://github.com/rovemonteux/happeningineu/wiki/Pods-using-the-happeningin.eu-Diaspora*-fork)
+[List of hosts using the Happening in EU (happeningin.eu) software](https://github.com/rovemonteux/happeningineu/wiki/Hosts-using-the-happeningin.eu-software)
 
 
 ## Are you a developer?
