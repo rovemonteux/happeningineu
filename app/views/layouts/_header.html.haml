@@ -15,7 +15,21 @@
         %li= link_to 'Podmin', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
         %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
         %li= link_to t('.login'), new_user_session_path, :class => 'login'
+    #nav_badges
+      #tagcloud_badge.badge
+        = link_to "#", :class => "trigger", :title => t('users.getting_started.hashtag_explanation') do
+          = image_tag 'icons/tagcloud.png', :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation')
 
+    .panel
+      = image_tag 'icons/tagcloud.png', :style => "width: 19px; height: 19px; float:left;margin:10px 10px 10px 10px; vertical-align: middle;", :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation')
+      %h4{:style => "color:white; vertical-align: middle; padding: 10px; 10px; 10px; 10px;"}
+        = t('users.getting_started.hashtag_explanation')
+      %hr{:style => "-webkit-box-shadow:0 0 3px rgba(20,20,20,0.5); -moz-box-shadow:0 0 3px rgba(20,20,20,0.5); box-shadow:0 0 3px rgba(20,20,20,0.5);"}
+      %p{:style => "font-size: 12px; padding-left: 25px; padding-right: 25px; padding-bottom: 5px; padding-top: 0px; text-align: justify"}
+        - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,150;').each do |tagname|
+          = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
+          &nbsp;&nbsp;
+ 
   - elsif (current_user || !@landing_page)
 
     #nav_badges
@@ -58,7 +72,7 @@
         .hovercard_footer
           .footer_container
             .hashtags
-
+    
     .panel
       = image_tag 'icons/tagcloud.png', :style => "width: 19px; height: 19px; float:left;margin:10px 10px 10px 10px; vertical-align: middle;", :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation')
       %h4{:style => "color:white; vertical-align: middle; padding: 10px; 10px; 10px; 10px;"}
