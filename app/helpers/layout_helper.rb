@@ -18,7 +18,7 @@ module LayoutHelper
 
   def page_title(text=nil)
     return text unless text.blank?
-    current_user ? current_user.name : t("application.helper.diaspora_alpha")
+    current_user ? current_user.name : AppConfig[:pod_name]
   end
 
   def content_language(content)

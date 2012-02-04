@@ -24,7 +24,7 @@ describe LayoutHelper do
 
       it "returns default title if not logged in" do
         @current_user = nil
-        page_title.should == I18n.t("application.helper.diaspora_alpha")
+        page_title.should == AppConfig[:pod_name] 
       end
     end
 

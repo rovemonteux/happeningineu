@@ -12,6 +12,9 @@ defaults: &defaults
   # For development and testing, you can leave this as is.
   pod_url: "https://diaspora.happeningin.eu"
 
+  # Name of this pod
+  pod_name: "Happening in EU (happeningin.eu)"
+
   # For credits and help in footers and headers
   pod_blog: "http://rovemonteux.net/"
 
