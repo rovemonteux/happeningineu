@@ -90,11 +90,11 @@ padding-bottom:8px;
 padding-left:12px;
 padding-right:12px}
 
-#flash_notice .message{background-color:#f4f899;
+#flash_notice .message{background-color:#ffffff;
 border: none}
 
 #flash_error .message,#flash_alert .message{color:white;
-background-color:#ca410b;
+background-color:#ffffff;
 border: none}
 
 .login_error,.login_alert{color:#d0312b;
