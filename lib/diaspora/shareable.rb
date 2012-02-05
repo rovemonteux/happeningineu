@@ -37,7 +37,7 @@ module Diaspora
                select("DISTINCT #{self.table_name}.*")
         end
 
-        def self.for_visible_shareable_sql(max_time, order, limit = 8, types = Stream::Base::TYPES_OF_POST_IN_STREAM)
+        def self.for_visible_shareable_sql(max_time, order, limit = 5, types = Stream::Base::TYPES_OF_POST_IN_STREAM)
           by_max_time(max_time, order).
           where(:type => types).
           limit(limit)

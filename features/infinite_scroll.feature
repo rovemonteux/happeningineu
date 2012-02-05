@@ -14,27 +14,27 @@ Feature: infinite scroll
     Scenario: on the main stream
       When I go to the home page
       And I wait for the ajax to finish
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
 
       When I scroll down
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
 
     Scenario: On a tag page
       When I go to the tag page for "seeded"
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
 
       When I scroll down
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
 
     Scenario: On a profile page
       And I am on "alice@alice.alice"'s page
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
 
       When I scroll down
-      Then I should see 10 posts
-      And I should see "alice - 10 - #seeded"
+      Then I should see 5 posts
+      And I should see "alice - 5 - #seeded"
