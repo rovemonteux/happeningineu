@@ -69,9 +69,16 @@ width:100%;
 font-weight:bold;
 text-align:center}
 
-#flash_notice .message,#flash_error .message,#flash_alert .message{-moz-border-radius:6px 6px 6px 6px;
--webkit-border-radius:6px 6px 6px 6px;
-border-radius:6px 6px 6px 6px;
+#flash_notice .message,#flash_error .message,#flash_alert .message{
+-webkit-border-bottom-right-radius: 1em;
+-webkit-border-bottom-left-radius: 1em;
+-moz-border-radius-bottomright: 1em;
+-moz-border-radius-bottomleft: 1em;
+border-bottom-right-radius: 1em;
+border-bottom-left-radius: 1em;
+filter:alpha(opacity=85);
+-moz-opacity: 0.85;
+opacity: 0.85;
 -webkit-box-shadow:0 1px 5px rgba(0,0,0,0.4);
 -moz-box-shadow:0 1px 5px rgba(0,0,0,0.4);
 box-shadow:0 1px 5px rgba(0,0,0,0.4);
@@ -84,11 +91,11 @@ padding-left:12px;
 padding-right:12px}
 
 #flash_notice .message{background-color:#f4f899;
-border:1px solid #b1b80d}
+border: none}
 
 #flash_error .message,#flash_alert .message{color:white;
 background-color:#ca410b;
-border:1px solid #9a3108}
+border: none}
 
 .login_error,.login_alert{color:#d0312b;
 text-shadow:1px 1px 20px #d0312b}
