@@ -1271,9 +1271,9 @@ padding:8px}
 
 #nav_badges{position:absolute;
 display:inline-block;
-min-width:170px;
+min-width:300px;
 top:3px;
-left:440px;
+left:400px;
 margin-left:20px;
 border: none;
 -webkit-transition: all 1s ease-in-out;
