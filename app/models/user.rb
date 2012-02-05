@@ -394,8 +394,8 @@ class User < ActiveRecord::Base
     self.aspects.create(:name => I18n.t('aspects.seed.work'))
     aq = self.aspects.create(:name => I18n.t('aspects.seed.acquaintances'))
 
-    unless AppConfig[:no_follow_diasporahq]
-      default_account = Webfinger.new('diasporahq@joindiaspora.com').fetch
+    if AppConfig[:autofollow_pod_announcements]
+      default_account = Webfinger.new(AppConfig[:pod_announcement_account]).fetch
       self.share_with(default_account, aq) if default_account
     end
     aq

@@ -20,6 +20,11 @@ defaults: &defaults
 
   pod_min: "rovemonteux"
 
+  # address of the account that will be doing general pod announcements
+  pod_announcement_account: "rovemonteux@diaspora.happeningin.eu"
+  # new users automatic follow this account ?
+  autofollow_pod_announcements: true
+
   # number of passed hours to compute trends from
   trends_hours: "8"
 
