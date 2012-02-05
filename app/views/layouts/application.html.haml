@@ -72,6 +72,9 @@
       $(this).toggleClass("active");
       return false;
       });
+      $(function() {
+      $( "#header" ).draggable();
+      });
       });
 
     = yield(:head)
