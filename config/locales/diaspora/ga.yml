@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -47,9 +47,9 @@ ga:
       aspect_not_empty: "Níl an gné folamh"
       remove: bhain
     index:
-      handle_explanation: "This is your diaspora handle. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your Happening In handle. Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -81,8 +81,8 @@ ga:
   back: "Ar ais"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    explanation_link_text: "Post to Diaspora"
-    heading: "Diaspora Bookmarklet"
+    explanation_link_text: "Post to Happening In"
+    heading: "Happening In Bookmarklet"
   cancel: Cealaigh
   comments:
     few: "%{count} comments"
@@ -125,14 +125,14 @@ ga:
     show:
       already_account: "cúntas agat cheanna féin?"
       choice: Rogha
-      choice_explanation: "Ligeann Diaspora duit do ceangailtí a sórtáil i grúpaí dar n-ainm gnéithe. Uathúil chui Diaspora, déanann gnéithe cinnte nach bhfuil do pictiúrí, scéalanna agus jócanna roinnte ach leis na daoine a bhfuil tú ag iarradh."
-      learn_about_host: "Foghlaim chonas óstáil do friothálaí Diaspora féin."
+      choice_explanation: "Ligeann Happening In duit do ceangailtí a sórtáil i grúpaí dar n-ainm gnéithe. Uathúil chui Happening In, déanann gnéithe cinnte nach bhfuil do pictiúrí, scéalanna agus jócanna roinnte ach leis na daoine a bhfuil tú ag iarradh."
+      learn_about_host: "Foghlaim chonas óstáil do friothálaí Happening In féin."
       login_here: "logáil isteach anseo"
       ownership: Úinéireacht
-      ownership_explanation: "Tá tusa an úinéir do do phictíurí, agus ní ceart duit an ceart sin a thabhairt suas chun iad a roinnt. Coimeadann tuas úinéiracht de gach rud a roinntear a Diaspora, ag tabhart smacht duit ar chonas a roinntear é."
+      ownership_explanation: "Tá tusa an úinéir do do phictíurí, agus ní ceart duit an ceart sin a thabhairt suas chun iad a roinnt. Coimeadann tuas úinéiracht de gach rud a roinntear a Happening In, ag tabhart smacht duit ar chonas a roinntear é."
       share_what_you_want: "Roinnt cad atá tú ag iarraidh, le cé atá tú ag iarraidh."
       simplicity: Simplíocht
-      simplicity_explanation: "I diaspora tá roinnt glan agus éasca – agus téann seo do príomháideacha freisin. Príomháideach de ghná, níl Diaspora ag iarradh thú a dul tríd leathnaigh de socraigh chun choimead do próifíl sábháilte."
+      simplicity_explanation: "I Happening In tá roinnt glan agus éasca – agus téann seo do príomháideacha freisin. Príomháideach de ghná, níl Happening In ag iarradh thú a dul tríd leathnaigh de socraigh chun choimead do próifíl sábháilte."
       tagline_first_half: "Roinnt cad atá tú ag iarraidh,"
       tagline_second_half: "le cé atá tú ag iarraidh."
   invitations:
@@ -149,13 +149,13 @@ ga:
       aspect: Gné
       comma_seperated_plz: "Is féidir leat cúpla sheola a cuir isteach má tá comma idir iad."
       if_they_accept_info: "má gleachann siad, beidh siad cuirthe leis an gné a sheol tú cuireadh ó."
-      invite_someone_to_join: "Seol cuireadh go Diaspora chuig duine!"
+      invite_someone_to_join: "Seol cuireadh go Happening In chuig duine!"
       send_an_invitation: "Seol cuireadh"
       send_invitation: "Seol an cuireadh"
       to: "Go dtí"
   layouts:
     application:
-      powered_by: "AG ÚSÁID DIASPORA*"
+      powered_by: "AG ÚSÁID Happening In"
       toggle: "toggle mobile site"
       whats_new: "cad atá nua?"
     header:
@@ -295,10 +295,10 @@ ga:
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      admin: "Do riarthóir Diaspora"
-      subject: "Fógra faoi do chúntas Diaspora:"
+      admin: "Do riarthóir Happening In"
+      subject: "Fógra faoi do chúntas Happening In:"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
     thanks: "Gur raibh maith agat,"
   or: nó
   password: Pasfhocal
@@ -377,7 +377,7 @@ ga:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -386,9 +386,9 @@ ga:
     two: "%{count} reactions"
     zero: "0 reactions"
   registrations:
-    closed: "Tá síniú suas dúnta ar an phod Diaspora seo."
+    closed: "Tá síniú suas dúnta ar an phod Happening In seo."
     create:
-      success: "Tá tú tar éis comhcheangal le Diaspora!"
+      success: "Tá tú tar éis comhcheangal le Happening In!"
     edit:
       cancel_my_account: "Cealaigh mo cúntas"
       edit: "Athraigh %{name}"
@@ -402,11 +402,11 @@ ga:
       enter_password: "Iontráil pasfhocal"
       enter_password_again: "Iontráil an pasfhocal céanna"
       enter_username: "Pioc ainm úsáideora (litir, uimhreacha agus folínigh amháin)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Seoladh
-      sent: "Tá tú tar éis ceist a chur chun roint le %{name}. Feicfidh siad é an céad uair eile a síníonn siad isteach chuir Diaspora."
+      sent: "Tá tú tar éis ceist a chur chun roint le %{name}. Feicfidh siad é an céad uair eile a síníonn siad isteach chuir Happening In."
     destroy:
       error: "Pioc gné más é do thoill é!"
       ignore: "Neamhard déanta ar iarratas teagmháil"
@@ -453,11 +453,11 @@ ga:
   settings: Socraithe
   shared:
     add_contact:
-      create_request: "Find by Diaspora handle"
-      diaspora_handle: diaspora@handle.org
-      enter_a_diaspora_username: "Líon isteach ainm úsáideora:"
+      create_request: "Find by Happening In handle"
+      Happening In_handle: Happening In@handle.org
+      enter_a_Happening In_username: "Líon isteach ainm úsáideora:"
       know_email: "Is agat a seola ríomhphost? Ba cheart duit cuireadh a sheola chucu"
-      your_diaspora_username_is: "Is é %{diaspora_handle} do ainm úsáideora"
+      your_Happening In_username_is: "Is é %{Happening In_handle} do ainm úsáideora"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -473,13 +473,13 @@ ga:
       invitations_left: "(%{count} fágtha)"
       invite_someone: "Seol cuireadh chuig duine"
       invites: Cuireadh
-      invites_closed: "Tá na cuireadh dúnta ar an phod Diaspora seo"
+      invites_closed: "Tá na cuireadh dúnta ar an phod Happening In seo"
     notification:
       new: "%{type} nua ó %{from}"
     public_explain:
       logged_in: "logáilte isteach chuig %{service}"
       manage: "bainistiú seirbhísí ceangailte"
-      outside: "Tá daoine taobh amuigh de Diaspora abálta teachtaireacht phoiblí a fheiceáil."
+      outside: "Tá daoine taobh amuigh de Happening In abálta teachtaireacht phoiblí a fheiceáil."
       title: "Tá tú díreach chun teachtaireacht phoíblí a póstáil!"
     publisher:
       all: "gach rud"
@@ -531,7 +531,7 @@ ga:
       success: "Successfully stopped following: #%{name}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   username: "Ainm úsáideora"
   users:
     confirm_email:
@@ -550,9 +550,9 @@ ga:
       new_password: "Pasfhocal nua"
       receive_email_notifications: "Fháil fógraí ríomhphost?"
       your_email: "Do seola ríomhphost"
-      your_handle: "Do hanla diaspora"
+      your_handle: "Do hanla Happening In"
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     public:
       does_not_exist: "Níl aon úsáidóira, %{username}!"
     update:

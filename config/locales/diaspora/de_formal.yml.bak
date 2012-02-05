@@ -762,7 +762,7 @@ de_formal:
       ignore_user_description: "Benutzer ignorieren und aus allen Aspekten entfernen?"
       like: "Gefällt mir"
       shared_with: "Geteilt mit: %{aspect_names}"
-      nsfw: "Dieser Beitrag wurde bereits als nicht sicher für Arbeit (#nsfw) vom Autor gekennzeichnet. Es könnte für Erwachsene und/oder kontroverses Material. Durch Klicken %{link} bestätigen Sie, dass Sie 18 Jahre oder älter sind, enthalten, und verstehen, dass die angezeigte Material ist nicht für die Anzeige bei der Arbeit sicher."
+      nsfw: "Dieser Beitrag wurde bereits als nicht sicher für Arbeit (# nsfw) vom Autor gekennzeichnet. Es könnte für Erwachsene und/oder kontroverses Material. Durch Klicken %{link} bestätigen Sie, dass Sie 18 Jahre oder älter sind, enthalten, und verstehen, dass die angezeigte Material ist nicht für die Anzeige bei der Arbeit sicher."
       unlike: "Gefällt mir nicht mehr"
       viewable_to_anyone: "Dieser Beitrag ist für jeden im Web sichtbar"
   status_messages:

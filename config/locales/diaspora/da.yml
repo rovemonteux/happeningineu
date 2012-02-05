@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ da:
               taken: "skal være unik for denne brugers kontakter."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "er allerede taget."
         request:
           attributes:
@@ -67,12 +67,12 @@ da:
       select_all: "Vælg alle"
     aspect_stream:
       stay_updated: "Hold dig opdateret"
-      stay_updated_explanation: "Din hovedstrøm er befolket med dine kontakter, de tags du følger og indlæg fra kreative medlemmer af diaspora-samfundet. (Dette kan justeres i dine præferencer)"
+      stay_updated_explanation: "Din hovedstrøm er befolket med dine kontakter, de tags du følger og indlæg fra kreative medlemmer af Happening In-samfundet. (Dette kan justeres i dine præferencer)"
     contacts_not_visible: "Kontakter i dette aspekt vil ikke være i stand til at se hinanden."
     contacts_visible: "Kontakter i dette aspekt vil være i stand til at se hinanden."
     create:
       failure: "Fejl under oprettelse af aspektet."
-      success: "Klik på plusset i venstre side for at fortælle diaspora, hvem der kan se dit nye aspekt."
+      success: "Klik på plusset i venstre side for at fortælle Happening In, hvem der kan se dit nye aspekt."
     destroy:
       failure: "%{name} er ikke tom, og kan derfor ikke slettes."
       success: "%{name} fjernet."
@@ -94,28 +94,28 @@ da:
       remove: slet
     index:
       cubbies:
-        explanation: "Cubbi.es er den første Diaspora applikation under udvikling."
+        explanation: "Cubbi.es er den første Happening In applikation under udvikling."
         heading: "Tilslut til Cubbi.es"
         learn_more: "Læs mere"
-      diaspora_id:
-        content_1: "Dit Diaspora ID er:"
-        content_2: "Giv det til hvem som helst og de vil kunne finde dig på Diaspora."
+      Happening In_id:
+        content_1: "Dit Happening In ID er:"
+        content_2: "Giv det til hvem som helst og de vil kunne finde dig på Happening In."
       donate: Donér
-      handle_explanation: "Dette er din Diaspora ID. Som med en e-mail-adresse, kan du give denne til folk, så de kan kontakte dig."
+      handle_explanation: "Dette er din Happening In ID. Som med en e-mail-adresse, kan du give denne til folk, så de kan kontakte dig."
       help:
         do_you: "Har du:"
         email_feedback: "%{link} din tilbagemelding, hvis du foretrækker det"
         feature_suggestion: "... har du et %{link} forslag?"
         find_a_bug: "... find et %{link}?"
         have_a_question: "... har du et %{link}?"
-        here_to_help: "Diaspora samfundet er her!"
+        here_to_help: "Happening In samfundet er her!"
         need_help: "Brug for hjælp?"
         satisfaction: "%{link}: Samfunds-drevet support"
         tutorials_wiki_and_forum: "%{tutorial} & %{wiki} & %{forum}: Samfundsdrevne selvinstruktioner, vejledninger og nyheder"
       introduce_yourself: "Dette er din strøm. Hop ud i det og introducér dig selv."
       keep_us_running: "Hold %{pod} kørende hurtigt og køb serverne deres kaffe fix med en månedlig donation!"
       new_here:
-        follow: "Følg %{link} og byd nye brugere velkommen til Diaspora*!"
+        follow: "Følg %{link} og byd nye brugere velkommen til Happening In!"
         learn_more: "Lær mere"
         title: "Byd nye brugere velkommen"
       no_contacts: "Ingen kontakter"
@@ -123,10 +123,10 @@ da:
       people_sharing_with_you: "Personer der deler med dig"
       post_a_message: "post en besked >>"
       services:
-        content: "Du kan tilslutte følgende tjenester til Diaspora:"
+        content: "Du kan tilslutte følgende tjenester til Happening In:"
         heading: "Tilslut tjenester"
       unfollow_tag: "Hold op med at følge #%{tag}"
-      welcome_to_diaspora: "Velkommen til Diaspora %{name}!"
+      welcome_to_Happening In: "Velkommen til Happening In %{name}!"
       your_aspects: "Dine aspekter"
     many: "%{count} aspekter"
     move_contact:
@@ -175,9 +175,9 @@ da:
       failure: "Fjernelse af ignorering mislykkedes.  #evasion"
       success: "Se hvad de har at sige! #sayhello"
   bookmarklet:
-    explanation: "Skriv indlæg på Diaspora fra hvor som helst ved at bookmarke %{link}."
+    explanation: "Skriv indlæg på Happening In fra hvor som helst ved at bookmarke %{link}."
     explanation_link_text: "dette link"
-    post_something: "Post noget til Diaspora"
+    post_something: "Post noget til Happening In"
     post_success: "Posted! Lukker!"
   cancel: Annullér
   comments:
@@ -266,14 +266,14 @@ da:
     show:
       already_account: "har du allerede en konto?"
       choice: Vælg
-      choice_explanation: "Diaspora lader dig sortere dine kontakter i grupper kaldet aspekter. Diaspora er unik idet aspekter sikrer at dine billeder, historier og vittigheder kun er delt med dem du vil. "
-      learn_about_host: "Se hvordan man hoster sin egen Diaspora server."
+      choice_explanation: "Happening In lader dig sortere dine kontakter i grupper kaldet aspekter. Happening In er unik idet aspekter sikrer at dine billeder, historier og vittigheder kun er delt med dem du vil. "
+      learn_about_host: "Se hvordan man hoster sin egen Happening In server."
       login_here: "log ind her"
       ownership: Ejerskab
-      ownership_explanation: "Du ejer dine billeder, og burde ikke opgive rettighederne over dem bare for at dele dem. Du beholder ejerskab over alt du deler på Diaspora, hvilket giver dig fuld kontrol over hvordan det bliver distribueret."
+      ownership_explanation: "Du ejer dine billeder, og burde ikke opgive rettighederne over dem bare for at dele dem. Du beholder ejerskab over alt du deler på Happening In, hvilket giver dig fuld kontrol over hvordan det bliver distribueret."
       share_what_you_want: "Del hvad du vil med hvem du vil."
       simplicity: Enkelhed
-      simplicity_explanation: "Diaspora gør deling enkelt og ligetil - især for dit privatliv. Ved at være grundlæggende privat, undgår Diaspora at du skal bladre gennem sider med indstillinger og valgmuligheder for at holde din profil sikker og efter dit hovede."
+      simplicity_explanation: "Happening In gør deling enkelt og ligetil - især for dit privatliv. Ved at være grundlæggende privat, undgår Happening In at du skal bladre gennem sider med indstillinger og valgmuligheder for at holde din profil sikker og efter dit hovede."
       tagline_first_half: "Del hvad du vil,"
       tagline_second_half: "med hvem du vil."
   invitations:
@@ -295,7 +295,7 @@ da:
       aspect: Aspekt
       comma_seperated_plz: "Du kan indtaste flere e-mailadresser adskilt med komma."
       if_they_accept_info: "hvis de accepterer, vil de blive tilføjet til det aspekt du inviterede dem til."
-      invite_someone_to_join: "Invitér en person til Diaspora!"
+      invite_someone_to_join: "Invitér en person til Happening In!"
       language: Sprog
       personal_message: "Personlig besked"
       resend: "Send igen"
@@ -303,7 +303,7 @@ da:
       to: Til
   layouts:
     application:
-      public_feed: "Offentligt Diaspora nyheds feed for  %{name}"
+      public_feed: "Offentligt Happening In nyheds feed for  %{name}"
       toggle: "skift mobil side"
       whats_new: "Hvad er nyt?"
       your_aspects: "dine aspekter"
@@ -448,25 +448,25 @@ da:
     confirm_email:
       click_link: "For at aktivere din nye e-mail adresse %{unconfirmed_email}, skal du følge dette link:"
       subject: "Aktiver venligst din nye e-mail adresse %{unconfirmed_email}"
-    email_sent_by_diaspora: "Denne e-mail blev sendt af Diaspora. Hvis du gerne vil holde op med at få e-mails som denne,"
+    email_sent_by_Happening In: "Denne e-mail blev sendt af Happening In. Hvis du gerne vil holde op med at få e-mails som denne,"
     hello: "Hej %{name}!"
     liked:
       liked: "%{name} har lige syntes om dit indlæg"
       view_post: "Vis indlæg >"
     mentioned:
       mentioned: "omtalte dig i et indlæg:"
-      subject: "%{name} har omtalt dig på Diaspora*"
+      subject: "%{name} har omtalt dig på Happening In"
     private_message:
       reply_to_or_view: "Besvar eller se denne samtale >"
     reshared:
       reshared: "%{name} har lige delt dit indlæg"
       view_post: "Vis indlæg >"
     single_admin:
-      admin: "Din Diaspora administrator"
-      subject: "En besked fra din Diaspora administrator:"
+      admin: "Din Happening In administrator"
+      subject: "En besked fra din Happening In administrator:"
     started_sharing:
       sharing: "er begyndt at dele med dig!"
-      subject: "%{name} er begyndt at dele med dig på Diaspora*"
+      subject: "%{name} er begyndt at dele med dig på Happening In"
       view_profile: "Vis %{navn}s profil"
     thanks: "Tak,"
     to_change_your_notification_settings: "for at ændre dine indstillinger for meddelelser"
@@ -571,7 +571,7 @@ da:
   profile: Profil
   profiles:
     edit:
-      allow_search: "Tillad folk at søge på dig indeni Diaspora"
+      allow_search: "Tillad folk at søge på dig indeni Happening In"
       edit_profile: "Rediger profil"
       first_name: Fornavn
       last_name: Efternavn
@@ -585,7 +585,7 @@ da:
       your_private_profile: "Din private profil"
       your_public_profile: "Din offentlige profil"
       your_tags: "Beskriv dig selv i fem ord"
-      your_tags_placeholder: "som #diaspora #strygning #kattekillinger #musik #hacking"
+      your_tags_placeholder: "som #Happening In #strygning #kattekillinger #musik #hacking"
     update:
       failed: "Kunne ikke opdatere profil"
       updated: "Profil opdateret"
@@ -598,9 +598,9 @@ da:
     two: "%{count} reaktioner"
     zero: "nul reaktioner"
   registrations:
-    closed: "Der er lukket for tilmeldinger på dette Diaspora server."
+    closed: "Der er lukket for tilmeldinger på dette Happening In server."
     create:
-      success: "Du har tilmeldt dig Diaspora!"
+      success: "Du har tilmeldt dig Happening In!"
     edit:
       cancel_my_account: "Annullér min konto"
       edit: "Redigér %{name}"
@@ -619,7 +619,7 @@ da:
   requests:
     create:
       sending: Sender
-      sent: "Du har spurgt om at dele med {%name}. De vil se det næste gang de logger ind i Diaspora."
+      sent: "Du har spurgt om at dele med {%name}. De vil se det næste gang de logger ind i Happening In."
     destroy:
       error: "Vælg venligst et aspekt!"
       ignore: "Ignorér kontaktanmodning."
@@ -657,7 +657,7 @@ da:
   search: Søg
   services:
     create:
-      already_authorized: "En bruger med diaspora ID %{diaspora_id} har allerede godkendt den %{service_name} konto."
+      already_authorized: "En bruger med Happening In ID %{Happening In_id} har allerede godkendt den %{service_name} konto."
       failure: "Godkendelse mislykkedes."
       success: "Godkendelse lykkedes."
     destroy:
@@ -665,7 +665,7 @@ da:
     failure:
       error: "der opstod en fejl i at forbinde til den service"
     finder:
-      fetching_contacts: "Diaspora indsamler dine %{service}-venner. Vent venligst et par minutter."
+      fetching_contacts: "Happening In indsamler dine %{service}-venner. Vent venligst et par minutter."
       no_friends: "Ingen Facebook-venner fundet."
       service_friends: "%{service} Venner"
     index:
@@ -679,10 +679,10 @@ da:
       really_disconnect: "afbryd %{service}?"
     inviter:
       click_link_to_accept_invitation: "Klik på dette link for at acceptere din invitation"
-      join_me_on_diaspora: "Kom over til mig på DIASPORA*"
+      join_me_on_Happening In: "Kom over til mig på Happening In"
     remote_friend:
       invite: inviter
-      not_on_diaspora: "Endnu ikke på diaspora"
+      not_on_Happening In: "Endnu ikke på Happening In"
       resend: "Send igen"
   settings: Indstillinger
   share_visibilites:
@@ -692,10 +692,10 @@ da:
   shared:
     add_contact:
       add_new_contact: "Tilføj en ny kontakt"
-      create_request: "Find med Diaspora ID"
-      enter_a_diaspora_username: "Indtast et Diaspora handle:"
+      create_request: "Find med Happening In ID"
+      enter_a_Happening In_username: "Indtast et Happening In handle:"
       know_email: "Kender du deres e-mail adresse? Du burde invitere dem"
-      your_diaspora_username_is: "Dit Diaspora handle er: %{diaspora_handle}"
+      your_Happening In_username_is: "Dit Happening In handle er: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Tilføj kontakt"
       toggle:
@@ -718,7 +718,7 @@ da:
       invite_someone: "Invitér en person"
       invite_your_friends: "Invitér dine venner"
       invites: Invitationer
-      invites_closed: "Invitationer er i øjeblikket lukkede på denne Diaspora seed"
+      invites_closed: "Invitationer er i øjeblikket lukkede på denne Happening In seed"
     notification:
       new: "Ny %{type} fra %{from}"
     public_explain:
@@ -726,7 +726,7 @@ da:
       logged_in: "Log ind til %{service}"
       manage: "Administrér tilsluttede tjenester"
       new_user_welcome_message: "Brug #tags til at klassificere dine indlæg og til at finde personer der deler dine interesser. Nævn folk ved at kalde dem ved @Navn"
-      outside: "Offentlige meddelelser vil være tilgængelige for andre uden for Diaspora."
+      outside: "Offentlige meddelelser vil være tilgængelige for andre uden for Happening In."
       share: Del
       title: "Opsæt tilsluttede tjenester"
       visibility_dropdown: "Brug denne dropdown til at ændre synligheden af ​​dit indlæg. (Vi foreslår, at du gør dette første indlæg offentligt.)"
@@ -842,14 +842,14 @@ da:
   tokens:
     show:
       connect_to_cubbies: "Forbind til Cubbi.es"
-      connecting_is_simple: "Tilslutning af din Diaspora konto er simpelt! Du skal bare indtaste dit Diaspora ID (<b>%{diaspora_id}</b>) fra dine Cubbi.es <a href='%{href_link}'>indstillinger</a> og tryk forbind."
-      daniels_account: "Daniels Diaspora konto"
+      connecting_is_simple: "Tilslutning af din Happening In konto er simpelt! Du skal bare indtaste dit Happening In ID (<b>%{Happening In_id}</b>) fra dine Cubbi.es <a href='%{href_link}'>indstillinger</a> og tryk forbind."
+      daniels_account: "Daniels Happening In konto"
       love_to_try: "Vi ville ønske at du prøvede det."
       making_the_connection: "Opretter forbindelsen"
       screenshot_explanation: "%{link1}.  Denne cubby er forbundet til %{link2}."
       sign_up_today: "Tilmeld dig i dag!"
       typical_userpage: "En typisk cubbi.es brugerside"
-      what_is_cubbies: "Cubbi.es er verdens første Diaspora applikation. Det er også den bedste måde at samle billeder på nettet."
+      what_is_cubbies: "Cubbi.es er verdens første Happening In applikation. Det er også den bedste måde at samle billeder på nettet."
   undo: Fortryd?
   username: Brugernavn
   users:
@@ -858,7 +858,7 @@ da:
       email_not_confirmed: "E-mail kunne ikke aktiveres. Forkert link?"
     destroy:
       no_password: "Indtast venligst dit kodeord for at lukke din konto."
-      success: "Din konto er nu låst. Det kan tage 20 minutter for os at blive færdige med at lukke den helt. Tak fordi du prøvede Diaspora."
+      success: "Din konto er nu låst. Det kan tage 20 minutter for os at blive færdige med at lukke den helt. Tak fordi du prøvede Happening In."
       wrong_password: "Det indtastede kodeord stemmer ikke overens med dit nuværende kodeord."
     edit:
       also_commented: "...nogen har kommenteret på en af dine kontakters indlæg?"
@@ -871,7 +871,7 @@ da:
         if_you_want_this: "Hvis du virkelig ønsker dette, indtast da dit kodeord og klik på 'Luk konto'"
         lock_username: "Dette vil låse dit brugernavn til hvis du beslutter at oprettes igen."
         locked_out: "Du vil blive logget ud og låst ude af din konto."
-        what_we_delete: "Vi sletter alle dine indlæg og profildata, så hurtigt som overhovedet muligt. Dine kommentarer vil forblive, men være forbundet til dit Diaspora handle."
+        what_we_delete: "Vi sletter alle dine indlæg og profildata, så hurtigt som overhovedet muligt. Dine kommentarer vil forblive, men være forbundet til dit Happening In handle."
       close_account_text: "Luk konto"
       comment_on_post: "...nogen har kommenteret dit indlæg?"
       current_password: "Nuværende adgangskode"
@@ -893,23 +893,23 @@ da:
       started_sharing: "...nogen er begyndt at dele med dig?"
       stream_preferences: "Strøm opsætning"
       your_email: "Din e-mail"
-      your_handle: "Dit Diaspora ID"
+      your_handle: "Dit Happening In ID"
     getting_started:
-      awesome_take_me_to_diaspora: "Fedest! Tag mig til Diaspora*"
-      community_welcome: "Diasporas samfund er glad for at have dig ombord!"
-      hashtag_explanation: "Hashtags giver dig mulighed for at tale om og følge dine interesser. De er også en fantastisk måde at finde nye folk på diaspora."
+      awesome_take_me_to_Happening In: "Fedest! Tag mig til Happening In"
+      community_welcome: "Happening Ins samfund er glad for at have dig ombord!"
+      hashtag_explanation: "Hashtags giver dig mulighed for at tale om og følge dine interesser. De er også en fantastisk måde at finde nye folk på Happening In."
       hashtag_suggestions: "Prøv med følgende tags som #kunst, #film, #gif, osv."
       hooking_up_fb: "forbind din Facebook-konto"
       saved: Gemt!
       we_can_speed_things_up: "Vi kan gøre det hele lidt hurtigere ved at"
       well_hello_there: Hejsa!
       what_are_you_in_to: "Hvad er dine interesser?"
-      what_facebook_does: "til diaspora. Dette vil hente dit navn og foto, samt gøre det muligt at skrive indlæg på tværs af platforme."
+      what_facebook_does: "til Happening In. Dette vil hente dit navn og foto, samt gøre det muligt at skrive indlæg på tværs af platforme."
       who_are_you: "Hvem er du?"
     logged_out:
       go_mobile: "Bliv mobil nu."
-      on_your_mobile_device: "på din mobile enhed til at få adgang til Diaspora* mobil."
-      signed_out: "Du er logget ud af Diaspora*"
+      on_your_mobile_device: "på din mobile enhed til at få adgang til Happening In mobil."
+      signed_out: "Du er logget ud af Happening In"
       simply_visit: "Du skal blot besøge"
       works_on_modern: "Virker på alle moderne smartphones"
     privacy_settings:

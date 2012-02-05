@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -48,7 +48,7 @@ en_pirate:
       aspect_not_empty: "Crew not empty"
     index:
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
       keep_us_running: "Keep %{pod} running fast, buy our servers their monthly coffee fix!"
       no_contacts: "No mateys"
       your_aspects: "Yer Crews"
@@ -252,7 +252,7 @@ en_pirate:
   registrations:
     new:
       create_my_account: "Create my account"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     helper:
       new_requests:
@@ -323,4 +323,4 @@ en_pirate:
       success: "Successfully stopped following: #%{name}"
   users:
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."

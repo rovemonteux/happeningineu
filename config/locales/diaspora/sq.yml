@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ sq:
               taken: "duhet të jetë unik mes kontakteve të këtij përdoruesi."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "është i zënë."
         request:
           attributes:
@@ -94,22 +94,22 @@ sq:
       remove: hiqe
     index:
       cubbies:
-        explanation: "Cubbi.es është zbatimi i parë Diaspora në zhvillim e sipër."
+        explanation: "Cubbi.es është zbatimi i parë Happening In në zhvillim e sipër."
         heading: "Lidhuni me Cubbi.es"
         learn_more: "Mësoni më tepër"
-      diaspora_id:
-        content_1: "ID-ja juaj në Diaspora është:"
-        content_2: "Jepjani kujtdo dhe kështu do të jenë në gjendje t'ju gjejnë në Diaspora."
-        heading: "ID Diaspora"
+      Happening In_id:
+        content_1: "ID-ja juaj në Happening In është:"
+        content_2: "Jepjani kujtdo dhe kështu do të jenë në gjendje t'ju gjejnë në Happening In."
+        heading: "ID Happening In"
       donate: Dhuroni
-      handle_explanation: "Kjo është id-ja juaj e diasporas. Pak a shumë si një adresë email, mund t'ua jepni njerëzve që të lidhen me ju."
+      handle_explanation: "Kjo është id-ja juaj e Happening Ins. Pak a shumë si një adresë email, mund t'ua jepni njerëzve që të lidhen me ju."
       help:
         do_you: ":"
         email_feedback: "Na dërogni me %{link} përshtypjet tuaja, nëse dëshironi"
         feature_suggestion: "... keni një këshillë për një %{link}?"
         find_a_bug: "... gjeni një %{link}?"
         have_a_question: "... keni një %{link}?"
-        here_to_help: "Bashkësia Diaspora këtu është!"
+        here_to_help: "Bashkësia Happening In këtu është!"
         need_help: "Ju Duhet Ndihmë?"
         satisfaction: "%{link}: Asistencë e mbajtur në këmbë nga bashkësia"
         tag_bug: "të metë"
@@ -119,7 +119,7 @@ sq:
       introduce_yourself: "Kjo është rrëkeza juaj.  Fillojani duke prezantuar vetveten."
       keep_us_running: "Mbajeni të shpejtë xhirimin e %{pod}-it dhe u blini shërbyesve kafenë e ditës përmes një dhurimi të përmuajshëm!"
       new_here:
-        follow: "Ndiqni %{link} dhe përshëndetni mirëseardhjen e përdoruesve të rinj te Diaspora*!"
+        follow: "Ndiqni %{link} dhe përshëndetni mirëseardhjen e përdoruesve të rinj te Happening In!"
         learn_more: "Mësoni më tepër"
         title: "Mirë se vini, Përdorues i Ri"
       no_contacts: "Pa kontakte"
@@ -127,10 +127,10 @@ sq:
       people_sharing_with_you: "Persona që ndajnë gjëra me ju"
       post_a_message: "postoni një mesazh >>"
       services:
-        content: "Te Diaspora mund të lidheni me shërbimet vijuese:"
+        content: "Te Happening In mund të lidheni me shërbimet vijuese:"
         heading: "Shërbime Lidhjesh"
       unfollow_tag: "Resht së ndjekuri #%{tag}"
-      welcome_to_diaspora: "Mirë se vini te Diaspora, %{name}!"
+      welcome_to_Happening In: "Mirë se vini te Happening In, %{name}!"
       your_aspects: "Aspektet tuaja"
     many: "%{count} aspekte"
     move_contact:
@@ -168,10 +168,10 @@ sq:
     zero: "pa aspekte"
   back: Mbrapsht
   bookmarklet:
-    explanation: "Postoni te Diaspora prej kudo qofshi, duke faqeruajtur %{link}."
+    explanation: "Postoni te Happening In prej kudo qofshi, duke faqeruajtur %{link}."
     explanation_link_text: "këtë lidhje"
     heading: "Zbatimth Faqerojtës"
-    post_something: "Postoni diçka te Diaspora"
+    post_something: "Postoni diçka te Happening In"
     post_success: "U postua! Po mbyllet!"
   cancel: Anuloje
   comments:
@@ -254,14 +254,14 @@ sq:
     show:
       already_account: "keni tashmë një llogari?"
       choice: Zgjedhjet
-      choice_explanation: "Diaspora ju lejon t'i gruponi lidhjet tuaja në grupe të quajtura aspekte. Veçanti e Diaspora-s, aspektet bëjnë të mundur që fotot tuaj, ngjarjet dhe barsaletat që tregoni, ndahen vetëm me personat që doni."
-      learn_about_host: "Mësoni se si të strehoni shërbyesin tuaj Diaspora."
+      choice_explanation: "Happening In ju lejon t'i gruponi lidhjet tuaja në grupe të quajtura aspekte. Veçanti e Happening In-s, aspektet bëjnë të mundur që fotot tuaj, ngjarjet dhe barsaletat që tregoni, ndahen vetëm me personat që doni."
+      learn_about_host: "Mësoni se si të strehoni shërbyesin tuaj Happening In."
       login_here: "hyni prej këtu"
       ownership: Pronësia
-      ownership_explanation: "Fotot tuaja janë pronë e juaja, dhe nuk do të duhej të hiqnit dorë nga kjo pronësi thjesht vetëm që të mundni t'i ndani ato me të tjerët. Pronësia e gjithçkaje që ndani me të tjerët në Diaspora ju mbetet po juve, duke pasur kështu kontroll të plotë mbi mënyrat se si shpërndahen ato."
+      ownership_explanation: "Fotot tuaja janë pronë e juaja, dhe nuk do të duhej të hiqnit dorë nga kjo pronësi thjesht vetëm që të mundni t'i ndani ato me të tjerët. Pronësia e gjithçkaje që ndani me të tjerët në Happening In ju mbetet po juve, duke pasur kështu kontroll të plotë mbi mënyrat se si shpërndahen ato."
       share_what_you_want: "Ndani çfarë të doni, me kë të doni."
       simplicity: Thjeshtësia
-      simplicity_explanation: "Diaspora e bën ndarjen e gjërave me të tjerët të qëruar dhe të pastër – dhe kjo vlen po njësoj për privatësinë. Me privatësinë në gen, Diaspora nuk ju bën të endeni nëpër faqe të tëra me rregullime dhe mundësi thjesht vetëm për të profilin tuaj të sigurt."
+      simplicity_explanation: "Happening In e bën ndarjen e gjërave me të tjerët të qëruar dhe të pastër – dhe kjo vlen po njësoj për privatësinë. Me privatësinë në gen, Happening In nuk ju bën të endeni nëpër faqe të tëra me rregullime dhe mundësi thjesht vetëm për të profilin tuaj të sigurt."
       tagline_first_half: "Ndani çfarë të doni,"
       tagline_second_half: "me kë të doni."
   invitations:
@@ -282,7 +282,7 @@ sq:
       aspect: Aspekt
       comma_seperated_plz: "Mund të fusni shumë adresa email njëherësh, duke i ndarë me presje."
       if_they_accept_info: "nëse pranojnë, do të shtohen te aspekti prej nga ku i ftuat."
-      invite_someone_to_join: "Ftoni dikë që të marrë pjesë në Diaspora!"
+      invite_someone_to_join: "Ftoni dikë që të marrë pjesë në Happening In!"
       language: Gjuhë
       personal_message: "Mesazh personal"
       resend: Ridërgoje
@@ -291,7 +291,7 @@ sq:
       to: Për
   layouts:
     application:
-      public_feed: "Prurje Publike Diaspora për %{name}"
+      public_feed: "Prurje Publike Happening In për %{name}"
       toggle: "aktivizojeni/çaktivizojeni për celular"
       whats_new: "ç'ka të re?"
       your_aspects: "aspektet tuaja"
@@ -435,25 +435,25 @@ sq:
     confirm_email:
       click_link: "Që të aktivizoni adresën tuaj të re email %{unconfirmed_email}, ju lutemi, ndiqni këtë lidhje:"
       subject: "Ju lutemi, aktivizoni adresën tuaj të re email %{unconfirmed_email}"
-    email_sent_by_diaspora: "Ky email u dërgua nga Diaspora.  Nëse doni të reshtni së marri email-e të tillë,"
+    email_sent_by_Happening In: "Ky email u dërgua nga Happening In.  Nëse doni të reshtni së marri email-e të tillë,"
     hello: "Tungjatjeta %{name}!"
     liked:
       liked: "%{name} e pëlqeu postimin tuaj"
       view_post: "Shiheni postimin >"
     mentioned:
       mentioned: "ju përmendi në një postim:"
-      subject: "%{name} ju ka përmenduar në Diaspora*"
+      subject: "%{name} ju ka përmenduar në Happening In"
     private_message:
       reply_to_or_view: "Përgjigjuni te ose shiheni këtë bashkëbisedim >"
     reshared:
       reshared: "%{name} e rindau me dikë postimin tuaj"
       view_post: "Shiheni postimin >"
     single_admin:
-      admin: "Përgjegjësi i Diaspora-s"
-      subject: "Mesazh lidhur me llogarinë tuaj te Diaspora:"
+      admin: "Përgjegjësi i Happening In-s"
+      subject: "Mesazh lidhur me llogarinë tuaj te Happening In:"
     started_sharing:
       sharing: "ka filluar të ndajë gjëra me ju!"
-      subject: "%{name} filloi të ndajë gjëra me ju në Diaspora*"
+      subject: "%{name} filloi të ndajë gjëra me ju në Happening In"
       view_profile: "Shihni profilin për %{name}"
     thanks: "Faleminderit,"
     to_change_your_notification_settings: "që të ndryshoni rregullimet tuaja mbi njoftimet"
@@ -558,7 +558,7 @@ sq:
   profile: Profil
   profiles:
     edit:
-      allow_search: "Lejojuni njerëzve të kërkojnë për ju brenda Diaspora-s"
+      allow_search: "Lejojuni njerëzve të kërkojnë për ju brenda Happening In-s"
       edit_profile: "Përpunoje profilin"
       first_name: Emri
       last_name: Mbiemri

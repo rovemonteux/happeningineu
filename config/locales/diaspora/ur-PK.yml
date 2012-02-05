@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ ur-PK:
               taken: ".اس صارف کے رابطوں کے درمیان منفرد ہونا لازمی ہے"
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: ".پہلے ہی لیا جا چکا ہے"
         request:
           attributes:
@@ -44,7 +44,7 @@ ur-PK:
   all_aspects: "تمام پہلو"
   application:
     helper:
-      diaspora_alpha: "ڈایسپورا* الف"
+      Happening In_alpha: "ڈایسپورا* الف"
       unknown_person: "نامعلوم شخص"
       video_title:
         unknown: "نامعلوم ویڈیو عنوان"
@@ -91,14 +91,14 @@ ur-PK:
         explanation: "ڈایسپورا کی پہلی ایپلی کیشن ہے جو ابھی تعمیر کے مرحلے میں ہے۔ cubbi.es"
         heading: "سے رابطہ قائم کریں Cubbi.es"
         learn_more: "مزید جانیے"
-      diaspora_id:
+      Happening In_id:
         content_1: "آپکی ڈایسپورا شناخت"
         content_2: "یہ کسی کو بھی دیں تو وہ آپکو تلاش کر لے گا۔"
         heading: "ڈایسپورا شناخت"
       donate: "عطیہ دیجیے"
       handle_explanation: "یہ آپ کی ڈایسپورا شناخت ہے۔ ایک ای میل ایڈریس کی طرح، آپ اسے لوگوں کو خود تک پہنچنے کے لئے دے سکتے ہیں۔"
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -322,7 +322,7 @@ ur-PK:
   registrations:
     new:
       create_my_account: "Create my account"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     helper:
       new_requests:
@@ -389,4 +389,4 @@ ur-PK:
       success: "Successfully stopped following: #%{name}"
   users:
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."

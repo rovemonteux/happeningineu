@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -18,7 +18,7 @@ nl:
               taken: "moet uniek zijn onder de contacten van deze gebruiker."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "is al bezet."
         request:
           attributes:
@@ -87,19 +87,19 @@ nl:
       remove: verwijderen
     index:
       cubbies:
-        explanation: "Cubbi.es is de eerste Diaspora applicatie in ontwikkeling."
+        explanation: "Cubbi.es is de eerste Happening In applicatie in ontwikkeling."
         heading: "Verbind met Cubbie.es"
         learn_more: "Vertel mij meer"
-      diaspora_id:
-        content_1: "Jou Diaspora ID is:"
-        content_2: "Geef deze aan mensen zodat ze je op Diaspora kunnen vinden."
+      Happening In_id:
+        content_1: "Jou Happening In ID is:"
+        content_2: "Geef deze aan mensen zodat ze je op Happening In kunnen vinden."
       donate: Doneer
-      handle_explanation: "Dit is jouw Diaspora id. Deze kun je aan mensen geven zodat ze je kunnen bereiken, net als een e-mailadres."
+      handle_explanation: "Dit is jouw Happening In id. Deze kun je aan mensen geven zodat ze je kunnen bereiken, net als een e-mailadres."
       help:
         feature_suggestion: "... een %{link} suggestie?"
         find_a_bug: "... een %{link} bug gevonden?"
         have_a_question: "... een %{link} vraag?"
-        here_to_help: "De Diaspora community staat voor je klaar!"
+        here_to_help: "De Happening In community staat voor je klaar!"
         need_help: "Hulp nodig?"
         tag_bug: "#bug"
         tag_feature: "#feature"
@@ -107,7 +107,7 @@ nl:
       introduce_yourself: "Dit is jouw stream.  Spring erin en introduceer jezelf."
       keep_us_running: "Houd %{pod} snel door bij te dragen aan de maandelijkse koffie kosten!"
       new_here:
-        follow: "Volg %{link} en verwelkom nieuwe Diaspora* gebruikers!"
+        follow: "Volg %{link} en verwelkom nieuwe Happening In gebruikers!"
         learn_more: "Leer meer"
         title: "Verwelkom Nieuwe Gebruikers"
       no_contacts: "Geen contacten"
@@ -115,10 +115,10 @@ nl:
       people_sharing_with_you: "Mensen die met jou delen"
       post_a_message: "plaats een bericht >>"
       services:
-        content: "Je kunt de volgende service met Diaspora verbinden:"
+        content: "Je kunt de volgende service met Happening In verbinden:"
         heading: "Verbind Services"
       unfollow_tag: "Stop met volgen van #%{tag}"
-      welcome_to_diaspora: "Welkom bij Diaspora, %{name}!"
+      welcome_to_Happening In: "Welkom bij Happening In, %{name}!"
       your_aspects: "Jouw Aspecten"
     many: "%{count} aspecten"
     move_contact:
@@ -163,9 +163,9 @@ nl:
     destroy:
       success: "Eens zien wat ze te zeggen hebben! #zeghallo"
   bookmarklet:
-    explanation: "Post vanaf overal naar Diaspora door %{link} op te slaan."
+    explanation: "Post vanaf overal naar Happening In door %{link} op te slaan."
     explanation_link_text: "deze link"
-    post_something: "Post iets naar Diaspora"
+    post_something: "Post iets naar Happening In"
     post_success: Gepost!
   cancel: Annuleren
   comments:
@@ -247,14 +247,14 @@ nl:
     show:
       already_account: "heb je al een account?"
       choice: Keuze
-      choice_explanation: "Diaspora laat jou je contacten verdelen over verschillende groepen, genaamd 'Aspecten', welke uniek zijn voor Diaspora. Deze zorgen er voor dat je jouw foto's, verhalen en grappen alleen deelt met degenen waarmee je ze wilt delen."
-      learn_about_host: "Leer hoe je zelf een Diaspora server kunt opzetten."
+      choice_explanation: "Happening In laat jou je contacten verdelen over verschillende groepen, genaamd 'Aspecten', welke uniek zijn voor Happening In. Deze zorgen er voor dat je jouw foto's, verhalen en grappen alleen deelt met degenen waarmee je ze wilt delen."
+      learn_about_host: "Leer hoe je zelf een Happening In server kunt opzetten."
       login_here: "log hier in"
       ownership: Eigendom
-      ownership_explanation: "Je bent zelf de eigenaar van je eigen foto's. Dus waarom zou je dat opgeven om ze met iemand te delen? Op Diaspora behoud je het eigendom over alles wat jij met anderen deelt, waardoor je volledige controle hebt over de distributie ervan."
+      ownership_explanation: "Je bent zelf de eigenaar van je eigen foto's. Dus waarom zou je dat opgeven om ze met iemand te delen? Op Happening In behoud je het eigendom over alles wat jij met anderen deelt, waardoor je volledige controle hebt over de distributie ervan."
       share_what_you_want: "Deel wat je wilt delen, met degenen met wie je het wilt delen."
       simplicity: Eenvoud
-      simplicity_explanation: "Diaspora maakt delen helder en simpel – vooral als het om privacy gaat. Je hoeft namelijk niet eindeloos door pagina's met instellingen en opties te klikken om je profiel veilig en afgeschermd te houden."
+      simplicity_explanation: "Happening In maakt delen helder en simpel – vooral als het om privacy gaat. Je hoeft namelijk niet eindeloos door pagina's met instellingen en opties te klikken om je profiel veilig en afgeschermd te houden."
       tagline_first_half: "Deel wat je wilt delen,"
       tagline_second_half: "met degenen met wie je het wilt delen."
   invitations:
@@ -275,7 +275,7 @@ nl:
       already_invited: "De volgende mensen hebben je uitnodiging niet geaccepteerd:"
       comma_seperated_plz: "Je kunt meerdere e-mailadressen invullen, gescheiden door komma's."
       if_they_accept_info: "als hij of zij accepteert zal hij of zij toegevoegd worden aan het aspect waarvoor je hem of haar uitgenodigd hebt."
-      invite_someone_to_join: "Nodig iemand uit om lid te worden op Diaspora!"
+      invite_someone_to_join: "Nodig iemand uit om lid te worden op Happening In!"
       language: Taal
       personal_message: "Persoonlijk bericht"
       resend: "Stuur opnieuw"
@@ -284,9 +284,9 @@ nl:
       to: Aan
   layouts:
     application:
-      public_feed: "Publieke Diaspora Feed van %{name}"
+      public_feed: "Publieke Happening In Feed van %{name}"
       toggle: "switch mobiele versie"
-      whats_new: "wat is nieuw op Diaspora?"
+      whats_new: "wat is nieuw op Happening In?"
       your_aspects: "jouw aspecten"
     header:
       login: inloggen
@@ -427,25 +427,25 @@ nl:
     confirm_email:
       click_link: "Om je nieuwe e-mailadres te activeren %{unconfirmed_email}, klik op deze link:"
       subject: "Activeer je nieuwe e-mailadres alstublieft %{unconfirmed_email}"
-    email_sent_by_diaspora: "Deze mail is gestuurd door Diaspora.  Als je dit soort email's niet meer wilt ontvangen,"
+    email_sent_by_Happening In: "Deze mail is gestuurd door Happening In.  Als je dit soort email's niet meer wilt ontvangen,"
     hello: "Hoi %{name}!"
     liked:
       liked: "%{name} vindt je post leuk"
       view_post: "Bekijk post >"
     mentioned:
       mentioned: "heeft jou genoemd in een post:"
-      subject: "%{name} heeft jou genoemd op Diaspora*"
+      subject: "%{name} heeft jou genoemd op Happening In"
     private_message:
       reply_to_or_view: "Reageer op of bekijk deze conversatie >"
     reshared:
       reshared: "%{name} heeft jouw post doorgegeven"
       view_post: "Bekijk post >"
     single_admin:
-      admin: "Je Diaspora administrator"
-      subject: "Een bericht over je Diaspora account:"
+      admin: "Je Happening In administrator"
+      subject: "Een bericht over je Happening In account:"
     started_sharing:
       sharing: "deelt vanaf nu met jou!"
-      subject: "%{name} deelt vanaf nu met je op Diaspora*"
+      subject: "%{name} deelt vanaf nu met je op Happening In"
       view_profile: "Bekijk %{name}'s profiel"
     thanks: "Bedankt,"
     to_change_your_notification_settings: "om je notificatie instellingen te wijzigen"
@@ -545,7 +545,7 @@ nl:
   profile: Profiel
   profiles:
     edit:
-      allow_search: "Sta mensen toe je op te zoeken binnen Diaspora"
+      allow_search: "Sta mensen toe je op te zoeken binnen Happening In"
       edit_profile: "Bewerk profiel"
       first_name: Voornaam
       last_name: Achternaam
@@ -559,7 +559,7 @@ nl:
       your_private_profile: "Je privé-profiel"
       your_public_profile: "Je openbare profiel"
       your_tags: "Jezelf: in 5 #tags"
-      your_tags_placeholder: "b.v. #diaspora #strijken #kittens #muziek"
+      your_tags_placeholder: "b.v. #Happening In #strijken #kittens #muziek"
     update:
       failed: "Profiel bijwerken mislukt"
       updated: "Profiel bijgewerkt"
@@ -572,9 +572,9 @@ nl:
     two: "%{count} reactions"
     zero: "0 reacties"
   registrations:
-    closed: "Registratie is gesloten op deze Diaspora pod."
+    closed: "Registratie is gesloten op deze Happening In pod."
     create:
-      success: "Je bent nu lid van Diaspora!"
+      success: "Je bent nu lid van Happening In!"
     edit:
       cancel_my_account: "Annuleer mijn account"
       edit: "Bewerk %{name}"
@@ -588,11 +588,11 @@ nl:
       enter_password_again: "Vul hetzelfde wachtwoord nogmaals in"
       enter_username: "Kies een gebruikersnaam (alleen letters, nummers, en underscores)"
       join_the_movement: "Sluit je aan!"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Versturen...
-      sent: "Je hebt gevraagd te delen met %{name}. Hij of zij zou het moeten zien eerstvolgende keer dat hij of zij inlogt op Diaspora."
+      sent: "Je hebt gevraagd te delen met %{name}. Hij of zij zou het moeten zien eerstvolgende keer dat hij of zij inlogt op Happening In."
     destroy:
       error: "Selecteer een aspect!"
       ignore: "Contactverzoek genegeerd."
@@ -629,7 +629,7 @@ nl:
   search: Zoek
   services:
     create:
-      already_authorized: "Een gebruiker met diaspora id %{diaspora_id} heeft dat %{service_name} account al geauthoriseerd."
+      already_authorized: "Een gebruiker met Happening In id %{Happening In_id} heeft dat %{service_name} account al geauthoriseerd."
       failure: "Authentificatie mislukt."
       success: "Authenticatie succesvol."
     destroy:
@@ -650,10 +650,10 @@ nl:
       really_disconnect: "verbreek verbinding met %{service}?"
     inviter:
       click_link_to_accept_invitation: "Klik op deze link om de uitnodiging te accepteren"
-      join_me_on_diaspora: "Volg me op DIASPORA*"
+      join_me_on_Happening In: "Volg me op Happening In"
     remote_friend:
       invite: uitnodigen
-      not_on_diaspora: "Nog niet op Diaspora"
+      not_on_Happening In: "Nog niet op Happening In"
       resend: herstuur
   settings: Instellingen
   share_visibilites:
@@ -662,11 +662,11 @@ nl:
   shared:
     add_contact:
       add_new_contact: "Voeg een contact toe"
-      create_request: "Vind door middel van Diaspora ID"
-      diaspora_handle: gebruikersnaam@pod.org
-      enter_a_diaspora_username: "Vul een Diaspora gebruikersnaam in:"
+      create_request: "Vind door middel van Happening In ID"
+      Happening In_handle: gebruikersnaam@pod.org
+      enter_a_Happening In_username: "Vul een Happening In gebruikersnaam in:"
       know_email: "Weet je hun e-mailadres? Je zou ze uit moeten nodigen"
-      your_diaspora_username_is: "Jouw Diaspora gebruikersnaam is: %{diaspora_handle}"
+      your_Happening In_username_is: "Jouw Happening In gebruikersnaam is: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Voeg toe aan aspect"
       toggle:
@@ -689,14 +689,14 @@ nl:
       invite_someone: "Nodig iemand uit"
       invite_your_friends: "Nodig je vrienden uit"
       invites: Uitnodigingen
-      invites_closed: "Uitnodigingen zijn momenteel gesloten voor deze Diaspora pod"
+      invites_closed: "Uitnodigingen zijn momenteel gesloten voor deze Happening In pod"
     notification:
       new: "Nieuw %{type} van %{from}"
     public_explain:
       logged_in: "verbonden met %{service}"
       manage: "beheer verbonden services"
       new_user_welcome_message: "Gebruik #hashtags om je berichten te classificeren en mensen te vinden die je interesses delen. Vermeld toffe mensen met @Mentions."
-      outside: "Openbare berichten zijn zichtbaar voor mensen buiten Diaspora."
+      outside: "Openbare berichten zijn zichtbaar voor mensen buiten Happening In."
       share: Deel
       title: "Stel verbonden services in"
       visibility_dropdown: "Gebruik dit dropdown menu om de zichtbaarheid van je post aan te selecteren. (We suggereren je eerste post publiek te maken.)"
@@ -793,13 +793,13 @@ nl:
   tokens:
     show:
       connect_to_cubbies: "Verbind met Cubbi.es"
-      connecting_is_simple: "Je Diaspora account verbinden is simpel! Vul je Diaspora ID (<b>%{diaspora_id}</b>) in op cubbies <a href='%{href_link}'>settings page</a> en klik op connect."
+      connecting_is_simple: "Je Happening In account verbinden is simpel! Vul je Happening In ID (<b>%{Happening In_id}</b>) in op cubbies <a href='%{href_link}'>settings page</a> en klik op connect."
       love_to_try: "We zouden het erg leuk vinden als je het uitprobeert."
       making_the_connection: Verbindend
       screenshot_explanation: "%{link1}.  Deze cubby is gelinkt aan %{link2}."
       sign_up_today: "Wordt vandaag lid!"
       typical_userpage: "Een typische cubbi.es gebruikerspagina"
-      what_is_cubbies: "Cubbi.es is de eerste Diaspora applicatie ter wereld. Het is ook de beste manier om foto's online te verzamelen."
+      what_is_cubbies: "Cubbi.es is de eerste Happening In applicatie ter wereld. Het is ook de beste manier om foto's online te verzamelen."
   undo: "Ongedaan maken?"
   username: Gebruikersnaam
   users:
@@ -808,7 +808,7 @@ nl:
       email_not_confirmed: "E-mail kon niet worden geactiveerd. Verkeerde link?"
     destroy:
       no_password: "Voer a.u.b. je huidige wachtwoord in om je account te sluiten."
-      success: "Je account is op slot gezet. Het kan tot 20 minuten duren voordat het sluiten van je account voltooid is. Bedankt voor het proberen van Diaspora."
+      success: "Je account is op slot gezet. Het kan tot 20 minuten duren voordat het sluiten van je account voltooid is. Bedankt voor het proberen van Happening In."
       wrong_password: "Het ingevoerde wachtwoord komt niet overeen met je huidige wachtwoord."
     edit:
       also_commented: "...iemand na jou op de post van jouw contact reageert?"
@@ -832,20 +832,20 @@ nl:
       reshared: "...iemand je post doorgeeft?"
       started_sharing: "...iemand met je begint te delen?"
       your_email: "Jouw e-mail"
-      your_handle: "Jouw Diaspora ID"
+      your_handle: "Jouw Happening In ID"
     getting_started:
-      community_welcome: "De Diaspora gemeenschap is verheugd je aan boord te hebben!"
-      hashtag_explanation: "Hashtags laten je gemakkelijk jou interesses volgen. Bovendien kunnen ze je helpen bij het vinden van nieuwe contacten op Diaspora."
+      community_welcome: "De Happening In gemeenschap is verheugd je aan boord te hebben!"
+      hashtag_explanation: "Hashtags laten je gemakkelijk jou interesses volgen. Bovendien kunnen ze je helpen bij het vinden van nieuwe contacten op Happening In."
       hashtag_suggestions: "Probeer het volgen van tags zoals #art, #movies, #gif, etc. eens uit."
       hooking_up_fb: "verbinden met je Facebook account"
       saved: Opgeslagen!
       we_can_speed_things_up: "We kunnen het wat sneller maken door"
       well_hello_there: "O, hallo daar!"
       what_are_you_in_to: "Wat interesseert je?"
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
       who_are_you: "Wie ben je?"
     logged_out:
-      signed_out: "Je bent nu uitgelogd uit Diaspora*"
+      signed_out: "Je bent nu uitgelogd uit Happening In"
       simply_visit: "Bezoek simpelweg"
       works_on_modern: "Werkt op alle moderne smartphones"
     privacy_settings:

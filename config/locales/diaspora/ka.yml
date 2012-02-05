@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ ka:
               taken: "უნდა იყოს უნიკალური ამ მომხმარებლის კონტაქტებს შორის."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "უკვე დაკავებულია."
   ago: "%{time} წინ"
   aspects:
@@ -32,9 +32,9 @@ ka:
       cubbies:
         heading: "Cubbi.es-თან დაკავშირება"
         learn_more: "მეტის გაგება"
-      diaspora_id:
-        content_1: "თქვენი Diaspora-ს ID არის:"
-        content_2: "გაუზიარეთ ის ნებისმიერ ადამიანს და ის შეძლებს თქვენს პოვნას Diaspora-ზე."
+      Happening In_id:
+        content_1: "თქვენი Happening In-ს ID არის:"
+        content_2: "გაუზიარეთ ის ნებისმიერ ადამიანს და ის შეძლებს თქვენს პოვნას Happening In-ზე."
       donate: "ფულის შეწირვა"
       help:
         do_you: "თქვენ:"

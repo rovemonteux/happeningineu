@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ hu:
               taken: "egyedinek kell lennie."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "már foglalt."
         request:
           attributes:
@@ -93,22 +93,22 @@ hu:
       remove: eltávolítás
     index:
       cubbies:
-        explanation: "Cubbi.es az első fejlesztés alatt álló Diaspora applikáció."
+        explanation: "Cubbi.es az első fejlesztés alatt álló Happening In applikáció."
         heading: "Kapcsolódás: Cubbi.es"
         learn_more: "Tudj meg többet"
-      diaspora_id:
-        content_1: "A te Diaspora azonosítód:"
-        content_2: "Add meg bárkinek és ez alapján meg tud találni a Diaspora-n."
-        heading: "Diaspora azonosító"
+      Happening In_id:
+        content_1: "A te Happening In azonosítód:"
+        content_2: "Add meg bárkinek és ez alapján meg tud találni a Happening In-n."
+        heading: "Happening In azonosító"
       donate: Adományoz
-      handle_explanation: "Ez a Te Diaspora azonosítód. Megadhatod elérhetőségként, mint egy email címet."
+      handle_explanation: "Ez a Te Happening In azonosítód. Megadhatod elérhetőségként, mint egy email címet."
       help:
         do_you: "Te:"
         email_feedback: "Küldd el %{link}-ben a visszajelzésed"
         feature_suggestion: "... van egy fejlesztési javaslata? %{link}"
         find_a_bug: "... hibát találtál? %{link}?"
         have_a_question: "... kérdésed van? %{link}"
-        here_to_help: "A Diaspora közösség megérkezett!"
+        here_to_help: "A Happening In közösség megérkezett!"
         need_help: "Segítségre van szüksége?"
         satisfaction: "%{link}: Közösségi támogatás"
         tag_feature: funkció
@@ -117,7 +117,7 @@ hu:
       introduce_yourself: "Ez a te Hírfolyamod. Kezdd is el gyorsan egy bemutatkozással."
       keep_us_running: "Hogy gyors maradjon ez a pod (%{pod}), kérlek adományozz pénzt."
       new_here:
-        follow: "Kövesd %{link} és üdvözöld az új Diaspora* felhasználókat!"
+        follow: "Kövesd %{link} és üdvözöld az új Happening In felhasználókat!"
         learn_more: "Tudj meg többet"
         title: "Sziasztok új felhasználók"
       no_contacts: "Nincs ismerős"
@@ -128,7 +128,7 @@ hu:
         content: "A következő szolgáltatásokhoz tudsz kapcsolódni:"
         heading: "Összekapcsolt szolgáltatások"
       unfollow_tag: "Követés leállítása #%{tag}"
-      welcome_to_diaspora: "Üdv a Diaspora* közösségi oldalon %{name}!"
+      welcome_to_Happening In: "Üdv a Happening In közösségi oldalon %{name}!"
       your_aspects: Csoportjaid
     many: "%{count} csoport"
     move_contact:
@@ -177,7 +177,7 @@ hu:
       failure: "Nem tudtam kikapcsolni annak a felhasználónak a figyelmen kívül hagyását. #elkerülés"
       success: "Lássuk mit akarnak mondani! #sayhello"
   bookmarklet:
-    explanation: "Küldj bejegyzést a Diaspora-ra bárhonnan, csak mentsd el ezt könyvjelzőként:"
+    explanation: "Küldj bejegyzést a Happening In-ra bárhonnan, csak mentsd el ezt könyvjelzőként:"
     explanation_link_text: "ez a link"
     heading: Könyvjelzők
     post_something: "Írj valamit a Diasporára"
@@ -267,14 +267,14 @@ hu:
     show:
       already_account: "már van fiókod?"
       choice: Csoportok
-      choice_explanation: "A Diaspora* közösségi oldalon különböző szempontok alapján Csoportokba rendezheted a kapcsolataidat. Ezek segítségével mindig a megfelelő emberekkel oszthatod meg a történeteidet, vicceidet, képeidet."
-      learn_about_host: "Így indíthatod el saját Diaspora* szervered."
+      choice_explanation: "A Happening In közösségi oldalon különböző szempontok alapján Csoportokba rendezheted a kapcsolataidat. Ezek segítségével mindig a megfelelő emberekkel oszthatod meg a történeteidet, vicceidet, képeidet."
+      learn_about_host: "Így indíthatod el saját Happening In szervered."
       login_here: "Jelentkezz be"
       ownership: Sajátod
-      ownership_explanation: "A képeid a sajátjaid, és ezt nem kell feladnod, hogy megoszthasd őket másokkal. Minden megosztás felett teljes irányításod van a Diaspora* közösségi oldalon."
+      ownership_explanation: "A képeid a sajátjaid, és ezt nem kell feladnod, hogy megoszthasd őket másokkal. Minden megosztás felett teljes irányításod van a Happening In közösségi oldalon."
       share_what_you_want: "Oszd meg... akivel akarod!"
       simplicity: Egyszerűség
-      simplicity_explanation: "A Diaspora könnyűvé és érthetővé teszi a megosztást - és ez a biztonságra is vonatkozik. Nem kell hosszú beállító oldalakon átvergődnöd, hogy biztonságban tudd a profilodat."
+      simplicity_explanation: "A Happening In könnyűvé és érthetővé teszi a megosztást - és ez a biztonságra is vonatkozik. Nem kell hosszú beállító oldalakon átvergődnöd, hogy biztonságban tudd a profilodat."
       tagline_first_half: "Oszd meg..."
       tagline_second_half: "akivel akarod!"
   invitations:
@@ -296,7 +296,7 @@ hu:
       aspect: Csoport
       comma_seperated_plz: "Megadhatsz több e-mail címet is vesszővel elválasztva."
       if_they_accept_info: "Ha elfogadják felkérésed, akkor belekerülnek abba a csoportba amelyikbe meghívtad őket."
-      invite_someone_to_join: "Hívj meg valakit, hogy csatlakozzon a Diaspora-hoz!"
+      invite_someone_to_join: "Hívj meg valakit, hogy csatlakozzon a Happening In-hoz!"
       language: Nyelv
       personal_message: "Személyes üzenet"
       resend: Újraküld
@@ -305,8 +305,8 @@ hu:
       to: Címzett
   layouts:
     application:
-      powered_by: "DIASPORA* fordította ADAMEX"
-      public_feed: "Nyílvános Diaspora hírfolyam neki: %{name}"
+      powered_by: "Happening In fordította ADAMEX"
+      public_feed: "Nyílvános Happening In hírfolyam neki: %{name}"
       toggle: "mobil változat"
       whats_new: belépés
       your_aspects: csoportjaid
@@ -452,22 +452,22 @@ hu:
     confirm_email:
       click_link: "Ahhoz, hogy aktiváld az új email címedet (%{unconfirmed_email}), kattints erre a linkre:"
       subject: "Kérlek aktiváld az új email címedet: %{unconfirmed_email}"
-    email_sent_by_diaspora: "Ezt az emailt a Diaspora küldte. Ha nem szeretnél ilyen leveleket kapni,"
+    email_sent_by_Happening In: "Ezt az emailt a Happening In küldte. Ha nem szeretnél ilyen leveleket kapni,"
     hello: "Szia %{name}!"
     liked:
       liked: "%{name} kedveli a bejegyzésedet"
       view_post: "Bejegyzés megtekintése >"
     mentioned:
       mentioned: "megemlített téged egy bejegyzésében:"
-      subject: "%{name} megemlített téged a Diaspora* közösségi oldalon."
+      subject: "%{name} megemlített téged a Happening In közösségi oldalon."
     private_message:
       reply_to_or_view: "Beszélgetés folytatása vagy megtekintése >"
     reshared:
       reshared: "%{name} épp újraosztotta a bejegyzésedet."
       view_post: "Bejegyzés megtekintése >"
     single_admin:
-      admin: "A Te Diaspora* rendszergazdád"
-      subject: "Üzenet a Diaspora* rendszergazdától:"
+      admin: "A Te Happening In rendszergazdád"
+      subject: "Üzenet a Happening In rendszergazdától:"
     started_sharing:
       sharing: "mostantól ismerősöd!"
       subject: "%{name} elkezdett megosztani veled"
@@ -576,7 +576,7 @@ hu:
   profile: Profil
   profiles:
     edit:
-      allow_search: "Megtalálható legyek a Diaspora keresőben"
+      allow_search: "Megtalálható legyek a Happening In keresőben"
       edit_profile: "Profil szerkesztése"
       first_name: Keresztnév
       last_name: Vezetéknév
@@ -603,9 +603,9 @@ hu:
     two: "%{count} visszajelzés"
     zero: "0 visszajelzés"
   registrations:
-    closed: "A regisztráció zárva ezen a Diaspora kiszolgálón."
+    closed: "A regisztráció zárva ezen a Happening In kiszolgálón."
     create:
-      success: "Csatlakoztál a Diaspora-hoz!"
+      success: "Csatlakoztál a Happening In-hoz!"
     edit:
       cancel_my_account: "Fiókom törlése"
       edit: "%{name} szerkesztése"
@@ -662,7 +662,7 @@ hu:
   search: Keresés
   services:
     create:
-      already_authorized: "Egy %{diaspora_id} nevű felhasználó, már hitelesítette ezt a %{service_name} fiókot."
+      already_authorized: "Egy %{Happening In_id} nevű felhasználó, már hitelesítette ezt a %{service_name} fiókot."
       failure: "A hitelesítés sikertelen."
       success: "A hitelesítés sikeres."
     destroy:
@@ -670,7 +670,7 @@ hu:
     failure:
       error: "Hiba történt a szolgáltatáshoz kapcsolódás közben"
     finder:
-      fetching_contacts: "A Diaspora keresi a %{service} ismerőseidet, nézz vissza néhány perc múlva."
+      fetching_contacts: "A Happening In keresi a %{service} ismerőseidet, nézz vissza néhány perc múlva."
       no_friends: "Nincs Facebook ismerősöd"
       service_friends: "%{service} ismerős"
     index:
@@ -684,10 +684,10 @@ hu:
       really_disconnect: "Megszakítod a kapcsolatot ezzel: %{service}?"
     inviter:
       click_link_to_accept_invitation: "Kattints a linkre, hogy elfogadd a meghívást."
-      join_me_on_diaspora: "Találkozzunk a DIASPORA*-n"
+      join_me_on_Happening In: "Találkozzunk a Happening In-n"
     remote_friend:
       invite: meghív
-      not_on_diaspora: "Még nincs Diaspora fiókja"
+      not_on_Happening In: "Még nincs Happening In fiókja"
       resend: újraküld
   settings: Beállítások
   share_visibilites:
@@ -697,10 +697,10 @@ hu:
   shared:
     add_contact:
       add_new_contact: "Új ismerős"
-      create_request: "Keresés Diaspora azonosító alapján"
-      enter_a_diaspora_username: "Diaspora felhasználónév:"
+      create_request: "Keresés Happening In azonosító alapján"
+      enter_a_Happening In_username: "Happening In felhasználónév:"
       know_email: "Tudod az e-mail címüket? Hívd meg őket!"
-      your_diaspora_username_is: "Diaspora felhasználóneved: %{diaspora_handle}"
+      your_Happening In_username_is: "Happening In felhasználóneved: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Ismerős hozzáadása"
       toggle:
@@ -723,7 +723,7 @@ hu:
       invite_someone: "Hívj meg valakit"
       invite_your_friends: "Hívd meg a barátaidat"
       invites: Meghívók
-      invites_closed: "A meghívás jelenleg szünetel erre a Diaspora* kiszolgálóra."
+      invites_closed: "A meghívás jelenleg szünetel erre a Happening In kiszolgálóra."
     notification:
       new: "Új %{type} %{from}-tól/től"
     public_explain:
@@ -733,7 +733,7 @@ hu:
       new_user_welcome_message: |-
           Használj kettőskeresztet(#), hogy felcímkézd a bejegyzésedet. Címkék alapján találhatsz veled azonos érdeklődésű embereket.
           A kukac(@) jellel, pedig személyeket említhetsz meg a bejegyzésedben.
-      outside: "A publikus üzeneteket a Diaspora-n kívüli személyek is láthatják."
+      outside: "A publikus üzeneteket a Happening In-n kívüli személyek is láthatják."
       share: Megoszt
       title: "Kapcsolódó szolgáltatások beállítása"
       visibility_dropdown: "Használd ezt a legördülő menüt, hogy módosítsd a bejegyzésed láthatóságát."
@@ -844,14 +844,14 @@ hu:
   tokens:
     show:
       connect_to_cubbies: "Csatlakozás ehhez: Cubbi.es"
-      connecting_is_simple: "A csatlakozás sima ügy, csak írd be a Diaspora azonosítódat."
-      daniels_account: "Adam Diaspora* fiókja"
+      connecting_is_simple: "A csatlakozás sima ügy, csak írd be a Happening In azonosítódat."
+      daniels_account: "Adam Happening In fiókja"
       love_to_try: "Szeretnénk, ha kipróbálnád."
       making_the_connection: "Kapcsolat létrehozása"
       screenshot_explanation: "%{link1}.  Ez a cubby ehhez van linkelve: %{link2}."
       sign_up_today: "Regisztrálj még ma!"
       typical_userpage: "Tipikus 'cubbi.es' oldal"
-      what_is_cubbies: "Cubbi.es a világ első Diaspora* applikációja. Egyben a legjobb mód az online fotógyűjtésre!"
+      what_is_cubbies: "Cubbi.es a világ első Happening In applikációja. Egyben a legjobb mód az online fotógyűjtésre!"
   undo: Visszavonod?
   username: Felhasználónév
   users:
@@ -860,7 +860,7 @@ hu:
       email_not_confirmed: "Email cím aktiválása sikertelen. Rossz a link?"
     destroy:
       no_password: "Add meg a jelszavad, hogy megszüntesd a fiókod."
-      success: "A fiókod le van zárva. Húsz percbe is beletelhet, mire befejezzük a fiókod törlését. Köszönjük, hogy kipróbáltad a Diaspora közösségi oldalt."
+      success: "A fiókod le van zárva. Húsz percbe is beletelhet, mire befejezzük a fiókod törlését. Köszönjük, hogy kipróbáltad a Happening In közösségi oldalt."
       wrong_password: "A megadott jelszó nem felel meg."
     edit:
       also_commented: "...más is hozzászólt az ismerősöd bejegyzéséhez?"
@@ -888,10 +888,10 @@ hu:
       started_sharing: "...valaki megoszt veled?"
       stream_preferences: "Hírfolyam tulajdonságai"
       your_email: "E-mail címed"
-      your_handle: "Diaspora azonosítód"
+      your_handle: "Happening In azonosítód"
     getting_started:
-      awesome_take_me_to_diaspora: "Remek! Irány a Diaspora*"
-      community_welcome: "A Diaspora közösség üdvözöl a fedélzeten!"
+      awesome_take_me_to_Happening In: "Remek! Irány a Happening In"
+      community_welcome: "A Happening In közösség üdvözöl a fedélzeten!"
       hashtag_explanation: "A #címkék segítenek egy bizonyos téma megtalálásában, így akár új kapcsolatokra is szert tehetsz."
       hashtag_suggestions: "Kövess pár téged érdeklő címkét. Például: #művészet, #fényképezés, #webdesign"
       hooking_up_fb: "Kapcsold ide a Facebook fiókoadt"
@@ -903,8 +903,8 @@ hu:
       who_are_you: "Ki vagy?"
     logged_out:
       go_mobile: "Maradj kapcsolatban."
-      on_your_mobile_device: "a mobiltelefonodon, hogy hozzáférj a Diaspora* mobil verzióhoz."
-      signed_out: "Kijelentkeztél a Diaspora* rendszerből"
+      on_your_mobile_device: "a mobiltelefonodon, hogy hozzáférj a Happening In mobil verzióhoz."
+      signed_out: "Kijelentkeztél a Happening In rendszerből"
       simply_visit: "Tekintsd meg"
       works_on_modern: "Az összes modern okostelefonon működik"
     privacy_settings:

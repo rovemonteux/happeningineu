@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ he:
               taken: "חייב להיות ייחודי בקרב אנשי הקשר של משתמש זה."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "כבר תפוס."
         request:
           attributes:
@@ -44,7 +44,7 @@ he:
   all_aspects: "כל ההיבטים"
   application:
     helper:
-      diaspora_alpha: "דיאספורה* אלפא"
+      Happening In_alpha: "דיאספורה* אלפא"
       unknown_person: "אדם לא ידוע"
       video_title:
         unknown: "כותרת הווידאו אינה ידועה"
@@ -91,7 +91,7 @@ he:
         explanation: "Cubbi.es הנו היישום הראשון תחת דיאספורה הנמצא בפיתוח."
         heading: "התחברות ל־Cubbi.es"
         learn_more: "מידע נוסף"
-      diaspora_id:
+      Happening In_id:
         content_1: "המזהה שלך בדיאספורה הוא:"
         content_2: "באמצעות מזהה זה כל אחד יוכל למצוא אותך בדיאספורה."
         heading: "מזהה בדיאספורה"
@@ -422,7 +422,7 @@ he:
     confirm_email:
       click_link: "כדי להפעיל את כתובת הדוא״ל החדשה שלך: %{unconfirmed_email}, יש לעקוב אחר הקישור הבא:"
       subject: "נא להפעיל את כתובת הדוא״ל החדשה שלך: %{unconfirmed_email}"
-    email_sent_by_diaspora: "הודעת דוא״ל זו נשלחה על ידי דיאספורה.  אם אין לך עניין בקבלת הודעות כגון זו,"
+    email_sent_by_Happening In: "הודעת דוא״ל זו נשלחה על ידי דיאספורה.  אם אין לך עניין בקבלת הודעות כגון זו,"
     hello: "שלום %{name}!"
     liked:
       liked: "%{name} בדיוק עכשיו סימן/נה את הרשומה שלך כאהובה"
@@ -585,7 +585,7 @@ he:
       enter_password_again: "להזין את אותה הססמה כמקודם"
       enter_username: "נא לבחור שם משתמש (אותיות, מספרים וקווים תחתונים בלבד)"
       join_the_movement: "הצטרפות לתנועה!"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: בשליחה
@@ -645,19 +645,19 @@ he:
       really_disconnect: "האם לנתק את %{service}?"
     inviter:
       click_link_to_accept_invitation: "יש ללחוץ על קישור זה כדי לקבל את ההזמנה שלך"
-      join_me_on_diaspora: "למה שלא להצטרף אלי ב־DIASPORA*"
+      join_me_on_Happening In: "למה שלא להצטרף אלי ב־Happening In"
     remote_friend:
       invite: הזמנה
-      not_on_diaspora: "עדיין לא בדיאספורה"
+      not_on_Happening In: "עדיין לא בדיאספורה"
       resend: "שליחה שוב"
   settings: הגדרות
   shared:
     add_contact:
       add_new_contact: "הוספת איש קשר חדש"
       create_request: "חיפוש לפי שם משתמש בדיאספורה"
-      enter_a_diaspora_username: "נא להזין שם משתמש בדיאספורה:"
+      enter_a_Happening In_username: "נא להזין שם משתמש בדיאספורה:"
       know_email: "כתובת הדוא״ל שלהם ידועה לך? עליך להזמין אותם"
-      your_diaspora_username_is: "שם המשתמש שלך בדיאספורה הוא: %{diaspora_handle}"
+      your_Happening In_username_is: "שם המשתמש שלך בדיאספורה הוא: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "הוספת איש הקשר"
       toggle:
@@ -760,7 +760,7 @@ he:
   tokens:
     show:
       connect_to_cubbies: "התחברות ל־Cubbi.es"
-      connecting_is_simple: "חיבור חשבון הדיאספורה שלך הנה משימה פשוטה! עליך להכניס את המזהה שלך בדיאספורה (<b>%{diaspora_id}</b>) ב<a href='%{href_link}'>עמוד ההגדרות</a> בחשבון ה־cubbies שלך וללחוץ על התחברות."
+      connecting_is_simple: "חיבור חשבון הדיאספורה שלך הנה משימה פשוטה! עליך להכניס את המזהה שלך בדיאספורה (<b>%{Happening In_id}</b>) ב<a href='%{href_link}'>עמוד ההגדרות</a> בחשבון ה־cubbies שלך וללחוץ על התחברות."
       daniels_account: "חשבון הדיאספורה של דניאל"
       love_to_try: "נשמח אם תנסו זאת."
       making_the_connection: "יצירת הקשר"
@@ -798,7 +798,7 @@ he:
       your_handle: "שם המשתמש שלך בדיאספורה"
     getting_started:
       hashtag_explanation: "תגיות מאפשרות לך לשוחח על ולעקוב אחר תחומי העניין שלך. זוהי גם דרך מצוינת למצוא אנשים בדיאספורה."
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     public:
       does_not_exist: "המשתמש %{username} אינו קיים!"
     update:

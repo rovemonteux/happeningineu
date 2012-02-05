@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -17,7 +17,7 @@ bg:
       models:
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "вече е зает."
         request:
           attributes:
@@ -90,15 +90,15 @@ bg:
       remove: премахване
     index:
       cubbies:
-        explanation: "Cubbi.es е първото приложение за Diaspora и все още се разработва."
+        explanation: "Cubbi.es е първото приложение за Happening In и все още се разработва."
         heading: "Свързване с Cubbi.es"
         learn_more: "Научете повече"
-      diaspora_id:
-        content_1: "Вашият адрес в Diaspora е:"
-        content_2: "Споделете го с който и да е и той ще ви намери в Diaspora."
-        heading: "Адрес в Diaspora"
+      Happening In_id:
+        content_1: "Вашият адрес в Happening In е:"
+        content_2: "Споделете го с който и да е и той ще ви намери в Happening In."
+        heading: "Адрес в Happening In"
       donate: Дарете
-      handle_explanation: "Това е вашият адрес в Diaspora. Наподобява адрес на ел. поща - давате го на хора, за да се свържат с вас."
+      handle_explanation: "Това е вашият адрес в Happening In. Наподобява адрес на ел. поща - давате го на хора, за да се свържат с вас."
       help:
         do_you: "Вие:"
         email_feedback: "Ако предпочитате изпратете отзив по %{link}."
@@ -115,7 +115,7 @@ bg:
       introduce_yourself: "Това е вашият поток.  Включете се и се представете."
       keep_us_running: "Осигурете бързата работа на %{pod} като дарите пари за месечната издръжка на сървърите!"
       new_here:
-        follow: "Следете %{link} и приветствайте новите потребители на Diaspora*!"
+        follow: "Следете %{link} и приветствайте новите потребители на Happening In!"
         learn_more: "Научете повече"
         title: "Поздравете новодошлите"
       no_contacts: "Няма контакти"
@@ -123,10 +123,10 @@ bg:
       people_sharing_with_you: "Хора споделящи с вас"
       post_a_message: "публикуване на съобщение >>"
       services:
-        content: "Можете да свържете следните услуги към Diaspora:"
+        content: "Можете да свържете следните услуги към Happening In:"
         heading: "Свързване към услуги"
       unfollow_tag: "Прекратяване следенето на #%{tag}"
-      welcome_to_diaspora: "Добре дошли в Diaspora, %{name}!"
+      welcome_to_Happening In: "Добре дошли в Happening In, %{name}!"
       your_aspects: "Вашите аспекти"
     many: "%{count} аспекта"
     move_contact:
@@ -174,9 +174,9 @@ bg:
       failure: "Игнорирането на потребителя не бе прекратено.  #evasion"
       success: "Какво ли ще кажат! #sayhello"
   bookmarklet:
-    explanation: "Публикувайте в Diaspora от където и да е, запаметявайки %{link} като отметка."
+    explanation: "Публикувайте в Happening In от където и да е, запаметявайки %{link} като отметка."
     explanation_link_text: "тази връзка"
-    post_something: "Публикуване в Diaspora"
+    post_something: "Публикуване в Happening In"
     post_success: Публикувано!
   cancel: Отказ
   comments:
@@ -266,14 +266,14 @@ bg:
     show:
       already_account: "вече имате акаунт?"
       choice: Избор
-      choice_explanation: "Diaspora предоставя възможност за сортиране на контактите в групи, наречени аспекти. Уникални за Diaspora, те позволяват споделянето на снимки, истории и шеги само с хората, за които са предвидени.\n"
-      learn_about_host: "Научете как да стартирате Diaspora на собствен сървър."
+      choice_explanation: "Happening In предоставя възможност за сортиране на контактите в групи, наречени аспекти. Уникални за Happening In, те позволяват споделянето на снимки, истории и шеги само с хората, за които са предвидени.\n"
+      learn_about_host: "Научете как да стартирате Happening In на собствен сървър."
       login_here: "впишете се от тук"
       ownership: Собственост
-      ownership_explanation: "Вие притежавате снимките си и не е необходимо да се отказвате от това си право само за да ги споделите. Запазвате собственост върху всичко, което споделяте в Diaspora и контролирате разпространението."
+      ownership_explanation: "Вие притежавате снимките си и не е необходимо да се отказвате от това си право само за да ги споделите. Запазвате собственост върху всичко, което споделяте в Happening In и контролирате разпространението."
       share_what_you_want: "Споделяйте каквото желаете, с когото пожелаете."
       simplicity: Леснота
-      simplicity_explanation: "Споделянето чрез Diaspora е просто и лесно. Характерно за Diaspora е, че запазва личния ви живот поверителен без нужда от настройване на различни страници с безброй опции."
+      simplicity_explanation: "Споделянето чрез Happening In е просто и лесно. Характерно за Happening In е, че запазва личния ви живот поверителен без нужда от настройване на различни страници с безброй опции."
       tagline_first_half: "Споделете каквото желаете,"
       tagline_second_half: "с когото пожелаете."
   invitations:
@@ -294,7 +294,7 @@ bg:
       aspect: Аспект
       comma_seperated_plz: "Можете да въведете повече от една ел. поща като ги разделяте със запетаи."
       if_they_accept_info: "ако приемат поканата ще бъдат добавени към аспекта в който сте ги поканили."
-      invite_someone_to_join: "Поканете някой в Diaspora!"
+      invite_someone_to_join: "Поканете някой в Happening In!"
       language: "Език за поканата"
       personal_message: "Лично съобщение"
       resend: "Повторно изпращане"
@@ -303,8 +303,8 @@ bg:
       to: До
   layouts:
     application:
-      powered_by: "Благодарение на DIASPORA*"
-      public_feed: "Публична емисия от Diaspora за %{name}"
+      powered_by: "Благодарение на Happening In"
+      public_feed: "Публична емисия от Happening In за %{name}"
       toggle: "вкл./изкл. на мобилния изглед"
       whats_new: "какво ново?"
       your_aspects: "вашите аспекти"
@@ -451,25 +451,25 @@ bg:
     confirm_email:
       click_link: "За да активирате новия адрес (%{unconfirmed_email}) кликнете върху следната връзка:"
       subject: "Моля, акивирайте новия адрес на ел. ви поща (%{unconfirmed_email})"
-    email_sent_by_diaspora: "Ел. писмо е изпратено от Diaspora.  Ако вече не желаете да получавате подобни писма,"
+    email_sent_by_Happening In: "Ел. писмо е изпратено от Happening In.  Ако вече не желаете да получавате подобни писма,"
     hello: "Здравейте %{name}!"
     liked:
       liked: "%{name} хареса вашата публикация"
       view_post: "Преглед на публикацията >"
     mentioned:
       mentioned: "ви спомена в публикация:"
-      subject: "%{name} ви спомена в Diaspora*"
+      subject: "%{name} ви спомена в Happening In"
     private_message:
       reply_to_or_view: "Отговорете или прегледайте разговора >"
     reshared:
       reshared: "%{name} сподели ваша публикация"
       view_post: "Преглеждане >"
     single_admin:
-      admin: "Вашият администратор на Diaspora"
-      subject: "Съобщение относно акаунта ви в Diaspora:"
+      admin: "Вашият администратор на Happening In"
+      subject: "Съобщение относно акаунта ви в Happening In:"
     started_sharing:
       sharing: "започна да споделя с вас!"
-      subject: "%{name} започна да споделя с вас в Diaspora*"
+      subject: "%{name} започна да споделя с вас в Happening In"
       view_profile: "Прегледайте профила на %{name}"
     thanks: "Благодаря,"
     to_change_your_notification_settings: "за да промените настройките за известяване"
@@ -574,7 +574,7 @@ bg:
   profile: Профил
   profiles:
     edit:
-      allow_search: "Разрешете търсенето в Diaspora за вас"
+      allow_search: "Разрешете търсенето в Happening In за вас"
       edit_profile: "Настройки на профила"
       first_name: "Собствено име"
       last_name: "Фамилно име"
@@ -588,7 +588,7 @@ bg:
       your_private_profile: "Вашият личен профил"
       your_public_profile: "Вашият публичен профил"
       your_tags: "Опишете се с до 5 #думи (марки)"
-      your_tags_placeholder: "например: #България #diaspora #фитнес #музика #котки"
+      your_tags_placeholder: "например: #България #Happening In #фитнес #музика #котки"
     update:
       failed: "Профилът не бе обновен"
       updated: "Профилът е обновен"
@@ -601,9 +601,9 @@ bg:
     two: "%{count} отзива"
     zero: "0 отзива"
   registrations:
-    closed: "Нови регистрации не са възможни на този pod на Diaspora."
+    closed: "Нови регистрации не са възможни на този pod на Happening In."
     create:
-      success: "Вие се присъединихте към Diaspora!"
+      success: "Вие се присъединихте към Happening In!"
     edit:
       leave_blank: "(оставете празно ако не желаете да го променяте)"
       password_to_confirm: "(за да бъдат потвърдени промените е необходима текущата ви парола)"
@@ -620,7 +620,7 @@ bg:
   requests:
     create:
       sending: Изпращане
-      sent: "Изпратили сте покана до %{name} за да започнете да споделяте - щом се впишат в Diaspora ще видят поканата."
+      sent: "Изпратили сте покана до %{name} за да започнете да споделяте - щом се впишат в Happening In ще видят поканата."
     destroy:
       error: "Моля, изберете аспект!"
       success: "Сега споделяте."
@@ -656,7 +656,7 @@ bg:
   search: Търсене
   services:
     create:
-      already_authorized: "Потребител с адрес в Diaspora %{diaspora_id} вече е удостоверил акаунта %{service_name}."
+      already_authorized: "Потребител с адрес в Happening In %{Happening In_id} вече е удостоверил акаунта %{service_name}."
       failure: "Удостоверяването не бе успешно."
       success: "Удостоверяването приключи успешно."
     destroy:
@@ -664,7 +664,7 @@ bg:
     failure:
       error: "възникна грешка при свързването с услугата"
     finder:
-      fetching_contacts: "Diaspora копира приятелите ви от %{service}. Моля, пробвайте отново след няколко минути."
+      fetching_contacts: "Happening In копира приятелите ви от %{service}. Моля, пробвайте отново след няколко минути."
       no_friends: "Няма намерени приятели от Facebook."
       service_friends: "Приятели от %{service}"
     index:
@@ -678,10 +678,10 @@ bg:
       really_disconnect: "Наистина ли желаете свързаността с %{service} да бъде изключена?"
     inviter:
       click_link_to_accept_invitation: "Кликнете върху връзката, за да приемете поканата"
-      join_me_on_diaspora: "Присъединете се към мен в DIASPORA*"
+      join_me_on_Happening In: "Присъединете се към мен в Happening In"
     remote_friend:
       invite: покани
-      not_on_diaspora: "Все още не е в Diaspora"
+      not_on_Happening In: "Все още не е в Happening In"
       resend: "повторно изпращане"
   settings: Настройки
   share_visibilites:
@@ -691,10 +691,10 @@ bg:
   shared:
     add_contact:
       add_new_contact: "Добавяне на контакт"
-      create_request: "Търси по адрес в Diaspora"
-      enter_a_diaspora_username: "Въведете потребителско име от Diaspora:"
+      create_request: "Търси по адрес в Happening In"
+      enter_a_Happening In_username: "Въведете потребителско име от Happening In:"
       know_email: "Знаете адресите на ел. им поща? Трябва да ги поканите"
-      your_diaspora_username_is: "Вашето потребителско име в Diaspora е %{diaspora_handle}"
+      your_Happening In_username_is: "Вашето потребителско име в Happening In е %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Добавяне в аспект"
       toggle:
@@ -717,7 +717,7 @@ bg:
       invite_someone: "Поканете някого"
       invite_your_friends: "Поканете приятелите си"
       invites: Покани
-      invites_closed: "Издаването на покани за този pod на Diaspora за момента е прекратено"
+      invites_closed: "Издаването на покани за този pod на Happening In за момента е прекратено"
     notification:
       new: "Ново %{type} от %{from}"
     public_explain:
@@ -725,7 +725,7 @@ bg:
       logged_in: "вписани сте в %{service}"
       manage: "управление на свързаните услуги"
       new_user_welcome_message: "Ползвайте диез марките (#име–на-марката), за да изясните/посочите темата на публикацийте си и за намиране на хора споделящи вашите интереси. Call out awesome people with @Mentions"
-      outside: "Публичните съобщения ще са видими и за хора извън Diaspora."
+      outside: "Публичните съобщения ще са видими и за хора извън Happening In."
       share: "Споделете нещо"
       title: "Настройване на свързаните услуги"
       visibility_dropdown: "Ползвайте падащото меню, за да промените видимостта на публикацията. (Препоръчително е да направите първата си публикация публична.)"
@@ -842,15 +842,15 @@ bg:
   tokens:
     show:
       connect_to_cubbies: "Свързване с Cubbi.es"
-      connecting_is_simple: "За свързване на акаунта ви в Diaspora е необходимо да въведете вашият адрес в Diaspora (<b>%{diaspora_id}</b>) в <a href='%{href_link}'>страницата с настройки</a> на Cubbi.es и да натиснете \"Connect\"."
-      daniels_account: "акаунта на Daniel в Diaspora"
+      connecting_is_simple: "За свързване на акаунта ви в Happening In е необходимо да въведете вашият адрес в Happening In (<b>%{Happening In_id}</b>) в <a href='%{href_link}'>страницата с настройки</a> на Cubbi.es и да натиснете \"Connect\"."
+      daniels_account: "акаунта на Daniel в Happening In"
       love_to_try: "Бихме се радвали ако го пробвате!"
       making_the_connection: "Създаване на връзката"
       screenshot_explanation: "%{link1}.  Тази cubby страница е свързана с %{link2}."
       sign_up_today: "Регистрирайте се днес!"
       typical_userpage: "Типична потребителска страница от cubbi.es"
       via: "(чрез %{link})"
-      what_is_cubbies: "Cubbi.es е първото приложение за Diaspora. Също така е и най-добрият начин за събиране на изображения."
+      what_is_cubbies: "Cubbi.es е първото приложение за Happening In. Също така е и най-добрият начин за събиране на изображения."
   undo: Отмяна?
   username: "Потребителско име"
   users:
@@ -859,7 +859,7 @@ bg:
       email_not_confirmed: "Ел. поща не може да бъде активирана. Грешна връзка?"
     destroy:
       no_password: "Моля, въведете паролата си, за да бъде затворен акаунта."
-      success: "Акаунтът ви е заключен.  Затварянето на акаунт изисква около 20 минути.  Благодарим ви, че пробвахте Diaspora."
+      success: "Акаунтът ви е заключен.  Затварянето на акаунт изисква около 20 минути.  Благодарим ви, че пробвахте Happening In."
       wrong_password: "Въведената парола не съвпада с текущата парола на акаунта."
     edit:
       also_commented: "...някой коментира публикация на ваш контакт?"
@@ -872,10 +872,10 @@ bg:
         if_you_want_this: "Ако наистина го желаете въведете паролата си, по-долу и натиснете \"Затваряне на акаунта\""
         lock_username: "потребителско ви име се \"заключва\" - ако пожелаете да се върнете отново"
         locked_out: "автоматично ще бъдете отписани, а акаунтът - \"заключен\""
-        make_diaspora_better: "Надяваме се да ни помогнете в усилията ни да направим услугата Diaspora по-добра. Ако наистина желаете да напуснете ето какво се случва при напускане:"
+        make_Happening In_better: "Надяваме се да ни помогнете в усилията ни да направим услугата Happening In по-добра. Ако наистина желаете да напуснете ето какво се случва при напускане:"
         mr_wiggles: "И г-н Wiggles ще се натъжи много"
         no_turning_back: "За момента действието е необратимо!"
-        what_we_delete: "изтриват се всички ваши публикации и данни от профила (възможно най-бързо). Вашите коментари ще останат наоколо, но ще бъдат асоциирани с адреса ви Diaspora."
+        what_we_delete: "изтриват се всички ваши публикации и данни от профила (възможно най-бързо). Вашите коментари ще останат наоколо, но ще бъдат асоциирани с адреса ви Happening In."
       close_account_text: "Затваряне на акаунта"
       comment_on_post: "...някой коментира ваша публикация?"
       current_password: "Текуща парола"
@@ -896,23 +896,23 @@ bg:
       started_sharing: "...някой започне да споделя с вас?"
       stream_preferences: "Предпочитания за потока"
       your_email: "Вашата ел. поща"
-      your_handle: "Вашият адрес в Diaspora"
+      your_handle: "Вашият адрес в Happening In"
     getting_started:
-      awesome_take_me_to_diaspora: "Към Diaspora*"
-      community_welcome: "Общността около Diaspora с радост ви приветства в този pod!"
-      hashtag_explanation: "Диез марките (#име–на-марката) ви позволяват да коментирате и следите интересни за вас теми.  Улесняват и откриване на хора със сходни интереси в Diaspora."
+      awesome_take_me_to_Happening In: "Към Happening In"
+      community_welcome: "Общността около Happening In с радост ви приветства в този pod!"
+      hashtag_explanation: "Диез марките (#име–на-марката) ви позволяват да коментирате и следите интересни за вас теми.  Улесняват и откриване на хора със сходни интереси в Happening In."
       hashtag_suggestions: "Пробвайте да следвате няколко марки като #art, #movies, #gif и др."
       hooking_up_fb: "да свържете акаунта си от Facebook"
       saved: Записано!
       we_can_speed_things_up: "Ако желаете можете"
       well_hello_there: Здравейте!
       what_are_you_in_to: "От какво се интересувате?"
-      what_facebook_does: "с Diaspora. Така някои данни (име и снимка) ще бъдат попълнени автоматично и ще можете да публикувате съобщения във Facebook от Diaspora."
+      what_facebook_does: "с Happening In. Така някои данни (име и снимка) ще бъдат попълнени автоматично и ще можете да публикувате съобщения във Facebook от Happening In."
       who_are_you: "Кой сте вие?"
     logged_out:
       go_mobile: "Пробвайте и версията за мобилни устройства."
-      on_your_mobile_device: "от вашето мобилно устройство за достъп до мобилната версия на Diaspora*."
-      signed_out: "Отписахте се от Diaspora*"
+      on_your_mobile_device: "от вашето мобилно устройство за достъп до мобилната версия на Happening In."
+      signed_out: "Отписахте се от Happening In"
       simply_visit: "Просто посетете"
       works_on_modern: "Съвместима е с всеки съвременен смартфон"
     privacy_settings:
@@ -931,4 +931,4 @@ bg:
       settings_updated: "Настройките са обновени"
       unconfirmed_email_changed: "Ел. поща е променена. Необходимо е да я активирате."
       unconfirmed_email_not_changed: "Ел. поща не бе променена"
-  welcome: "Привет от Diaspora,"
+  welcome: "Привет от Happening In,"

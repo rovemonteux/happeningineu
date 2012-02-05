@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -42,9 +42,9 @@ mk:
       aspect_not_empty: "Аспектот не е празен"
       remove: одстрани
     index:
-      handle_explanation: "Ова е вашето diaspora корисничко име. Исто како е-маил адреса, можете да го давате на луѓе за да се сврзат со вас."
+      handle_explanation: "Ова е вашето Happening In корисничко име. Исто како е-маил адреса, можете да го давате на луѓе за да се сврзат со вас."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -75,8 +75,8 @@ mk:
   back: Назад
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    explanation_link_text: "Post to Diaspora"
-    heading: "Diaspora Bookmarklet"
+    explanation_link_text: "Post to Happening In"
+    heading: "Happening In Bookmarklet"
   cancel: Откажи
   comments:
     few: "%{count} comments"
@@ -119,14 +119,14 @@ mk:
     show:
       already_account: "веќе имате корисничка сметка?"
       choice: Избор
-      choice_explanation: "Diaspora ви овозможува сортирање на вашите врски во групи наречени аспекти. Особеност на Diaspora, аспектите осигураат дека вашите слики, стории и шеги се споделени само со луѓето кои вие ќе ги назначите."
-      learn_about_host: "Научете како вие можете да хостирате Diaspora сервер."
+      choice_explanation: "Happening In ви овозможува сортирање на вашите врски во групи наречени аспекти. Особеност на Happening In, аспектите осигураат дека вашите слики, стории и шеги се споделени само со луѓето кои вие ќе ги назначите."
+      learn_about_host: "Научете како вие можете да хостирате Happening In сервер."
       login_here: "најави се овде"
       ownership: Сопственост
-      ownership_explanation: "Вие ги поседувате вашите слики, и не треба да се откажете од нивната сопственост само за да ги споделите. Во Diaspora секоја содржина која ја споделувате останува во ваша сопственост, давајќи ви целосна контрола врз начинот на нејзиното ширење."
+      ownership_explanation: "Вие ги поседувате вашите слики, и не треба да се откажете од нивната сопственост само за да ги споделите. Во Happening In секоја содржина која ја споделувате останува во ваша сопственост, давајќи ви целосна контрола врз начинот на нејзиното ширење."
       share_what_you_want: "Споделувајте се што сакате, со оние кои вие ги изберете."
       simplicity: Едноставност
-      simplicity_explanation: "Diaspora овозможува споделување кое е чисто и едноставно - ова се однесува и за приватноста. Благодарение на вградената приватност, Diaspora не ве тера да пребарувате низ страници со подесувања и опции само за да си го заштитите профилот."
+      simplicity_explanation: "Happening In овозможува споделување кое е чисто и едноставно - ова се однесува и за приватноста. Благодарение на вградената приватност, Happening In не ве тера да пребарувате низ страници со подесувања и опции само за да си го заштитите профилот."
   invitations:
     check_token:
       not_found: "Токенот за поканата не е пронајден"
@@ -137,7 +137,7 @@ mk:
     new:
       already_invited: "Already invited"
       comma_seperated_plz: "Можете да внесете повеќе е-маил адреси разделени со запирки."
-      invite_someone_to_join: "Поканете некој да се придружи на Diaspora!"
+      invite_someone_to_join: "Поканете некој да се придружи на Happening In!"
       send_an_invitation: "Испрати покана"
       send_invitation: "Испрати покана"
       to: До
@@ -277,9 +277,9 @@ mk:
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      subject: "A message from your Diaspora administrator:"
+      subject: "A message from your Happening In administrator:"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
   ok: ОК
   or: или
   password: Лозинка
@@ -341,7 +341,7 @@ mk:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -352,7 +352,7 @@ mk:
   registrations:
     closed: "Регистрирањето е затворено."
     create:
-      success: "Вие и се придруживте на Diaspora!"
+      success: "Вие и се придруживте на Happening In!"
     edit:
       cancel_my_account: "Откажи ја мојата корисничка сметка"
       edit: "Уреди %{name}"
@@ -363,7 +363,7 @@ mk:
     new:
       create_my_account: "Create my account"
       enter_email: "Enter an e-mail"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Испраќање
@@ -413,10 +413,10 @@ mk:
   settings: Подесувања
   shared:
     add_contact:
-      create_request: "Најди според Diaspora корисничко име"
-      diaspora_handle: "Diaspora корисничко име"
-      enter_a_diaspora_username: "Внеси Diaspora корисничко име:"
-      your_diaspora_username_is: "Вашето Diaspora корисничко име е: %{diaspora_handle}"
+      create_request: "Најди според Happening In корисничко име"
+      Happening In_handle: "Happening In корисничко име"
+      enter_a_Happening In_username: "Внеси Happening In корисничко име:"
+      your_Happening In_username_is: "Вашето Happening In корисничко име е: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -431,13 +431,13 @@ mk:
       dont_have_now: "Моментално немате права, но повеќе покани ќе дојдат наскоро!"
       invitations_left: "(%{count} лево)"
       invite_someone: "Покани некој"
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Happening In seed"
     notification:
       new: "Нов %{type} од %{from}"
     public_explain:
       logged_in: "најавен во %{service}"
       manage: "менаџирај ги поврзаните сервиси"
-      outside: "Јавните пораки ќе бидат достапни за сите кои се надвор од Diaspora."
+      outside: "Јавните пораки ќе бидат достапни за сите кои се надвор од Happening In."
       title: "На пат сте да испратите јавна порака!"
     publisher:
       all: сите
@@ -489,7 +489,7 @@ mk:
       success: "Successfully stopped following: #%{name}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   username: "Корисничко име"
   users:
     confirm_email:
@@ -506,9 +506,9 @@ mk:
       new_password: "Нова лозинка"
       receive_email_notifications: "Receive email notificaions?"
       your_email: "Вашиот е-маил"
-      your_handle: "Вашето diaspora корисничко име"
+      your_handle: "Вашето Happening In корисничко име"
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     public:
       does_not_exist: "Корисникот %{username} не постои!"
     update:

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -20,7 +20,7 @@ is:
               taken: "verður að vera einstakt meðal tengiliða þessa notanda."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "er þegar frátekið."
         request:
           attributes:
@@ -79,7 +79,7 @@ is:
     index:
       handle_explanation: "Þetta er netfangið þitt hjá Díaspora. Eins og með venjulegt netfang, geturðu gefið fólki það svo þau geti haft samband við þig. "
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -112,8 +112,8 @@ is:
   back: "Til baka"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    explanation_link_text: "Post to Diaspora"
-    heading: "Diaspora Bookmarklet"
+    explanation_link_text: "Post to Happening In"
+    heading: "Happening In Bookmarklet"
   cancel: "Hætta við"
   comments:
     few: "%{count} comments"
@@ -161,14 +161,14 @@ is:
     show:
       already_account: "nú þegar með notandastillingar?"
       choice: Valkostur
-      choice_explanation: "Diaspora gerir þér kleift að raða tengingum í hópa sem kallast ásýndir. Einungis í Diaspora tryggja ásýndir að myndir þínar, sögur og brandarar séu einungis samnýtt með þeim sem þú ætlar. "
-      learn_about_host: "Lærðu hvernig á að hýsa sinn eigin Diaspora miðlara."
+      choice_explanation: "Happening In gerir þér kleift að raða tengingum í hópa sem kallast ásýndir. Einungis í Happening In tryggja ásýndir að myndir þínar, sögur og brandarar séu einungis samnýtt með þeim sem þú ætlar. "
+      learn_about_host: "Lærðu hvernig á að hýsa sinn eigin Happening In miðlara."
       login_here: "innskráning hér"
       ownership: Eignarréttur
-      ownership_explanation: "Þú átt þínar myndir og þú ættir ekki að þurfa að gefa þær frá þér þótt þú deilir þeim. Þú heldur eign þinni á öllu því sem þú deilir um Diaspora, sem gefur þér fulla stjórn á því hvernig því er dreift."
+      ownership_explanation: "Þú átt þínar myndir og þú ættir ekki að þurfa að gefa þær frá þér þótt þú deilir þeim. Þú heldur eign þinni á öllu því sem þú deilir um Happening In, sem gefur þér fulla stjórn á því hvernig því er dreift."
       share_what_you_want: "Deildu því sem þú vilt, með þeim sem þú vilt."
       simplicity: Einfaldleiki
-      simplicity_explanation: "Diaspora gerir samnýtingu hreina og auðvelda - og það gildir líka fyrir friðhelgi. Þar sem Diaspora er í eðli sínu persónulegt, þarftu ekki að vaða í gegnum síður með stillingum og möguleikum til að halda síðunni þinni öruggri."
+      simplicity_explanation: "Happening In gerir samnýtingu hreina og auðvelda - og það gildir líka fyrir friðhelgi. Þar sem Happening In er í eðli sínu persónulegt, þarftu ekki að vaða í gegnum síður með stillingum og möguleikum til að halda síðunni þinni öruggri."
       tagline_first_half: "Deildu því sem þú vilt,"
       tagline_second_half: "með þeim sem þú vilt."
   invitations:
@@ -332,13 +332,13 @@ is:
       liked: "%{name} has just liked your post: "
     mentioned:
       mentioned: "gat þín í pósti:"
-      subject: "% {Nafn} hefur getið þín á Diaspora*"
+      subject: "% {Nafn} hefur getið þín á Happening In"
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      subject: "Skilaboð um notandastillingar þínar í Diaspora:"
+      subject: "Skilaboð um notandastillingar þínar í Happening In:"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
     thanks: "Takk,"
   or: eða
   password: Lykilorð
@@ -425,7 +425,7 @@ is:
       your_name: "Nafn þitt"
       your_photo: "Mynd þín"
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
     update:
       failed: "Ekki tókst að uppfæra síðuna mína"
       updated: "Síðan mín uppfærð"
@@ -437,9 +437,9 @@ is:
     two: "%{count} reactions"
     zero: "0 reactions"
   registrations:
-    closed: "Innskráningar eru lokaðar á þessum Diaspora pod."
+    closed: "Innskráningar eru lokaðar á þessum Happening In pod."
     create:
-      success: "Nú hefurðu tengst Diaspora!"
+      success: "Nú hefurðu tengst Happening In!"
     edit:
       cancel_my_account: "Aflýsa mínum notandastillingum"
       edit: "Breyta %{name}"
@@ -453,7 +453,7 @@ is:
       enter_password: "Skrifaðu lykilorð"
       enter_password_again: "Skrifaðu sama lykilorð og áður"
       enter_username: "Veldu notandanafn (aðeins bókstafi, tölur, og undirstrikun)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Sendi
@@ -500,7 +500,7 @@ is:
       really_disconnect: "aftengja %{service}?"
     inviter:
       click_link_to_accept_invitation: "Smelltu á þessa krækju til að þiggja boðið"
-      join_me_on_diaspora: "Tengstu mér á DIASPORA*"
+      join_me_on_Happening In: "Tengstu mér á Happening In"
     remote_friend:
       invite: bjóða
       resend: endursenda
@@ -508,10 +508,10 @@ is:
   shared:
     add_contact:
       create_request: "Finna fólk eftir Díaspora netfangi"
-      diaspora_handle: diaspora@handle.org
-      enter_a_diaspora_username: "Skrifaðu notandanafn hjá Diaspora:"
+      Happening In_handle: Happening In@handle.org
+      enter_a_Happening In_username: "Skrifaðu notandanafn hjá Happening In:"
       know_email: "Veistu netföngin þeirra? Þú ættir að senda þeim boðsmiða"
-      your_diaspora_username_is: "Þitt Diaspora notandanafn er: %{diaspora_handle}"
+      your_Happening In_username_is: "Þitt Happening In notandanafn er: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -534,7 +534,7 @@ is:
     notification:
       new: "Nýtt %{type} frá %{from}"
     public_explain:
-      outside: "Almennt aðgengileg skilaboð verða sýnileg öðrum utan Diaspora."
+      outside: "Almennt aðgengileg skilaboð verða sýnileg öðrum utan Happening In."
       title: "Þú ert að fara að setja þetta á almannafæri!"
     publisher:
       all: allt
@@ -588,7 +588,7 @@ is:
       success: "Successfully stopped following: #%{name}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   username: Notandanafn
   users:
     confirm_email:
@@ -607,7 +607,7 @@ is:
       your_email: "Netfangið þitt"
       your_handle: "Díaspora netfangið þitt."
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     public:
       does_not_exist: "Notandinn %{username} er ekki til!"
     update:

@@ -756,7 +756,7 @@ es-CL:
       ignore_user: "Ignorar a %{name}"
       ignore_user_description: "Ignorar y remover al usuario de todos tus aspectos?"
       like: "Me gusta esto"
-      nsfw: "Esta mensaje se ha marcado como no segura para el trabajo (#nsfw) por su autor. Es posible que contenga material adulto y/o controversial. Al hacer clic en %{link} usted certifica que es mayor de 18 anos de edad, y entiende que el material que se muestra no es seguro para su visualización en el trabajo."
+      nsfw: "Esta mensaje se ha marcado como no segura para el trabajo (#nsfw) por su autor. Es posible que contenga material adulto y/o controversial. Al hacer clic en %{link} usted certifica que es mayor de 18 anos de edad, y entiende que el material que se muestra no es seguro para su visualizaci�n en el trabajo."
       show: mostrar
       shared_with: "Compartir con: %{aspect_names}"
       unlike: "No me gusta"
@@ -886,7 +886,7 @@ es-CL:
     getting_started:
       awesome_take_me_to_Happening In: "Asombroso! Llévame a Happening In"
       community_welcome: "La comunidad de Happening In esta feliz de tenerte abordo!"
-      hashtag_explanation: "Los Hashtags te permiten hablar y seguir sobre tus intereses. También son una manera genial de encontrar nuevas personas."
+      hashtag_explanation: "Los Hashtags te permiten hablar y seguir sobre tus intereses. También son una manera genial de encontrar nuevas personas en Happening In."
       hashtag_suggestions: "Prueba siguiendo tags como #arte, #películas, #gif, etc."
       hooking_up_fb: "conectar tu cuenta de Facebook"
       saved: Guardado!

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -30,7 +30,7 @@ id:
       success: "Successfully added friend to aspect."
     create:
       failure: "Aspek gagal dibuat."
-      success: "Klik pada tanda plus di sisi kiri untuk memberitahu Diaspora siapa yang dapat melihat aspek baru Anda."
+      success: "Klik pada tanda plus di sisi kiri untuk memberitahu Happening In siapa yang dapat melihat aspek baru Anda."
     destroy:
       success: "%{name} berhasil dihapus."
     edit:
@@ -40,9 +40,9 @@ id:
       aspect_not_empty: "Aspek tidak kosong"
       remove: hapus
     index:
-      handle_explanation: "This is your diaspora handle.  Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your Happening In handle.  Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -63,8 +63,8 @@ id:
     zero: "no aspects"
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    explanation_link_text: "Post to Diaspora"
-    heading: "Diaspora Bookmarklet"
+    explanation_link_text: "Post to Happening In"
+    heading: "Happening In Bookmarklet"
   cancel: Batal
   comments:
     few: "%{count} comments"
@@ -103,11 +103,11 @@ id:
   find_people: "Find people"
   home:
     show:
-      choice_explanation: "Diaspora allows you to sort your connections into groups called Aspects. Unique to Diaspora, Aspects ensure your photos, stories and jokes are shared with only the people you want them to be."
-      learn_about_host: "Learn about how to host your own Diaspora server"
-      ownership_explanation: "You own your pictures, and you shouldn’t have to give that up just in order to share them. You maintain ownership of everything you share on Diaspora, giving you full control over how it is distributed."
+      choice_explanation: "Happening In allows you to sort your connections into groups called Aspects. Unique to Happening In, Aspects ensure your photos, stories and jokes are shared with only the people you want them to be."
+      learn_about_host: "Learn about how to host your own Happening In server"
+      ownership_explanation: "You own your pictures, and you shouldn’t have to give that up just in order to share them. You maintain ownership of everything you share on Happening In, giving you full control over how it is distributed."
       share_what_you_want: "Bagikan apa yang anda ingin bagikan, pada orang yang anda kehendaki."
-      simplicity_explanation: "Diaspora makes sharing clean and easy – this goes doubly so for privacy. Innherently private, Diaspora doesn’t have pages of settings and options to wade through to keep your profile secure and to your liking."
+      simplicity_explanation: "Happening In makes sharing clean and easy – this goes doubly so for privacy. Innherently private, Happening In doesn’t have pages of settings and options to wade through to keep your profile secure and to your liking."
   invitations:
     check_token:
       not_found: "Token undangan tidak ditemukan"
@@ -116,7 +116,7 @@ id:
       sent: "Undangan telah dikirimkan ke:"
     new:
       already_invited: "Already invited"
-      invite_someone_to_join: "Undang seseorang untuk bergabung di Diaspora!"
+      invite_someone_to_join: "Undang seseorang untuk bergabung di Happening In!"
       send_an_invitation: "Kirim sebuah undangan"
       send_invitation: "Kirim undangan"
       to: Ke
@@ -255,9 +255,9 @@ id:
     reshared:
       reshared: "%{name} just reshared your post"
     single_admin:
-      subject: "A message from your Diaspora administrator:"
+      subject: "A message from your Happening In administrator:"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
   ok: Oke
   or: atau
   password: "Kata sandi"
@@ -299,7 +299,7 @@ id:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -309,11 +309,11 @@ id:
     zero: "0 reactions"
   registrations:
     create:
-      success: "Anda telah bergabung dengan Diaspora!"
+      success: "Anda telah bergabung dengan Happening In!"
     new:
       create_my_account: "Create my account"
       enter_email: "Enter an e-mail"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Sending...
@@ -352,8 +352,8 @@ id:
       click_link_to_accept_invitation: "Click this link to accept your invitation"
   shared:
     add_contact:
-      create_request: "Find by Diaspora handle"
-      diaspora_handle: "Diaspora handle"
+      create_request: "Find by Happening In handle"
+      Happening In_handle: "Happening In handle"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -366,7 +366,7 @@ id:
     invitations:
       by_email: "by Email"
       invitations_left: "(%{count} left)"
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Happening In seed"
     notification:
       new: "%{type} baru dari %{from}"
     public_explain:
@@ -414,7 +414,7 @@ id:
       success: "Successfully stopped following: #%{name}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   users:
     confirm_email:
       email_confirmed: "E-Mail %{email} activated"
@@ -428,9 +428,9 @@ id:
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       new_password: "New Password"
       receive_email_notifications: "Receive email notificaions?"
-      your_handle: "Your diaspora handle"
+      your_handle: "Your Happening In handle"
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     update:
       email_notifications_changed: "Language Change Failed"
       language_changed: "Language Changed"

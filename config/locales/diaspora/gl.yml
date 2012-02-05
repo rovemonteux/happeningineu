@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ gl:
               taken: "debe ser único entre os contactos deste usuario."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "xa está collido."
         request:
           attributes:
@@ -39,7 +39,7 @@ gl:
   all_aspects: "Todos os aspectos"
   application:
     helper:
-      diaspora_alpha: "DIASPORA* ALFA"
+      Happening In_alpha: "Happening In ALFA"
       unknown_person: "persoa descoñecida"
       video_title:
         unknown: "Título de vídeo descoñecido"
@@ -83,19 +83,19 @@ gl:
       remove: Eliminar
     index:
       cubbies:
-        explanation: "Cubbi.es é o primeiro aplicativo en desenvolverse para Diaspora."
+        explanation: "Cubbi.es é o primeiro aplicativo en desenvolverse para Happening In."
         heading: "Conectar Cubbi.es"
         learn_more: "Máis información"
-      diaspora_id:
-        content_1: "O seu identificador de Diaspora é:"
-        content_2: "Déallo a quen queira, e poderán atopalo en Diaspora."
-        heading: "Identificador de Diaspora"
-      handle_explanation: "Este é o seu enderezo de Diaspora. É coma un enderezo electrónico, pode darllo á xente para que o atopen."
+      Happening In_id:
+        content_1: "O seu identificador de Happening In é:"
+        content_2: "Déallo a quen queira, e poderán atopalo en Happening In."
+        heading: "Identificador de Happening In"
+      handle_explanation: "Este é o seu enderezo de Happening In. É coma un enderezo electrónico, pode darllo á xente para que o atopen."
       no_contacts: "Non ten contactos."
       people_sharing_with_you: "Xente que comparte con vostede"
       post_a_message: "Publicar unha mensaxe: "
       services:
-        content: "Pode conectar con Diaspora os seguintes servizos:"
+        content: "Pode conectar con Happening In os seguintes servizos:"
         heading: "Conectar servizos"
       your_aspects: Aspectos
     many: "%{count} aspectos"
@@ -129,9 +129,9 @@ gl:
   back: Volver
   bookmarklet:
     explanation: "Engada a ligazón «%{link}» aos seus marcadores e publique dende calquera páxina."
-    explanation_link_text: "Publicar en Diaspora"
+    explanation_link_text: "Publicar en Happening In"
     heading: "Marcador de publicación"
-    post_something: "Publicar algo en Diaspora"
+    post_something: "Publicar algo en Happening In"
     post_success: "Publicado! Pechando…"
   cancel: Cancelar
   comments:
@@ -209,14 +209,14 @@ gl:
     show:
       already_account: "Xa ten conta?"
       choice: Escolla
-      choice_explanation: "Diaspora permítelle clasificar os seus contactos en grupos, “aspectos”. Os aspectos permítenlle compartir as súas fotos, historias, bromas e outros contidos exclusivamente coas persoas ás que realmente van destinados."
-      learn_about_host: "Aprenda como aloxar o seu propio servidor de Diaspora (en inglés)."
+      choice_explanation: "Happening In permítelle clasificar os seus contactos en grupos, “aspectos”. Os aspectos permítenlle compartir as súas fotos, historias, bromas e outros contidos exclusivamente coas persoas ás que realmente van destinados."
+      learn_about_host: "Aprenda como aloxar o seu propio servidor de Happening In (en inglés)."
       login_here: "Identifíquese aquí"
       ownership: Propiedade
-      ownership_explanation: "As súas imaxes son súas, e non deberían deixar de selo para que poida compartilas. Manterá a propiedade de todo canto comparta en Diaspora, con pleno control da súa distribución."
+      ownership_explanation: "As súas imaxes son súas, e non deberían deixar de selo para que poida compartilas. Manterá a propiedade de todo canto comparta en Happening In, con pleno control da súa distribución."
       share_what_you_want: "Comparta o que queira, con quen queira."
       simplicity: Simplicidade
-      simplicity_explanation: "Diaspora fai de compartir algo claro e sinxelo, e iso aplícase tamén á intimidade. Privada por definición, Diaspora non lle fará percorrer interminables páxinas de configuración e preferencias para manter o seu perfil seguro."
+      simplicity_explanation: "Happening In fai de compartir algo claro e sinxelo, e iso aplícase tamén á intimidade. Privada por definición, Happening In non lle fará percorrer interminables páxinas de configuración e preferencias para manter o seu perfil seguro."
       tagline_first_half: "Comparta o que queira,"
       tagline_second_half: "con quen queira."
   invitations:
@@ -234,7 +234,7 @@ gl:
       aspect: Aspecto
       comma_seperated_plz: "Pode engadir varios enderezos de correo, separándoos con comas («,»)."
       if_they_accept_info: "Se aceptan, engadiranse ao aspecto ao que os convidou."
-      invite_someone_to_join: "Convide a alguén a unirse a Diaspora!"
+      invite_someone_to_join: "Convide a alguén a unirse a Happening In!"
       personal_message: "Mensaxe persoal"
       resend: "Volvela convidar"
       send_an_invitation: "Enviar unha invitación"
@@ -242,7 +242,7 @@ gl:
       to: Destinatario
   layouts:
     application:
-      powered_by: "CONSTRUÍDO CON DIASPORA*"
+      powered_by: "CONSTRUÍDO CON Happening In"
       public_feed: "Comentarios públicos de %{name}"
       toggle: "Ir ao sitio web para móbiles"
       whats_new: "Últimos cambios"
@@ -353,13 +353,13 @@ gl:
       liked: "A %{name} gústalle a seguinte publicación súa:"
     mentioned:
       mentioned: "mencionouno nunha publicación:"
-      subject: "%{name} mencionouno en Diaspora*"
+      subject: "%{name} mencionouno en Happening In"
     single_admin:
-      admin: "O seu administrador en Diaspora"
-      subject: "Unha mensaxe sobre a súa conta en Diaspora:"
+      admin: "O seu administrador en Happening In"
+      subject: "Unha mensaxe sobre a súa conta en Happening In:"
     started_sharing:
       sharing: "comezou a compartir con vostede!"
-      subject: "%{name} comezou a compartir con vostede en Diaspora*"
+      subject: "%{name} comezou a compartir con vostede en Happening In"
     thanks: "Grazas,"
   ok: Aceptar
   or: ou
@@ -426,7 +426,7 @@ gl:
       post_it: Publicalo!
     new_photo:
       empty: "O ficheiro «{file}» está baleiro, volva seleccionar os ficheiros saltándose ese."
-      invalid_ext: "Diaspora non permite extensións como a do ficheiro «{file}». Só se permiten: {extensions}."
+      invalid_ext: "Happening In non permite extensións como a do ficheiro «{file}». Só se permiten: {extensions}."
       size_error: "O ficheiro «{file}» é grande de máis, non pode superar os {sizeLimit}."
     new_profile_photo:
       upload: "Subir unha nova imaxe do perfil"
@@ -451,7 +451,7 @@ gl:
   profile: Perfil
   profiles:
     edit:
-      allow_search: "Aparecer nas buscas en Diaspora."
+      allow_search: "Aparecer nas buscas en Happening In."
       edit_profile: "Modificar o perfil"
       first_name: Nome
       last_name: Apelidos
@@ -471,9 +471,9 @@ gl:
       updated: "Actualizouse o perfil."
   public: Público
   registrations:
-    closed: "Rexistros pechados neste servidor de Diaspora."
+    closed: "Rexistros pechados neste servidor de Happening In."
     create:
-      success: "Xa está en Diaspora!"
+      success: "Xa está en Happening In!"
     edit:
       cancel_my_account: "Cancelar a conta"
       edit: "Modificar a %{name}"
@@ -489,7 +489,7 @@ gl:
   requests:
     create:
       sending: Enviando…
-      sent: "Pediu compartir con %{name}. Notificaráselle a próxima vez que entre en Diaspora."
+      sent: "Pediu compartir con %{name}. Notificaráselle a próxima vez que entre en Happening In."
     destroy:
       error: "Escolla un aspecto!"
       ignore: "Ignorouse a petición de contacto."
@@ -525,7 +525,7 @@ gl:
       really_disconnect: "Está seguro de que quere desconectarse de «%{service}»?"
     inviter:
       click_link_to_accept_invitation: "Prema esta ligazón para aceptar a invitación."
-      join_me_on_diaspora: "Únase a min en DIASPORA*"
+      join_me_on_Happening In: "Únase a min en Happening In"
     remote_friend:
       invite: Convidar
       resend: "Volver enviar"
@@ -533,11 +533,11 @@ gl:
   shared:
     add_contact:
       add_new_contact: "Engadir un novo contacto"
-      create_request: "Buscar por enderezo de Diaspora"
-      diaspora_handle: diaspora@servidor.org
-      enter_a_diaspora_username: "Escriba un nome de usuario para Diaspora:"
+      create_request: "Buscar por enderezo de Happening In"
+      Happening In_handle: Happening In@servidor.org
+      enter_a_Happening In_username: "Escriba un nome de usuario para Happening In:"
       know_email: "Se sabe os seus enderezos de correo electrónico, debería convidalos."
-      your_diaspora_username_is: "O seu nome de usuario en Diaspora é «%{diaspora_handle}»."
+      your_Happening In_username_is: "O seu nome de usuario en Happening In é «%{Happening In_handle}»."
     contact_list:
       all_contacts: "Todos os contactos"
     footer:
@@ -551,13 +551,13 @@ gl:
       invite_someone: "Convidar a alguén"
       invite_your_friends: "Convide aos seus contactos"
       invites: Invitacións
-      invites_closed: "Este servidor de Diaspora non conta con invitacións nestes momentos."
+      invites_closed: "Este servidor de Happening In non conta con invitacións nestes momentos."
     notification:
       new: "Nova %{type} de %{from}"
     public_explain:
       logged_in: "Conectado a «%{service}»."
       manage: "Administrar os servizos conectados"
-      outside: "As mensaxes públicas as poderá ver xente sen conta en Diaspora."
+      outside: "As mensaxes públicas as poderá ver xente sen conta en Happening In."
       title: "Configurar os servizos conectados"
     publisher:
       all: Todos
@@ -579,7 +579,7 @@ gl:
       shared_with: "Compartido con: %{aspect_names}"
       unlike: "Xa non me gusta"
       via: "vía %{link}"
-      viewable_to_anyone: "Esta publicación pode vela calquera persoa, mesmo quen non teña conta en Diaspora."
+      viewable_to_anyone: "Esta publicación pode vela calquera persoa, mesmo quen non teña conta en Happening In."
   status_messages:
     create:
       success: "Mencionouse a %{names} correctamente."
@@ -615,19 +615,19 @@ gl:
   tokens:
     show:
       connect_to_cubbies: "Conectar a Cubbi.es"
-      connecting_is_simple: "Conectar unha conta de Diaspora é moi sinxelo! Só ten que escribir o seu enderezo de Diaspora (<b>%{diaspora_id}</b>) na súa <a href='%{href_link}'>páxina de configuración</a> de cubbi.es e premer «Conectar»."
-      daniels_account: "conta de Diaspora de Daniel"
+      connecting_is_simple: "Conectar unha conta de Happening In é moi sinxelo! Só ten que escribir o seu enderezo de Happening In (<b>%{Happening In_id}</b>) na súa <a href='%{href_link}'>páxina de configuración</a> de cubbi.es e premer «Conectar»."
+      daniels_account: "conta de Happening In de Daniel"
       love_to_try: "Gustaríanos que o probase."
       making_the_connection: Conectar
       screenshot_explanation: "%{link1}. Este faiado particular está ligado á %{link2}."
       sign_up_today: "Rexístrese agora!"
       typical_userpage: "Unha páxina de usuario típica de cubbi.es"
       via: "(vía %{link})"
-      what_is_cubbies: "Cubbi.es é o primeiro aplicativo de Diaspora, e a mellor forma de recoller imaxes na rede."
+      what_is_cubbies: "Cubbi.es é o primeiro aplicativo de Happening In, e a mellor forma de recoller imaxes na rede."
   undo: Desfacer?
   username: "Nome de usuario"
   users:
-    destroy: "Bloqueouse a súa conta. Pode levar ata 20 minutos pechala completamente. Grazas por darlle unha oportunidade a Diaspora."
+    destroy: "Bloqueouse a súa conta. Pode levar ata 20 minutos pechala completamente. Grazas por darlle unha oportunidade a Happening In."
     edit:
       also_commented: "Comentarios nas publicacións dos contactos."
       change: Gardar
@@ -647,7 +647,7 @@ gl:
       receive_email_notifications: "Motivos de notificación por correo electrónico"
       started_sharing: "Que alguén comece a compartir comigo."
       your_email: "Correo electrónico"
-      your_handle: "Enderezo de Diaspora"
+      your_handle: "Enderezo de Happening In"
     public:
       does_not_exist: "O usuario «%{username}» non existe!"
     update:

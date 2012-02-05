@@ -1,8 +1,8 @@
-#   Copyright © 2011, Diaspora Inc.  This file is
+#   Copyright © 2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 #
-#   Catalan translation of Diaspora.
+#   Catalan translation of Happening In.
 #   Jordi Mallach <jordi@softcatala.org>, 2011.
 #   Abans d'actualitzar aquesta traducció, si us plau poseu-vos en contacte
 #   amb Jordi Mallach o Softcatalà <info@softcatala.org>.
@@ -62,7 +62,7 @@ ca:
               taken: "ja és en ús."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "ja és en ús."
         contact:
           attributes:
@@ -89,7 +89,7 @@ ca:
       unknown_person: "persona desconeguda"
       video_title:
         unknown: "Títol del vídeo desconegut"
-      diaspora_alpha: "DIÀSPORA* ALFA"
+      Happening In_alpha: "DIÀSPORA* ALFA"
 
 
   aspects:
@@ -172,7 +172,7 @@ ca:
       no_contacts: "Cap contacte"
       post_a_message: "publica un missatge »"
       people_sharing_with_you: "Gent amb qui compartiu"
-      welcome_to_diaspora: "Benvingut/da al Diàspora, %{name}!"
+      welcome_to_Happening In: "Benvingut/da al Diàspora, %{name}!"
       introduce_yourself: "Aquest és el vostre flux. Capbusseu-vos i presenteu-vos."
 
       new_here:
@@ -197,7 +197,7 @@ ca:
         heading: "Connecteu a Cubbi.es"
         explanation: "Cubbi.es és la primera aplicació Diàspora sota desenvolupament."
         learn_more: "Més informació"
-      diaspora_id:
+      Happening In_id:
         heading: "ID de Diàspora"
         content_1: "El vostre identificador de Diàspora és:"
         content_2: "Compartiu-lo amb tothom qui vulgueu que us pugui trobar al Diàspora."
@@ -507,7 +507,7 @@ ca:
 
   notifier:
     a_post_you_shared: "una publicació."
-    email_sent_by_diaspora: "Aquest correu electrònic ha sigut enviat per Diàspora. Si voleu deixar de rebre correus com aquest,"
+    email_sent_by_Happening In: "Aquest correu electrònic ha sigut enviat per Diàspora. Si voleu deixar de rebre correus com aquest,"
     click_here: "feu clic aquí"
     hello: "Hola %{name}!"
     thanks: "Gràcies,"
@@ -744,13 +744,13 @@ ca:
     create:
       success: "S'ha autenticat amb èxit."
       failure: "Ha fallat l'autenticació."
-      already_authorized: "Un usuari amb l'id de Diàspora %{diaspora_id} ja ha autoritzat aquest compte de %{service_name}."
+      already_authorized: "Un usuari amb l'id de Diàspora %{Happening In_id} ja ha autoritzat aquest compte de %{service_name}."
     destroy:
       success: "S'ha suprimit l'autenticació amb èxit."
     failure:
       error: "s'ha produït un error en connectar a aquell servei"
     inviter:
-      join_me_on_diaspora: "Uneix-te a mi al DIÀSPORA*"
+      join_me_on_Happening In: "Uneix-te a mi al DIÀSPORA*"
       click_link_to_accept_invitation: "Seguiu aquest enllaç per a acceptar la invitació"
     finder:
       fetching_contacts: "El Diàspora està poblant els vostres amics del %{service}. Torneu en uns pocs minuts."
@@ -759,7 +759,7 @@ ca:
     remote_friend:
       resend: "torna a enviar"
       invite: "convida"
-      not_on_diaspora: "Encara no hi és al Diàspora"
+      not_on_Happening In: "Encara no hi és al Diàspora"
 
 
   blocks:
@@ -798,10 +798,10 @@ ca:
         i_like: "M'interessa %{tags}. "
         invited_by: "Gràcies per la invitació, "
     add_contact:
-      enter_a_diaspora_username: "Introduïu un nom d'usuari de Diàspora:"
-      your_diaspora_username_is: "El vostre nom d'usuari de Diàspora és: %{diaspora_handle}"
+      enter_a_Happening In_username: "Introduïu un nom d'usuari de Diàspora:"
+      your_Happening In_username_is: "El vostre nom d'usuari de Diàspora és: %{Happening In_handle}"
       create_request: "Cerca per identificador de Diàspora"
-      diaspora_handle: "diaspora@identificador.cat"
+      Happening In_handle: "Happening In@identificador.cat"
       know_email: "Coneixeu el seu correu electrònic? L'hauríeu de convidar"
       add_new_contact: "Afegeix un contacte nou"
     invitations:
@@ -908,7 +908,7 @@ ca:
       typical_userpage: "Una pàgina d'usuari de cubbi.es típica"
       daniels_account: "El compte de Diàspora d'en Daniel"
       making_the_connection: "Fent la connexió"
-      connecting_is_simple: "Connectar el vostre compte de Diàspora és simple! Introduïu el vostre ID de Diàspora (<b>%{diaspora_id}</b> a la <a href='%{href_link}'>pàgina de preferències</a> de Cubbies i feu clic en «Connecta»."
+      connecting_is_simple: "Connectar el vostre compte de Diàspora és simple! Introduïu el vostre ID de Diàspora (<b>%{Happening In_id}</b> a la <a href='%{href_link}'>pàgina de preferències</a> de Cubbies i feu clic en «Connecta»."
       via: "(via %{link})"
 
 
@@ -990,7 +990,7 @@ ca:
 
     close_account:
       dont_go: "Ei, no te'n vagis!"
-      make_diaspora_better: "Volem que ens ajudeu a millorar Diàspora, i ens agradaria que ens ajudéssiu en lloc de deixar-nos. Si realment voleu anar-vos-en, volem que sapigueu què passarà a continuació."
+      make_Happening In_better: "Volem que ens ajudeu a millorar Diàspora, i ens agradaria que ens ajudéssiu en lloc de deixar-nos. Si realment voleu anar-vos-en, volem que sapigueu què passarà a continuació."
       mr_wiggles: "El Senyor Wiggles estarà trist de veure-vos marxar."
       what_we_delete: "Suprimim totes les vostres publicacions, dades del perfil, el més aviat possible. Els vostres comentaris romandran, però estaran associats al vostre identificador de Diàspora."
       locked_out: "Sortireu de Diàspora i es blocarà el vostre compte."
@@ -1012,7 +1012,7 @@ ca:
       well_hello_there: "Ei, hola!"
       community_welcome: "La comunitat del Diàspora s'alegra de tenir-vos a bord!"
 
-      awesome_take_me_to_diaspora: "Fantàstic! Porta'm al Diàspora*"
+      awesome_take_me_to_Happening In: "Fantàstic! Porta'm al Diàspora*"
 
       who_are_you: "Qui ets?"
       we_can_speed_things_up: "Podem accelerar un poc les coses"

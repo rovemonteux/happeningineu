@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ fil:
               taken: "maari lamang na walang kaparis."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "ay mayroon ng nagmamay-ari."
         request:
           attributes:
@@ -76,7 +76,7 @@ fil:
       aspect_not_empty: "Crew not empty"
     index:
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -301,7 +301,7 @@ fil:
   registrations:
     new:
       create_my_account: "Create my account"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     helper:
       new_requests:
@@ -371,7 +371,7 @@ fil:
       success: "Successfully stopped following: #%{name}"
   users:
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
   webfinger:
     fetch_failed: "hindi nakuha ang webfinger profile para sa %{profile_url}"
     hcard_fetch_failed: "nagkaroon ng problema sa pagkuha ng hcard ni %{account}"

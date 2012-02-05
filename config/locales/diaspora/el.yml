@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ el:
               taken: "πρέπει να είναι μοναδικό μεταξύ των επαφών του χρήστη."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "είναι ήδη σε χρήση"
         request:
           attributes:
@@ -94,29 +94,29 @@ el:
       remove: αφαίρεση
     index:
       cubbies:
-        explanation: "Το Cubbi.es είναι η πρώτη εφαρμογή του Diaspora υπό κατασκευή."
+        explanation: "Το Cubbi.es είναι η πρώτη εφαρμογή του Happening In υπό κατασκευή."
         heading: "Συνδεθείτε στο Cubbi.es"
         learn_more: "Μάθετε περισσότερα"
-      diaspora_id:
-        content_1: "Το Diaspora αναγνωριστικό σας (ID) είναι:"
-        content_2: "Δώστε το σε κάποιον και θα μπορεί να σας βρει στο Diaspora."
-        heading: "Αναγνωριστικό Diaspora (ID)"
+      Happening In_id:
+        content_1: "Το Happening In αναγνωριστικό σας (ID) είναι:"
+        content_2: "Δώστε το σε κάποιον και θα μπορεί να σας βρει στο Happening In."
+        heading: "Αναγνωριστικό Happening In (ID)"
       donate: "Κάντε Δωρεά"
-      handle_explanation: "Αυτό είναι το αναγνωριστικό σας στο Diaspora (ID). Όπως και με μια διεύθυνση ηλεκτρονικού ταχυδρομείου, μπορείτε να το δώσετε σε άλλους για να σας βρουν."
+      handle_explanation: "Αυτό είναι το αναγνωριστικό σας στο Happening In (ID). Όπως και με μια διεύθυνση ηλεκτρονικού ταχυδρομείου, μπορείτε να το δώσετε σε άλλους για να σας βρουν."
       help:
         do_you: Μήπως..
         email_feedback: "%{link} το σχόλιό σας, αν προτιμάτε"
         feature_suggestion: "... έχεις μια %{link} πρόταση?"
         find_a_bug: "... βρες %{link}?"
         have_a_question: "... έχεις ένα %{link}?"
-        here_to_help: "Η κοινότητα του Diaspora είναι εδώ για να σε βοηθήσει!"
+        here_to_help: "Η κοινότητα του Happening In είναι εδώ για να σε βοηθήσει!"
         need_help: "Χρειάζεστε βοήθεια;"
         satisfaction: "%{link}: Υποστήριξη από την κοινότητα"
-        tutorials_wiki_and_forum: "%{tutorial} & %{wiki} & %{forum}: Οδηγοί από την κοινότητα του Diaspora, how-to, και νέα"
+        tutorials_wiki_and_forum: "%{tutorial} & %{wiki} & %{forum}: Οδηγοί από την κοινότητα του Happening In, how-to, και νέα"
       introduce_yourself: "Αυτή είναι η Ροή σας. Μπείτε και συστηθείτε."
       keep_us_running: "Διατηρείστε τη καλή λειτουργία του %{pod}, παρέχοντας στους servers μας τη καφείνη τους!"
       new_here:
-        follow: "Ακολουθήστε τη %{link} και καλωσορίστε νέους χρήστες στο Diaspora*!"
+        follow: "Ακολουθήστε τη %{link} και καλωσορίστε νέους χρήστες στο Happening In!"
         learn_more: "Μάθετε περισσότερα"
         title: "Καλωσήλθατε Νέοι Χρήστες"
       no_contacts: "Καμία επαφή"
@@ -124,10 +124,10 @@ el:
       people_sharing_with_you: "Άτομα που μοιράζονται μαζί σας"
       post_a_message: "αναρτήστε ένα μήνυμα >>"
       services:
-        content: "Μπορείτε να συνδέσετε τις παρακάτω υπηρεσίες στο Diaspora:"
+        content: "Μπορείτε να συνδέσετε τις παρακάτω υπηρεσίες στο Happening In:"
         heading: "Συνδέστε Υπηρεσίες"
       unfollow_tag: "Σταματήστε να ακολουθείτε την ετικέτα #%{tag}"
-      welcome_to_diaspora: "Καλωσήρθες στο Diaspora, %{name}!"
+      welcome_to_Happening In: "Καλωσήρθες στο Happening In, %{name}!"
       your_aspects: "Οι Πτυχές σας"
     many: "%{count} πτυχές"
     move_contact:
@@ -176,9 +176,9 @@ el:
       failure: "Δεν μπόρεσα να σταματήσω να αγνοώ αυτό το χρήστη. #evasion"
       success: "Για να δούμε τι έχουν να πουν! #sayhello"
   bookmarklet:
-    explanation: "Δημοσιεύστε στο Diaspora από οπουδήποτε προσθέτοντας %{link}."
+    explanation: "Δημοσιεύστε στο Happening In από οπουδήποτε προσθέτοντας %{link}."
     explanation_link_text: "αυτόν τον σύνδεσμο"
-    post_something: "Αναρτήστε κάτι στο Diaspora"
+    post_something: "Αναρτήστε κάτι στο Happening In"
     post_success: "Αναρτήθηκε! Κλείνει!"
   cancel: Ακύρωση
   comments:
@@ -262,14 +262,14 @@ el:
     show:
       already_account: "έχετε ήδη λογαριασμό;"
       choice: Επιλογή
-      choice_explanation: "Το Diaspora σας επιτρέπει να ταξινομήσετε τις συνδέσεις σας σε ομάδες που καλούνται πτυχές. Μοναδικές στο Diaspora, οι πτυχές εξασφαλίζουν ότι οι φωτογραφίες, οι ιστορίες και τα αστεία σας μοιράζονται μόνο με τους ανθρώπους που εσείς θέλετε."
-      learn_about_host: "Μάθετε για το πώς να φιλοξενήσετε το δικό σας διακομιστή Diaspora."
+      choice_explanation: "Το Happening In σας επιτρέπει να ταξινομήσετε τις συνδέσεις σας σε ομάδες που καλούνται πτυχές. Μοναδικές στο Happening In, οι πτυχές εξασφαλίζουν ότι οι φωτογραφίες, οι ιστορίες και τα αστεία σας μοιράζονται μόνο με τους ανθρώπους που εσείς θέλετε."
+      learn_about_host: "Μάθετε για το πώς να φιλοξενήσετε το δικό σας διακομιστή Happening In."
       login_here: "συνδεθείτε εδώ"
       ownership: Ιδιοκτησία
-      ownership_explanation: "Οι φωτογραφίες σας είναι δική σας ιδιοκτησία και δεν πρέπει να κάνετε παραχωρήσεις, απλά και μόνο για  να τις μοιραστείτε. Στο Diaspora διατηρείτε την ιδιοκτησία για ό,τι μοιράζεστε, ενώ έχετε τον πλήρη έλεγχο για το πώς αυτό θα διανεμηθεί."
+      ownership_explanation: "Οι φωτογραφίες σας είναι δική σας ιδιοκτησία και δεν πρέπει να κάνετε παραχωρήσεις, απλά και μόνο για  να τις μοιραστείτε. Στο Happening In διατηρείτε την ιδιοκτησία για ό,τι μοιράζεστε, ενώ έχετε τον πλήρη έλεγχο για το πώς αυτό θα διανεμηθεί."
       share_what_you_want: "Μοιραστείτε ό,τι θέλετε, με όποιον θέλετε."
       simplicity: Απλότητα
-      simplicity_explanation: "Το Diaspora σας επιτρέπει να μοιράζεστε εύκολα και διάφανα – και αυτό ισχύει και για την ιδιωτικότητα σας. Από τη φύση του ιδιωτικό, το Diaspora δεν έχει σελίδες επί σελίδων με ρυθμίσεις και επιλογές ώστε να διατηρείτε το προφίλ σας ασφαλές."
+      simplicity_explanation: "Το Happening In σας επιτρέπει να μοιράζεστε εύκολα και διάφανα – και αυτό ισχύει και για την ιδιωτικότητα σας. Από τη φύση του ιδιωτικό, το Happening In δεν έχει σελίδες επί σελίδων με ρυθμίσεις και επιλογές ώστε να διατηρείτε το προφίλ σας ασφαλές."
       tagline_first_half: "Μοιραστείτε ό,τι θέλετε,"
       tagline_second_half: "με όποιον θέλετε."
   invitations:
@@ -291,7 +291,7 @@ el:
       aspect: Πτυχή
       comma_seperated_plz: "Μπορείτε να εισάγετε πολλαπλές διευθύνσεις ηλεκτρονικού ταχυδρομείου διαχωρισμένες με κόμμα."
       if_they_accept_info: "αν δεχτούν, θα προστεθούν στην πτυχή που τους πρασκαλέσατε. "
-      invite_someone_to_join: "Προσκαλέστε κάποιον στο Diaspora!"
+      invite_someone_to_join: "Προσκαλέστε κάποιον στο Happening In!"
       language: Γλώσσα
       personal_message: "Προσωπικό μήνυμα"
       resend: "Αποστολή ξανά"
@@ -300,7 +300,7 @@ el:
       to: Στον
   layouts:
     application:
-      public_feed: "Δημόσια ανατροφοδότηση (feed) του Diaspora για τον χρήστη %{name}"
+      public_feed: "Δημόσια ανατροφοδότηση (feed) του Happening In για τον χρήστη %{name}"
       toggle: "εναλλαγή σε κινητό"
       whats_new: "Τι νέα?"
       your_aspects: "οι πτυχές σας"
@@ -446,25 +446,25 @@ el:
     confirm_email:
       click_link: "Για να ενεργοποιήσετε την καινούρια διεύθυνση ηλεκτρονικού ταχυδρομείου %{unconfirmed_email}, παρακαλούμε πατήστε στο παρακάτω σύνδεσμο: "
       subject: "Παρακαλούμε ενεργοποιήστε την καινούρια διεύθυνση ηλεκτρονικού ταχυδρομείου %{unconfirmed_email}"
-    email_sent_by_diaspora: "Αυτό το μήνυμα εστάλη από το Diaspora. Εάν δεν θέλετε να λαμβάνετε πλεόν μηνύματα σαν κι αυτό,"
+    email_sent_by_Happening In: "Αυτό το μήνυμα εστάλη από το Happening In. Εάν δεν θέλετε να λαμβάνετε πλεόν μηνύματα σαν κι αυτό,"
     hello: "Γειά σου %{name}!"
     liked:
       liked: "στο χρήστη %{name} αρέσει η δημοσίευση σας"
       view_post: "Δείτε την ανάρτηση >"
     mentioned:
       mentioned: "αναφέρεται σε σας σε μια δημοσίευση:"
-      subject: "Ο/Η %{name} σας αναφέρει στο Diaspora*"
+      subject: "Ο/Η %{name} σας αναφέρει στο Happening In"
     private_message:
       reply_to_or_view: "Απαντήστε ή δείτε τη συζήτηση >"
     reshared:
       reshared: "ο χρήστης %{name} κοινοποίησε τη δημοσίευση σας"
       view_post: "Δείτε την ανάρτηση >"
     single_admin:
-      admin: "Ο διαχειριστής του Diaspora σας"
-      subject: "Μήνυμα για τον Diaspora λογαριασμό σας:"
+      admin: "Ο διαχειριστής του Happening In σας"
+      subject: "Μήνυμα για τον Happening In λογαριασμό σας:"
     started_sharing:
       sharing: "ξεκίνησε το διαμοιρασμό μαζί σας!"
-      subject: "Ο χρήστης %{name} ξεκίνησε το διαμοιρασμό μαζί σας στο Diaspora*"
+      subject: "Ο χρήστης %{name} ξεκίνησε το διαμοιρασμό μαζί σας στο Happening In"
       view_profile: "Δείτε το προφίλ του χρήστη %{name}"
     thanks: "Ευχαριστώ,"
     to_change_your_notification_settings: "για να αλλάξετε τις ρυθμίσεις των ειδοποιήσεων"
@@ -570,7 +570,7 @@ el:
   profile: Προφίλ
   profiles:
     edit:
-      allow_search: "Επιτρέψτε σε άλλους ανθρώπους να σας αναζητούν στο Diaspora"
+      allow_search: "Επιτρέψτε σε άλλους ανθρώπους να σας αναζητούν στο Happening In"
       edit_profile: "Επεξεργασία προφίλ"
       first_name: Όνομα
       last_name: Επώνυμο
@@ -597,9 +597,9 @@ el:
     two: "%{count} αντιδράσεις"
     zero: "0 αντιδράσεις"
   registrations:
-    closed: "Οι εγγραφές είναι κλειστές σε αυτό το pod του Diaspora."
+    closed: "Οι εγγραφές είναι κλειστές σε αυτό το pod του Happening In."
     create:
-      success: "Γίνατε μέλος στο Diaspora!"
+      success: "Γίνατε μέλος στο Happening In!"
     edit:
       cancel_my_account: "Ακύρωση του λογαριασμού μου"
       edit: "Επεξεργασία %{name}"
@@ -618,7 +618,7 @@ el:
   requests:
     create:
       sending: Αποστολή
-      sent: "Σας ζητήθηκε να μοιράζεστε με τον/την χρήστη %{name}. Θα είναι ορατό την επόμενη φορά που θα συνδεθεί στο Diaspora."
+      sent: "Σας ζητήθηκε να μοιράζεστε με τον/την χρήστη %{name}. Θα είναι ορατό την επόμενη φορά που θα συνδεθεί στο Happening In."
     destroy:
       error: "Παρακαλώ επιλέξτε μια πτυχή!"
       ignore: "Αγνοήθηκε αίτηση επαφής."
@@ -656,7 +656,7 @@ el:
   search: Αναζήτηση
   services:
     create:
-      already_authorized: "Ένας χρήστης με diaspora αναγνωριστικό %{diaspora_id} έχει ήδη εξουσιοδοτήσει αυτόν τον %{service_name} λογαριασμό."
+      already_authorized: "Ένας χρήστης με Happening In αναγνωριστικό %{Happening In_id} έχει ήδη εξουσιοδοτήσει αυτόν τον %{service_name} λογαριασμό."
       failure: "Αποτυχία πιστοποίησης."
       success: "Επιτυχής έλεγχος ταυτότητας."
     destroy:
@@ -664,7 +664,7 @@ el:
     failure:
       error: "εμφανίστηκε ένα σφάλμα κατά τη σύνδεση με αυτή την υπηρεσία"
     finder:
-      fetching_contacts: "Το Diaspora ανακτά τους %{service} φίλους σας παρακαλώ επανέλθετε σε μερικά λεπτά."
+      fetching_contacts: "Το Happening In ανακτά τους %{service} φίλους σας παρακαλώ επανέλθετε σε μερικά λεπτά."
       no_friends: "Δεν βρέθηκαν φίλοι στο Facebook. "
       service_friends: "%{service} Φίλοι"
     index:
@@ -678,10 +678,10 @@ el:
       really_disconnect: "αποσύνδεση %{service};"
     inviter:
       click_link_to_accept_invitation: "Κάντε κλικ σ' αυτό το σύνδεσμο για να αποδεχθείτε την πρόσκλησή σας"
-      join_me_on_diaspora: "Συνδεθείτε μαζί μου στο DIASPORA*"
+      join_me_on_Happening In: "Συνδεθείτε μαζί μου στο Happening In"
     remote_friend:
       invite: πρόσκληση
-      not_on_diaspora: "Όχι ακόμα στο Diaspora"
+      not_on_Happening In: "Όχι ακόμα στο Happening In"
       resend: "αποστολή ξανά"
   settings: Ρυθμίσεις
   share_visibilites:
@@ -691,10 +691,10 @@ el:
   shared:
     add_contact:
       add_new_contact: "Προσθέστε μια νέα επαφή"
-      create_request: "Εύρεση βάσει Diaspora ID"
-      enter_a_diaspora_username: "Εισάγετε όνομα χρήστη Diaspora:"
+      create_request: "Εύρεση βάσει Happening In ID"
+      enter_a_Happening In_username: "Εισάγετε όνομα χρήστη Happening In:"
       know_email: "Ξέρετε τις ηλεκτρονικές τους διευθύνσεις; Τότε πρέπει να τους προσκαλέσετε"
-      your_diaspora_username_is: "Το όνομα χρήστη σας στο Diaspora είναι: %{diaspora_handle}"
+      your_Happening In_username_is: "Το όνομα χρήστη σας στο Happening In είναι: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Προσθήκη επαφής"
       toggle:
@@ -717,7 +717,7 @@ el:
       invite_someone: "Προσκαλέστε κάποιον/α"
       invite_your_friends: "Προσκαλέστε φίλους"
       invites: Προσκλήσεις
-      invites_closed: "Οι προσκλήσεις είναι κλειστές αυτή την περίοδο στο Diaspora pod"
+      invites_closed: "Οι προσκλήσεις είναι κλειστές αυτή την περίοδο στο Happening In pod"
     notification:
       new: "Νέο %{type} από τον χρήστη %{from}"
     public_explain:
@@ -725,7 +725,7 @@ el:
       logged_in: "συνδεδεμένος/η στο %{service}"
       manage: "διαχείριση συναφών υπηρεσιών"
       new_user_welcome_message: "Χρησιμοποιήστε τις #ετικέτες για να ταξινομήσετε τις δημοσιεύσεις σας και να βρείτε άτομα με κοινά ενδιαφέροντα με εσάς. Μνημονεύστε αξιόλογα άτομα με @αναφορές"
-      outside: "Τα δημόσια μηνύματα θα είναι διαθέσιμα και σε χρήστες εκτός του δικτύου Diaspora"
+      outside: "Τα δημόσια μηνύματα θα είναι διαθέσιμα και σε χρήστες εκτός του δικτύου Happening In"
       share: Μοιραστείτε
       title: "Ρύθμιση συνδεδεμένων υπηρεσιών"
       visibility_dropdown: "Χρησιμοποιήστε αυτό το αναδυόμενο μενού για να αλλάξτε την ορατότητα της ανάρτησης σας. (Προτείνουμε να κάνετε αυτή τη πρώτη δημόσια.)"
@@ -842,15 +842,15 @@ el:
   tokens:
     show:
       connect_to_cubbies: "Σύνδεση με Cubbi.es"
-      connecting_is_simple: "Η σύνδεση του Diaspora λογαριασμού σας είναι απλούστατη! Απλά εισάγετε το Diaspora Αναγνωριστικό σας (ID) (<b>%{diaspora_id}</b>) από το cubbies <a href='%{href_link}'>settings page</a> και πατήστε Σύνδεση. "
-      daniels_account: "Diaspora λογαριασμό του Daniel"
+      connecting_is_simple: "Η σύνδεση του Happening In λογαριασμού σας είναι απλούστατη! Απλά εισάγετε το Happening In Αναγνωριστικό σας (ID) (<b>%{Happening In_id}</b>) από το cubbies <a href='%{href_link}'>settings page</a> και πατήστε Σύνδεση. "
+      daniels_account: "Happening In λογαριασμό του Daniel"
       love_to_try: "Θα χαιρόμασταν αν το δοκιμάζατε."
       making_the_connection: Σύνδεση
       screenshot_explanation: "%{link1}.  Αυτό το συγκεκριμένο cubby συνδέεται στον %{link2}."
       sign_up_today: "Συνδεθείτε σήμερα!"
       typical_userpage: "Μία τυπική cubbi.es σελίδα χρήστη"
       via: "(μέσω %{link})"
-      what_is_cubbies: "Το Cubbi.es είναι παγκοσμίως η πρώτη εφαρμογή για το Diaspora. Είναι επίσης ο καλύτερος τρόπος συλλογής φωτογραφιών στο διαδίκτυο."
+      what_is_cubbies: "Το Cubbi.es είναι παγκοσμίως η πρώτη εφαρμογή για το Happening In. Είναι επίσης ο καλύτερος τρόπος συλλογής φωτογραφιών στο διαδίκτυο."
   undo: Αναίρεση;
   username: "Όνομα Χρήστη"
   users:
@@ -859,7 +859,7 @@ el:
       email_not_confirmed: "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν ενεργοποιήθηκε. Μήπως ήταν λάθος ο σύνδεσμος;"
     destroy:
       no_password: "Παρακαλώ εισάγετε τον τωρινό κωδικό σας για να κλείσει ο λογαριασμός σας."
-      success: "Ο λογαριασμός σας έχει κλειδωθεί. Μπορεί να πάρει 20 λεπτά για να ολοκληρώσουμε το κλείσιμο του λογαριασμού σας. Ευχαριστούμε που δοκιμάσατε το Diaspora."
+      success: "Ο λογαριασμός σας έχει κλειδωθεί. Μπορεί να πάρει 20 λεπτά για να ολοκληρώσουμε το κλείσιμο του λογαριασμού σας. Ευχαριστούμε που δοκιμάσατε το Happening In."
       wrong_password: "Ο κωδικός που εισάγατε δεν ταιριάζει με τον τωρινό κωδικό σας."
     edit:
       also_commented: "...κάποιος επίσης σχολίασε σε δημοσίευση επαφής σας;"
@@ -872,7 +872,7 @@ el:
         if_you_want_this: "Εάν πραγματικά αυτό θες, γράψε το κωδικό σου παρακάτω και πάτα \"Κλείσιμο Λογαριασμού\""
         lock_username: "Αυτό θα κλειδώσει το username σας αν προσπαθήσετε να επανεγγραφείτε."
         locked_out: "Θα αποσυνδεθείτε και θα κλειδωθείτε έξω από τον λογαριασμό σας."
-        make_diaspora_better: "Θα επιθυμούσαμε να μας βοηθήσετε να κάνουμε το Diaspora καλύτερο αντί να φύγετε. Αν πράγματι θέλετε να φύγετε, θα θέλαμε να ξέρετε τι θα συμβεί στην συνέχεια."
+        make_Happening In_better: "Θα επιθυμούσαμε να μας βοηθήσετε να κάνουμε το Happening In καλύτερο αντί να φύγετε. Αν πράγματι θέλετε να φύγετε, θα θέλαμε να ξέρετε τι θα συμβεί στην συνέχεια."
         mr_wiggles: "Ο κύριος Wiggles θα λυπηθεί να σας δει να αποχωρείτε"
         no_turning_back: "Προς το παρών δεν υπάρχει γυρισμός."
         what_we_delete: "Διαγράφουμε όλες τις δημοσιεύσεις και τα δεδομένα του προφίλ σας το συντομότερο δυνατόν. Τα σχόλιά σας δεν θα διαγραφούν, αλλά θα συνεχίσουν να υπάρχουν."
@@ -897,23 +897,23 @@ el:
       started_sharing: "...κάποιος άρχισε να διαμοιράζεται μαζί σας?"
       stream_preferences: "Προτιμήσεις Ροής"
       your_email: "Το email σας"
-      your_handle: "Το αναγνωριστικό σας στο diaspora"
+      your_handle: "Το αναγνωριστικό σας στο Happening In"
     getting_started:
-      awesome_take_me_to_diaspora: "Εξαιρετικά! Πήγαινέ με στο Diaspora*"
-      community_welcome: "Η κοινότητα του Diaspora είναι χαρούμενη να σας έχει μαζί!"
-      hashtag_explanation: "Τα hashtags σας επιτρέπουν να συζητάτε και να ακολουθείτε συγκεκριμένα ενδιαφέροντα. Είναι ακόμα ένας ωραίος τρόπος για να γνωρίσετε νέα άτομα στο Diaspora."
+      awesome_take_me_to_Happening In: "Εξαιρετικά! Πήγαινέ με στο Happening In"
+      community_welcome: "Η κοινότητα του Happening In είναι χαρούμενη να σας έχει μαζί!"
+      hashtag_explanation: "Τα hashtags σας επιτρέπουν να συζητάτε και να ακολουθείτε συγκεκριμένα ενδιαφέροντα. Είναι ακόμα ένας ωραίος τρόπος για να γνωρίσετε νέα άτομα στο Happening In."
       hashtag_suggestions: "Δοκιμάστε να ακολουθήστε ετικέτες όπως #τέχνη, #ταινίες, #music, κτλ."
       hooking_up_fb: "σύνδεση του Facebook λογαριασμού σας"
       saved: Αποθηκεύτηκε!
       we_can_speed_things_up: "Μπορούμε να επιταχύνουμε τα πράγματα με"
       well_hello_there: "Λοιπόν, γεια σας!"
       what_are_you_in_to: "Με τι ασχολείστε?"
-      what_facebook_does: "στο Diaspora. Θα πάρει το όνομα και τη φωτογραφία σας, και θα επιτρέψει την ανταλλαγή δημοσιεύσεων μεταξύ τους (cross-posting)."
+      what_facebook_does: "στο Happening In. Θα πάρει το όνομα και τη φωτογραφία σας, και θα επιτρέψει την ανταλλαγή δημοσιεύσεων μεταξύ τους (cross-posting)."
       who_are_you: "Ποιός είστε;"
     logged_out:
       go_mobile: "Εναλλαγή σε κινητό."
-      on_your_mobile_device: "στη κινητή συσκευή σας για να έχετε πρόσβαση στη κινητή έκδοση του Diaspora*."
-      signed_out: "Έχετε αποσυνδεθεί από το Diaspora*"
+      on_your_mobile_device: "στη κινητή συσκευή σας για να έχετε πρόσβαση στη κινητή έκδοση του Happening In."
+      signed_out: "Έχετε αποσυνδεθεί από το Happening In"
       simply_visit: "Απλά επισκεφθείτε "
       works_on_modern: "Δουλεύει σε όλα τα μοντέρνα smartphones"
     privacy_settings:

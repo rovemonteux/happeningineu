@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -33,9 +33,9 @@ pa:
     helper:
       remove: ਹਟਾਓ
     index:
-      handle_explanation: "This is your diaspora handle. Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your Happening In handle. Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -59,8 +59,8 @@ pa:
   back: ਪਿੱਛੇ
   bookmarklet:
     explanation: "%{link} from anywhere by bookmarking this link."
-    explanation_link_text: "Post to Diaspora"
-    heading: "Diaspora Bookmarklet"
+    explanation_link_text: "Post to Happening In"
+    heading: "Happening In Bookmarklet"
   cancel: "ਰੱਦ ਕਰੋ"
   comments:
     few: "%{count} comments"
@@ -242,7 +242,7 @@ pa:
     reshared:
       reshared: "%{name} just reshared your post"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
   ok: "ਠੀਕ ਹੈ"
   or: ਜਾਂ
   password: ਪਾਸਵਰਡ
@@ -267,7 +267,7 @@ pa:
   profiles:
     edit:
       your_tags: "You: in 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -287,7 +287,7 @@ pa:
       enter_password: "ਪਾਸਵਰਡ ਦਿਓ"
       enter_password_again: "ਪਹਿਲਾਂ ਵਾਲਾ ਪਾਸਵਰਡ ਦਿਓ"
       enter_username: "ਯੂਜ਼ਰ ਨਾਂ ਚੁਣੋ (ਕੇਵਲ ਅੱਖਰ, ਅੰਕ ਅਤੇ ਹੇਠਾਂ ਲਾਈਨ)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     destroy:
       success: "ਹੁਣ ਤੁਸੀਂ ਦੋਸਤ ਹੋ।"
@@ -328,8 +328,8 @@ pa:
       resend: ਮੁੜ-ਭੇਜੋ
   shared:
     add_contact:
-      create_request: "Find by Diaspora handle"
-      diaspora_handle: diaspora@handle.org
+      create_request: "Find by Happening In handle"
+      Happening In_handle: Happening In@handle.org
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -391,7 +391,7 @@ pa:
       success: "Successfully stopped following: #%{name}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   username: "ਯੂਜ਼ਰ ਨਾਂ"
   users:
     confirm_email:
@@ -404,9 +404,9 @@ pa:
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       new_password: "New Password"
       receive_email_notifications: "Receive email notificaions?"
-      your_handle: "Your diaspora handle"
+      your_handle: "Your Happening In handle"
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     update:
       language_changed: "ਭਾਸ਼ਾ ਬਦਲੀ ਗਈ"
       language_not_changed: "Language Change Failed"

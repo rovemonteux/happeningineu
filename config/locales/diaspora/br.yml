@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -15,7 +15,7 @@ br:
       models:
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "zo bet dibabet dija."
         reshare:
           attributes:
@@ -46,9 +46,9 @@ br:
     helper:
       remove: skarzhañ
     index:
-      handle_explanation: "Ar postel-mañ zo ho skor diaspora. E-giz ur chomlec'h-postel e c'hellit skignat anezhañ a-benn bezañ kavet gant an dud."
+      handle_explanation: "Ar postel-mañ zo ho skor Happening In. E-giz ur chomlec'h-postel e c'hellit skignat anezhañ a-benn bezañ kavet gant an dud."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
@@ -72,9 +72,9 @@ br:
   back: Distreiñ
   bookmarklet:
     explanation: "%{link} adalek pep lec'h dre lakaat al liamm-se e-barzh ho sinedoù."
-    explanation_link_text: "Embann e-barzh Diaspora"
-    heading: "Diaspora Bookmarklet"
-    post_something: "Embann un dra bennak e-barzh Diaspora"
+    explanation_link_text: "Embann e-barzh Happening In"
+    heading: "Happening In Bookmarklet"
+    post_something: "Embann un dra bennak e-barzh Happening In"
     post_success: "Embannet! O serriñ!"
   cancel: Nullañ
   comments:
@@ -136,7 +136,7 @@ br:
       to: Da
   layouts:
     application:
-      powered_by: "DEGASET GANT DIASPORA*"
+      powered_by: "DEGASET GANT Happening In"
       toggle: "toggle mobile site"
       whats_new: "petra nevez?"
     header:
@@ -274,7 +274,7 @@ br:
     reshared:
       reshared: "%{name} just reshared your post"
     started_sharing:
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
   ok: "MAT EO"
   or: pe
   password: Ger-kuzh
@@ -331,7 +331,7 @@ br:
       your_private_profile: "Ho patrom prevez"
       your_public_profile: "Ho patrom foran"
       your_tags: "C'hwi: gant 5 #tags"
-      your_tags_placeholder: "i.e. #diaspora #ironing #kittens #music"
+      your_tags_placeholder: "i.e. #Happening In #ironing #kittens #music"
   reactions:
     few: "%{count} reactions"
     many: "%{count} reactions"
@@ -350,7 +350,7 @@ br:
       enter_password: "Skrivit ur ger-kuzh"
       enter_password_again: "Skrivit ar memes ger-kuzh hag a-raok"
       enter_username: "Dibabit un anv-implijer (lizherennoù, niverennoù hag isbarennoù nemetken)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: "O kas"
@@ -387,9 +387,9 @@ br:
       click_link_to_accept_invitation: "Click this link to accept your invitation"
   shared:
     add_contact:
-      create_request: "Klask diwar ar skor Diaspora"
-      diaspora_handle: diaspora@handle.org
-      your_diaspora_username_is: "Setu hoc'h anv-implijer war Diaspora: %{diaspora_handle}"
+      create_request: "Klask diwar ar skor Happening In"
+      Happening In_handle: Happening In@handle.org
+      your_Happening In_username_is: "Setu hoc'h anv-implijer war Happening In: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -463,7 +463,7 @@ br:
       posts_tagged_with: "Skridoù bet merket gant #%{tag}"
   tokens:
     show:
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
   undo: "Mont war-gil?"
   username: Anv-implijer
   users:
@@ -479,9 +479,9 @@ br:
       email_awaiting_confirmation: "We have sent you an activation link to %{unconfirmed_email}. Till you follow this link and activate the new address, we will continue to use your original address %{email}."
       new_password: "Ger-Kuzh Nevez"
       your_email: "Ho postel"
-      your_handle: "Ho skor diaspora"
+      your_handle: "Ho skor Happening In"
     getting_started:
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     update:
       language_changed: "Yezh Cheñchet"
       language_not_changed: "Kudennoù zo bet o cheñch ar yezh"

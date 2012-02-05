@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ zh-TW:
               taken: 對此使用者必須為不重複的聯絡人.
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: 已經被使用了.
         request:
           attributes:
@@ -44,7 +44,7 @@ zh-TW:
   all_aspects: 所有面向
   application:
     helper:
-      diaspora_alpha: "DIASPORA* 預覽版"
+      Happening In_alpha: "Happening In 預覽版"
       unknown_person: 不明聯絡人
       video_title:
         unknown: 影片標題不明
@@ -95,22 +95,22 @@ zh-TW:
       remove: 刪除
     index:
       cubbies:
-        explanation: "Cubbi.es 是 Diaspora 的第一個應用程式, 目前正在開發中."
+        explanation: "Cubbi.es 是 Happening In 的第一個應用程式, 目前正在開發中."
         heading: "與 Cubbi.es 連結"
         learn_more: 進一步了解
-      diaspora_id:
-        content_1: "你的 Diaspora 識別碼是:"
-        content_2: "把它給任何人,讓他/她們可以在 Diaspora 找到你."
-        heading: "Diaspora 識別碼"
+      Happening In_id:
+        content_1: "你的 Happening In 識別碼是:"
+        content_2: "把它給任何人,讓他/她們可以在 Happening In 找到你."
+        heading: "Happening In 識別碼"
       donate: 捐獻
-      handle_explanation: "這是你的 diaspora 識別碼. 就像電子信箱一樣, 你可以把它給想聯絡你的人."
+      handle_explanation: "這是你的 Happening In 識別碼. 就像電子信箱一樣, 你可以把它給想聯絡你的人."
       help:
         do_you: "你是否:"
         email_feedback: "也可以%{link}你的意見來"
         feature_suggestion: "...想建議 %{link}?"
         find_a_bug: "...找到一隻 %{link}?"
         have_a_question: "...有個 %{link}?"
-        here_to_help: "Diaspora 社群就在這裡!"
+        here_to_help: "Happening In 社群就在這裡!"
         need_help: 要幫忙嗎?
         satisfaction: "%{link}: 社群支援的客服網站"
         tag_bug: 臭蟲
@@ -120,7 +120,7 @@ zh-TW:
       introduce_yourself: "這是你的流水帳. 跳進來介紹你自己吧."
       keep_us_running: "為了讓 %{pod} 高速奔馳, 用每月捐款來提供些咖啡存量給我們的伺服器吧!"
       new_here:
-        follow: "追蹤 %{link} 來歡迎 Diaspora* 的新使用者!"
+        follow: "追蹤 %{link} 來歡迎 Happening In 的新使用者!"
         learn_more: 了解詳情
         title: 歡迎新使用者
       no_contacts: 沒有任何聯絡人
@@ -128,10 +128,10 @@ zh-TW:
       people_sharing_with_you: 跟你分享的人
       post_a_message: "貼訊息 >>"
       services:
-        content: "你可以連結以下服務至 Diaspora:"
+        content: "你可以連結以下服務至 Happening In:"
         heading: 連結服務
       unfollow_tag: "停止追蹤 #%{tag}"
-      welcome_to_diaspora: "歡迎來到 Diaspora, %{name}!"
+      welcome_to_Happening In: "歡迎來到 Happening In, %{name}!"
       your_aspects: 你的面向
     many: "%{count}個面向"
     move_contact:
@@ -183,7 +183,7 @@ zh-TW:
     explanation: "%{link}加入書籤後可對任何網站使用."
     explanation_link_text: 這個連結
     heading: 書籤小程式
-    post_something: "貼些東西到 Diaspora"
+    post_something: "貼些東西到 Happening In"
     post_success: "貼好了! 關掉中!"
   cancel: 取消
   comments:
@@ -271,14 +271,14 @@ zh-TW:
     show:
       already_account: 已經有帳號了嗎?
       choice: 選擇
-      choice_explanation: "Diaspora 讓你將你的關係以\"面向\"來分類. 面向是 Diaspora 的獨創, 用來確保你的相片,遭遇和笑話, 只和你所希望的人分享."
-      learn_about_host: "學習如何架設你自己的 Diaspora 伺服器."
+      choice_explanation: "Happening In 讓你將你的關係以\"面向\"來分類. 面向是 Happening In 的獨創, 用來確保你的相片,遭遇和笑話, 只和你所希望的人分享."
+      learn_about_host: "學習如何架設你自己的 Happening In 伺服器."
       login_here: 從這裡登入
       ownership: 所有權
-      ownership_explanation: "你擁有你的圖片, 且不該因為分享出去就失去它. 在 Diaspora, 所有你分享出去的東西, 你都仍有所有權, 你可以控制它們如何散布."
+      ownership_explanation: "你擁有你的圖片, 且不該因為分享出去就失去它. 在 Happening In, 所有你分享出去的東西, 你都仍有所有權, 你可以控制它們如何散布."
       share_what_you_want: "分享你想分享的東西, 給你想分享的人."
       simplicity: 簡單
-      simplicity_explanation: "Diaspora 讓分享變得單純且簡單, 而隱私也是一樣. 以隱私為出發點, Diaspora 讓你不必千辛萬苦的調整設定, 才能保護你的個人檔案安全."
+      simplicity_explanation: "Happening In 讓分享變得單純且簡單, 而隱私也是一樣. 以隱私為出發點, Happening In 讓你不必千辛萬苦的調整設定, 才能保護你的個人檔案安全."
       tagline_first_half: "分享你想分享的東西,"
       tagline_second_half: 給你想分享的人.
   invitations:
@@ -300,7 +300,7 @@ zh-TW:
       aspect: 面向
       comma_seperated_plz: "你可以輸入多個電子信箱, 只要以逗號分隔即可."
       if_they_accept_info: "如果他們接受, 就會被加入至你所邀請的面向中."
-      invite_someone_to_join: "邀請某人來加入 Diaspora!"
+      invite_someone_to_join: "邀請某人來加入 Happening In!"
       language: 語言
       personal_message: 個人訊息
       resend: 重寄
@@ -309,8 +309,8 @@ zh-TW:
       to: 收件人
   layouts:
     application:
-      powered_by: "強力配置 DIASPORA*"
-      public_feed: "%{name} 的 Diaspora 公開資訊源"
+      powered_by: "強力配置 Happening In"
+      public_feed: "%{name} 的 Happening In 公開資訊源"
       toggle: 行動切換
       whats_new: 有什麼新消息?
       your_aspects: 你的面向
@@ -457,25 +457,25 @@ zh-TW:
     confirm_email:
       click_link: "請使用以下連結, 來啟用你新的電子郵件信箱 %{unconfirmed_email}:"
       subject: "請啟用你新的電子信箱 %{unconfirmed_email}"
-    email_sent_by_diaspora: "這封電子郵件是從 Diaspora 寄出. 如果你不想再收到這類的信件,"
+    email_sent_by_Happening In: "這封電子郵件是從 Happening In 寄出. 如果你不想再收到這類的信件,"
     hello: "%{name}你好!"
     liked:
       liked: "%{name} 說你的貼文很讚"
       view_post: "看貼文 >"
     mentioned:
       mentioned: "在貼文中點到了你:"
-      subject: "%{name} 在 Diaspora* 點到了你"
+      subject: "%{name} 在 Happening In 點到了你"
     private_message:
       reply_to_or_view: "回或看這次對話 >"
     reshared:
       reshared: "%{name} 轉貼了你的貼文"
       view_post: "看貼文 >"
     single_admin:
-      admin: "為您服務的 Diaspora 管理員"
-      subject: "有關於你的 Diaspora 帳號的訊息:"
+      admin: "為您服務的 Happening In 管理員"
+      subject: "有關於你的 Happening In 帳號的訊息:"
     started_sharing:
       sharing: 開始跟你分享了!
-      subject: "%{name} 開始在 Diaspora* 跟你分享了"
+      subject: "%{name} 開始在 Happening In 跟你分享了"
       view_profile: "看 %{name} 的個人檔案"
     thanks: "謝謝,"
     to_change_your_notification_settings: 來更改消息通知的設定
@@ -583,7 +583,7 @@ zh-TW:
   profile: 個人檔案
   profiles:
     edit:
-      allow_search: "讓別人可以在 Diaspora 搜尋到你"
+      allow_search: "讓別人可以在 Happening In 搜尋到你"
       edit_profile: 編輯個人檔案
       first_name: 名字(前)
       last_name: 名字(後)
@@ -610,9 +610,9 @@ zh-TW:
     two: "有%{count}次反應"
     zero: 沒有反應
   registrations:
-    closed: "本 Diaspora pod 不開放登記."
+    closed: "本 Happening In pod 不開放登記."
     create:
-      success: "你已經加入 Diaspora 了!"
+      success: "你已經加入 Happening In 了!"
     edit:
       cancel_my_account: 取消我的帳號
       edit: "編輯 %{name}"
@@ -631,7 +631,7 @@ zh-TW:
   requests:
     create:
       sending: 傳送中
-      sent: "你已經要求要和 %{name} 分享了. 他們下次登入 Diaspora 時就會看見."
+      sent: "你已經要求要和 %{name} 分享了. 他們下次登入 Happening In 時就會看見."
     destroy:
       error: 請選一個面向!
       ignore: 忽略建立聯繫的請求.
@@ -669,7 +669,7 @@ zh-TW:
   search: 搜尋
   services:
     create:
-      already_authorized: "已經有 Diaspora 識別碼為 %{diaspora_id} 的使用者被授權使用該 %{service_name} 帳號了."
+      already_authorized: "已經有 Happening In 識別碼為 %{Happening In_id} 的使用者被授權使用該 %{service_name} 帳號了."
       failure: 認證失敗.
       success: 認證成功.
     destroy:
@@ -677,7 +677,7 @@ zh-TW:
     failure:
       error: 與該服務連結時有錯誤
     finder:
-      fetching_contacts: "Diaspora 正在取得你在 %{service} 的朋友資料, 請幾分鐘後再來看看."
+      fetching_contacts: "Happening In 正在取得你在 %{service} 的朋友資料, 請幾分鐘後再來看看."
       no_friends: "沒有 Facebook 朋友."
       service_friends: "%{service} 朋友"
     index:
@@ -691,10 +691,10 @@ zh-TW:
       really_disconnect: "切斷與 %{service} 的連結?"
     inviter:
       click_link_to_accept_invitation: 使用這個連結來接受邀請
-      join_me_on_diaspora: "跟我一起加入 DIASPORA*"
+      join_me_on_Happening In: "跟我一起加入 Happening In"
     remote_friend:
       invite: 邀請
-      not_on_diaspora: "還沒來 Diaspora"
+      not_on_Happening In: "還沒來 Happening In"
       resend: 重送
   settings: 設定
   share_visibilites:
@@ -704,10 +704,10 @@ zh-TW:
   shared:
     add_contact:
       add_new_contact: 加入新聯絡人
-      create_request: "以 Diaspora 識別碼搜尋"
-      enter_a_diaspora_username: "輸入 Diaspora 使用者名稱:"
+      create_request: "以 Happening In 識別碼搜尋"
+      enter_a_Happening In_username: "輸入 Happening In 使用者名稱:"
       know_email: "知道他們的電子信箱嗎? 你應該邀請他們來"
-      your_diaspora_username_is: "你的 Diaspora 使用者名稱是: %{diaspora_handle}"
+      your_Happening In_username_is: "你的 Happening In 使用者名稱是: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: 加聯絡人
       toggle:
@@ -730,7 +730,7 @@ zh-TW:
       invite_someone: 邀請某人來
       invite_your_friends: 邀請你的朋友
       invites: 邀請
-      invites_closed: "目前本 Diaspora pod 不開放邀請功能"
+      invites_closed: "目前本 Happening In pod 不開放邀請功能"
     notification:
       new: "%{from} 有新的%{type}"
     public_explain:
@@ -738,7 +738,7 @@ zh-TW:
       logged_in: "已登入至 %{service}"
       manage: 管理已連線的服務
       new_user_welcome_message: "用 #雜湊標籤 來區分你的貼文, 並且找到跟你有共同興趣的人. 用 @指指點點 來叫出帥氣的人."
-      outside: "不使用 Diaspora 的人也能看到公開訊息."
+      outside: "不使用 Happening In 的人也能看到公開訊息."
       share: 分享
       title: 設定連線服務
       visibility_dropdown: "用這個下拉式選單來改變貼文的可見範圍.  (建議你這篇首貼設為公開.)"
@@ -854,15 +854,15 @@ zh-TW:
   tokens:
     show:
       connect_to_cubbies: "與 Cubbi.es 連結"
-      connecting_is_simple: "跟 Diapora 帳號連結很簡單! 只要從 cubbies <a href='%{href_link}'>設定頁面</a>輸入你的 Diaspora 識別碼, 再按下\"連結\"就可以了."
-      daniels_account: "Daniel 的 Diaspora 帳號"
+      connecting_is_simple: "跟 Diapora 帳號連結很簡單! 只要從 cubbies <a href='%{href_link}'>設定頁面</a>輸入你的 Happening In 識別碼, 再按下\"連結\"就可以了."
+      daniels_account: "Daniel 的 Happening In 帳號"
       love_to_try: 希望你能試試看.
       making_the_connection: 建立連結
       screenshot_explanation: "%{link1}. 這個cubby頁面是連結至%{link2}."
       sign_up_today: 今天就來註冊!
       typical_userpage: "典型的 cubbi.es 個人頁面"
       via: "(經由%{link})"
-      what_is_cubbies: "Cubbi.es 是世界上第一個 Diaspora 應用程式. 它也是收集線上照片的最佳方式."
+      what_is_cubbies: "Cubbi.es 是世界上第一個 Happening In 應用程式. 它也是收集線上照片的最佳方式."
   undo: 復原?
   username: 使用者名稱
   users:
@@ -871,7 +871,7 @@ zh-TW:
       email_not_confirmed: "無法啟用E-Mail. 連結有誤嗎?"
     destroy:
       no_password: 請輸入你目前的密碼來關閉帳號.
-      success: "你的帳號已經鎖定了. 完成關閉帳號大約還需要 20 分鐘的時間. 感謝你試用 Diaspora."
+      success: "你的帳號已經鎖定了. 完成關閉帳號大約還需要 20 分鐘的時間. 感謝你試用 Happening In."
       wrong_password: 輸入的密碼與你目前的密碼不符.
     edit:
       also_commented: "...當有人也對你的聯絡人的貼文發表意見時?"
@@ -900,23 +900,23 @@ zh-TW:
       started_sharing: "...當有人開始和你分享時?"
       stream_preferences: 流水帳偏好設定
       your_email: 你的電子郵件
-      your_handle: "你的 diaspora 識別碼"
+      your_handle: "你的 Happening In 識別碼"
     getting_started:
-      awesome_take_me_to_diaspora: "帥! 帶我去 Diaspora*"
-      community_welcome: "Diaspora 的社群歡迎你的到來!"
-      hashtag_explanation: "標籤讓你可以討論及追蹤你的興趣. 並且也是在 Diaspora 找到新朋友的好方法."
+      awesome_take_me_to_Happening In: "帥! 帶我去 Happening In"
+      community_welcome: "Happening In 的社群歡迎你的到來!"
+      hashtag_explanation: "標籤讓你可以討論及追蹤你的興趣. 並且也是在 Happening In 找到新朋友的好方法."
       hashtag_suggestions: "試試看追蹤像是 #藝術, #電影, #gif 等標籤."
       hooking_up_fb: "連接你的 Facebook 帳號"
       saved: 存好了!
       we_can_speed_things_up: 我們可以藉由
       well_hello_there: "嗨, 你好!"
       what_are_you_in_to: 你對什麼有興趣?
-      what_facebook_does: "讓你儘快開始使用 Diaspora. 這個步驟會拿你在 Facebook 的名字和照片來用, 並開啟多重發表."
+      what_facebook_does: "讓你儘快開始使用 Happening In. 這個步驟會拿你在 Facebook 的名字和照片來用, 並開啟多重發表."
       who_are_you: 你是誰?
     logged_out:
       go_mobile: 開始行動瀏覽.
-      on_your_mobile_device: "就可以使用 Diaspora* 行動版."
-      signed_out: "你已經登出 Diaspora* 了"
+      on_your_mobile_device: "就可以使用 Happening In 行動版."
+      signed_out: "你已經登出 Happening In 了"
       simply_visit: 只要在你的行動設備上輸入
       works_on_modern: 適用於所有新潮的智慧型手機
     privacy_settings:

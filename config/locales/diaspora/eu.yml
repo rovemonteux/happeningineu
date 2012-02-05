@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ eu:
               taken: "bakarra izan behar du erabiltzaile honen adiskideen artean."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "erabilpenean dago jada."
         request:
           attributes:
@@ -93,22 +93,22 @@ eu:
       remove: ezabatu
     index:
       cubbies:
-        explanation: "Cubbi.es garapenean dagoen lehenengo Diaspora aplikazioa da."
+        explanation: "Cubbi.es garapenean dagoen lehenengo Happening In aplikazioa da."
         heading: "Cubbi.esera lotu"
         learn_more: "Gehiago ikasi"
-      diaspora_id:
-        content_1: "Zure Diaspora ID honakoa da:"
-        content_2: "Emaiozu edonori eta Diasporan aurkituko zaituzte hura erabiliz."
-        heading: "Diaspora IDa"
+      Happening In_id:
+        content_1: "Zure Happening In ID honakoa da:"
+        content_2: "Emaiozu edonori eta Happening Inn aurkituko zaituzte hura erabiliz."
+        heading: "Happening In IDa"
       donate: Donatu
-      handle_explanation: "Hau da zure Diaspora IDa. E-posta helbidea bezalakoa da, zure adiskideei emaiezu zu aurkitzearren."
+      handle_explanation: "Hau da zure Happening In IDa. E-posta helbidea bezalakoa da, zure adiskideei emaiezu zu aurkitzearren."
       help:
         do_you: "Zuk:"
         email_feedback: "%{link} zure feedbacka, nahiago baduzu"
         feature_suggestion: "... %{link} iradokizun bat duzu?"
         find_a_bug: "... %{link} bat aurkitu?"
         have_a_question: "... %{link} bat duzu?"
-        here_to_help: "Diaspora komunitatea hemen dago!"
+        here_to_help: "Happening In komunitatea hemen dago!"
         need_help: "Laguntza Behar Duzu?"
         satisfaction: "%{link}: Komunitateak mantendutako laguntza"
         tag_bug: "#bug"
@@ -121,10 +121,10 @@ eu:
       people_sharing_with_you: "Zurekin harremanetan dagoen jendea"
       post_a_message: "mezu bat bidali >>"
       services:
-        content: "Honako zerbitzuak lotu ditzakezu Diasporara:"
+        content: "Honako zerbitzuak lotu ditzakezu Happening Inra:"
         heading: "Zerbitzuak Lotu"
       unfollow_tag: "#%{tag} jarraitzeari utzi"
-      welcome_to_diaspora: "Ongietorri Diasporara, %{name}!"
+      welcome_to_Happening In: "Ongietorri Happening Inra, %{name}!"
       your_aspects: "Zure Alderdiak"
     many: "%{count} alderdi"
     move_contact:
@@ -166,10 +166,10 @@ eu:
       revoke_access: "Sarbidea Baliogabetu"
   back: Atzera
   bookmarklet:
-    explanation: "Diasporan partekatu %{link} erabiliz."
+    explanation: "Happening Inn partekatu %{link} erabiliz."
     explanation_link_text: "esteka hau"
     heading: Bookmarkleta
-    post_something: "Partekatu zerbait Diasporan"
+    post_something: "Partekatu zerbait Happening Inn"
     post_success: "Bidalia! Irteten!"
   cancel: Ezeztatu
   comments:
@@ -257,14 +257,14 @@ eu:
     show:
       already_account: "kontua duzu jada?"
       choice: Hautaketa
-      choice_explanation: "Diasporan zure adiskideak kudeatu ditzakezu alderdi izeneko taldeetan. Zure argitalpen guztiak; bai argazkiak, egoera aldaketak, eta abar nahi duzun jendearekin soilik partekatzeko; honek egiten du Diaspora bereizgarri."
-      learn_about_host: "Ikasi nola eskaini Diaspora zure zerbitzarian."
+      choice_explanation: "Happening Inn zure adiskideak kudeatu ditzakezu alderdi izeneko taldeetan. Zure argitalpen guztiak; bai argazkiak, egoera aldaketak, eta abar nahi duzun jendearekin soilik partekatzeko; honek egiten du Happening In bereizgarri."
+      learn_about_host: "Ikasi nola eskaini Happening In zure zerbitzarian."
       login_here: "hemen sartu"
       ownership: Jabegoa
-      ownership_explanation: "Zure argazkiak zureak dira, eta ez duzu hori ahaztu behar partekatzeagatik soilik. Diasporan partekatzen duzun guztiaren jabe zara, zuri eskainiz zer modutan banatzeko askatasuna."
+      ownership_explanation: "Zure argazkiak zureak dira, eta ez duzu hori ahaztu behar partekatzeagatik soilik. Happening Inn partekatzen duzun guztiaren jabe zara, zuri eskainiz zer modutan banatzeko askatasuna."
       share_what_you_want: "Partekatu nahi duzuna, nahi duzun pertsonarekin."
       simplicity: Sinplizitatea
-      simplicity_explanation: "Diasporak partekatzea erraza egiten du - pribatutasuna kontuan hartuz. Izatez pribatutasunera zuzenduta, Diasporak egitura sinplea du zure profila babesturik mantentzearren."
+      simplicity_explanation: "Happening Ink partekatzea erraza egiten du - pribatutasuna kontuan hartuz. Izatez pribatutasunera zuzenduta, Happening Ink egitura sinplea du zure profila babesturik mantentzearren."
       tagline_first_half: "Partekatu nahi duzuna,"
       tagline_second_half: "nahi duzunarekin."
   invitations:
@@ -286,7 +286,7 @@ eu:
       aspect: Alderdia
       comma_seperated_plz: "Nahi dituzun e-posta guztiak idatzi ditzakezu, koma batez bananduta."
       if_they_accept_info: "eskaera onartzen badute, gonbidatutako alderdira batuko dira"
-      invite_someone_to_join: "Gonbida ezazu norbait Diasporan izen ematera!"
+      invite_someone_to_join: "Gonbida ezazu norbait Happening Inn izen ematera!"
       personal_message: "Mezu pertsonala"
       resend: Berbidali
       send_an_invitation: "Gonbidapen bat bidali"
@@ -294,8 +294,8 @@ eu:
       to: "Jasotzailea:"
   layouts:
     application:
-      powered_by: "DIASPORAK ESKAINIA"
-      public_feed: "%{name}(r)en Diaspora Feed publikoa"
+      powered_by: "Happening InK ESKAINIA"
+      public_feed: "%{name}(r)en Happening In Feed publikoa"
       toggle: "gaitu mugikorreko orrialdea"
       whats_new: "zer berri?"
       your_aspects: "zure alderdiak"
@@ -442,25 +442,25 @@ eu:
     confirm_email:
       click_link: "Zure e-posta berria %{unconfirmed_email} gaitzeko, mesedez jarraitu esteka hau:"
       subject: "Mesedez, gaitu zure e-posta berria %{unconfirmed_email}"
-    email_sent_by_diaspora: "Email hau Diasporak bidali dizu.  Horrelako emailik ez baduzu jaso nahi,"
+    email_sent_by_Happening In: "Email hau Happening Ink bidali dizu.  Horrelako emailik ez baduzu jaso nahi,"
     hello: "Kaixo, %{name}!"
     liked:
       liked: "%{name}(e)k zure mezua gustuko du"
       view_post: "Mezua ikusi >"
     mentioned:
       mentioned: "zu aipatu zaituzte mezu batean:"
-      subject: "%{name}(e)k Diasporan aipatu zaitu"
+      subject: "%{name}(e)k Happening Inn aipatu zaitu"
     private_message:
       reply_to_or_view: "Erantzun edo ikusi elkarrizketa hau >"
     reshared:
       reshared: "%{name}(e)k zure mezua birpartekatu du"
       view_post: "Ikusi mezua >"
     single_admin:
-      admin: "Zure Diaspora administratzailea"
-      subject: "Mezu bat zure Diaspora kontuari buruz:"
+      admin: "Zure Happening In administratzailea"
+      subject: "Mezu bat zure Happening In kontuari buruz:"
     started_sharing:
       sharing: "zurekin harremanetan hasi da!"
-      subject: "%{name} zurekin harremanetan hasi da Diasporan"
+      subject: "%{name} zurekin harremanetan hasi da Happening Inn"
       view_profile: "Ikusi %{name}(r)en profila"
     thanks: "Milesker,"
     to_change_your_notification_settings: "zure jakinarazpenen lehentasunak aldatzeko"
@@ -561,7 +561,7 @@ eu:
   profile: Profila
   profiles:
     edit:
-      allow_search: "Jendea baimendu zu Diasporan bilatzera"
+      allow_search: "Jendea baimendu zu Happening Inn bilatzera"
       edit_profile: "Profila aldatu"
       first_name: Izena
       last_name: Abizena
@@ -588,9 +588,9 @@ eu:
     two: "%{count} erreakzio"
     zero: "erreakziorik ez"
   registrations:
-    closed: "Izen emateak itxirik daude Diaspora zerbitzari hontan."
+    closed: "Izen emateak itxirik daude Happening In zerbitzari hontan."
     create:
-      success: "Diasporarekin bat egin duzu!"
+      success: "Happening Inrekin bat egin duzu!"
     edit:
       cancel_my_account: "Nire kontua ezabatu"
       edit: "%{name} aldatu"
@@ -609,7 +609,7 @@ eu:
   requests:
     create:
       sending: Bidaltzen
-      sent: "%{name}(r)ekin harremanetan hasi nahi duzu. Diasporara sartzen diren hurrengo aldian ikusiko dute eskaera."
+      sent: "%{name}(r)ekin harremanetan hasi nahi duzu. Happening Inra sartzen diren hurrengo aldian ikusiko dute eskaera."
     destroy:
       error: "Alderdi bat aukeratu, mesedez!"
       ignore: "Adiskide eskaera baztertua."
@@ -647,7 +647,7 @@ eu:
   search: Bilatu
   services:
     create:
-      already_authorized: "%{diaspora_id} diaspora id duen erabiltzaileak jadanik baimendu du %{service_name}(eko) kontu hori."
+      already_authorized: "%{Happening In_id} Happening In id duen erabiltzaileak jadanik baimendu du %{service_name}(eko) kontu hori."
       failure: "Autentikazioak huts egin du."
       success: "Egiaztapena arrakastaz egina."
     destroy:
@@ -668,19 +668,19 @@ eu:
       really_disconnect: "irten %{service}(e)tik?"
     inviter:
       click_link_to_accept_invitation: "Jarraitu esteka hau zure gonbidapena onartzeko"
-      join_me_on_diaspora: "Bat egin nirekin DIASPORAN"
+      join_me_on_Happening In: "Bat egin nirekin Happening InN"
     remote_friend:
       invite: gonbidapena
-      not_on_diaspora: "Diasporan oraindik ez"
+      not_on_Happening In: "Happening Inn oraindik ez"
       resend: berbidali
   settings: Lehentasunak
   shared:
     add_contact:
       add_new_contact: "Adiskide berria gehitu"
-      create_request: "Diaspora IDaren arabera bilatu"
-      enter_a_diaspora_username: "Diaspora erabiltzaile izena idatzi:"
+      create_request: "Happening In IDaren arabera bilatu"
+      enter_a_Happening In_username: "Happening In erabiltzaile izena idatzi:"
       know_email: "Badakizu beraien e-posta? Gonbida itzazu!"
-      your_diaspora_username_is: "Zure Diaspora helbidea honakoa da: %{diaspora_handle}"
+      your_Happening In_username_is: "Zure Happening In helbidea honakoa da: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Adiskidea gehitu"
       toggle:
@@ -703,7 +703,7 @@ eu:
       invite_someone: "Norbait gonbidatu"
       invite_your_friends: "Zure lagunak gonbidatu"
       invites: Gonbidapenak
-      invites_closed: "Gonbidapenak itxita daude orain Diaspora zerbitzari hontan"
+      invites_closed: "Gonbidapenak itxita daude orain Happening In zerbitzari hontan"
     notification:
       new: "%{type} berria %{from}(r)en eskutik"
     public_explain:
@@ -711,7 +711,7 @@ eu:
       logged_in: "%{service}(e)n sartuta"
       manage: "kudeatu lotutako zerbitzuak"
       new_user_welcome_message: "Erabili #hashtagak zure mezuak ordenatzeko eta zure interes berdinak dituzten pertsonak aurkitzeko.  Aipatu jende aparta @Aipamenak erabiliz"
-      outside: "Mezu publikoak edozeinek irakurtzeko ahalmena izango ditu, Diaspora kontua ez badu ere."
+      outside: "Mezu publikoak edozeinek irakurtzeko ahalmena izango ditu, Happening In kontua ez badu ere."
       share: Partekatu
       title: "Zerbitzu konektatuak kudeatu"
       visibility_dropdown: "Erabili zabalgarri hau zure mezuaren ikusgarritasuna aldatzeko.  (Lehenengo publikoa izatea aholkatzen dizugu.)"
@@ -813,15 +813,15 @@ eu:
   tokens:
     show:
       connect_to_cubbies: "Cubbi.es-era lotu"
-      connecting_is_simple: "Zure Diaspora kontua lotzea erraza da! Idatzi zure Diaspora IDa (<b>%{diaspora_id}</b>) zure cubbiesen <a href='%{href_link}'>ezarpenen orrialdetik</a> eta sakatu lotu."
-      daniels_account: "Danielen Diaspora kontua"
+      connecting_is_simple: "Zure Happening In kontua lotzea erraza da! Idatzi zure Happening In IDa (<b>%{Happening In_id}</b>) zure cubbiesen <a href='%{href_link}'>ezarpenen orrialdetik</a> eta sakatu lotu."
+      daniels_account: "Danielen Happening In kontua"
       love_to_try: "Zuk probatzea gustatuko litzaiguke."
       making_the_connection: "Lotura Ezartzen"
       screenshot_explanation: "%{link1}. Cubby hau %{link2}(r)ekin lotuta dago."
       sign_up_today: "Izena eman oraintxe!"
       typical_userpage: "Cubbi.es erabiltzaile orrialde tipiko bat"
       via: "(%{link}(r)en bidez)"
-      what_is_cubbies: "Cubbi.es munduko lehen Diaspora aplikazioa da. Argazkiak metatzeko biderik onena ere da."
+      what_is_cubbies: "Cubbi.es munduko lehen Happening In aplikazioa da. Argazkiak metatzeko biderik onena ere da."
   undo: Desegin?
   username: Erabiltzailea
   users:
@@ -854,10 +854,10 @@ eu:
       started_sharing: "...norbaitek zurekin harreman berria hasten duenean?"
       stream_preferences: "Kronologiaren Lehentasunak"
       your_email: "Zure e-posta"
-      your_handle: "Zure Diaspora IDa"
+      your_handle: "Zure Happening In IDa"
     getting_started:
-      awesome_take_me_to_diaspora: "Ongi! Diasporara eraman nazazu"
-      community_welcome: "Diasporaren komunitatea zu etortzeagatik pozik dago!"
+      awesome_take_me_to_Happening In: "Ongi! Happening Inra eraman nazazu"
+      community_welcome: "Happening Inren komunitatea zu etortzeagatik pozik dago!"
       hashtag_explanation: "Hashtagek gustoko dun jendea eta gauzak jarraitzea ahalbidetzen dizu.  Jende berria ezagutzeko bide on bat dira baita ere."
       hashtag_suggestions: "Saiatu #artea, #filmak, #gif, etab. bezalako etiketak jarraitzen"
       hooking_up_fb: "zure Facebook kontua lotzen"
@@ -865,12 +865,12 @@ eu:
       we_can_speed_things_up: "Gauzak azkartu ditzakegu"
       well_hello_there: "Beno, kaixo!"
       what_are_you_in_to: "Zelan zabiltza?"
-      what_facebook_does: "Diasporara. Honek zure izena eta argazkia erakutsiko ditu, eta zeharkako mezuak ahalbidetuko ditu."
+      what_facebook_does: "Happening Inra. Honek zure izena eta argazkia erakutsiko ditu, eta zeharkako mezuak ahalbidetuko ditu."
       who_are_you: "Zein zara?"
     logged_out:
       go_mobile: "Mugikor bertsiora joan."
-      on_your_mobile_device: "zure gailu mugikorrean Diasporaren bertsio mugikorrera sartu ahal izateko."
-      signed_out: "Diasporatik atera zara"
+      on_your_mobile_device: "zure gailu mugikorrean Happening Inren bertsio mugikorrera sartu ahal izateko."
+      signed_out: "Happening Intik atera zara"
       simply_visit: "Bisitatu soilik"
       works_on_modern: "Smartphone berri guztietan dabil"
     public:

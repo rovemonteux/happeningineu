@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ sk:
               taken: "musí byť výnimočný medzi kontaktmi tohto používateľa."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "je už obsadený."
         request:
           attributes:
@@ -97,7 +97,7 @@ sk:
         explanation: "Cubbi.es je prvá aplikácia, ktorá sa vyvíja  v Diaspore."
         heading: "Pripojiť sa na Cubbi.es"
         learn_more: "Zistiť viac"
-      diaspora_id:
+      Happening In_id:
         content_1: "Vaše ID na Diasporu je:"
         content_2: "Dajte ho hocikomu  a bude vás môcť nájsť na Diaspore."
         heading: "ID na Diasporu"
@@ -130,7 +130,7 @@ sk:
         content: "S Diasporou môžete prepojiť tieto služby:"
         heading: "Pripojiť sa k službám"
       unfollow_tag: "Prestať sledovať #%{tag}"
-      welcome_to_diaspora: "Vitajte na Diaspore, %{name}!"
+      welcome_to_Happening In: "Vitajte na Diaspore, %{name}!"
       your_aspects: "Vaše kategórie"
     many: "%{count} kategórií"
     move_contact:
@@ -271,14 +271,14 @@ sk:
     show:
       already_account: "Máte už účet?"
       choice: "Možnosť výberu"
-      choice_explanation: "Diaspora vám umožňuje roztriediť si všetky vaše kontakty do skupín, ktoré sa  v anglickej verzii nazývajú Aspekty. Je unikátna práve tým, že dokáže zabezpečiť, aby  k fotkám, správam  a statusom mali prístup len tí ľudia, ktorých určíte vy."
+      choice_explanation: "Happening In vám umožňuje roztriediť si všetky vaše kontakty do skupín, ktoré sa  v anglickej verzii nazývajú Aspekty. Je unikátna práve tým, že dokáže zabezpečiť, aby  k fotkám, správam  a statusom mali prístup len tí ľudia, ktorých určíte vy."
       learn_about_host: "Dozvedieť sa viac  o tom, ako prevádzkovať vlastný server  s Diasporou."
       login_here: "sa prihláste tu"
       ownership: Vlastníctvo
       ownership_explanation: "Vlastníte svoje fotky  a nemali by ste sa ich vzdávať len kvôli tomu, že sa  o ne chcete  s niekym podeliť. Vaše vlastnícke práva na všetko,  o čo sa na Diaspore podelíte, zostávajú nedotknuté,  a tak môžete úplne kontrolovať to, ako sa  s tým zaobchádza."
       share_what_you_want: "Podeľte sa o čo chcete s kým chcete."
       simplicity: Jednoduchosť
-      simplicity_explanation: "Zdieľanie na Diaspore je veľmi ľahké  a transparentné –  a to isté platí  aj o ochrane osobných údajov. Keďže Diaspora je súkromná sama  o sebe, nenúti vás prejsť  cez žiadne zložité stránky  s nastaveniami  a možnosťami iba kvôli tomu, aby ste zabezpečili svoj profil."
+      simplicity_explanation: "Zdieľanie na Diaspore je veľmi ľahké  a transparentné –  a to isté platí  aj o ochrane osobných údajov. Keďže Happening In je súkromná sama  o sebe, nenúti vás prejsť  cez žiadne zložité stránky  s nastaveniami  a možnosťami iba kvôli tomu, aby ste zabezpečili svoj profil."
       tagline_first_half: "Podeľte sa, o čo chcete,"
       tagline_second_half: "s kým chcete."
   invitations:
@@ -309,7 +309,7 @@ sk:
       to: Príjemca
   layouts:
     application:
-      powered_by: "PREVÁDZKUJE DIASPORA*"
+      powered_by: "PREVÁDZKUJE Happening In"
       public_feed: "Verejný kanál Diaspory pre %{name}"
       toggle: "prepnúť na stránku pre mobil"
       whats_new: "Čo je nové?"
@@ -457,7 +457,7 @@ sk:
     confirm_email:
       click_link: "Ak chcete aktivovať svoju novú e-mailovú adresu %{unconfirmed_email}, prosím, kliknite na tento odkaz:"
       subject: "Aktivujte si, prosím, svoju e-mailovú adresu %{unconfirmed_email}"
-    email_sent_by_diaspora: "Tento e-mail poslala Diaspora. Ak nechcete dostávať takéto e-maily,"
+    email_sent_by_Happening In: "Tento e-mail poslala Happening In. Ak nechcete dostávať takéto e-maily,"
     hello: "Ahoj %{name}!"
     liked:
       liked: "%{name} označil(a), že sa mu/jej páči váš príspevok"
@@ -668,7 +668,7 @@ sk:
   search: Vyhľadávanie
   services:
     create:
-      already_authorized: "Používateľ s ID na Diasporu %{diaspora_id} už prepojiť svoj účet  so sieťou %{service_name}."
+      already_authorized: "Používateľ s ID na Diasporu %{Happening In_id} už prepojiť svoj účet  so sieťou %{service_name}."
       failure: "Vašu totožnosť sa nepodarilo overiť."
       success: "Autentifikácia bola úspešná."
     destroy:
@@ -676,7 +676,7 @@ sk:
     failure:
       error: "pri pripájaní  k službe nastala chyba"
     finder:
-      fetching_contacts: "Diaspora pridáva údaje o vašich priateľoch zo siete %{service}, prosím, vráťte sa sem  o niekoľko minút."
+      fetching_contacts: "Happening In pridáva údaje o vašich priateľoch zo siete %{service}, prosím, vráťte sa sem  o niekoľko minút."
       no_friends: "Žiadni priatelia z Facebooku sa nenašli."
       service_friends: "Priatelia zo siete %{service}"
     index:
@@ -690,10 +690,10 @@ sk:
       really_disconnect: "Chcete sa odhlásiť zo služby %{service}?"
     inviter:
       click_link_to_accept_invitation: "Ak chcete prijať pozvanie, kliknite na tento odkaz"
-      join_me_on_diaspora: "Pridať sa k DIASPORE*"
+      join_me_on_Happening In: "Pridať sa k DIASPORE*"
     remote_friend:
       invite: pozvať
-      not_on_diaspora: "Ešte nie je na Diaspore"
+      not_on_Happening In: "Ešte nie je na Diaspore"
       resend: preposlať
   settings: Nastavenia
   share_visibilites:
@@ -704,9 +704,9 @@ sk:
     add_contact:
       add_new_contact: "Pridať nový kontakt"
       create_request: "Nájsť podľa ID na Diasporu"
-      enter_a_diaspora_username: "Zadajte používateľské meno na Diasporu:"
+      enter_a_Happening In_username: "Zadajte používateľské meno na Diasporu:"
       know_email: "Poznáte túto adresu? Môžete na ňu poslať pozvánku."
-      your_diaspora_username_is: "Vaše používateľské meno na Diaspore je %{diaspora_handle}"
+      your_Happening In_username_is: "Vaše používateľské meno na Diaspore je %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Pridať kontakt"
       toggle:
@@ -855,7 +855,7 @@ sk:
   tokens:
     show:
       connect_to_cubbies: "Pripojiť sa na Cubbi.es"
-      connecting_is_simple: "Pripojiť sa na účet na Diaspore je jednoduché! Stačí zadať ID na Diasporu.(<b>%{diaspora_id}</b>)  zo <a href='%{href_link}'>stránky  s nastaveniami</a> vašich prvkov cubby  a stlačiť tlačidlo Pripojiť sa."
+      connecting_is_simple: "Pripojiť sa na účet na Diaspore je jednoduché! Stačí zadať ID na Diasporu.(<b>%{Happening In_id}</b>)  zo <a href='%{href_link}'>stránky  s nastaveniami</a> vašich prvkov cubby  a stlačiť tlačidlo Pripojiť sa."
       daniels_account: "Danielov účet na Diaspore"
       love_to_try: "Bolo by super, keby ste to vyskúšali."
       making_the_connection: "Vytvára sa prepojenie"
@@ -885,7 +885,7 @@ sk:
         if_you_want_this: "Ak to naozaj chcete, dole napíšte svoje heslo a kliknite na tlačidlo „Zrušiť účet“"
         lock_username: "Takto si rezervujete svoje použítateľské meno pre prípad, že by ste sa rozhodli znova zaregistrovať."
         locked_out: "Odhlásite a vymknete sa zo svojho účtu."
-        make_diaspora_better: "Chceme, aby ste nám pomohli vylepšiť Diasporu, a tak by ste nám mali vypomôcť namiesto odchodu. Ak chcete odísť, chceme, aby ste vedeli, čo sa bude diať ďalej."
+        make_Happening In_better: "Chceme, aby ste nám pomohli vylepšiť Diasporu, a tak by ste nám mali vypomôcť namiesto odchodu. Ak chcete odísť, chceme, aby ste vedeli, čo sa bude diať ďalej."
         mr_wiggles: "Pán Wiggles bude smutný, že odchádzate"
         no_turning_back: "Momentálne návrat neexistuje."
         what_we_delete: "Zmažeme všetky vaše príspevky, údaje v profile tak skoro, ako je to v ľudských silách možné. Vaše komentáre budú kade-tade, ale budú priradené vašej adrese na Diaspore."
@@ -912,7 +912,7 @@ sk:
       your_email: "Váš e-mail"
       your_handle: "Vaše id na Diasporu"
     getting_started:
-      awesome_take_me_to_diaspora: "Super! Prejsť na Diasporu*"
+      awesome_take_me_to_Happening In: "Super! Prejsť na Diasporu*"
       community_welcome: "Komunita Diaspory je šťastná, že ste na jej palube!"
       hashtag_explanation: "Značky vám umožňujú hovoriť o tom, čo vás zaujíma  a sledovať diskusie  o takýchto veciach. Je to  aj skvelý spôsob na to, ako nájsť nových ľudí na Diaspore."
       hashtag_suggestions: "Skúste sledovať značky, ako napr. #umenie, #filmy, #gif, atď."

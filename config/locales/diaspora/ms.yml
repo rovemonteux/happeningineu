@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ ms:
               taken: "mestilah perbeza di kenalan dalam pengguna ini."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "sudah diambil."
         request:
           attributes:
@@ -44,7 +44,7 @@ ms:
   all_aspects: "Semua Aspek"
   application:
     helper:
-      diaspora_alpha: "DIASPORA* ALFA"
+      Happening In_alpha: "Happening In ALFA"
       unknown_person: "orang yang tidak diketahui"
       video_title:
         unknown: "Tajuk Wayang Tidak Diketahui"
@@ -70,22 +70,22 @@ ms:
       remove: buang
     index:
       cubbies:
-        explanation: "Cubbi.es adalah aplikasi pertama Diaspora dalam pembangunan."
+        explanation: "Cubbi.es adalah aplikasi pertama Happening In dalam pembangunan."
         heading: "Sambung kepada Cubbi.es"
         learn_more: "Ketahui lebih lanjut"
-      diaspora_id:
-        content_1: "ID Diaspora anda adalah:"
-        content_2: "Beri kepada sesiapa dan mereka akan dapat mencari anda di Diaspora."
-        heading: "ID Diaspora"
+      Happening In_id:
+        content_1: "ID Happening In anda adalah:"
+        content_2: "Beri kepada sesiapa dan mereka akan dapat mencari anda di Happening In."
+        heading: "ID Happening In"
       donate: Derma
-      handle_explanation: "Ini adalah diaspora id anda. Seperti alamat e-mel, anda boleh memberikan orang-orang ini untuk mencapai anda."
+      handle_explanation: "Ini adalah Happening In id anda. Seperti alamat e-mel, anda boleh memberikan orang-orang ini untuk mencapai anda."
       help:
         do_you: "Adakah anda:"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
       unfollow_tag: "berhenti mengikut #%{tag}"
-      welcome_to_diaspora: "Selamat datang ke Diaspora, %{name}!"
+      welcome_to_Happening In: "Selamat datang ke Happening In, %{name}!"
       your_aspects: "Aspek Anda"
     many: "%{count} aspek"
     move_contact:
@@ -186,7 +186,7 @@ ms:
       aspect: Aspek
       comma_seperated_plz: "Anda boleh memasukkan pelbagai alamat e-mel yang dipisahkan dengan koma."
       if_they_accept_info: "jika mereka menerima, mereka akan dimasukkan ke dalam aspek awak telah menjemput mereka."
-      invite_someone_to_join: "Menjemput seseorang untuk menyertai Diaspora!"
+      invite_someone_to_join: "Menjemput seseorang untuk menyertai Happening In!"
       language: Bahasa
       personal_message: "Mesej peribadi"
       resend: "Hantar semula"
@@ -195,7 +195,7 @@ ms:
       to: Kepada
   layouts:
     application:
-      powered_by: "DI KUASA OLEH DIASPORA*"
+      powered_by: "DI KUASA OLEH Happening In"
   likes:
     likes:
       people_dislike_this:

@@ -763,7 +763,7 @@ pt-PT:
       ignore_user: "Ignorar %{name}"
       ignore_user_description: "Ignorar e remover o utilizador de todos os aspectos?"
       like: Gosto
-      nsfw: "Este post foi marcado como não seguro para o trabalho (#nsfw) pelo seu autor. Ele pode conter material adulto e/ou controversial. Ao clicar %{link} voce certifica que tem 18 anos de idade ou mais, e entende que o material exibido não é seguro para visualização no trabalho."
+      nsfw: "Este post foi marcado como não seguro para o trabalho (#nsfw) pelo seu autor. Ele pode conter material adulto e/ou controversial. Ao clicar %{link} voce certifica que tem 18 anos de idade ou mais, e entende que o material exibido nao é seguro para visualização no trabalho."
       show: mostrar
       shared_with: "Partilhado com: %{aspect_names}"
       unlike: "Não Gosto"
@@ -908,7 +908,7 @@ pt-PT:
     getting_started:
       awesome_take_me_to_Happening In: "Excelente! Quero ir para o Happening In"
       community_welcome: "A comunidade do Happening In está feliz por o ter consigo!"
-      hashtag_explanation: "Hashtags permitem-lhe falar sobre e seguir os seus interesses.  Também são uma óptima forma de conhecer novas pessoas."
+      hashtag_explanation: "Hashtags permitem-lhe falar sobre e seguir os seus interesses.  Também são uma óptima forma de conhecer novas pessoas no Happening In."
       hashtag_suggestions: "Siga etiquetas como #arte, #cinema, #gif, etc."
       hooking_up_fb: "ligar à sua conta de Facebook"
       saved: Guardado!

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -40,7 +40,7 @@ en_1337:
   all_aspects: "4LL 45P3C75"
   application:
     helper:
-      diaspora_alpha: "D145P0R4* 4LPH4"
+      Happening In_alpha: "D145P0R4* 4LPH4"
       unknown_person: "4N0NYM0U5 N00B!"
       video_title:
         unknown: "UNK0WN PR0N 717L3"
@@ -87,7 +87,7 @@ en_1337:
       cubbies:
         explanation: "CUBB1.35 15 7H3 F1R57 4PP F0R D*!"
         heading: "C0NN3C7 70 CUBB1.35"
-      diaspora_id:
+      Happening In_id:
         content_1: "Y0UR D* 1D 15:"
         content_2: "G1V3 7H3M 2 N00B5 4ND 7H3Y W1LL F1ND U!"
         heading: "D* 1D"
@@ -421,7 +421,7 @@ en_1337:
       reply: "R3PLY 0R V13W %{name}'s 5P4M >"
     confirm_email:
       click_link: "2 4C71V473 Y0UR N3W M41L %{unconfirmed_email}, PLZ F0LL0W 7H15 L1NK:"
-    email_sent_by_diaspora: "7H15 M41L W45 53N7 BY D*!  1F U W0ULD L1K3 2 510P G3771NG M41L5 L1K3 7H15,"
+    email_sent_by_Happening In: "7H15 M41L W45 53N7 BY D*!  1F U W0ULD L1K3 2 510P G3771NG M41L5 L1K3 7H15,"
     hello: "H3LL0 %{name}!"
     liked:
       liked: "%{name} JU57 <3 Y0UR 5P4M!"
@@ -585,7 +585,7 @@ en_1337:
       enter_password_again: "3N73R 17 4G41N!"
       enter_username: "P1CK 4 N1CK (0NLY L3773R5 NUMB3R5 4ND UND3R5C0R35!)"
       join_the_movement: "J01N 7H3 M0V3M3N7!"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: 5P4MM1NG
@@ -646,20 +646,20 @@ en_1337:
       really_disconnect: "D15C0NN3C7 %{service}?"
     inviter:
       click_link_to_accept_invitation: "F0LL0W 7H15 L1NK 2 4CC3P7 Y0UR 1NV174710N!"
-      join_me_on_diaspora: "J01N M3 0N D*"
+      join_me_on_Happening In: "J01N M3 0N D*"
     remote_friend:
       invite: 1NV173
-      not_on_diaspora: "N07 Y37 0N D*!"
+      not_on_Happening In: "N07 Y37 0N D*!"
       resend: R35P4M
   settings: 53771NG5
   shared:
     add_contact:
       add_new_contact: "4DD 4 N3W N00B"
       create_request: "F1ND BY D* 1D"
-      diaspora_handle: N1CK@P0D.0RG
-      enter_a_diaspora_username: "3N73R 4 D* N1CK:"
+      Happening In_handle: N1CK@P0D.0RG
+      enter_a_Happening In_username: "3N73R 4 D* N1CK:"
       know_email: "KN0W 7H31R M41L? U 5H0ULD 1NV173 7H3M!"
-      your_diaspora_username_is: "Y0UR D* N1CK 15: %{diaspora_handle}"
+      your_Happening In_username_is: "Y0UR D* N1CK 15: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "4DD N00B"
       toggle:
@@ -764,7 +764,7 @@ en_1337:
   tokens:
     show:
       connect_to_cubbies: "C0NN3C7 2 CUBB1.35!"
-      connecting_is_simple: "C0NN3C71NG Y0UR D* 4CC0UN7 15 51MPL3! JU57 3N73R Y0UR D* 1D (<b>%{diaspora_id}</b>) FR0M Y0UR CUBB135 <a href='%{href_link}'>settings page</a> 4ND H17 C0NN3C7!"
+      connecting_is_simple: "C0NN3C71NG Y0UR D* 4CC0UN7 15 51MPL3! JU57 3N73R Y0UR D* 1D (<b>%{Happening In_id}</b>) FR0M Y0UR CUBB135 <a href='%{href_link}'>settings page</a> 4ND H17 C0NN3C7!"
       daniels_account: "D4N13L5 D* 4CC0UN7"
       love_to_try: "W3D L0V3 F0R U 2 7RY 11 0U7!\""
       making_the_connection: "M4K1NG 7H3 C0NN3C710N"
@@ -804,7 +804,7 @@ en_1337:
     getting_started:
       community_welcome: "7H3 D* C0MMUN17Y 15 H4PPY 2 H4V3 U 4B04RD!"
       hashtag_explanation: "H45H74G5 4LL0W U 2 74LK 4B0U7 4ND F0LL0W Y0UR 1N73R3575! 7H3YR3 4L50 4 GR347 W4Y 2 F1ND N3W N00B5 0N D*!"
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     logged_out:
       go_mobile: "N0W G0 M0B1L3!"
       on_your_mobile_device: "0N Y0UR M0B1L3 D3V1C3 2 4CC355 D* M0B1L3!"

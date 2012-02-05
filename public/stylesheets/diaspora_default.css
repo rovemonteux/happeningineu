@@ -2663,11 +2663,16 @@ top:4px;
 right:10px;
 left:auto}
 
-.new_user_form fieldset,.accept_invitation_form fieldset{-moz-border-radius:3px 3px 3px 3px;
--webkit-border-radius:3px 3px 3px 3px;
-border-radius:3px 3px 3px 3px;
+.new_user_form fieldset,.accept_invitation_form fieldset{
+-webkit-border-radius: 1em;
+-moz-border-radius: 1em;
+border-radius: 1em;
 background-color:white;
-background-color:rgba(255,255,255,0.95)}
+background-color:rgba(255,255,255,0.95)
+-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+box-shadow:0 1px 2px rgba(0,0,0,0.5);
+}
 
 .new_user_form fieldset .submit_field,.accept_invitation_form fieldset .submit_field{margin-top:15px}
 

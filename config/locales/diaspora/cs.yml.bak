@@ -708,8 +708,8 @@ cs:
       ignore_user: "Ignorovat %{name}"
       like: "to se mi líbí"
       shared_with: "Sdíleno s: %{aspect_names}"
-      nsfw: "Tento příspěvek byl označen jako nebezpečné pro práci (#nsfw). To by mohlo obsahovat dospělých anebo kontroverzní materiál. Kliknutím %{link} potvrzujete, že jste 18 let nebo starší, a pochopit, že zobrazený materiál není bezpečne pro prohlížení v práci"
-      show: ukázat
+      nsfw: "Tento příspěvek byl označen jako nebezpečné pro práci (#nsfw). To by mohlo obsahovat dospělých anebo kontroverzní materiál. Kliknutím %{link} potvrzujete, že jste 18 let nebo starší, a pochopit, že zobrazený materiál není bezpečná pro prohlížení v práci"
+      show: uk�zat
       unlike: "to se mi už nelíbí"
       via: "skrz %{link}"
       viewable_to_anyone: "Tento příspěvek je viditelný komukoli na webu"
@@ -805,7 +805,7 @@ cs:
       your_email: "Váš e-mail"
       your_handle: "Vaše Happening In ID"
     getting_started:
-      hashtag_explanation: "Štítky vám dovolují sledovat, o co se zajímáte, a diskutovat. Je to také skvělý způsob, jak najít nové lidi."
+      hashtag_explanation: "Štítky vám dovolují sledovat, o co se zajímáte, a diskutovat. Je to také skvělý způsob, jak najít nové lidi na Diaspoře."
       saved: Uloženo!
       what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     privacy_settings:

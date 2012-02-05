@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ fi:
               taken: "on oltava yksilöllinen."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "on jo varattu."
         request:
           attributes:
@@ -93,29 +93,29 @@ fi:
       remove: poista
     index:
       cubbies:
-        explanation: "Cubbi.es on ensimmäinen kehitettävä Diaspora-sovellus."
+        explanation: "Cubbi.es on ensimmäinen kehitettävä Happening In-sovellus."
         heading: "Yhdistä Cubbi.es:iin"
         learn_more: "Lue lisää"
-      diaspora_id:
-        content_1: "Diaspora-ID:si on:"
-        content_2: "Anna se toisille ihmisille, jotta he voivat löytää sinut Diasporasta."
-        heading: Diaspora-ID
+      Happening In_id:
+        content_1: "Happening In-ID:si on:"
+        content_2: "Anna se toisille ihmisille, jotta he voivat löytää sinut Happening Insta."
+        heading: Happening In-ID
       donate: Lahjoita
-      handle_explanation: "Tämä on Diaspora-tunnuksesi. Voit antaa sen ihmisille kuten sähköpostiosoitteesi, jotta he voivat sen avulla tavoittaa sinut Diasporasta."
+      handle_explanation: "Tämä on Happening In-tunnuksesi. Voit antaa sen ihmisille kuten sähköpostiosoitteesi, jotta he voivat sen avulla tavoittaa sinut Happening Insta."
       help:
         do_you: "Haluatko:"
         email_feedback: "Voit halutessasi lähettää palautteesi %{link}lla"
         feature_suggestion: "... ehdottaa uutta ominaisuutta? %{link}"
         find_a_bug: "... raportoida ohjelmistovirheen? %{link}"
         have_a_question: "... kysyä kysymyksen? %{link}"
-        here_to_help: "Diaspora-yhteisö auttaa!"
+        here_to_help: "Happening In-yhteisö auttaa!"
         need_help: "Tarvitsetko apua?"
         satisfaction: "%{link}: Yhteisön tarjoama tuki"
         tutorials_wiki_and_forum: "%{tutorial} & %{wiki} & %{forum}: Yhteisön laatimia oppaita, ohjeita ja uutisia"
       introduce_yourself: "Tämä on virtasi. Hyppää sekaan ja esittele itsesi."
       keep_us_running: "Pidä %{pod} vauhdissa tarjoamalla palvelimille kupponen kahvia kuukausittaisella lahjoituksella!"
       new_here:
-        follow: "Seuraa tagia %{link} ja toivota uudet käyttäjät tervetulleiksi Diasporaan!"
+        follow: "Seuraa tagia %{link} ja toivota uudet käyttäjät tervetulleiksi Happening Inan!"
         learn_more: "Lue lisää"
         title: "Tervehdi uusia käyttäjiä"
       no_contacts: "Ei kontakteja"
@@ -123,10 +123,10 @@ fi:
       people_sharing_with_you: "Ihmiset jotka jakavat kanssasi"
       post_a_message: "lähetä viesti >>"
       services:
-        content: "Voit yhdistää Diasporaan seuraavat palvelut:"
+        content: "Voit yhdistää Happening Inan seuraavat palvelut:"
         heading: "Yhdistä palveluihin"
       unfollow_tag: "Lopeta tagin #%{tag} seuraaminen"
-      welcome_to_diaspora: "Tervetuloa Diasporaan, %{name}!"
+      welcome_to_Happening In: "Tervetuloa Happening Inan, %{name}!"
       your_aspects: Näkymäsi
     many: "%{count} näkymää"
     move_contact:
@@ -175,10 +175,10 @@ fi:
       failure: "En voinut lakata sivuuttamasta käyttäjää. #evasion"
       success: "Katsotaanpa, mitä sanottavaa hänellä on! #sayhello"
   bookmarklet:
-    explanation: "Voit lähettää viestin Diasporaan mistä tahansa lisäämällä %{link} kirjanmerkkeihisi."
+    explanation: "Voit lähettää viestin Happening Inan mistä tahansa lisäämällä %{link} kirjanmerkkeihisi."
     explanation_link_text: "tämän linkin"
     heading: Sovelluskirjanmerkki
-    post_something: "Kirjoita jotain Diasporaan"
+    post_something: "Kirjoita jotain Happening Inan"
     post_success: "Lähetetty! Suljetaan!"
   cancel: Peruuta
   comments:
@@ -268,14 +268,14 @@ fi:
     show:
       already_account: "onko sinulla jo käyttäjätili?"
       choice: Valinta
-      choice_explanation: "Diasporassa voit lajitella kontaktisi eri ryhmiin, joita kutsutaan näkymiksi. Toisin kuin muissa yhteisöpalveluissa, Diasporassa näkymät takaavat, että kuvasi, viestisi ja vitsisi jaetaan vain niille ihmisille, joille ne on tarkoitettu."
-      learn_about_host: "Lue miten voit perustaa oman Diaspora-palvelimen."
+      choice_explanation: "Happening Inssa voit lajitella kontaktisi eri ryhmiin, joita kutsutaan näkymiksi. Toisin kuin muissa yhteisöpalveluissa, Happening Inssa näkymät takaavat, että kuvasi, viestisi ja vitsisi jaetaan vain niille ihmisille, joille ne on tarkoitettu."
+      learn_about_host: "Lue miten voit perustaa oman Happening In-palvelimen."
       login_here: "kirjaudu sisään täältä"
       ownership: Omistajuus
-      ownership_explanation: "Omistat kuvasi, eikä sinun pitäisi luopua oikeudestasi vain jakaaksesi ne. Säilytät omistajuutesi kaikkeen, mitä jaat Diasporassa - näin on myös täysin vallassasi, kuinka materiaaliasi jaetaan eteenpäin."
+      ownership_explanation: "Omistat kuvasi, eikä sinun pitäisi luopua oikeudestasi vain jakaaksesi ne. Säilytät omistajuutesi kaikkeen, mitä jaat Happening Inssa - näin on myös täysin vallassasi, kuinka materiaaliasi jaetaan eteenpäin."
       share_what_you_want: "Jaa mitä haluat, kenen kanssa haluat."
       simplicity: Yksinkertaisuus
-      simplicity_explanation: "Diaspora tekee jakamisesta helppoa ja siistiä – sama koskee myös yksityisyyttäsi. Luonnostaan yksityisenä Diaspora ei pakota sinua samoamaan sivukaupalla asetusten ja valintojen läpi vain pitääksesi profiilisi turvassa."
+      simplicity_explanation: "Happening In tekee jakamisesta helppoa ja siistiä – sama koskee myös yksityisyyttäsi. Luonnostaan yksityisenä Happening In ei pakota sinua samoamaan sivukaupalla asetusten ja valintojen läpi vain pitääksesi profiilisi turvassa."
       tagline_first_half: "Jaa mitä haluat,"
       tagline_second_half: "kenen kanssa haluat."
   invitations:
@@ -297,7 +297,7 @@ fi:
       aspect: Näkymä
       comma_seperated_plz: "Voit syöttää useita sähköpostiosoitteita pilkuilla erotettuna."
       if_they_accept_info: "jos he hyväksyvät kutsun, heidät lisätään siihen näkymään, johon heidät kutsuit."
-      invite_someone_to_join: "Kutsu joku Diasporan käyttäjäksi!"
+      invite_someone_to_join: "Kutsu joku Happening Inn käyttäjäksi!"
       language: Kieli
       personal_message: "Henkilökohtainen viesti"
       resend: "Lähetä uudelleen"
@@ -306,8 +306,8 @@ fi:
       to: Vastaanottaja
   layouts:
     application:
-      powered_by: "PALVELUN TARJOAA DIASPORA*"
-      public_feed: "Käyttäjän %{name} julkinen Diaspora-uutisvirta"
+      powered_by: "PALVELUN TARJOAA Happening In"
+      public_feed: "Käyttäjän %{name} julkinen Happening In-uutisvirta"
       toggle: "mobiilisivusto päälle/pois"
       whats_new: Uutta
       your_aspects: näkymäsi
@@ -452,25 +452,25 @@ fi:
     confirm_email:
       click_link: "Aktivoi uusi sähköpostiosoitteesi %{unconfirmed_email} napsauttamalla tätä linkkiä:"
       subject: "Aktivoi uusi sähköpostiosoitteesi %{unconfirmed_email}"
-    email_sent_by_diaspora: "Diaspora lähetti tämän sähköpostin. Jos et halua saada tällaisia sähköposteja jatkossa,"
+    email_sent_by_Happening In: "Happening In lähetti tämän sähköpostin. Jos et halua saada tällaisia sähköposteja jatkossa,"
     hello: "Hei %{name}!"
     liked:
       liked: "%{name} tykkäsi kirjoituksestasi"
       view_post: "Katso viesti >"
     mentioned:
       mentioned: "mainitsi sinut viestissään:"
-      subject: "%{name} on maininnut sinut Diasporassa"
+      subject: "%{name} on maininnut sinut Happening Inssa"
     private_message:
       reply_to_or_view: "Lue tai osallistu keskusteluun >"
     reshared:
       reshared: "%{name} jakoi viestisi uudelleen"
       view_post: "Näytä viesti >"
     single_admin:
-      admin: "Sinun Diaspora-ylläpitäjäsi"
-      subject: "Viesti Diaspora-käyttäjätilistäsi:"
+      admin: "Sinun Happening In-ylläpitäjäsi"
+      subject: "Viesti Happening In-käyttäjätilistäsi:"
     started_sharing:
       sharing: "on alkanut jakaa kanssasi!"
-      subject: "%{name} on alkanut jakaa kanssasi Diasporassa"
+      subject: "%{name} on alkanut jakaa kanssasi Happening Inssa"
       view_profile: "Näytä käyttäjän %{name} profiiili"
     thanks: "Kiitos,"
     to_change_your_notification_settings: "vaihtaaksesi ilmoitusasetuksia"
@@ -575,7 +575,7 @@ fi:
   profile: Profiili
   profiles:
     edit:
-      allow_search: "Salli ihmisten etsiä sinua Diasporassa"
+      allow_search: "Salli ihmisten etsiä sinua Happening Inssa"
       edit_profile: "Muokkaa profiilia"
       first_name: Etunimi
       last_name: Sukunimi
@@ -602,9 +602,9 @@ fi:
     two: "%{count} reaktiota"
     zero: "0 reaktiota"
   registrations:
-    closed: "Rekisteröityminen on suljettu tässä Diaspora-podissa."
+    closed: "Rekisteröityminen on suljettu tässä Happening In-podissa."
     create:
-      success: "Olet liittynyt Diasporaan!"
+      success: "Olet liittynyt Happening Inan!"
     edit:
       cancel_my_account: "Poista käyttäjätilini"
       edit: "Muokkaa %{name}"
@@ -623,7 +623,7 @@ fi:
   requests:
     create:
       sending: Lähetetään...
-      sent: "Olet lähettänyt käyttäjälle %{name} pyynnön jakaa kanssasi. Hänen pitäisi nähdä se kirjautuessaan seuraavan kerran Diasporaan."
+      sent: "Olet lähettänyt käyttäjälle %{name} pyynnön jakaa kanssasi. Hänen pitäisi nähdä se kirjautuessaan seuraavan kerran Happening Inan."
     destroy:
       error: "Valitse näkymä!"
       ignore: "Hylätty kontaktipyyntö."
@@ -678,10 +678,10 @@ fi:
       really_disconnect: "katkaise %{service}?"
     inviter:
       click_link_to_accept_invitation: "Paina tätä linkkiä hyväksyäksesi kutsun"
-      join_me_on_diaspora: "DIASPORA* kutsuu!"
+      join_me_on_Happening In: "Happening In kutsuu!"
     remote_friend:
       invite: kutsu
-      not_on_diaspora: "Ei vielä Diasporassa"
+      not_on_Happening In: "Ei vielä Happening Inssa"
       resend: "lähetä uudelleen"
   settings: Asetukset
   share_visibilites:
@@ -690,10 +690,10 @@ fi:
   shared:
     add_contact:
       add_new_contact: "Lisää uusi kontakti"
-      create_request: "Etsi Diaspora-tunnuksella"
-      enter_a_diaspora_username: "Anna Diaspora-käyttäjätunnus:"
+      create_request: "Etsi Happening In-tunnuksella"
+      enter_a_Happening In_username: "Anna Happening In-käyttäjätunnus:"
       know_email: "Tiedätkö heidän sähköpostiosoitteitansa? Kutsu heidät!"
-      your_diaspora_username_is: "Diaspora-käyttäjätunnuksesi on: %{diaspora_handle}"
+      your_Happening In_username_is: "Happening In-käyttäjätunnuksesi on: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Lisää kontakti"
       toggle:
@@ -716,7 +716,7 @@ fi:
       invite_someone: "Kutsu joku"
       invite_your_friends: "Kutsu kavereitasi"
       invites: Kutsut
-      invites_closed: "Kutsut on toistaiseksi suljettu tällä Diaspora-palvelimella"
+      invites_closed: "Kutsut on toistaiseksi suljettu tällä Happening In-palvelimella"
     notification:
       new: "Uusi %{type} henkilöltä %{from}"
     public_explain:
@@ -724,7 +724,7 @@ fi:
       logged_in: "sisäänkirjautunut palveluun %{service}"
       manage: "hallitse yhdistettyjä palveluita"
       new_user_welcome_message: "Käytä #hashtageja luokitellaksesi viestisi ja löytääksesi ihmisiä, jotka jakavat kiinnostuksen kohteesi. Kutsu upeita ihmisiä paikalle @Maininnoilla."
-      outside: "Julkiset viestit näkyvät Diasporan ulkopuolelle."
+      outside: "Julkiset viestit näkyvät Happening Inn ulkopuolelle."
       share: Jaa
       title: "Olet lähettämässä julkista viestiä!"
       visibility_dropdown: "Muuta tästä pudotusvalikosta viestisi näkyvyyttä. (Suosittelemme, että teet tästä ensimmäisestä viestistäsi julkisen.)"
@@ -834,15 +834,15 @@ fi:
   tokens:
     show:
       connect_to_cubbies: "Yhdistä kohteeseen Cubbi.es"
-      connecting_is_simple: "Diaspora-tilisi yhdistäminen on helppoa! Syötä vain Diaspora-tunnuksesi (<b>%{diaspora_id}</b>) Cubbi.es-<a href='%{href_link}'>asetussivulle</a> ja yhdistä."
-      daniels_account: "Danielin Diaspora-käyttäjätili"
+      connecting_is_simple: "Happening In-tilisi yhdistäminen on helppoa! Syötä vain Happening In-tunnuksesi (<b>%{Happening In_id}</b>) Cubbi.es-<a href='%{href_link}'>asetussivulle</a> ja yhdistä."
+      daniels_account: "Danielin Happening In-käyttäjätili"
       love_to_try: "Kokeile sinäkin."
       making_the_connection: "Yhteyden muodostaminen"
       screenshot_explanation: "%{link1}. Tämä tila on linkitetty tänne: %{link2}."
       sign_up_today: "Liity tänään!"
       typical_userpage: "Esimerkki cubbi.es-käyttäjäsivusta"
       via: "(%{link} kautta)"
-      what_is_cubbies: "Cubbi.es on maailman ensimmäinen Diaspora-sovellus. Se on myös paras tapa kerätä valokuvia verkossa."
+      what_is_cubbies: "Cubbi.es on maailman ensimmäinen Happening In-sovellus. Se on myös paras tapa kerätä valokuvia verkossa."
   undo: Peruuta?
   username: Käyttäjätunnus
   users:
@@ -851,7 +851,7 @@ fi:
       email_not_confirmed: "Sähköpostiosoitetta ei voitu aktivoida. Oliko linkki väärä?"
     destroy:
       no_password: "Syötä nykyinen salasanasi sulkeaksesi tilisi."
-      success: "Tilisi on lukittu. Meiltä voi mennä 20 minuuttia tilisi sulkemiseen. Kiitos, kun kokeilit Diasporaa."
+      success: "Tilisi on lukittu. Meiltä voi mennä 20 minuuttia tilisi sulkemiseen. Kiitos, kun kokeilit Happening Ina."
       wrong_password: "Syötetty salasana ei vastannut nykyistä salasanaasi."
     edit:
       also_commented: "...joku myös kommentoi kontaktisi viestiin?"
@@ -878,23 +878,23 @@ fi:
       started_sharing: "...aloittaa jakamaan kanssasi?"
       stream_preferences: "Virran asetukset"
       your_email: Sähköpostiosoitteesi
-      your_handle: Diaspora-tunnuksesi
+      your_handle: Happening In-tunnuksesi
     getting_started:
-      awesome_take_me_to_diaspora: "Loistavaa! Mennään Diasporaan"
-      community_welcome: "Diaspora-yhteisö on iloinen saadessaan sinut mukaan!"
-      hashtag_explanation: "Hashtagien avulla voit keskustella ja seurata keskusteluja kiinnostuksen kohteistasi. Ne ovat myös hyvä keino löytää ihmisiä Diasporassa."
+      awesome_take_me_to_Happening In: "Loistavaa! Mennään Happening Inan"
+      community_welcome: "Happening In-yhteisö on iloinen saadessaan sinut mukaan!"
+      hashtag_explanation: "Hashtagien avulla voit keskustella ja seurata keskusteluja kiinnostuksen kohteistasi. Ne ovat myös hyvä keino löytää ihmisiä Happening Inssa."
       hashtag_suggestions: "Voit seurata tageja kuten #taide, #elokuvat, #gif jne."
       hooking_up_fb: "yhdistämällä Facebook-tilisi"
       saved: Tallennettu!
       we_can_speed_things_up: "Voimme nopeuttaa asioita hieman"
       well_hello_there: "No, mutta hei!"
       what_are_you_in_to: "Mistä olet kiinnostunut?"
-      what_facebook_does: "Diasporaan. Nimesi ja kuvasi haetaan Diasporaan, ja tämän jälkeen voit myös lähettää viestejä Diasporasta Facebookiin."
+      what_facebook_does: "Happening Inan. Nimesi ja kuvasi haetaan Happening Inan, ja tämän jälkeen voit myös lähettää viestejä Happening Insta Facebookiin."
       who_are_you: "Kuka olet?"
     logged_out:
       go_mobile: "Siirry nyt mobiiliin."
-      on_your_mobile_device: "mobiililaitteellasi päästäksesi Diasporan mobiilisivustolle."
-      signed_out: "Olet kirjautunut ulos Diasporasta"
+      on_your_mobile_device: "mobiililaitteellasi päästäksesi Happening Inn mobiilisivustolle."
+      signed_out: "Olet kirjautunut ulos Happening Insta"
       simply_visit: "Voit yksinkertaisesti mennä osoitteeseen"
       works_on_modern: "Toimii kaikilla moderneilla älypuhelimilla"
     privacy_settings:

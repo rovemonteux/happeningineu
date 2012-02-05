@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ nb:
               taken: "må være unikt blant denne brukerens kontakter."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "er allerede tatt."
         request:
           attributes:
@@ -66,7 +66,7 @@ nb:
     contacts_visible: "Kontakter i dette aspektet vil kunne se hverandre."
     create:
       failure: "Greide ikke å opprette aspektet."
-      success: "Klikk på plusstegnet på venstre side for å fortelle Diaspora hvem som kan se det nye aspektet ditt."
+      success: "Klikk på plusstegnet på venstre side for å fortelle Happening In hvem som kan se det nye aspektet ditt."
     destroy:
       failure: "%{Name} er ikke tom, og kunne ikke fjernes."
       success: "%{name} har blitt fjerna."
@@ -88,13 +88,13 @@ nb:
       remove: fjern
     index:
       cubbies:
-        explanation: "Cubbi.es er den første Diaspora-applikasjonen som er i utviklingsfasen."
+        explanation: "Cubbi.es er den første Happening In-applikasjonen som er i utviklingsfasen."
         heading: "Koble til Cubbi.es"
         learn_more: "Lær mer"
       donate: Doner
-      handle_explanation: "This is your diaspora handle.  Like an email address, you can give this to people to reach you."
+      handle_explanation: "This is your Happening In handle.  Like an email address, you can give this to people to reach you."
       help:
-        here_to_help: "Diaspora community is here to help!"
+        here_to_help: "Happening In community is here to help!"
         need_help: "Trenger du hjelp?"
         satisfaction: "%{link}: Grasrotsupport"
         tag_bug: "#bug"
@@ -107,8 +107,8 @@ nb:
       people_sharing_with_you: "Folk som deler med deg"
       post_a_message: "legg ut en melding >>"
       services:
-        content: "Du kan koble følgende tjenester til Diaspora:"
-      welcome_to_diaspora: "Velkommen til Diaspora, %{name}!"
+        content: "Du kan koble følgende tjenester til Happening In:"
+      welcome_to_Happening In: "Velkommen til Happening In, %{name}!"
     many: "%{count} aspekter"
     move_contact:
       error: "Feil ved flytting av kontakt: %{inspect}"
@@ -141,9 +141,9 @@ nb:
   back: Tilbake
   bookmarklet:
     explanation: "%{link} fra hvor som helst ved å bokmerke denne linken."
-    explanation_link_text: "Post på Diaspora"
-    heading: "Diaspora Bookmarklet"
-    post_something: "Post noe på Diaspora"
+    explanation_link_text: "Post på Happening In"
+    heading: "Happening In Bookmarklet"
+    post_something: "Post noe på Happening In"
     post_success: "Postet! Lukker!"
   cancel: Avbryt
   comments:
@@ -220,14 +220,14 @@ nb:
     show:
       already_account: "har du allerede en konto?"
       choice: Valg
-      choice_explanation: "Diaspora lar deg sortere dine kontakter i grupper kalt aspekter. Unikt for Diaspora, sørger aspekter for at dine bilder, historier og vitser kun deles med de du vil."
-      learn_about_host: "Lær hvordan du kan sette opp din egen Diaspora server."
+      choice_explanation: "Happening In lar deg sortere dine kontakter i grupper kalt aspekter. Unikt for Happening In, sørger aspekter for at dine bilder, historier og vitser kun deles med de du vil."
+      learn_about_host: "Lær hvordan du kan sette opp din egen Happening In server."
       login_here: "logg inn her"
       ownership: Eierskap
-      ownership_explanation: "Du eier dine bilder, og skal ikke behøve å gi slipp på dem for å dele dem med andre. Du opprettholder eierskap av alt du deler på Diaspora. Det gir deg full kontroll over hvordan det er fordelt."
+      ownership_explanation: "Du eier dine bilder, og skal ikke behøve å gi slipp på dem for å dele dem med andre. Du opprettholder eierskap av alt du deler på Happening In. Det gir deg full kontroll over hvordan det er fordelt."
       share_what_you_want: "Del hva du vil, med hvem du vil."
       simplicity: Enkelhet
-      simplicity_explanation: "Diaspora gjør deling rent og enkelt - det gjelder personvern også. Diaspora er iboende privat, og du trenger ikke bla deg gjennom sider av innstillinger og valg bare for å holde profilen sikker."
+      simplicity_explanation: "Happening In gjør deling rent og enkelt - det gjelder personvern også. Happening In er iboende privat, og du trenger ikke bla deg gjennom sider av innstillinger og valg bare for å holde profilen sikker."
       tagline_first_half: "Del hva du vil,"
       tagline_second_half: "med hvem du vil."
   invitations:
@@ -245,7 +245,7 @@ nb:
       aspect: Aspekt
       comma_seperated_plz: "Du kan skrive inn flere epostadresser delt med komma."
       if_they_accept_info: "Hvis de aksepterer, vil de bli lagt til i aspektet du valgte."
-      invite_someone_to_join: "Inviter noen til Diaspora!"
+      invite_someone_to_join: "Inviter noen til Happening In!"
       personal_message: "Personlig melding"
       resend: "Send på nytt"
       send_an_invitation: "Send en invitasjon"
@@ -253,8 +253,8 @@ nb:
       to: Til
   layouts:
     application:
-      powered_by: "DREVET AV DIASPORA*"
-      public_feed: "Offentlig Diaspora feed for %{name}"
+      powered_by: "DREVET AV Happening In"
+      public_feed: "Offentlig Happening In feed for %{name}"
       toggle: "vis mobilsiden"
       whats_new: "hva er nytt?"
       your_aspects: "dine aspekt"
@@ -398,25 +398,25 @@ nb:
     confirm_email:
       click_link: "To activate your new e-mail address %{unconfirmed_email}, please click this link:"
       subject: "Please activate your new e-mail address %{unconfirmed_email}"
-    email_sent_by_diaspora: "Denne e-posten er sendt av Diaspora. Hvis du ikke vil motta flere e-poster som denne, "
+    email_sent_by_Happening In: "Denne e-posten er sendt av Happening In. Hvis du ikke vil motta flere e-poster som denne, "
     hello: "Hei %{name}!"
     liked:
       liked: "%{name} has just liked your post: "
       view_post: "Se innlegg >"
     mentioned:
       mentioned: "nevnte deg i et innlegg:"
-      subject: "%{name} har nevnt deg på Diaspora*"
+      subject: "%{name} har nevnt deg på Happening In"
     private_message:
       reply_to_or_view: "Svar eller se på denne samtalen >"
     reshared:
       reshared: "%{name} just reshared your post"
       view_post: "Se innlegg >"
     single_admin:
-      admin: "Din Diaspora administrator"
-      subject: "A message from your Diaspora administrator:"
+      admin: "Din Happening In administrator"
+      subject: "A message from your Happening In administrator:"
     started_sharing:
       sharing: "har begynt å dele med deg!"
-      subject: "%{name} has started sharing with you on Diaspora*"
+      subject: "%{name} has started sharing with you on Happening In"
       view_profile: "Se %{name}'s profil"
     thanks: "Takk,"
     to_change_your_notification_settings: "for å endre innstilliger for varsler"
@@ -516,7 +516,7 @@ nb:
   profile: Profil
   profiles:
     edit:
-      allow_search: "Tillat folk å søke på deg i Diaspora"
+      allow_search: "Tillat folk å søke på deg i Happening In"
       edit_profile: "Endre profil"
       first_name: Fornavn
       last_name: Etternavn
@@ -530,7 +530,7 @@ nb:
       your_private_profile: "Din private profil"
       your_public_profile: "Din offentlige profil"
       your_tags: "Deg: i 5 #tagger"
-      your_tags_placeholder: "f.eks. #diaspora #matlaging #skiskyting #musikk"
+      your_tags_placeholder: "f.eks. #Happening In #matlaging #skiskyting #musikk"
     update:
       failed: "Kunne ikke oppdatere profil"
       updated: "Profil oppdatert"
@@ -542,9 +542,9 @@ nb:
     two: "%{count} reaksjoner"
     zero: "0 reaksjoner"
   registrations:
-    closed: "Registreringer er stengt på denne Diaspora poden."
+    closed: "Registreringer er stengt på denne Happening In poden."
     create:
-      success: "Du er nå med i Diaspora!"
+      success: "Du er nå med i Happening In!"
     edit:
       cancel_my_account: "Avbryt kontoen min"
       edit: "Endre %{name}"
@@ -558,11 +558,11 @@ nb:
       enter_password: "Skriv inn et passord"
       enter_password_again: "Skriv inn samme passord som før"
       enter_username: "Velg et brukernavn (kun bokstaver, nummer og understreker)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: Sending...
-      sent: "Du har bedt om å dele med %{name}.  De burde se det neste gang de logger inn på Diaspora"
+      sent: "Du har bedt om å dele med %{name}.  De burde se det neste gang de logger inn på Happening In"
     destroy:
       error: "Velg et aspekt først!"
       ignore: "Ignorerte venneforespørsel"
@@ -599,7 +599,7 @@ nb:
   search: Søk
   services:
     create:
-      already_authorized: "En bruker med diaspora id %{diaspora_id} har alllerede autorisert denne %{service_name} kontoen."
+      already_authorized: "En bruker med Happening In id %{Happening In_id} har alllerede autorisert denne %{service_name} kontoen."
       failure: "Autentisering gikk galt."
       success: "Autentisering vellykket."
     destroy:
@@ -607,7 +607,7 @@ nb:
     failure:
       error: "feil under tilkobling av tjenesten"
     finder:
-      fetching_contacts: "Diaspora finner dine %{service} venner, vær så snill og sjekk igjen om noen få minutter."
+      fetching_contacts: "Happening In finner dine %{service} venner, vær så snill og sjekk igjen om noen få minutter."
     index:
       connect_to_facebook: "Koble til facebook"
       connect_to_tumblr: "Koble til Tumblr"
@@ -619,7 +619,7 @@ nb:
       really_disconnect: "koble fra %{service}?"
     inviter:
       click_link_to_accept_invitation: "Klikk denne linken for å akseptere invitasjonen din"
-      join_me_on_diaspora: "Bli med meg på DIASPORA*"
+      join_me_on_Happening In: "Bli med meg på Happening In"
     remote_friend:
       invite: inviter
       resend: "send på nytt"
@@ -631,11 +631,11 @@ nb:
   shared:
     add_contact:
       add_new_contact: "Legg til en ny kontakt"
-      create_request: "Finn etter Diaspora brukernavn"
-      diaspora_handle: "Diaspora handle"
-      enter_a_diaspora_username: "Skriv inn et Diaspora brukernavn:"
+      create_request: "Finn etter Happening In brukernavn"
+      Happening In_handle: "Happening In handle"
+      enter_a_Happening In_username: "Skriv inn et Happening In brukernavn:"
       know_email: "Kan du epostadressen deres? Inviter dem!"
-      your_diaspora_username_is: "Ditt Diaspora brukernavn er: %{diaspora_handle}"
+      your_Happening In_username_is: "Ditt Happening In brukernavn er: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -658,7 +658,7 @@ nb:
       invite_someone: "Inviter noen"
       invite_your_friends: "Innviter vennene dine"
       invites: "Invitasjoner "
-      invites_closed: "Invites are currently closed on this Diaspora seed"
+      invites_closed: "Invites are currently closed on this Happening In seed"
     notification:
       new: "Ny %{type} fra %{from}"
     public_explain:
@@ -666,7 +666,7 @@ nb:
       logged_in: "innlogget på %{service}"
       manage: "behandle tilkoblede tjenester"
       new_user_welcome_message: "Bruk #hashtags for å sette merkelapp på innleggene dine og finne folk som deler samme interessefelt. Rop ut til bra folk med @Mentions"
-      outside: "Offentlige meldinger vil være synlige for personer utenfor Diaspora."
+      outside: "Offentlige meldinger vil være synlige for personer utenfor Happening In."
       share: Del
       title: "Du er i ferd med å poste et offentlig innlegg!"
       visibility_dropdown: "Bruk denne menyen for å endre publikum for ditt innlegg. (Vi foreslår at du gjør dette første innlegget offentlig.)\n"
@@ -744,13 +744,13 @@ nb:
   tokens:
     show:
       connect_to_cubbies: "Koble til Cubbi.es"
-      connecting_is_simple: "Connecting your Diaspora account is as simple as filling out two fields on your Cubbi.es account page."
-      daniels_account: "Daniels Diasporabruker"
+      connecting_is_simple: "Connecting your Happening In account is as simple as filling out two fields on your Cubbi.es account page."
+      daniels_account: "Daniels Happening Inbruker"
       love_to_try: "Vi vil veldig gjerne at du skal prøve det."
       screenshot_explanation: "%{link1}.  Denne cubby-en er lenket til %{link2}."
       sign_up_today: "Registrer deg nå!"
       typical_userpage: "En typisk cubbi.es brukerside"
-      what_is_cubbies: "Cubbi.es er verdens første Diasporaapplikasjon. Det er også den beste måten å samle bilder på nettet."
+      what_is_cubbies: "Cubbi.es er verdens første Happening Inapplikasjon. Det er også den beste måten å samle bilder på nettet."
   undo: Angre?
   username: Brukernavn
   users:
@@ -759,7 +759,7 @@ nb:
       email_not_confirmed: "E-Mail could not be activated. Wrong link?"
     destroy:
       no_password: "Skriv inn ditt nåværende passord for å stenge din konto."
-      success: "Kontoen din har blitt stengt. Det kan ta oss opp til 20 minutter for å gjøre ferdig stengningen av din konto. Takk for at du prøvde Diaspora."
+      success: "Kontoen din har blitt stengt. Det kan ta oss opp til 20 minutter for å gjøre ferdig stengningen av din konto. Takk for at du prøvde Happening In."
       wrong_password: "Passordet du skrev inn er ikke lik ditt nåværende passord."
     edit:
       also_commented: " noen andre også kommenterte på din kontakts innlegg?"
@@ -784,17 +784,17 @@ nb:
       show_getting_started: "Skru på Start igjen."
       started_sharing: "... noen begynner å dele med deg?"
       your_email: "Din epost"
-      your_handle: "Ditt Diaspora brukernavn"
+      your_handle: "Ditt Happening In brukernavn"
     getting_started:
-      awesome_take_me_to_diaspora: "Supert! Ta meg til Diaspora*"
-      community_welcome: "Diaspora-felleskapet er glad for å ha deg med på laget!"
+      awesome_take_me_to_Happening In: "Supert! Ta meg til Happening In"
+      community_welcome: "Happening In-felleskapet er glad for å ha deg med på laget!"
       hashtag_suggestions: "Prøv å følge tags som #art, #movies, #gif, osv."
       hooking_up_fb: "koble til din Facebook-konto"
       saved: Lagret!
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     logged_out:
-      on_your_mobile_device: "på din mobile enhet for å logge på Diaspora* mobile."
-      signed_out: "Du er logget av Diaspora*"
+      on_your_mobile_device: "på din mobile enhet for å logge på Happening In mobile."
+      signed_out: "Du er logget av Happening In"
       simply_visit: "Bare besøk"
       works_on_modern: "Funker på alle moderne smartphones"
     privacy_settings:

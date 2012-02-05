@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -19,7 +19,7 @@ ml:
               taken: "ഈ ഉപയോകതാവിന്റെ സമ്പര്‍ക്കങ്ങളുടേതില്‍നിന്നും വ്യത്യസ്തമായിരിക്കണം."
         person: 
           attributes: 
-            diaspora_handle: 
+            Happening In_handle: 
               taken: "നേരത്തേ എടുത്തിട്ടുണ്ട്."
         request: 
           attributes: 
@@ -107,15 +107,15 @@ ml:
       people_sharing_with_you: "People sharing with you"
       cubbies:
         heading: "Connect to Cubbi.es"
-        explanation: "Cubbi.es is the first Diaspora application under development."
+        explanation: "Cubbi.es is the first Happening In application under development."
         learn_more: "Learn more"
-      diaspora_id:
-        heading: "Diaspora ID"
-        content_1: "Your Diaspora ID is:"
-        content_2: "Give it to anyone and they'll be able to find you on Diaspora."
+      Happening In_id:
+        heading: "Happening In ID"
+        content_1: "Your Happening In ID is:"
+        content_2: "Give it to anyone and they'll be able to find you on Happening In."
       services:
         heading: "Connect Services"
-        content: "You can connect the following services to Diaspora:"
+        content: "You can connect the following services to Happening In:"
     many: "%{count} പരിചയങ്ങള്‍"
     move_contact: 
       error: "സമ്പര്‍ക്കം മാറ്റാന്‍ സാധിക്കുന്നില്ല : %{inspect}"
@@ -154,7 +154,7 @@ ml:
   back: "പിന്നോട്ട്"
   bookmarklet:
     heading: "Bookmarklet"
-    explanation: "Post to Diaspora from anywhere by bookmarking %{link}."
+    explanation: "Post to Happening In from anywhere by bookmarking %{link}."
     explanation_link_text: "this link"
     post_something: "ഡയസ്പോറയിലേക്ക് എന്തെങ്കിലും കുറിക്കുക"
     post_success: "കുറിച്ചു! അടയ്ക്കുന്നു!"
@@ -404,7 +404,7 @@ ml:
     private_message: 
       reply_to_or_view: "Reply to or view this conversation >"
     started_sharing:
-        subject: "%{name} started sharing with you on Diaspora*"
+        subject: "%{name} started sharing with you on Happening In"
         sharing: "has started sharing with you!"
         view_profile: "View %{name}'s profile"
     single_admin: 
@@ -606,7 +606,7 @@ ml:
       really_disconnect: "%{service} വിച്ഛേദിക്കണോ?"
     inviter: 
       click_link_to_accept_invitation: "ക്ഷണം സ്വീകരിക്കുന്നതിനായി കണ്ണിയില്‍ അമര്‍ത്തുക"
-      join_me_on_diaspora: "എന്നെ ഡയസ്പോറ*യില്‍ ചേര്‍ക്കൂ*"
+      join_me_on_Happening In: "എന്നെ ഡയസ്പോറ*യില്‍ ചേര്‍ക്കൂ*"
     remote_friend: 
       invite: "ക്ഷണിക്കു"
       resend: "വീണ്ടും അയയ്ക്കു"
@@ -614,10 +614,10 @@ ml:
   shared: 
     add_contact: 
       create_request: "ഡയസ്പോറ ഐഡി വെച്ച് കണ്ട് പിടിക്കുക"
-      diaspora_handle: "diaspora@pod.org"
-      enter_a_diaspora_username: "ഒരു ഡയസ്പോറ ഉപയോക്തനാമം നല്‍കുക :"
+      Happening In_handle: "Happening In@pod.org"
+      enter_a_Happening In_username: "ഒരു ഡയസ്പോറ ഉപയോക്തനാമം നല്‍കുക :"
       know_email: "ആളിന്റെ ഇമെയില്‍ വിലാസം അറിയാമോ? നിങ്ങള്‍ക്ക് ആ വ്യക്തിയെ ക്ഷണിക്കാം."
-      your_diaspora_username_is: "താങ്കളുടെ ഡയസ്പോറ ഉപയോക്തൃ നാമം: %{diaspora_handle}"
+      your_Happening In_username_is: "താങ്കളുടെ ഡയസ്പോറ ഉപയോക്തൃ നാമം: %{Happening In_handle}"
       add_new_contact: "Add a new contact"
     contact_list: 
       all_contacts: "എല്ലാ സമ്പര്‍ക്കവും"
@@ -699,15 +699,15 @@ ml:
   tokens:
     show:
       connect_to_cubbies: "Connect to Cubbi.es"
-      what_is_cubbies: "Cubbi.es is the world's first Diaspora application.  It's also the best way to collect photos online."
+      what_is_cubbies: "Cubbi.es is the world's first Happening In application.  It's also the best way to collect photos online."
       love_to_try: "We'd love for you to try it out."
       sign_up_today: "Sign up today!"
       screenshot_explanation: "%{link1}.  This particular cubby is linked to %{link2}."
       typical_userpage: "A typical cubbi.es userpage"
-      daniels_account: "Daniel's Diaspora account"
+      daniels_account: "Daniel's Happening In account"
       making_the_connection: "Making the Connection"
-      connecting_is_simple: "Connecting your Diaspora account is simple!  Just enter your Diaspora ID (<b>%{diaspora_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
-      log_in_with_diaspora_is_comming: "Pretty soon, you'll be able to connect to a new application without creating an account separate from your one on Diaspora."
+      connecting_is_simple: "Connecting your Happening In account is simple!  Just enter your Happening In ID (<b>%{Happening In_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
+      log_in_with_Happening In_is_comming: "Pretty soon, you'll be able to connect to a new application without creating an account separate from your one on Happening In."
       via: "(via %{link})"
 
   authorizations:
@@ -718,7 +718,7 @@ ml:
   undo: "പൂര്‍വരൂപത്തിലാക്കണോ?"
   username: "ഉപയോക്തൃനാമം"
   users: 
-    destroy: "Your account has been locked.  It may take 20 minutes for us to finish closing your account.  Thank you for trying Diaspora."
+    destroy: "Your account has been locked.  It may take 20 minutes for us to finish closing your account.  Thank you for trying Happening In."
     edit: 
       also_commented: "...താങ്കളുടെ സമ്പര്‍ക്കത്തിന്റെ പോസ്റ്റില്‍ ആരെങ്കിലും അഭിപ്രായമിടുമ്പോള്‍?"
       change: "മാറ്റുക"
@@ -772,7 +772,7 @@ ml:
       find_friends: "Find friends"
       see_all_featured_users: "See all featured users"
 
-      hashtag_explanation: "Hashtags allow you to talk about and follow your interests.  They're also a great way to find new people on Diaspora."
+      hashtag_explanation: "Hashtags allow you to talk about and follow your interests.  They're also a great way to find new people on Happening In."
     public: 
       does_not_exist: "%{username} ഉപയോക്താവ് നിലവിലില്ല!"
     confirm_email:

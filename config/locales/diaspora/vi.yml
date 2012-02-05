@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ vi:
               taken: "phải là duy nhất trong số các liên lạc của người dùng này."
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "đã được thực hiện."
         request:
           attributes:
@@ -91,28 +91,28 @@ vi:
       remove: "loại bỏ"
     index:
       cubbies:
-        explanation: "Cubbi.es là ứng dụng được phát triển đầu tiên của Diaspora."
+        explanation: "Cubbi.es là ứng dụng được phát triển đầu tiên của Happening In."
         heading: "Kết nối đến Cubbi.es"
         learn_more: "Tìm hiểu thêm"
-      diaspora_id:
-        content_1: "ID Diaspora của bạn:"
-        content_2: "Cho người khác biết và họ có thể tìm thấy bạn trên Diaspora."
+      Happening In_id:
+        content_1: "ID Happening In của bạn:"
+        content_2: "Cho người khác biết và họ có thể tìm thấy bạn trên Happening In."
       donate: "Quyên góp"
-      handle_explanation: "Đây là id diaspora của bạn. Giống như một địa chỉ thư điện tử, người khác có thể liên lạc với bạn thông qua nó."
+      handle_explanation: "Đây là id Happening In của bạn. Giống như một địa chỉ thư điện tử, người khác có thể liên lạc với bạn thông qua nó."
       help:
         do_you: "Bạn:"
         email_feedback: "%{link} phản hồi hoặc góp ý, nếu muốn"
         feature_suggestion: "... có một đề nghị %{link}?"
         find_a_bug: "... tìm thấy lỗi %{link}?"
         have_a_question: "... có một %{link}?"
-        here_to_help: "Cộng đồng Diaspora!"
+        here_to_help: "Cộng đồng Happening In!"
         need_help: "Cần giúp đỡ?"
         satisfaction: "%{link}: Hỗ trợ bởi cộng đồng"
         tag_bug: "#bug"
         tag_feature: "#feature"
         tag_question: "#question"
       new_here:
-        follow: "Theo dõi %{link} và chào đón người dùng mới đến với Diaspora*!"
+        follow: "Theo dõi %{link} và chào đón người dùng mới đến với Happening In!"
         learn_more: "Tìm hiểu thêm"
         title: "Chào mừng người dùng mới"
       no_contacts: "Không có liên lạc"
@@ -120,10 +120,10 @@ vi:
       people_sharing_with_you: "Đang chia sẻ với bạn"
       post_a_message: "đăng một tin >>"
       services:
-        content: "Bạn có thể kết nối những dịch vụ sau với Diaspora:"
+        content: "Bạn có thể kết nối những dịch vụ sau với Happening In:"
         heading: "Kết nối dịch vụ"
       unfollow_tag: "Ngừng theo dõi #%{tag}"
-      welcome_to_diaspora: "Chào mừng đến với Diaspora, %{name}!"
+      welcome_to_Happening In: "Chào mừng đến với Happening In, %{name}!"
       your_aspects: "Các mối quan hệ"
     many: "%{count} mối quan hệ"
     move_contact:
@@ -162,10 +162,10 @@ vi:
       revoke_access: "Thu hồi quyền truy cập"
   back: "Trở lại"
   bookmarklet:
-    explanation: "Đăng tin lên Diaspora từ bất kì đâu bằng cách đánh dấu %{link}."
+    explanation: "Đăng tin lên Happening In từ bất kì đâu bằng cách đánh dấu %{link}."
     explanation_link_text: "liên kết này"
     heading: "Đánh dấu"
-    post_something: "Đăng tin lên Diaspora"
+    post_something: "Đăng tin lên Happening In"
     post_success: "Đã đăng! Đang đóng!"
   cancel: "Hủy bỏ"
   comments:
@@ -263,7 +263,7 @@ vi:
       already_invited: "Những người sau không chấp nhận lời mời của bạn:"
       comma_seperated_plz: "Bạn có thể nhập nhiều địa chỉ thư điện tử và ngăn cách chúng bằng dấu phẩy."
       if_they_accept_info: "nếu chấp nhận, họ sẽ được thêm vào mối quan hệ mà bạn đã mời."
-      invite_someone_to_join: "Mời người khác tham gia Diaspora!"
+      invite_someone_to_join: "Mời người khác tham gia Happening In!"
       language: "Ngôn ngữ"
       personal_message: "Tin nhắn cá nhân"
       resend: "Gửi lại"
@@ -454,7 +454,7 @@ vi:
     zero: "0 reactions"
   registrations:
     create:
-      success: "Bạn đã tham gia vào Diaspora!"
+      success: "Bạn đã tham gia vào Happening In!"
     edit:
       cancel_my_account: "Huỷ tài khoản"
       edit: "Chỉnh sửa %{name}"
@@ -467,7 +467,7 @@ vi:
       enter_password: "Nhập mật khẩu"
       enter_password_again: "Nhập lại mật khẩu"
       enter_username: "Tên người dùng (chỉ gồm chữ cái, số và dấu gạch dưới _)"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     helper:
       new_requests:
@@ -534,7 +534,7 @@ vi:
       email_not_confirmed: "Không thể kích hoạt địa chỉ thư điện tử. Sai địa chỉ?"
     destroy:
       no_password: "Nhập mật khẩu hiện tại để đóng tài khoản."
-      success: "Tài khoản của bạn đã bị khoá. Có thể mất 20 phút để đóng tài khoản của bạn. Cám ơn vì đã dùng Diaspora."
+      success: "Tài khoản của bạn đã bị khoá. Có thể mất 20 phút để đóng tài khoản của bạn. Cám ơn vì đã dùng Happening In."
       wrong_password: "Mật khẩu đã nhập không khớp với mật khẩu hiện tại."
     edit:
       change: "Thay đổi"
@@ -556,13 +556,13 @@ vi:
       started_sharing: "...ai đó bắt đầu chia sẻ với bạn?"
       stream_preferences: "Tuỳ chỉnh luồng"
       your_email: "Thư điện tử của bạn"
-      your_handle: "ID Diaspora của bạn"
+      your_handle: "ID Happening In của bạn"
     getting_started:
-      awesome_take_me_to_diaspora: "Tuyệt vời! Đưa tối đến Diaspora*"
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      awesome_take_me_to_Happening In: "Tuyệt vời! Đưa tối đến Happening In"
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
       who_are_you: "Bạn là ai?"
     logged_out:
-      signed_out: "Bạn đã đăng xuất khỏi Diaspora*"
+      signed_out: "Bạn đã đăng xuất khỏi Happening In"
       works_on_modern: "Hoạt động trên mọi điện thoại thông minh hiện đại"
     privacy_settings:
       title: "Thiết lập riêng tư"

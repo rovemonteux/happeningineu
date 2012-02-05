@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -21,7 +21,7 @@ ar:
               taken: "يجب أن يكون فريدًا من بين جهات اتصال هذا العضو"
         person:
           attributes:
-            diaspora_handle:
+            Happening In_handle:
               taken: "غير متاح"
         request:
           attributes:
@@ -44,7 +44,7 @@ ar:
   all_aspects: "كل الفئات"
   application:
     helper:
-      diaspora_alpha: "دياسبرا* ألفا"
+      Happening In_alpha: "دياسبرا* ألفا"
       unknown_person: "شخص مجهول"
       video_title:
         unknown: "فيديو غير مُعَنْوَن"
@@ -91,7 +91,7 @@ ar:
         explanation: "Cubbi.es هو أول تطبيق تحت التطوير لديسبورا."
         heading: "صِل حسابك بـ Cubbi.es"
         learn_more: "اعرف المزيد"
-      diaspora_id:
+      Happening In_id:
         content_1: "وسيط ديسبورا خاصتك هو:"
         content_2: "أعطه لأي شخص وسيتمكن من إيجادك على ديسبورا."
         heading: "وسيط ديسبورا"
@@ -280,7 +280,7 @@ ar:
       to: إلى
   layouts:
     application:
-      powered_by: "بدعم DIASPORA*"
+      powered_by: "بدعم Happening In"
       public_feed: "ملقم دياسبرا العام لـ %{name}"
       toggle: "حَوِّل لموقع الهواتف المحمولة"
       whats_new: "ما الجديد؟"
@@ -428,7 +428,7 @@ ar:
     confirm_email:
       click_link: "لتفعيل عنوان بريدك الإلكتروني الجديد %{unconfirmed_email}, من فضلك إتبع هذا الرابط:"
       subject: "من فضلك، فَعِّل عنوان بريدك الإلكتروني الجديد %{unconfirmed_email}"
-    email_sent_by_diaspora: "أُرسِلَت هذه الرسالة بواسطة ديسبورا.  إذا أردت إيقاف مثل هذه الرسالة، "
+    email_sent_by_Happening In: "أُرسِلَت هذه الرسالة بواسطة ديسبورا.  إذا أردت إيقاف مثل هذه الرسالة، "
     hello: "مرحبا %{name}!"
     liked:
       liked: "%{name} أعجبه منشورك"
@@ -592,7 +592,7 @@ ar:
       enter_password_again: "أعد إدخال كلمة المرور"
       enter_username: "اختر معرف (فقط حروف, أرقام, و الإشارات الخطية)"
       join_the_movement: "إنضم للرّكب"
-      sign_up_message: "Social Networking with a <3"
+      sign_up_message: "Open Social Networking"
   requests:
     create:
       sending: "يُرسِل ..."
@@ -652,20 +652,20 @@ ar:
       really_disconnect: "فصل إتصال %{service}?"
     inviter:
       click_link_to_accept_invitation: "إتبع هذا الرابط لقبول دعوتك"
-      join_me_on_diaspora: "انضم إلي في DIASPORA*"
+      join_me_on_Happening In: "انضم إلي في Happening In"
     remote_friend:
       invite: دعوة
-      not_on_diaspora: "ليس بعد على دياسبرا"
+      not_on_Happening In: "ليس بعد على دياسبرا"
       resend: "إعادة إرسال"
   settings: إعدادات
   shared:
     add_contact:
       add_new_contact: "أضف جهة اتصال جديدة"
       create_request: "ابحث باستخدام وسيط ديسبورا"
-      diaspora_handle: ديسبورا@فرع.org
-      enter_a_diaspora_username: "أدخل معرف دياسبرا:"
+      Happening In_handle: ديسبورا@فرع.org
+      enter_a_Happening In_username: "أدخل معرف دياسبرا:"
       know_email: "أتَعرِف بُرُدَهم الإلكترونية؟ يَجدر بك دعوتهم"
-      your_diaspora_username_is: "وسيط دياسبورا خاصتك هو: %{diaspora_handle}"
+      your_Happening In_username_is: "وسيط دياسبورا خاصتك هو: %{Happening In_handle}"
     aspect_dropdown:
       add_to_aspect: "أضف إلى فئة"
       toggle:
@@ -768,7 +768,7 @@ ar:
   tokens:
     show:
       connect_to_cubbies: "صِل حسابك بـ Cubbi.es"
-      connecting_is_simple: "اتصال حسابك في ديسبورا بسيط! فقط أدخل وسيط ديسبورا الخاص بك (<b>%{diaspora_id}</b>) من <a href='%{href_link}'>صفحة إعداداتك</a> في Cubbies ثم اضغط \"اتصِل\"."
+      connecting_is_simple: "اتصال حسابك في ديسبورا بسيط! فقط أدخل وسيط ديسبورا الخاص بك (<b>%{Happening In_id}</b>) من <a href='%{href_link}'>صفحة إعداداتك</a> في Cubbies ثم اضغط \"اتصِل\"."
       daniels_account: "حساب دياسبرا الخاص بدانييل"
       love_to_try: "نحبذ أن تجربه."
       making_the_connection: "ابدأ الإتصال"
@@ -807,7 +807,7 @@ ar:
       your_handle: "وسيط ديسبورا الخاص بك"
     getting_started:
       hashtag_explanation: "الوسوم تسمح لك بالحديث عن اهتماماتك ومتابعتها.  وهي أيضا طريقة عبقرية للعثور على أناس جدد بدياسبرا."
-      what_facebook_does: "to Diaspora. This will pull your name and photo, and enable cross-positng."
+      what_facebook_does: "to Happening In. This will pull your name and photo, and enable cross-positng."
     public:
       does_not_exist: "هذا المستخدم %{username} غير موجود"
     update:
