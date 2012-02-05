@@ -73,6 +73,9 @@
             ="[#{t('.currently_unavailable')}]"
         - else
           %span.like_action
+            = link_to(t('_photos').titleize, "/people/" + post.author.id.to_s + "/photos") 
+          &middot;
+          %span.like_action
             = like_action(post, current_user)
 
           - if resharable?(post)
