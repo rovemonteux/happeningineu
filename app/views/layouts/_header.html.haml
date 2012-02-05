@@ -4,9 +4,9 @@
 
 .container{:style => "position:relative;"}
   - if !current_user
-    = link_to image_tag('logo_small.png', :style => 'position:absolute;top:5px;'), "/stream" 
+    = link_to image_tag('logo_small.png', :style => 'z-index: 10;position:absolute;top:5px;'), "/stream" 
   - elsif (current_user || !@landing_page)
-    = link_to image_tag('logo_small.png', :style => 'position:absolute;top:5px;'), "/stream" 
+    = link_to image_tag('logo_small.png', :style => 'z-index: 10;position:absolute;top:5px;'), "/stream" 
 
   - if !current_user
     .right
@@ -28,7 +28,7 @@
           &nbsp;&nbsp;
  
   - elsif (current_user || !@landing_page)
-    #global_search
+    #global_search{:style => "z=index:0;"}
       = form_tag(people_path, :method => 'get', :class => "search_form") do
         = text_field_tag 'q', params[:q], :class => "search_box", :style => "margin-left: 210px; margin-top: 4px; padding-left: 10px; width: 140px; padding-right: 10px; border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 10px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;", :placeholder => t('find_people'), :type => 'search', :results => 15
 
