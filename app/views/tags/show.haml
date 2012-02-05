@@ -4,7 +4,7 @@
 
 - content_for :page_title do
   - if @stream.tag_name
-    = @stream.display_tag_name
+    = @stream.tag_name.titleize
   - else
     = t('.whatup', :pod => @pod_url)
 
