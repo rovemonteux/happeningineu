@@ -33,6 +33,16 @@
         = text_field_tag 'q', params[:q], :class => "search_box", :style => "margin-left: 210px; margin-top: 4px; padding-left: 10px; width: 140px; padding-right: 10px; border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 10px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;", :placeholder => t('find_people'), :type => 'search', :results => 15
 
     #nav_badges
+      #stream_badge.badge
+        = link_to multi_path, :title => t('streams.multi.title') do
+          = image_tag 'icons/stream.png', :id => "notification-flag", :alt => t('streams.multi.title')
+
+      #notification_badge.badge
+        = link_to notifications_path, :title => new_notification_text(@notification_count) do
+          = image_tag 'icons/notifications_grey.png', :id => "notification-flag", :alt => new_notification_text(@notification_count)
+          .badge_count{:class => ("hidden" if @notification_count == 0)}
+            = @notification_count
+
       #message_inbox_badge.badge
         = link_to conversations_path, :title => new_message_text(@unread_message_count) do
           = image_tag 'icons/mail_grey.png', :alt => new_message_text(@unread_message_count)
@@ -43,11 +53,9 @@
         = link_to "#", :class => "trigger", :title => t('users.getting_started.hashtag_explanation') do
           = image_tag 'icons/tagcloud.png', :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation') 
 
-      #notification_badge.badge
-        = link_to notifications_path, :title => new_notification_text(@notification_count) do
-          = image_tag 'icons/notifications_grey.png', :id => "notification-flag", :alt => new_notification_text(@notification_count)
-          .badge_count{:class => ("hidden" if @notification_count == 0)}
-            = @notification_count
+      #logout_badge.badge
+        = link_to destroy_user_session_path, :title => t('.logout') do
+          = image_tag 'icons/logout.png', :id => "notification-flag", :alt => t('.logout')
 
     #notification_dropdown
       .header
