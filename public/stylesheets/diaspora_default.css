@@ -192,7 +192,8 @@ filter:alpha(opacity=70);
 opacity: 0.70;
 }
 
-header ul#user_menu:hover{background-color:#222}
+header ul#user_menu:hover{background-color:#222;
+}
 
 header ul#user_menu li a{padding:4px;
 height:100%;
@@ -200,7 +201,9 @@ color:#939393}
 
 header ul#user_menu li a:hover{background-color:#3f8fba;
 color:white;
-text-decoration:none}
+text-decoration:none;
+-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; 
+}
 
 header ul#user_menu li:first-child{padding:5px 0}
 
