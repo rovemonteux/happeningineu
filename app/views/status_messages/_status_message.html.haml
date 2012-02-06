@@ -19,7 +19,6 @@
 
 
 %div{:class => [direction_for(post.text), @expand_post ? "" : "collapsible"]}
-  - post.text = cleantext(post.text) 
   != markdownify(post)
   - if post.o_embed_cache_id.present?
     = o_embed_html(post.o_embed_cache)
