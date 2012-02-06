@@ -9,9 +9,8 @@
     = link_to image_tag('logo_small.png', :style => 'z-index: 10;position:absolute;top:5px;'), "/stream" 
 
   - if !current_user
-    .right
-      %ul#landing_nav
-        %li= link_to t('.login'), new_user_session_path, :class => 'login'
+    %ul#landing_nav
+      %li= link_to t('.login'), new_user_session_path, :class => 'login'
     #nav_badges
       #tagcloud_badge.badge
         = link_to "#", :class => "trigger", :title => t('users.getting_started.hashtag_explanation') do
