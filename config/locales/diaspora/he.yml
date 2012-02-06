@@ -21,7 +21,7 @@ he:
               taken: "חייב להיות ייחודי בקרב אנשי הקשר של משתמש זה."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "כבר תפוס."
         request:
           attributes:
@@ -91,7 +91,7 @@ he:
         explanation: "Cubbi.es הנו היישום הראשון תחת דיאספורה הנמצא בפיתוח."
         heading: "התחברות ל־Cubbi.es"
         learn_more: "מידע נוסף"
-      Happening In_id:
+      diaspora_id:
         content_1: "המזהה שלך בדיאספורה הוא:"
         content_2: "באמצעות מזהה זה כל אחד יוכל למצוא אותך בדיאספורה."
         heading: "מזהה בדיאספורה"
@@ -422,7 +422,7 @@ he:
     confirm_email:
       click_link: "כדי להפעיל את כתובת הדוא״ל החדשה שלך: %{unconfirmed_email}, יש לעקוב אחר הקישור הבא:"
       subject: "נא להפעיל את כתובת הדוא״ל החדשה שלך: %{unconfirmed_email}"
-    email_sent_by_Happening In: "הודעת דוא״ל זו נשלחה על ידי דיאספורה.  אם אין לך עניין בקבלת הודעות כגון זו,"
+    email_sent_by_diaspora: "הודעת דוא״ל זו נשלחה על ידי דיאספורה.  אם אין לך עניין בקבלת הודעות כגון זו,"
     hello: "שלום %{name}!"
     liked:
       liked: "%{name} בדיוק עכשיו סימן/נה את הרשומה שלך כאהובה"
@@ -655,9 +655,9 @@ he:
     add_contact:
       add_new_contact: "הוספת איש קשר חדש"
       create_request: "חיפוש לפי שם משתמש בדיאספורה"
-      enter_a_Happening In_username: "נא להזין שם משתמש בדיאספורה:"
+      enter_a_diaspora_username: "נא להזין שם משתמש בדיאספורה:"
       know_email: "כתובת הדוא״ל שלהם ידועה לך? עליך להזמין אותם"
-      your_Happening In_username_is: "שם המשתמש שלך בדיאספורה הוא: %{Happening In_handle}"
+      your_diaspora_username_is: "שם המשתמש שלך בדיאספורה הוא: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "הוספת איש הקשר"
       toggle:
@@ -760,7 +760,7 @@ he:
   tokens:
     show:
       connect_to_cubbies: "התחברות ל־Cubbi.es"
-      connecting_is_simple: "חיבור חשבון הדיאספורה שלך הנה משימה פשוטה! עליך להכניס את המזהה שלך בדיאספורה (<b>%{Happening In_id}</b>) ב<a href='%{href_link}'>עמוד ההגדרות</a> בחשבון ה־cubbies שלך וללחוץ על התחברות."
+      connecting_is_simple: "חיבור חשבון הדיאספורה שלך הנה משימה פשוטה! עליך להכניס את המזהה שלך בדיאספורה (<b>%{diaspora_id}</b>) ב<a href='%{href_link}'>עמוד ההגדרות</a> בחשבון ה־cubbies שלך וללחוץ על התחברות."
       daniels_account: "חשבון הדיאספורה של דניאל"
       love_to_try: "נשמח אם תנסו זאת."
       making_the_connection: "יצירת הקשר"

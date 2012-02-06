@@ -18,7 +18,7 @@ fr:
               taken: "doit être unique parmi les contacts de cet utilisateur."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "est déjà pris."
         request:
           attributes:
@@ -94,7 +94,7 @@ fr:
         explanation: "Cubbi.es est la première application Happening In en cours de développement."
         heading: "Connectez-vous à Cubbi.es"
         learn_more: "En savoir plus"
-      Happening In_id:
+      diaspora_id:
         content_1: "Votre identifiant Happening In est :"
         content_2: "Communiquez-le à tout le monde et ils pourront vous trouver sur Happening In."
         heading: "Identifiant Happening In"
@@ -125,7 +125,7 @@ fr:
         content: "Vous pouvez connecter les services suivants à Happening In :"
         heading: "Services connectés"
       unfollow_tag: "Arrêter de suivre #%{tag}"
-      welcome_to_Happening In: "Bienvenue sur Happening In, %{name} !"
+      welcome_to_diaspora: "Bienvenue sur Happening In, %{name} !"
       your_aspects: "Vos aspects"
     many: "%{count} aspects"
     move_contact:
@@ -446,7 +446,7 @@ fr:
     confirm_email:
       click_link: "Pour activer votre nouvelle adresse électronique %{unconfirmed_email}, merci de suivre ce lien :"
       subject: "Merci d'activer votre nouvelle adresse électronique %{unconfirmed_email}"
-    email_sent_by_Happening In: "Ce courriel a été envoyé par Happening In. Si vous ne souhaitez plus recevoir des courriels de ce genre,"
+    email_sent_by_diaspora: "Ce courriel a été envoyé par Happening In. Si vous ne souhaitez plus recevoir des courriels de ce genre,"
     hello: "Bonjour %{name} !"
     liked:
       liked: "%{name} aime votre message"
@@ -655,7 +655,7 @@ fr:
   search: Rechercher
   services:
     create:
-      already_authorized: "Un utilisateur dont l'id Happening In est %{Happening In_id} a déjà autorisé ce compte %{service_name}."
+      already_authorized: "Un utilisateur dont l'id Happening In est %{diaspora_id} a déjà autorisé ce compte %{service_name}."
       failure: "L'authentification a échoué."
       success: "Authentification réussie."
     destroy:
@@ -691,9 +691,9 @@ fr:
     add_contact:
       add_new_contact: "Ajouter un nouveau contact"
       create_request: "Rechercher par identifiant Happening In"
-      enter_a_Happening In_username: "Entrez un nom d'utilisateur Happening In :"
+      enter_a_diaspora_username: "Entrez un nom d'utilisateur Happening In :"
       know_email: "Connaissez-vous leur adresse de courrier électronique ? Vous devriez les inviter"
-      your_Happening In_username_is: "Votre nom d'utilisateur Happening In est : %{Happening In_handle}"
+      your_diaspora_username_is: "Votre nom d'utilisateur Happening In est : %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Ajouter le contact"
       toggle:
@@ -838,7 +838,7 @@ fr:
   tokens:
     show:
       connect_to_cubbies: "Se connecter à Cubbi.es"
-      connecting_is_simple: "Pour vous connecter à votre compte Happening In, c'est facile ! Il vous suffit d'entrer votre ID Happening In (<b>%{Happening In_id}</b>) sur votre <a href='%{href_link}'>page des paramètres</a> cubbies et de cliquer sur \"connect\"."
+      connecting_is_simple: "Pour vous connecter à votre compte Happening In, c'est facile ! Il vous suffit d'entrer votre ID Happening In (<b>%{diaspora_id}</b>) sur votre <a href='%{href_link}'>page des paramètres</a> cubbies et de cliquer sur \"connect\"."
       daniels_account: "compte Happening In de Daniel"
       love_to_try: "Nous aimerions beaucoup que vous essayiez."
       making_the_connection: "Créez la connexion"

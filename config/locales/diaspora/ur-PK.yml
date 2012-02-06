@@ -21,7 +21,7 @@ ur-PK:
               taken: ".اس صارف کے رابطوں کے درمیان منفرد ہونا لازمی ہے"
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: ".پہلے ہی لیا جا چکا ہے"
         request:
           attributes:
@@ -91,7 +91,7 @@ ur-PK:
         explanation: "ڈایسپورا کی پہلی ایپلی کیشن ہے جو ابھی تعمیر کے مرحلے میں ہے۔ cubbi.es"
         heading: "سے رابطہ قائم کریں Cubbi.es"
         learn_more: "مزید جانیے"
-      Happening In_id:
+      diaspora_id:
         content_1: "آپکی ڈایسپورا شناخت"
         content_2: "یہ کسی کو بھی دیں تو وہ آپکو تلاش کر لے گا۔"
         heading: "ڈایسپورا شناخت"

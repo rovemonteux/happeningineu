@@ -19,7 +19,7 @@ ml:
               taken: "ഈ ഉപയോകതാവിന്റെ സമ്പര്‍ക്കങ്ങളുടേതില്‍നിന്നും വ്യത്യസ്തമായിരിക്കണം."
         person: 
           attributes: 
-            Happening In_handle: 
+            diaspora_handle: 
               taken: "നേരത്തേ എടുത്തിട്ടുണ്ട്."
         request: 
           attributes: 
@@ -109,7 +109,7 @@ ml:
         heading: "Connect to Cubbi.es"
         explanation: "Cubbi.es is the first Happening In application under development."
         learn_more: "Learn more"
-      Happening In_id:
+      diaspora_id:
         heading: "Happening In ID"
         content_1: "Your Happening In ID is:"
         content_2: "Give it to anyone and they'll be able to find you on Happening In."
@@ -525,7 +525,7 @@ ml:
       your_private_profile: "താങ്കളുടെ സ്വകാര്യ പ്രൊഫൈല്‍ "
       your_public_profile: "താങ്കളുടെ പൊതു പ്രൊഫൈല്‍ "
       your_tags: "Describe yourself in 5 words"
-      your_tags_placeholder: "like #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "like #gnu #social #opensource #freedomofspeech #humanrights"
     update: 
       failed: "പ്രൊഫൈല്‍ തിരുത്തുന്നത് പരാജയപ്പെട്ടിരിക്കുന്നു."
       updated: "പ്രൊഫൈല്‍ വിജയകരമായൊ തിരുത്തിയിരിക്കുന്നു."
@@ -614,10 +614,10 @@ ml:
   shared: 
     add_contact: 
       create_request: "ഡയസ്പോറ ഐഡി വെച്ച് കണ്ട് പിടിക്കുക"
-      Happening In_handle: "Happening In@pod.org"
-      enter_a_Happening In_username: "ഒരു ഡയസ്പോറ ഉപയോക്തനാമം നല്‍കുക :"
+      diaspora_handle: "user@happeningin.eu"
+      enter_a_diaspora_username: "ഒരു ഡയസ്പോറ ഉപയോക്തനാമം നല്‍കുക :"
       know_email: "ആളിന്റെ ഇമെയില്‍ വിലാസം അറിയാമോ? നിങ്ങള്‍ക്ക് ആ വ്യക്തിയെ ക്ഷണിക്കാം."
-      your_Happening In_username_is: "താങ്കളുടെ ഡയസ്പോറ ഉപയോക്തൃ നാമം: %{Happening In_handle}"
+      your_diaspora_username_is: "താങ്കളുടെ ഡയസ്പോറ ഉപയോക്തൃ നാമം: %{diaspora_handle}"
       add_new_contact: "Add a new contact"
     contact_list: 
       all_contacts: "എല്ലാ സമ്പര്‍ക്കവും"
@@ -706,7 +706,7 @@ ml:
       typical_userpage: "A typical cubbi.es userpage"
       daniels_account: "Daniel's Happening In account"
       making_the_connection: "Making the Connection"
-      connecting_is_simple: "Connecting your Happening In account is simple!  Just enter your Happening In ID (<b>%{Happening In_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
+      connecting_is_simple: "Connecting your Happening In account is simple!  Just enter your Happening In ID (<b>%{diaspora_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
       log_in_with_Happening In_is_comming: "Pretty soon, you'll be able to connect to a new application without creating an account separate from your one on Happening In."
       via: "(via %{link})"
 

@@ -21,7 +21,7 @@ vi:
               taken: "phải là duy nhất trong số các liên lạc của người dùng này."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "đã được thực hiện."
         request:
           attributes:
@@ -94,7 +94,7 @@ vi:
         explanation: "Cubbi.es là ứng dụng được phát triển đầu tiên của Happening In."
         heading: "Kết nối đến Cubbi.es"
         learn_more: "Tìm hiểu thêm"
-      Happening In_id:
+      diaspora_id:
         content_1: "ID Happening In của bạn:"
         content_2: "Cho người khác biết và họ có thể tìm thấy bạn trên Happening In."
       donate: "Quyên góp"
@@ -123,7 +123,7 @@ vi:
         content: "Bạn có thể kết nối những dịch vụ sau với Happening In:"
         heading: "Kết nối dịch vụ"
       unfollow_tag: "Ngừng theo dõi #%{tag}"
-      welcome_to_Happening In: "Chào mừng đến với Happening In, %{name}!"
+      welcome_to_diaspora: "Chào mừng đến với Happening In, %{name}!"
       your_aspects: "Các mối quan hệ"
     many: "%{count} mối quan hệ"
     move_contact:
@@ -440,7 +440,7 @@ vi:
       your_private_profile: "Hồ sơ cá nhân"
       your_public_profile: "Hồ sơ công khai"
       your_tags: "Mo tả bản thân qua 5 từ"
-      your_tags_placeholder: "ví dụ: #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "ví dụ: #gnu #social #opensource #freedomofspeech #humanrights"
     update:
       failed: "Cập nhật hồ sơ thất bại"
       updated: "Đã cập nhật hồ sơ"

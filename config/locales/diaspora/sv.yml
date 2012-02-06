@@ -21,7 +21,7 @@ sv:
               taken: "måste vara unik i den här användarens kontakter."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "är upptaget."
         request:
           attributes:
@@ -96,7 +96,7 @@ sv:
         explanation: "Cubbi.es är den första Happening In applikationen under utveckling."
         heading: "Anslut till Cubbi.es"
         learn_more: "Lär dig mer"
-      Happening In_id:
+      diaspora_id:
         content_1: "Ditt Happening In-ID är:"
         content_2: "Med hjälp av det kan alla hitta dig på Happening In."
         heading: Happening In-ID
@@ -126,7 +126,7 @@ sv:
         content: "Du kan koppla ihop Happening In med följande tjänster:"
         heading: "Ihopkopplade tjänster"
       unfollow_tag: "Sluta följa #%{tag}"
-      welcome_to_Happening In: "Välkommen till Happening In, %{name}!"
+      welcome_to_diaspora: "Välkommen till Happening In, %{name}!"
       your_aspects: "Dina aspekter"
     many: "%{count} aspekter"
     move_contact:
@@ -444,7 +444,7 @@ sv:
     confirm_email:
       click_link: "För att aktivera din nya e-postadress %{unconfirmed_email}, klicka här:"
       subject: "Var vänlig och aktivera din nya e-postadress %{unconfirmed_email}"
-    email_sent_by_Happening In: "Detta e-mail har skickats av Happening In. Vill du inte har några mer liknade e-mail,"
+    email_sent_by_diaspora: "Detta e-mail har skickats av Happening In. Vill du inte har några mer liknade e-mail,"
     hello: "Hej %{name}!"
     liked:
       liked: "%{name} gillar ditt inlägg "
@@ -653,7 +653,7 @@ sv:
   search: Sök
   services:
     create:
-      already_authorized: "En användare med Happening In-id %{Happening In_id} har redan auktoriserat det %{service_name}-kontot."
+      already_authorized: "En användare med Happening In-id %{diaspora_id} har redan auktoriserat det %{service_name}-kontot."
       failure: "Autentisering misslyckades."
       success: "Autentiering lyckades."
     destroy:
@@ -688,9 +688,9 @@ sv:
     add_contact:
       add_new_contact: "Lägg till en ny kontakt"
       create_request: "Sök på Happening In ID"
-      enter_a_Happening In_username: "Ange ett Happening In-användarnamn:"
+      enter_a_diaspora_username: "Ange ett Happening In-användarnamn:"
       know_email: "Vet du deras e-post adress? Du borde bjuda in dem"
-      your_Happening In_username_is: "Ditt Happening In-användarnamn är: %{Happening In_handle}"
+      your_diaspora_username_is: "Ditt Happening In-användarnamn är: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Lägg till kontakt"
       toggle:
@@ -836,7 +836,7 @@ sv:
   tokens:
     show:
       connect_to_cubbies: "Koppla till Cubbi.es"
-      connecting_is_simple: "Att ansluta ditt Happening In konto är lätt! Fyll bara i ditt Happening In ID (<b>%{Happening In_id}</b>) på din Cubbies <a href='%{href_link}'>settings page</a> och tryck på Connect."
+      connecting_is_simple: "Att ansluta ditt Happening In konto är lätt! Fyll bara i ditt Happening In ID (<b>%{diaspora_id}</b>) på din Cubbies <a href='%{href_link}'>settings page</a> och tryck på Connect."
       daniels_account: "Daniels Happening Inkonto"
       love_to_try: "Vi vill gärna att du provar."
       making_the_connection: "Koppla ihop"

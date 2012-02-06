@@ -21,7 +21,7 @@ ru:
               taken: "должно быть уникальным среди контактов этого пользователя."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "уже занято."
         request:
           attributes:
@@ -97,7 +97,7 @@ ru:
         explanation: "Cubbi.es — это первое приложение, разрабатываемое для Диаспоры."
         heading: "Подключение к Cubbi.es"
         learn_more: "Узнать больше"
-      Happening In_id:
+      diaspora_id:
         content_1: "Ваш идентификатор в Диаспоре:"
         content_2: "По нему любой сможет найти вас в Диаспоре."
         heading: "Идентификатор в Диаспоре"
@@ -127,7 +127,7 @@ ru:
         content: "Вы можете подключить к Диаспоре следующие службы:"
         heading: "Подключенные службы"
       unfollow_tag: "Не следить за меткой #%{tag}"
-      welcome_to_Happening In: "Добро пожаловать в Диаспору, %{name}!"
+      welcome_to_diaspora: "Добро пожаловать в Диаспору, %{name}!"
       your_aspects: Аспекты
     many: "%{count} аспект[-а, -ов]"
     move_contact:
@@ -453,7 +453,7 @@ ru:
     confirm_email:
       click_link: "Чтобы активировать ваш адрес %{unconfirmed_email}, пожалуйста, перейдите по этой ссылке:"
       subject: "Пожалуйста, активируйте ваш новый адрес %{unconfirmed_email}"
-    email_sent_by_Happening In: "Это письмо было послано Диаспорой. Если вы не хотите получать подобные письма,"
+    email_sent_by_diaspora: "Это письмо было послано Диаспорой. Если вы не хотите получать подобные письма,"
     hello: "Привет, %{name}!"
     liked:
       liked: "%{name} понравилось ваше сообщение"
@@ -665,7 +665,7 @@ ru:
   search: Поиск
   services:
     create:
-      already_authorized: "Пользователь с идентификатором %{Happening In_id} уже авторизовал эту учетную запись %{service_name}."
+      already_authorized: "Пользователь с идентификатором %{diaspora_id} уже авторизовал эту учетную запись %{service_name}."
       failure: "Ошибка авторизации."
       success: "Проверка подлинности прошла успешно."
     destroy:
@@ -701,9 +701,9 @@ ru:
     add_contact:
       add_new_contact: "Добавить контакт"
       create_request: "Поиск по идентификатору в Диаспоре"
-      enter_a_Happening In_username: "Введите имя пользователя Диаспоры:"
+      enter_a_diaspora_username: "Введите имя пользователя Диаспоры:"
       know_email: "Знаете их email адреса? Вы можете предложить им присоединиться к Диаспоре "
-      your_Happening In_username_is: "Ваше имя пользователя Диаспоры: %{Happening In_handle}"
+      your_diaspora_username_is: "Ваше имя пользователя Диаспоры: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Добавить контакт"
       toggle:
@@ -852,7 +852,7 @@ ru:
   tokens:
     show:
       connect_to_cubbies: "Подключение к Cubbi.es"
-      connecting_is_simple: "Подключить аккаунт Диаспоры легко! Просто введите ваш идентификатор в Диаспоре (<b>%{Happening In_id}</b>) на <a href='%{href_link}'>странице настроек</a> cubbies и нажмите \"подключить\"."
+      connecting_is_simple: "Подключить аккаунт Диаспоры легко! Просто введите ваш идентификатор в Диаспоре (<b>%{diaspora_id}</b>) на <a href='%{href_link}'>странице настроек</a> cubbies и нажмите \"подключить\"."
       daniels_account: "Аккаунт Даниила в Диаспоре"
       love_to_try: "Мы будем рады, если вы попробуете это."
       making_the_connection: "Создание подключения"

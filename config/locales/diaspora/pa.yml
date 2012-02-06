@@ -329,7 +329,7 @@ pa:
   shared:
     add_contact:
       create_request: "Find by Happening In handle"
-      Happening In_handle: Happening In@handle.org
+      diaspora_handle: Happening In@handle.org
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

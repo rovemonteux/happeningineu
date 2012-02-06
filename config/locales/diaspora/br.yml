@@ -15,7 +15,7 @@ br:
       models:
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "zo bet dibabet dija."
         reshare:
           attributes:
@@ -388,8 +388,8 @@ br:
   shared:
     add_contact:
       create_request: "Klask diwar ar skor Happening In"
-      Happening In_handle: Happening In@handle.org
-      your_Happening In_username_is: "Setu hoc'h anv-implijer war Happening In: %{Happening In_handle}"
+      diaspora_handle: Happening In@handle.org
+      your_diaspora_username_is: "Setu hoc'h anv-implijer war Happening In: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

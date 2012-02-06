@@ -21,7 +21,7 @@ de_formal:
               taken: "muss innerhalb der Kontakte dieses Benutzers einzigartig sein."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "wird schon benutzt."
         request:
           attributes:
@@ -96,7 +96,7 @@ de_formal:
         explanation: "Cubbi.es ist die erste Happening In Anwendung."
         heading: "Mit Cubbi.es verbinden"
         learn_more: "Mehr erfahren"
-      Happening In_id:
+      diaspora_id:
         content_1: "Ihre Happening In ID ist:"
         content_2: "Geben Sie diese weiter und seien Sie somit auf Happening In leicht zu finden."
         heading: Happening In-ID
@@ -128,7 +128,7 @@ de_formal:
         content: "Sie können die folgenden Dienste mit Happening In verbinden:"
         heading: "Verbinde Dienste"
       unfollow_tag: "#%{tag} nicht mehr folgen"
-      welcome_to_Happening In: "Willkommen bei Happening In, %{name}!"
+      welcome_to_diaspora: "Willkommen bei Happening In, %{name}!"
       your_aspects: "Ihre Aspekte"
     many: "%{count} Aspekte"
     move_contact:
@@ -455,7 +455,7 @@ de_formal:
     confirm_email:
       click_link: "Um deine neue E-Mail-Adresse %{unconfirmed_email} zu aktivieren, klicken Sie bitte auf diesen Link:"
       subject: "Bitte aktivieren Sie Ihre neue E-Mail-Adresse %{unconfirmed_email}"
-    email_sent_by_Happening In: "Diese E-Mail wurde von Happening In verschickt. Falls Sie solche E-Mails nicht mehr erhalten wollen,"
+    email_sent_by_diaspora: "Diese E-Mail wurde von Happening In verschickt. Falls Sie solche E-Mails nicht mehr erhalten wollen,"
     hello: "Hallo %{name}!"
     liked:
       liked: "%{name} gefällt Ihr Beitrag"
@@ -662,7 +662,7 @@ de_formal:
   search: Suche
   services:
     create:
-      already_authorized: "Ein anderer Nutzer mit der Happening In ID %{Happening In_id} hat diesen %{service_name}-Account bereits autorisiert."
+      already_authorized: "Ein anderer Nutzer mit der Happening In ID %{diaspora_id} hat diesen %{service_name}-Account bereits autorisiert."
       failure: "Authentifizierung fehlgeschlagen."
       success: "Authentifizierung erfolgreich."
     destroy:
@@ -697,10 +697,10 @@ de_formal:
     add_contact:
       add_new_contact: "Einen neuen Kontakt hinzufügen"
       create_request: "Finden Sie mittels Happening In ID"
-      Happening In_handle: Happening In@beispiel.org
-      enter_a_Happening In_username: "Geben Sie einen Happening In-Benutzernamen ein:"
+      diaspora_handle: Happening In@beispiel.org
+      enter_a_diaspora_username: "Geben Sie einen Happening In-Benutzernamen ein:"
       know_email: "Sie kennen die E-Mail-Adresse? Senden Sie eine Einladung!"
-      your_Happening In_username_is: "Ihr Happening In Nutzername ist: %{Happening In_handle}"
+      your_diaspora_username_is: "Ihr Happening In Nutzername ist: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Kontakt hinzufügen"
       toggle:

@@ -21,7 +21,7 @@ zh-TW:
               taken: 對此使用者必須為不重複的聯絡人.
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: 已經被使用了.
         request:
           attributes:
@@ -98,7 +98,7 @@ zh-TW:
         explanation: "Cubbi.es 是 Happening In 的第一個應用程式, 目前正在開發中."
         heading: "與 Cubbi.es 連結"
         learn_more: 進一步了解
-      Happening In_id:
+      diaspora_id:
         content_1: "你的 Happening In 識別碼是:"
         content_2: "把它給任何人,讓他/她們可以在 Happening In 找到你."
         heading: "Happening In 識別碼"
@@ -131,7 +131,7 @@ zh-TW:
         content: "你可以連結以下服務至 Happening In:"
         heading: 連結服務
       unfollow_tag: "停止追蹤 #%{tag}"
-      welcome_to_Happening In: "歡迎來到 Happening In, %{name}!"
+      welcome_to_diaspora: "歡迎來到 Happening In, %{name}!"
       your_aspects: 你的面向
     many: "%{count}個面向"
     move_contact:
@@ -457,7 +457,7 @@ zh-TW:
     confirm_email:
       click_link: "請使用以下連結, 來啟用你新的電子郵件信箱 %{unconfirmed_email}:"
       subject: "請啟用你新的電子信箱 %{unconfirmed_email}"
-    email_sent_by_Happening In: "這封電子郵件是從 Happening In 寄出. 如果你不想再收到這類的信件,"
+    email_sent_by_diaspora: "這封電子郵件是從 Happening In 寄出. 如果你不想再收到這類的信件,"
     hello: "%{name}你好!"
     liked:
       liked: "%{name} 說你的貼文很讚"
@@ -669,7 +669,7 @@ zh-TW:
   search: 搜尋
   services:
     create:
-      already_authorized: "已經有 Happening In 識別碼為 %{Happening In_id} 的使用者被授權使用該 %{service_name} 帳號了."
+      already_authorized: "已經有 Happening In 識別碼為 %{diaspora_id} 的使用者被授權使用該 %{service_name} 帳號了."
       failure: 認證失敗.
       success: 認證成功.
     destroy:
@@ -705,9 +705,9 @@ zh-TW:
     add_contact:
       add_new_contact: 加入新聯絡人
       create_request: "以 Happening In 識別碼搜尋"
-      enter_a_Happening In_username: "輸入 Happening In 使用者名稱:"
+      enter_a_diaspora_username: "輸入 Happening In 使用者名稱:"
       know_email: "知道他們的電子信箱嗎? 你應該邀請他們來"
-      your_Happening In_username_is: "你的 Happening In 使用者名稱是: %{Happening In_handle}"
+      your_diaspora_username_is: "你的 Happening In 使用者名稱是: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: 加聯絡人
       toggle:

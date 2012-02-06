@@ -19,7 +19,7 @@ ja:
               taken: このユーザの他の連絡先と重複してはいけません。
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: 既に使われています。
         request:
           attributes:
@@ -563,10 +563,10 @@ ja:
   shared:
     add_contact:
       create_request: ダイアスポラのハンドル名で検索
-      Happening In_handle: Happening In@handle.org
-      enter_a_Happening In_username: ダイアスポラのユーザ名を入力してください。
+      diaspora_handle: Happening In@handle.org
+      enter_a_diaspora_username: ダイアスポラのユーザ名を入力してください。
       know_email: メールアドレスをご存じなら招待しましょう！
-      your_Happening In_username_is: "あなたのハンドル名は%{Happening In_handle}です。"
+      your_diaspora_username_is: "あなたのハンドル名は%{diaspora_handle}です。"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

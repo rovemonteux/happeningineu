@@ -21,7 +21,7 @@ eu:
               taken: "bakarra izan behar du erabiltzaile honen adiskideen artean."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "erabilpenean dago jada."
         request:
           attributes:
@@ -96,7 +96,7 @@ eu:
         explanation: "Cubbi.es garapenean dagoen lehenengo Happening In aplikazioa da."
         heading: "Cubbi.esera lotu"
         learn_more: "Gehiago ikasi"
-      Happening In_id:
+      diaspora_id:
         content_1: "Zure Happening In ID honakoa da:"
         content_2: "Emaiozu edonori eta Happening Inn aurkituko zaituzte hura erabiliz."
         heading: "Happening In IDa"
@@ -124,7 +124,7 @@ eu:
         content: "Honako zerbitzuak lotu ditzakezu Happening Inra:"
         heading: "Zerbitzuak Lotu"
       unfollow_tag: "#%{tag} jarraitzeari utzi"
-      welcome_to_Happening In: "Ongietorri Happening Inra, %{name}!"
+      welcome_to_diaspora: "Ongietorri Happening Inra, %{name}!"
       your_aspects: "Zure Alderdiak"
     many: "%{count} alderdi"
     move_contact:
@@ -442,7 +442,7 @@ eu:
     confirm_email:
       click_link: "Zure e-posta berria %{unconfirmed_email} gaitzeko, mesedez jarraitu esteka hau:"
       subject: "Mesedez, gaitu zure e-posta berria %{unconfirmed_email}"
-    email_sent_by_Happening In: "Email hau Happening Ink bidali dizu.  Horrelako emailik ez baduzu jaso nahi,"
+    email_sent_by_diaspora: "Email hau Happening Ink bidali dizu.  Horrelako emailik ez baduzu jaso nahi,"
     hello: "Kaixo, %{name}!"
     liked:
       liked: "%{name}(e)k zure mezua gustuko du"
@@ -647,7 +647,7 @@ eu:
   search: Bilatu
   services:
     create:
-      already_authorized: "%{Happening In_id} Happening In id duen erabiltzaileak jadanik baimendu du %{service_name}(eko) kontu hori."
+      already_authorized: "%{diaspora_id} Happening In id duen erabiltzaileak jadanik baimendu du %{service_name}(eko) kontu hori."
       failure: "Autentikazioak huts egin du."
       success: "Egiaztapena arrakastaz egina."
     destroy:
@@ -678,9 +678,9 @@ eu:
     add_contact:
       add_new_contact: "Adiskide berria gehitu"
       create_request: "Happening In IDaren arabera bilatu"
-      enter_a_Happening In_username: "Happening In erabiltzaile izena idatzi:"
+      enter_a_diaspora_username: "Happening In erabiltzaile izena idatzi:"
       know_email: "Badakizu beraien e-posta? Gonbida itzazu!"
-      your_Happening In_username_is: "Zure Happening In helbidea honakoa da: %{Happening In_handle}"
+      your_diaspora_username_is: "Zure Happening In helbidea honakoa da: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Adiskidea gehitu"
       toggle:
@@ -813,7 +813,7 @@ eu:
   tokens:
     show:
       connect_to_cubbies: "Cubbi.es-era lotu"
-      connecting_is_simple: "Zure Happening In kontua lotzea erraza da! Idatzi zure Happening In IDa (<b>%{Happening In_id}</b>) zure cubbiesen <a href='%{href_link}'>ezarpenen orrialdetik</a> eta sakatu lotu."
+      connecting_is_simple: "Zure Happening In kontua lotzea erraza da! Idatzi zure Happening In IDa (<b>%{diaspora_id}</b>) zure cubbiesen <a href='%{href_link}'>ezarpenen orrialdetik</a> eta sakatu lotu."
       daniels_account: "Danielen Happening In kontua"
       love_to_try: "Zuk probatzea gustatuko litzaiguke."
       making_the_connection: "Lotura Ezartzen"

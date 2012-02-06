@@ -21,7 +21,7 @@ pl:
               taken: "musi być unikalny wśród kontaktów tego użytkownika."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "jest już zajęty."
         request:
           attributes:
@@ -98,7 +98,7 @@ pl:
         explanation: "Cubbi.es to pierwsza aplikacja dedykowana projektowi Happening In."
         heading: "Połącz z Cubbi.es"
         learn_more: "Dowiedz się więcej"
-      Happening In_id:
+      diaspora_id:
         content_1: "Twój identyfikator Diaspory to: "
         content_2: "Dzięki temu każdy będzie mógł Cię znaleźć na Diasporze."
         heading: "Identyfikator Diaspory"
@@ -131,7 +131,7 @@ pl:
         content: "Z Diasporą można połączyć następujące usługi:"
         heading: "Podłącz usługi"
       unfollow_tag: "Przestań obserwować #%{tag}"
-      welcome_to_Happening In: "Witaj w Diasporze, %{name}!"
+      welcome_to_diaspora: "Witaj w Diasporze, %{name}!"
       your_aspects: "Twoje Aspekty"
     many: "Aspekty: %{count}"
     move_contact:
@@ -457,7 +457,7 @@ pl:
     confirm_email:
       click_link: "Aby aktywować nowy adres e-mail %{unconfirmed_email}, kliknij te łącze:"
       subject: "Aktywuj nowy adres e-mail %{unconfirmed_email}"
-    email_sent_by_Happening In: "Ta wiadomość została wysłana przez Diasporę. Jeśli nie chcesz otrzymywać takich wiadomości,"
+    email_sent_by_diaspora: "Ta wiadomość została wysłana przez Diasporę. Jeśli nie chcesz otrzymywać takich wiadomości,"
     hello: "Cześć %{name}!"
     liked:
       liked: "%{name} polubi@{m:ł|f:ła|n:ł} Twój wpis"
@@ -667,7 +667,7 @@ pl:
   search: Znajdź
   services:
     create:
-      already_authorized: "Użytkownik o identyfikatorze w diasporze \"%{Happening In_id\"} już autoryzował to konto w usłudze \"%{service_name}\"."
+      already_authorized: "Użytkownik o identyfikatorze w diasporze \"%{diaspora_id\"} już autoryzował to konto w usłudze \"%{service_name}\"."
       failure: "Uwierzytelnianie nie powiodło się."
       success: "Pomyślnie uwierzytelniono."
     destroy:
@@ -703,9 +703,9 @@ pl:
     add_contact:
       add_new_contact: "Dodaj nowy kontakt"
       create_request: "Szukaj wg Identyfikatora Diaspory"
-      enter_a_Happening In_username: "Wpisz nazwę użytkownika Diaspory:"
+      enter_a_diaspora_username: "Wpisz nazwę użytkownika Diaspory:"
       know_email: "Znasz ich adresy e-mail? Powi@{m:nieneś|f:nnaś|n:nni}{ }{m,f:ich zaprosić|n:zostać zaproszeni}!"
-      your_Happening In_username_is: "Twój identyfikator w Diasporze: %{Happening In_handle}"
+      your_diaspora_username_is: "Twój identyfikator w Diasporze: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Dodaj kontakt"
       toggle:
@@ -854,7 +854,7 @@ pl:
   tokens:
     show:
       connect_to_cubbies: "Połącz z Cubbi.es"
-      connecting_is_simple: "Połączenie Twojego konta na Diasporze jest proste! Po prostu wpisz Identyfikator Diaspory (<b>%{Happening In_id}</b>) ze <a href='%{href_link}'>strony ustawień</a> cubbies i kliknij \"Połącz\"."
+      connecting_is_simple: "Połączenie Twojego konta na Diasporze jest proste! Po prostu wpisz Identyfikator Diaspory (<b>%{diaspora_id}</b>) ze <a href='%{href_link}'>strony ustawień</a> cubbies i kliknij \"Połącz\"."
       daniels_account: "Konto Daniela na Diasporze"
       love_to_try: "Zapraszamy cię do wypróbowania!"
       making_the_connection: "Dokonywanie połączenia"

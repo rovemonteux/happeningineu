@@ -21,7 +21,7 @@ tr:
               taken: "bu kullanıcının irtibatlarında eşsiz olmalıdır."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "önceden alınmış."
         request:
           attributes:
@@ -98,7 +98,7 @@ tr:
         explanation: "İlk Happening In uygulaması Cubbi.es, geliştirilme aşamasındadır."
         heading: "Cubbi.es'e Bağlan"
         learn_more: "Daha fazla bilgi edinin"
-      Happening In_id:
+      diaspora_id:
         content_1: "Happening In ID'niz:"
         content_2: "Happening In'da sizi bulabilmelerini istediğiniz kişilere verebilirsiniz."
         heading: "Happening In ID (Happening In Kimliği)"
@@ -131,7 +131,7 @@ tr:
         content: "Happening In'ya aşağıdaki hizmetleri bağlayabilirsiniz:"
         heading: "Servisleri ilişkilendir"
       unfollow_tag: "#%{tag}'i takip etmeyi bırak"
-      welcome_to_Happening In: "Happening In'ya Hoş Geldin, %{name}!"
+      welcome_to_diaspora: "Happening In'ya Hoş Geldin, %{name}!"
       your_aspects: Yönleriniz
     many: "%{count} yön"
     move_contact:
@@ -453,7 +453,7 @@ tr:
     confirm_email:
       click_link: "Yeni e-mail adresini %{unconfirmed_email} etkinleştirmek için şu bağlantıyı tıkla:"
       subject: "Lütfen yeni e-mail adresini %{unconfirmed_email} etkinleştir"
-    email_sent_by_Happening In: "Bu e-posta Happening In tarafından gönderildi. Bu gibi e-postalar almak istemiyorsanız,"
+    email_sent_by_diaspora: "Bu e-posta Happening In tarafından gönderildi. Bu gibi e-postalar almak istemiyorsanız,"
     hello: "Merhaba %{name}!"
     liked:
       liked: "%{name} gönderinizi beğendi."
@@ -665,7 +665,7 @@ tr:
   search: Ara
   services:
     create:
-      already_authorized: "%{Happening In_id} Happening In kimliği bulunan bir kullanıcı zaten %{service_name} hesabına izin verdi."
+      already_authorized: "%{diaspora_id} Happening In kimliği bulunan bir kullanıcı zaten %{service_name} hesabına izin verdi."
       failure: "Kimlik doğrulama başarısız oldu."
       success: "Doğrulama başarılı."
     destroy:
@@ -701,9 +701,9 @@ tr:
     add_contact:
       add_new_contact: "Yeni kişi ekle"
       create_request: "Happening In ID ile bul"
-      enter_a_Happening In_username: "Happening In kullanıcı adınızı giriniz:"
+      enter_a_diaspora_username: "Happening In kullanıcı adınızı giriniz:"
       know_email: "E-posta adresini biliyor musun? O zaman onu davet et"
-      your_Happening In_username_is: "Happening In kullanıcı adın: %{Happening In_handle}"
+      your_diaspora_username_is: "Happening In kullanıcı adın: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Yönüne ekle"
       toggle:
@@ -852,7 +852,7 @@ tr:
   tokens:
     show:
       connect_to_cubbies: "Cubbi.es Bağlan"
-      connecting_is_simple: "Happening In'da hesap bağlama basittir! Sadece Happening In ID'nizi girin (<b>%{Happening In_id}</b>) ve Cubbi.es <a href='%{href_link}'>ayarlar</a> sayfasına gidin."
+      connecting_is_simple: "Happening In'da hesap bağlama basittir! Sadece Happening In ID'nizi girin (<b>%{diaspora_id}</b>) ve Cubbi.es <a href='%{href_link}'>ayarlar</a> sayfasına gidin."
       daniels_account: "Daniel'in Happening In hesabı"
       love_to_try: "Bunu denemek isterdim."
       making_the_connection: "Bağlantı Kurma"

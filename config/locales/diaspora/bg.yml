@@ -17,7 +17,7 @@ bg:
       models:
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "вече е зает."
         request:
           attributes:
@@ -93,7 +93,7 @@ bg:
         explanation: "Cubbi.es е първото приложение за Happening In и все още се разработва."
         heading: "Свързване с Cubbi.es"
         learn_more: "Научете повече"
-      Happening In_id:
+      diaspora_id:
         content_1: "Вашият адрес в Happening In е:"
         content_2: "Споделете го с който и да е и той ще ви намери в Happening In."
         heading: "Адрес в Happening In"
@@ -126,7 +126,7 @@ bg:
         content: "Можете да свържете следните услуги към Happening In:"
         heading: "Свързване към услуги"
       unfollow_tag: "Прекратяване следенето на #%{tag}"
-      welcome_to_Happening In: "Добре дошли в Happening In, %{name}!"
+      welcome_to_diaspora: "Добре дошли в Happening In, %{name}!"
       your_aspects: "Вашите аспекти"
     many: "%{count} аспекта"
     move_contact:
@@ -451,7 +451,7 @@ bg:
     confirm_email:
       click_link: "За да активирате новия адрес (%{unconfirmed_email}) кликнете върху следната връзка:"
       subject: "Моля, акивирайте новия адрес на ел. ви поща (%{unconfirmed_email})"
-    email_sent_by_Happening In: "Ел. писмо е изпратено от Happening In.  Ако вече не желаете да получавате подобни писма,"
+    email_sent_by_diaspora: "Ел. писмо е изпратено от Happening In.  Ако вече не желаете да получавате подобни писма,"
     hello: "Здравейте %{name}!"
     liked:
       liked: "%{name} хареса вашата публикация"
@@ -656,7 +656,7 @@ bg:
   search: Търсене
   services:
     create:
-      already_authorized: "Потребител с адрес в Happening In %{Happening In_id} вече е удостоверил акаунта %{service_name}."
+      already_authorized: "Потребител с адрес в Happening In %{diaspora_id} вече е удостоверил акаунта %{service_name}."
       failure: "Удостоверяването не бе успешно."
       success: "Удостоверяването приключи успешно."
     destroy:
@@ -692,9 +692,9 @@ bg:
     add_contact:
       add_new_contact: "Добавяне на контакт"
       create_request: "Търси по адрес в Happening In"
-      enter_a_Happening In_username: "Въведете потребителско име от Happening In:"
+      enter_a_diaspora_username: "Въведете потребителско име от Happening In:"
       know_email: "Знаете адресите на ел. им поща? Трябва да ги поканите"
-      your_Happening In_username_is: "Вашето потребителско име в Happening In е %{Happening In_handle}"
+      your_diaspora_username_is: "Вашето потребителско име в Happening In е %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Добавяне в аспект"
       toggle:
@@ -842,7 +842,7 @@ bg:
   tokens:
     show:
       connect_to_cubbies: "Свързване с Cubbi.es"
-      connecting_is_simple: "За свързване на акаунта ви в Happening In е необходимо да въведете вашият адрес в Happening In (<b>%{Happening In_id}</b>) в <a href='%{href_link}'>страницата с настройки</a> на Cubbi.es и да натиснете \"Connect\"."
+      connecting_is_simple: "За свързване на акаунта ви в Happening In е необходимо да въведете вашият адрес в Happening In (<b>%{diaspora_id}</b>) в <a href='%{href_link}'>страницата с настройки</a> на Cubbi.es и да натиснете \"Connect\"."
       daniels_account: "акаунта на Daniel в Happening In"
       love_to_try: "Бихме се радвали ако го пробвате!"
       making_the_connection: "Създаване на връзката"

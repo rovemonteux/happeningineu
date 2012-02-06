@@ -454,10 +454,10 @@ ga:
   shared:
     add_contact:
       create_request: "Find by Happening In handle"
-      Happening In_handle: Happening In@handle.org
-      enter_a_Happening In_username: "Líon isteach ainm úsáideora:"
+      diaspora_handle: Happening In@handle.org
+      enter_a_diaspora_username: "Líon isteach ainm úsáideora:"
       know_email: "Is agat a seola ríomhphost? Ba cheart duit cuireadh a sheola chucu"
-      your_Happening In_username_is: "Is é %{Happening In_handle} do ainm úsáideora"
+      your_diaspora_username_is: "Is é %{diaspora_handle} do ainm úsáideora"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

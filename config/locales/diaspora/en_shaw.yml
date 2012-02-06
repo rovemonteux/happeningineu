@@ -19,7 +19,7 @@ en_shaw:
               taken: "𐑥𐑳𐑕𐑑 𐑚𐑰 𐑿𐑯𐑰𐑒 𐑩𐑥𐑳𐑙 𐑞𐑦𐑕 𐑿𐑟𐑼𐑟 𐑒𐑪𐑯𐑑𐑨𐑒𐑑𐑕"
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "𐑦𐑟 𐑷𐑤𐑮𐑧𐑛𐑦 𐑑𐑱𐑒𐑩𐑯"
         request:
           attributes:
@@ -88,7 +88,7 @@ en_shaw:
         explanation: "Cubbi.es 𐑦𐑟 𐑞 𐑓𐑻𐑕𐑑 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑨𐑐𐑤𐑦𐑒𐑱𐑖𐑩𐑯 𐑳𐑯𐑛𐑼 𐑛𐑦𐑝𐑧𐑤𐑩𐑐𐑥𐑧𐑯𐑑."
         heading: "𐑒𐑩𐑯𐑧𐑒𐑑 𐑑 Cubbi.es"
         learn_more: "𐑤𐑻𐑯 𐑥𐑹"
-      Happening In_id:
+      diaspora_id:
         content_1: "𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑯 𐑦𐑟:"
         content_2: "𐑜𐑦𐑝 𐑦𐑑 𐑑 𐑧𐑯𐑦𐑢𐑩𐑯 𐑯 𐑞𐑱𐑤 𐑚𐑰 𐑱𐑚𐑩𐑤 𐑑 𐑓𐑲𐑯𐑛 𐑿 𐑪𐑯 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩."
         heading: "·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯"
@@ -390,7 +390,7 @@ en_shaw:
     confirm_email:
       click_link: "𐑑 𐑨𐑒𐑑𐑦𐑝𐑱𐑑 𐑿𐑼 𐑦-𐑥𐑱𐑤 𐑨𐑛𐑮𐑧𐑕 %{unconfirmed_email}, 𐑐𐑤𐑰𐑟 𐑒𐑤𐑦𐑒 𐑞𐑦𐑕 𐑤𐑦𐑙𐑒:"
       subject: "𐑐𐑤𐑰𐑟 𐑨𐑒𐑑𐑦𐑝𐑱𐑑 𐑿𐑼 𐑯𐑿 𐑦-𐑥𐑱𐑤 𐑨𐑛𐑮𐑧𐑕 %{unconfirmed_email}"
-    email_sent_by_Happening In: "𐑞𐑦𐑕 𐑦-𐑥𐑱𐑤 𐑢𐑳𐑟 𐑕𐑧𐑯𐑑 𐑚𐑲 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩.  𐑦𐑓 𐑿𐑛 𐑤𐑲𐑒 𐑑 𐑕𐑑𐑪𐑐 𐑜𐑧𐑑𐑦𐑙 𐑦-𐑥𐑱𐑤𐑟 𐑤𐑲𐑒 𐑞𐑦𐑕,"
+    email_sent_by_diaspora: "𐑞𐑦𐑕 𐑦-𐑥𐑱𐑤 𐑢𐑳𐑟 𐑕𐑧𐑯𐑑 𐑚𐑲 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩.  𐑦𐑓 𐑿𐑛 𐑤𐑲𐑒 𐑑 𐑕𐑑𐑪𐑐 𐑜𐑧𐑑𐑦𐑙 𐑦-𐑥𐑱𐑤𐑟 𐑤𐑲𐑒 𐑞𐑦𐑕,"
     hello: "𐑣𐑧𐑤𐑴 %{name}!"
     liked:
       liked: "%{name} 𐑡𐑳𐑕𐑑 𐑤𐑲𐑒𐑑 𐑿𐑼 𐑐𐑴𐑕𐑑"
@@ -610,10 +610,10 @@ en_shaw:
     add_contact:
       add_new_contact: "𐑨𐑛 𐑯𐑿 𐑒𐑪𐑯𐑑𐑨𐑒𐑑"
       create_request: "𐑓𐑲𐑯𐑛 𐑚𐑲·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯"
-      Happening In_handle: Happening In@handle.org
-      enter_a_Happening In_username: "𐑧𐑯𐑑𐑼 𐑩 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑿𐑟𐑼𐑯𐑱𐑥:"
+      diaspora_handle: Happening In@handle.org
+      enter_a_diaspora_username: "𐑧𐑯𐑑𐑼 𐑩 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑿𐑟𐑼𐑯𐑱𐑥:"
       know_email: "𐑯𐑴 𐑞𐑺 𐑦-𐑥𐑱𐑤 𐑩𐑛𐑮𐑧𐑕? 𐑿 𐑖𐑫𐑛 𐑦𐑯𐑝𐑲𐑑 𐑞𐑧𐑥"
-      your_Happening In_username_is: "𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑿𐑟𐑼𐑯𐑱𐑥 𐑦𐑟: %{Happening In_handle}"
+      your_diaspora_username_is: "𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑿𐑟𐑼𐑯𐑱𐑥 𐑦𐑟: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:
@@ -716,7 +716,7 @@ en_shaw:
   tokens:
     show:
       connect_to_cubbies: "𐑒𐑩𐑯𐑧𐑒𐑑 𐑑 Cubbi.es"
-      connecting_is_simple: "𐑒𐑩𐑯𐑧𐑒𐑑𐑦𐑙 𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑩𐑒𐑬𐑯𐑑 𐑦𐑟 𐑕𐑦𐑥𐑐𐑩𐑤! 𐑡𐑳𐑕𐑑 𐑧𐑯𐑑𐑼 𐑿𐑼 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯 (<b>%{Happening In_id}</b>) 𐑓𐑮𐑳𐑥 𐑿𐑼 𐑒𐑳𐑚𐑦𐑟 <a href='%{href_link}'>settings page</a> 𐑯 𐑣𐑦𐑑 𐑒𐑩𐑯𐑧𐑒𐑑."
+      connecting_is_simple: "𐑒𐑩𐑯𐑧𐑒𐑑𐑦𐑙 𐑿𐑼 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑩𐑒𐑬𐑯𐑑 𐑦𐑟 𐑕𐑦𐑥𐑐𐑩𐑤! 𐑡𐑳𐑕𐑑 𐑧𐑯𐑑𐑼 𐑿𐑼 𐑲𐑛𐑧𐑯𐑑𐑦𐑓𐑦𐑒𐑱𐑖𐑩𐑯 (<b>%{diaspora_id}</b>) 𐑓𐑮𐑳𐑥 𐑿𐑼 𐑒𐑳𐑚𐑦𐑟 <a href='%{href_link}'>settings page</a> 𐑯 𐑣𐑦𐑑 𐑒𐑩𐑯𐑧𐑒𐑑."
       daniels_account: "·𐑛𐑨𐑯𐑘𐑩𐑤𐑟 ·𐑛𐑦𐑨𐑕𐑐𐑹𐑩 𐑩𐑒𐑬𐑯𐑑"
       love_to_try: "𐑢𐑰'𐑛 𐑤𐑳𐑝 𐑓𐑹 𐑿 𐑑 𐑑𐑮𐑲 𐑦𐑑 𐑬𐑑."
       making_the_connection: "𐑥𐑱𐑒𐑦𐑙 𐑞 𐑒𐑩𐑯𐑧𐑒𐑖𐑩𐑯"

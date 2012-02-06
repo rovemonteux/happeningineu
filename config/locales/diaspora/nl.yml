@@ -18,7 +18,7 @@ nl:
               taken: "moet uniek zijn onder de contacten van deze gebruiker."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "is al bezet."
         request:
           attributes:
@@ -90,7 +90,7 @@ nl:
         explanation: "Cubbi.es is de eerste Happening In applicatie in ontwikkeling."
         heading: "Verbind met Cubbie.es"
         learn_more: "Vertel mij meer"
-      Happening In_id:
+      diaspora_id:
         content_1: "Jou Happening In ID is:"
         content_2: "Geef deze aan mensen zodat ze je op Happening In kunnen vinden."
       donate: Doneer
@@ -118,7 +118,7 @@ nl:
         content: "Je kunt de volgende service met Happening In verbinden:"
         heading: "Verbind Services"
       unfollow_tag: "Stop met volgen van #%{tag}"
-      welcome_to_Happening In: "Welkom bij Happening In, %{name}!"
+      welcome_to_diaspora: "Welkom bij Happening In, %{name}!"
       your_aspects: "Jouw Aspecten"
     many: "%{count} aspecten"
     move_contact:
@@ -427,7 +427,7 @@ nl:
     confirm_email:
       click_link: "Om je nieuwe e-mailadres te activeren %{unconfirmed_email}, klik op deze link:"
       subject: "Activeer je nieuwe e-mailadres alstublieft %{unconfirmed_email}"
-    email_sent_by_Happening In: "Deze mail is gestuurd door Happening In.  Als je dit soort email's niet meer wilt ontvangen,"
+    email_sent_by_diaspora: "Deze mail is gestuurd door Happening In.  Als je dit soort email's niet meer wilt ontvangen,"
     hello: "Hoi %{name}!"
     liked:
       liked: "%{name} vindt je post leuk"
@@ -629,7 +629,7 @@ nl:
   search: Zoek
   services:
     create:
-      already_authorized: "Een gebruiker met Happening In id %{Happening In_id} heeft dat %{service_name} account al geauthoriseerd."
+      already_authorized: "Een gebruiker met Happening In id %{diaspora_id} heeft dat %{service_name} account al geauthoriseerd."
       failure: "Authentificatie mislukt."
       success: "Authenticatie succesvol."
     destroy:
@@ -663,10 +663,10 @@ nl:
     add_contact:
       add_new_contact: "Voeg een contact toe"
       create_request: "Vind door middel van Happening In ID"
-      Happening In_handle: gebruikersnaam@pod.org
-      enter_a_Happening In_username: "Vul een Happening In gebruikersnaam in:"
+      diaspora_handle: gebruikersnaam@pod.org
+      enter_a_diaspora_username: "Vul een Happening In gebruikersnaam in:"
       know_email: "Weet je hun e-mailadres? Je zou ze uit moeten nodigen"
-      your_Happening In_username_is: "Jouw Happening In gebruikersnaam is: %{Happening In_handle}"
+      your_diaspora_username_is: "Jouw Happening In gebruikersnaam is: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Voeg toe aan aspect"
       toggle:
@@ -793,7 +793,7 @@ nl:
   tokens:
     show:
       connect_to_cubbies: "Verbind met Cubbi.es"
-      connecting_is_simple: "Je Happening In account verbinden is simpel! Vul je Happening In ID (<b>%{Happening In_id}</b>) in op cubbies <a href='%{href_link}'>settings page</a> en klik op connect."
+      connecting_is_simple: "Je Happening In account verbinden is simpel! Vul je Happening In ID (<b>%{diaspora_id}</b>) in op cubbies <a href='%{href_link}'>settings page</a> en klik op connect."
       love_to_try: "We zouden het erg leuk vinden als je het uitprobeert."
       making_the_connection: Verbindend
       screenshot_explanation: "%{link1}.  Deze cubby is gelinkt aan %{link2}."

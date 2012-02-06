@@ -16,7 +16,7 @@
                           taken: "is already taken."
               person:
                   attributes:
-                      Happening In_handle:
+                      diaspora_handle:
                           taken: "is already taken."
               contact:
                   attributes:

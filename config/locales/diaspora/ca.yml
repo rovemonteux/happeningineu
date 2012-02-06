@@ -62,7 +62,7 @@ ca:
               taken: "ja és en ús."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "ja és en ús."
         contact:
           attributes:
@@ -172,7 +172,7 @@ ca:
       no_contacts: "Cap contacte"
       post_a_message: "publica un missatge »"
       people_sharing_with_you: "Gent amb qui compartiu"
-      welcome_to_Happening In: "Benvingut/da al Diàspora, %{name}!"
+      welcome_to_diaspora: "Benvingut/da al Diàspora, %{name}!"
       introduce_yourself: "Aquest és el vostre flux. Capbusseu-vos i presenteu-vos."
 
       new_here:
@@ -197,7 +197,7 @@ ca:
         heading: "Connecteu a Cubbi.es"
         explanation: "Cubbi.es és la primera aplicació Diàspora sota desenvolupament."
         learn_more: "Més informació"
-      Happening In_id:
+      diaspora_id:
         heading: "ID de Diàspora"
         content_1: "El vostre identificador de Diàspora és:"
         content_2: "Compartiu-lo amb tothom qui vulgueu que us pugui trobar al Diàspora."
@@ -507,7 +507,7 @@ ca:
 
   notifier:
     a_post_you_shared: "una publicació."
-    email_sent_by_Happening In: "Aquest correu electrònic ha sigut enviat per Diàspora. Si voleu deixar de rebre correus com aquest,"
+    email_sent_by_diaspora: "Aquest correu electrònic ha sigut enviat per Diàspora. Si voleu deixar de rebre correus com aquest,"
     click_here: "feu clic aquí"
     hello: "Hola %{name}!"
     thanks: "Gràcies,"
@@ -744,7 +744,7 @@ ca:
     create:
       success: "S'ha autenticat amb èxit."
       failure: "Ha fallat l'autenticació."
-      already_authorized: "Un usuari amb l'id de Diàspora %{Happening In_id} ja ha autoritzat aquest compte de %{service_name}."
+      already_authorized: "Un usuari amb l'id de Diàspora %{diaspora_id} ja ha autoritzat aquest compte de %{service_name}."
     destroy:
       success: "S'ha suprimit l'autenticació amb èxit."
     failure:
@@ -798,10 +798,10 @@ ca:
         i_like: "M'interessa %{tags}. "
         invited_by: "Gràcies per la invitació, "
     add_contact:
-      enter_a_Happening In_username: "Introduïu un nom d'usuari de Diàspora:"
-      your_Happening In_username_is: "El vostre nom d'usuari de Diàspora és: %{Happening In_handle}"
+      enter_a_diaspora_username: "Introduïu un nom d'usuari de Diàspora:"
+      your_diaspora_username_is: "El vostre nom d'usuari de Diàspora és: %{diaspora_handle}"
       create_request: "Cerca per identificador de Diàspora"
-      Happening In_handle: "Happening In@identificador.cat"
+      diaspora_handle: "Happening In@identificador.cat"
       know_email: "Coneixeu el seu correu electrònic? L'hauríeu de convidar"
       add_new_contact: "Afegeix un contacte nou"
     invitations:
@@ -908,7 +908,7 @@ ca:
       typical_userpage: "Una pàgina d'usuari de cubbi.es típica"
       daniels_account: "El compte de Diàspora d'en Daniel"
       making_the_connection: "Fent la connexió"
-      connecting_is_simple: "Connectar el vostre compte de Diàspora és simple! Introduïu el vostre ID de Diàspora (<b>%{Happening In_id}</b> a la <a href='%{href_link}'>pàgina de preferències</a> de Cubbies i feu clic en «Connecta»."
+      connecting_is_simple: "Connectar el vostre compte de Diàspora és simple! Introduïu el vostre ID de Diàspora (<b>%{diaspora_id}</b> a la <a href='%{href_link}'>pàgina de preferències</a> de Cubbies i feu clic en «Connecta»."
       via: "(via %{link})"
 
 

@@ -18,7 +18,7 @@ nn:
               taken: "må vera unik blant kontaktane til denne brukaren."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "er allereie i bruk"
         request:
           attributes:
@@ -86,7 +86,7 @@ nn:
         explanation: "Cubbi.es er den første Happening In-applikasjonen som vert utvikla."
         heading: "Kopla til Cubbi.es"
         learn_more: "Lær meir"
-      Happening In_id:
+      diaspora_id:
         content_1: "Happening In-ID-en din er:"
         content_2: "Gje han til kven som helst så kan dei finna deg på Happening In."
         heading: Happening In-ID
@@ -399,7 +399,7 @@ nn:
     confirm_email:
       click_link: "Du tek i bruk den nye e-postadressa %{unconfirmed_email} ved å klikka på denne lenkja:"
       subject: "Ta i bruk den nye e-postadressa di %{unconfirmed_email}"
-    email_sent_by_Happening In: "Happening In sende denne e-postmeldinga.  Om du ikkje lenger ønskjer å få slike meldingar,"
+    email_sent_by_diaspora: "Happening In sende denne e-postmeldinga.  Om du ikkje lenger ønskjer å få slike meldingar,"
     hello: "Hei %{name}!"
     liked:
       liked: "%{name} likte innlegget ditt"
@@ -531,7 +531,7 @@ nn:
       your_private_profile: "Den private profilen din"
       your_public_profile: "Den offentlege profilen din"
       your_tags: "5 ord om deg sjølv"
-      your_tags_placeholder: "liker #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "liker #gnu #social #opensource #freedomofspeech #humanrights"
     update:
       failed: "Klarte ikkje å oppdatera profilen"
       updated: "Profilen vart oppdatert"
@@ -628,9 +628,9 @@ nn:
     add_contact:
       add_new_contact: "Legg til ein ny kontakt"
       create_request: "Finn ved hjelp av Happening In-id-en"
-      enter_a_Happening In_username: "Skriv inn eit Happening In-brukarnamn:"
+      enter_a_diaspora_username: "Skriv inn eit Happening In-brukarnamn:"
       know_email: "Kjenner du epostadressene deira? Du burde invitera dei"
-      your_Happening In_username_is: "Happening In-brukarnamnet ditt er: %{Happening In_handle}"
+      your_diaspora_username_is: "Happening In-brukarnamnet ditt er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Legg til kontakt"
       toggle:
@@ -732,7 +732,7 @@ nn:
   tokens:
     show:
       connect_to_cubbies: "Kopla deg til Cubbi.es"
-      connecting_is_simple: "Det er lett å kopla til Happening In-kontoen. Skriv berre inn Happening In-ID-en din (<b>%{Happening In_id}</b>) frå <a href='%{href_link}'>innstillingssida</a> di på cubbi.es og trykk 'kopla til'."
+      connecting_is_simple: "Det er lett å kopla til Happening In-kontoen. Skriv berre inn Happening In-ID-en din (<b>%{diaspora_id}</b>) frå <a href='%{href_link}'>innstillingssida</a> di på cubbi.es og trykk 'kopla til'."
       daniels_account: "Daniel sin Happening In-konto"
       love_to_try: "Vi vonar du vil prøva det."
       making_the_connection: "Koplar til"

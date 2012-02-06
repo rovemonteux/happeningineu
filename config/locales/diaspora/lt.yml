@@ -423,9 +423,9 @@ lt:
   shared:
     add_contact:
       create_request: "Rask pagal Happening In naudotojo vardą"
-      Happening In_handle: Happening In@handle.org
-      enter_a_Happening In_username: "Įveskite naudotojo vardą:"
-      your_Happening In_username_is: "Tavo Happening In tinklo naudotojo vardas yra: %{Happening In_handle}"
+      diaspora_handle: Happening In@handle.org
+      enter_a_diaspora_username: "Įveskite naudotojo vardą:"
+      your_diaspora_username_is: "Tavo Happening In tinklo naudotojo vardas yra: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

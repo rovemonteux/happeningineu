@@ -19,7 +19,7 @@ zh-CN:
               taken: 在好友中必须是唯一的。
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: 已被注册。
         request:
           attributes:
@@ -570,10 +570,10 @@ zh-CN:
   shared:
     add_contact:
       create_request: "用 Happening In 帐号搜索"
-      Happening In_handle: Happening In@handle.org
-      enter_a_Happening In_username: "输入 Happening In 帐号："
+      diaspora_handle: Happening In@handle.org
+      enter_a_diaspora_username: "输入 Happening In 帐号："
       know_email: "知道他们的电子信箱吗？ 你可以邀请他们加入。"
-      your_Happening In_username_is: "您的 Happening In 帐号是: %{Happening In_handle}"
+      your_diaspora_username_is: "您的 Happening In 帐号是: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

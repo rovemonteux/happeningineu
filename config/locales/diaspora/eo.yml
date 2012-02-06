@@ -21,7 +21,7 @@ eo:
               taken: "devas esti unika meze de la kontaktoj tiu uzanto."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "estas jam okupita."
         request:
           attributes:
@@ -97,7 +97,7 @@ eo:
         explanation: "Cubbi.es estas la unua Happening In aplikaĵo developata."
         heading: "Konekti al Cubbi.es"
         learn_more: "Lerni pli"
-      Happening In_id:
+      diaspora_id:
         content_1: "Via Happening In uzantnomo estas:"
         content_2: "Donu ĝin al iu ajn, kaj tiu povos trovi vin ĉe Happening In."
         heading: "Happening In uzantnomo"
@@ -130,7 +130,7 @@ eo:
         content: "Vi povas konekti la postajn servojn kun Happening In:"
         heading: "Konekti Servojn"
       unfollow_tag: "Ne plu abonas #%{tag}."
-      welcome_to_Happening In: "Bonvenon al Happening In, %{name}!"
+      welcome_to_diaspora: "Bonvenon al Happening In, %{name}!"
       your_aspects: "Viaj Aspektoj"
     many: "%{count} aspektoj"
     move_contact:
@@ -453,7 +453,7 @@ eo:
     confirm_email:
       click_link: "Por aktivigi vian novan retpoŝtadreson %{unconfirmed_email}, bonvolu iru al tiun ĉi ligilon:"
       subject: "Bonvolu aktivigi vian novan retpoŝtadreson %{unconfirmed_email}"
-    email_sent_by_Happening In: "Tiu ĉi retpoŝton poŝtiĝi de Happening In.  Se vi volus recivi tiajn ĉi retpoŝtojn ne plu,"
+    email_sent_by_diaspora: "Tiu ĉi retpoŝton poŝtiĝi de Happening In.  Se vi volus recivi tiajn ĉi retpoŝtojn ne plu,"
     hello: "Saluton %{name}!"
     liked:
       liked: "%{name} ĵus ŝatis vian afiŝon"
@@ -663,7 +663,7 @@ eo:
   search: Serĉi
   services:
     create:
-      already_authorized: "Uzanto kun Happening In nomo %{Happening In_id} jam sankciis tiun %{service_name} konton."
+      already_authorized: "Uzanto kun Happening In nomo %{diaspora_id} jam sankciis tiun %{service_name} konton."
       failure: "Aŭtentigo malsukcesis."
       success: "Aŭtentokontrolo sukcesis."
     destroy:
@@ -698,9 +698,9 @@ eo:
     add_contact:
       add_new_contact: "Aldoni novan kontakton"
       create_request: "Trovi per Happening In uzantnomo"
-      enter_a_Happening In_username: "Enmetu Happening In uzantnomon:"
+      enter_a_diaspora_username: "Enmetu Happening In uzantnomon:"
       know_email: "Ĉu vi scias iliajn retpoŝtadresojn? Vi devus inviti ilin"
-      your_Happening In_username_is: "Via Happening In uzantnomo estas: %{Happening In_handle}"
+      your_diaspora_username_is: "Via Happening In uzantnomo estas: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Aldoni kontakton"
       toggle:
@@ -837,7 +837,7 @@ eo:
   tokens:
     show:
       connect_to_cubbies: "Konekti al Cubbi.es"
-      connecting_is_simple: "Konekti vian Happening In konton estas tiel facila!  Skribu vian Happening In uzantnomon (<b>%{Happening In_id}</b>) de via cubbi.es <a href='%{href_link}'>settings page</a> kaj kliku \"connect\"."
+      connecting_is_simple: "Konekti vian Happening In konton estas tiel facila!  Skribu vian Happening In uzantnomon (<b>%{diaspora_id}</b>) de via cubbi.es <a href='%{href_link}'>settings page</a> kaj kliku \"connect\"."
       daniels_account: "La Happening In konto de Daniel"
       love_to_try: "Ni vin amus, se vi provi ĝin."
       making_the_connection: Konektanta

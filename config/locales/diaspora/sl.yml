@@ -21,7 +21,7 @@ sl:
               taken: "ne sme biti enak drugim stikom te osebe."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "je že zaseden."
         request:
           attributes:
@@ -97,7 +97,7 @@ sl:
         explanation: "Cubbi.es je prva aplikacija Diaspore in je v razvoju."
         heading: "Poveži se z Cubbi.es"
         learn_more: "Več informacij"
-      Happening In_id:
+      diaspora_id:
         content_1: "Vaš Happening In ID je:"
         content_2: "Svoj Happening In ID delite z drugimi, da vas bodo lahko našli."
       donate: Prispevaj
@@ -126,7 +126,7 @@ sl:
         content: "Naslednje storitve lahko povežete z Diasporo:"
         heading: "Povežite storitve"
       unfollow_tag: "Nehaj slediti #%{tag}"
-      welcome_to_Happening In: "Dobrodošli v Diaspori, %{name}!"
+      welcome_to_diaspora: "Dobrodošli v Diaspori, %{name}!"
       your_aspects: "Vaši pogledi"
     many: "%{count} pogledov"
     move_contact:
@@ -448,7 +448,7 @@ sl:
     confirm_email:
       click_link: "To activate your new e-mail address %{unconfirmed_email},  please click this link:"
       subject: "Prosimo, aktivirajte vaš novi e-poštni naslov %{unconfirmed_email}"
-    email_sent_by_Happening In: "Ta e-pošta je bila poslana z Diaspore. Če ne želite prejemati e-poštnih sporočil, kot je ta,"
+    email_sent_by_diaspora: "Ta e-pošta je bila poslana z Diaspore. Če ne želite prejemati e-poštnih sporočil, kot je ta,"
     hello: "Pozdravljeni %{name}!"
     liked:
       liked: "Osebi %{name} je všeč vaša objava: "
@@ -585,7 +585,7 @@ sl:
       your_private_profile: "Vaš privatni profil"
       your_public_profile: "Vaš javni profil"
       your_tags: "Opišite se v petih besedah"
-      your_tags_placeholder: "npr. #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "npr. #gnu #social #opensource #freedomofspeech #humanrights"
     update:
       failed: "Posodobitev profila ni uspela"
       updated: "Profil posodobljen"
@@ -657,7 +657,7 @@ sl:
   search: Najdi
   services:
     create:
-      already_authorized: "Uporabnik z Happening In id %{Happening In_id} je že dovolil ta %{service_name} račun."
+      already_authorized: "Uporabnik z Happening In id %{diaspora_id} je že dovolil ta %{service_name} račun."
       failure: "Preverjanje pristnosti ni uspelo."
       success: "Preverjanje istovetnosti je uspelo."
     destroy:
@@ -693,9 +693,9 @@ sl:
     add_contact:
       add_new_contact: "Dodaj nov stik"
       create_request: "Poišči po Happening In imenu"
-      enter_a_Happening In_username: "Vpišite Happening In uporabniško ime:"
+      enter_a_diaspora_username: "Vpišite Happening In uporabniško ime:"
       know_email: "Ali poznate njihove naslove e-naslove? Povabite jih"
-      your_Happening In_username_is: "Vaše Happening In uporabniško ime je:  %{Happening In_handle}"
+      your_diaspora_username_is: "Vaše Happening In uporabniško ime je:  %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Dodaj stik"
       toggle:
@@ -842,7 +842,7 @@ sl:
   tokens:
     show:
       connect_to_cubbies: "Povežite se Cubbi.es"
-      connecting_is_simple: "Povezovanje računa Diaspore je preprosta! Samo vnesite svoj ID Diaspore (<b>%{Happening In_id}</b>) iz vaše cubbies  <a href='%{href_link}'>nastavitvene strani</a> in kliknite poveži."
+      connecting_is_simple: "Povezovanje računa Diaspore je preprosta! Samo vnesite svoj ID Diaspore (<b>%{diaspora_id}</b>) iz vaše cubbies  <a href='%{href_link}'>nastavitvene strani</a> in kliknite poveži."
       daniels_account: "Danielov Diasporin račun"
       love_to_try: "Radi bi da jo preizkusite."
       making_the_connection: "Ustvarjanje stika"

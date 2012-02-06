@@ -56,7 +56,7 @@ en:
               taken: "is already taken."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "is already taken."
         contact:
           attributes:
@@ -162,7 +162,7 @@ en:
       post_a_message: "post a message >>"
       people_sharing_with_you: "People sharing with you"
 
-      welcome_to_Happening In: "Welcome to Happening In, %{name}!"
+      welcome_to_diaspora: "Welcome to Happening In, %{name}!"
       introduce_yourself: "This is your stream.  Jump in and introduce yourself."
 
       new_here:
@@ -190,7 +190,7 @@ en:
         heading: "Connect to Cubbi.es"
         explanation: "Cubbi.es is the first Happening In application under development."
         learn_more: "Learn more"
-      Happening In_id:
+      diaspora_id:
         heading: "Happening In ID"
         content_1: "Your Happening In ID is:"
         content_2: "Give it to anyone and they'll be able to find you on Happening In."
@@ -487,7 +487,7 @@ en:
 
   notifier:
     a_post_you_shared: "a post."
-    email_sent_by_Happening In: "This email was sent by Happening In.  If you'd like to stop getting emails like this,"
+    email_sent_by_diaspora: "This email was sent by Happening In.  If you'd like to stop getting emails like this,"
     click_here: "click here"
     hello: "Hello %{name}!"
     thanks: "Thanks,"
@@ -637,7 +637,7 @@ en:
       your_birthday: "Your birthday"
       your_tags: "Describe yourself in 5 words"
 
-      your_tags_placeholder: "like #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "like #gnu #social #opensource #freedomofspeech #humanrights"
 
       your_bio: "Your bio"
       your_location: "Your location"
@@ -654,7 +654,7 @@ en:
       create_my_account: "Create my account!"
 
       join_the_movement: "Join the movement!"
-      sign_up_message: "Social Networking with a ♥"
+      sign_up_message: "Open Social Networking"
 
       enter_email: "Enter an email"
       enter_username: "Pick a username (only letters, numbers, and underscores)"
@@ -722,7 +722,7 @@ en:
     create:
       success: "Authentication successful."
       failure: "Authentication failed."
-      already_authorized: "A user with Happening In id %{Happening In_id} already authorized that %{service_name} account."
+      already_authorized: "A user with Happening In id %{diaspora_id} already authorized that %{service_name} account."
     destroy:
       success: "Successfully deleted authentication."
     failure:
@@ -775,10 +775,10 @@ en:
         i_like: "I'm interested in %{tags}. "
         invited_by: "Thanks for the invite, "
     add_contact:
-      enter_a_Happening In_username: "Enter a Happening In username:"
-      your_Happening In_username_is: "Your Happening In username is: %{Happening In_handle}"
+      enter_a_diaspora_username: "Enter a Happening In username:"
+      your_diaspora_username_is: "Your Happening In username is: %{diaspora_handle}"
       create_request: "Find by Happening In ID"
-      Happening In_handle: "Happening In@pod.org"
+      diaspora_handle: "user@happeningin.eu"
       know_email: "Know their email address? You should invite them"
       add_new_contact: "Add a new contact"
     invitations:
@@ -878,7 +878,7 @@ en:
       typical_userpage: "A typical cubbi.es userpage"
       daniels_account: "Daniel's Happening In account"
       making_the_connection: "Making the Connection"
-      connecting_is_simple: "Connecting your Happening In account is simple!  Just enter your Happening In ID (<b>%{Happening In_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
+      connecting_is_simple: "Connecting your Happening In account is simple!  Just enter your Happening In ID (<b>%{diaspora_id}</b>) from your cubbies <a href='%{href_link}'>settings page</a> and hit connect."
       via: "(via %{link})"
 
   authorizations:

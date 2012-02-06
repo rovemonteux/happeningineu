@@ -41,7 +41,7 @@ cy:
     index:
       cubbies:
         heading: "Cysylltu i Cubbi.es"
-      Happening In_id:
+      diaspora_id:
         heading: "ID Happening In"
       handle_explanation: "This is your Happening In handle.  Like an email address, you can give this to people to reach you."
       help:
@@ -410,8 +410,8 @@ cy:
   shared:
     add_contact:
       create_request: "Find by Happening In handle"
-      Happening In_handle: "Happening In handle"
-      your_Happening In_username_is: "%{Happening In_handle} ydy eich enw Happening In"
+      diaspora_handle: "Happening In handle"
+      your_diaspora_username_is: "%{diaspora_handle} ydy eich enw Happening In"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

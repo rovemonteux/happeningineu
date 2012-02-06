@@ -16,7 +16,7 @@ ro:
       models:
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "e folosit deja."
         request:
           attributes:
@@ -79,7 +79,7 @@ ro:
       aspect_not_empty: "Aspectul nu este gol"
       remove: şterge
     index:
-      Happening In_id:
+      diaspora_id:
         content_1: "ID-ul tău Happening In este:"
       donate: Donează
       handle_explanation: "This is your Happening In handle.  Like an email address, you can give this to people to reach you."
@@ -571,9 +571,9 @@ ro:
     add_contact:
       add_new_contact: "Adaugă un nou contact"
       create_request: "Find by Happening In handle"
-      Happening In_handle: "Happening In handle"
-      enter_a_Happening In_username: "Introduceţi numele de utilizator Happening In :"
-      your_Happening In_username_is: "Numele tău de utilizator Happening In este: %{Happening In_handle}"
+      diaspora_handle: "Happening In handle"
+      enter_a_diaspora_username: "Introduceţi numele de utilizator Happening In :"
+      your_diaspora_username_is: "Numele tău de utilizator Happening In este: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

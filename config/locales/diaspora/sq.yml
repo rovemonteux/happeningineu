@@ -21,7 +21,7 @@ sq:
               taken: "duhet të jetë unik mes kontakteve të këtij përdoruesi."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "është i zënë."
         request:
           attributes:
@@ -97,7 +97,7 @@ sq:
         explanation: "Cubbi.es është zbatimi i parë Happening In në zhvillim e sipër."
         heading: "Lidhuni me Cubbi.es"
         learn_more: "Mësoni më tepër"
-      Happening In_id:
+      diaspora_id:
         content_1: "ID-ja juaj në Happening In është:"
         content_2: "Jepjani kujtdo dhe kështu do të jenë në gjendje t'ju gjejnë në Happening In."
         heading: "ID Happening In"
@@ -130,7 +130,7 @@ sq:
         content: "Te Happening In mund të lidheni me shërbimet vijuese:"
         heading: "Shërbime Lidhjesh"
       unfollow_tag: "Resht së ndjekuri #%{tag}"
-      welcome_to_Happening In: "Mirë se vini te Happening In, %{name}!"
+      welcome_to_diaspora: "Mirë se vini te Happening In, %{name}!"
       your_aspects: "Aspektet tuaja"
     many: "%{count} aspekte"
     move_contact:
@@ -435,7 +435,7 @@ sq:
     confirm_email:
       click_link: "Që të aktivizoni adresën tuaj të re email %{unconfirmed_email}, ju lutemi, ndiqni këtë lidhje:"
       subject: "Ju lutemi, aktivizoni adresën tuaj të re email %{unconfirmed_email}"
-    email_sent_by_Happening In: "Ky email u dërgua nga Happening In.  Nëse doni të reshtni së marri email-e të tillë,"
+    email_sent_by_diaspora: "Ky email u dërgua nga Happening In.  Nëse doni të reshtni së marri email-e të tillë,"
     hello: "Tungjatjeta %{name}!"
     liked:
       liked: "%{name} e pëlqeu postimin tuaj"

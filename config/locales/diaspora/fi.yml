@@ -21,7 +21,7 @@ fi:
               taken: "on oltava yksilöllinen."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "on jo varattu."
         request:
           attributes:
@@ -96,7 +96,7 @@ fi:
         explanation: "Cubbi.es on ensimmäinen kehitettävä Happening In-sovellus."
         heading: "Yhdistä Cubbi.es:iin"
         learn_more: "Lue lisää"
-      Happening In_id:
+      diaspora_id:
         content_1: "Happening In-ID:si on:"
         content_2: "Anna se toisille ihmisille, jotta he voivat löytää sinut Happening Insta."
         heading: Happening In-ID
@@ -126,7 +126,7 @@ fi:
         content: "Voit yhdistää Happening Inan seuraavat palvelut:"
         heading: "Yhdistä palveluihin"
       unfollow_tag: "Lopeta tagin #%{tag} seuraaminen"
-      welcome_to_Happening In: "Tervetuloa Happening Inan, %{name}!"
+      welcome_to_diaspora: "Tervetuloa Happening Inan, %{name}!"
       your_aspects: Näkymäsi
     many: "%{count} näkymää"
     move_contact:
@@ -452,7 +452,7 @@ fi:
     confirm_email:
       click_link: "Aktivoi uusi sähköpostiosoitteesi %{unconfirmed_email} napsauttamalla tätä linkkiä:"
       subject: "Aktivoi uusi sähköpostiosoitteesi %{unconfirmed_email}"
-    email_sent_by_Happening In: "Happening In lähetti tämän sähköpostin. Jos et halua saada tällaisia sähköposteja jatkossa,"
+    email_sent_by_diaspora: "Happening In lähetti tämän sähköpostin. Jos et halua saada tällaisia sähköposteja jatkossa,"
     hello: "Hei %{name}!"
     liked:
       liked: "%{name} tykkäsi kirjoituksestasi"
@@ -691,9 +691,9 @@ fi:
     add_contact:
       add_new_contact: "Lisää uusi kontakti"
       create_request: "Etsi Happening In-tunnuksella"
-      enter_a_Happening In_username: "Anna Happening In-käyttäjätunnus:"
+      enter_a_diaspora_username: "Anna Happening In-käyttäjätunnus:"
       know_email: "Tiedätkö heidän sähköpostiosoitteitansa? Kutsu heidät!"
-      your_Happening In_username_is: "Happening In-käyttäjätunnuksesi on: %{Happening In_handle}"
+      your_diaspora_username_is: "Happening In-käyttäjätunnuksesi on: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Lisää kontakti"
       toggle:
@@ -834,7 +834,7 @@ fi:
   tokens:
     show:
       connect_to_cubbies: "Yhdistä kohteeseen Cubbi.es"
-      connecting_is_simple: "Happening In-tilisi yhdistäminen on helppoa! Syötä vain Happening In-tunnuksesi (<b>%{Happening In_id}</b>) Cubbi.es-<a href='%{href_link}'>asetussivulle</a> ja yhdistä."
+      connecting_is_simple: "Happening In-tilisi yhdistäminen on helppoa! Syötä vain Happening In-tunnuksesi (<b>%{diaspora_id}</b>) Cubbi.es-<a href='%{href_link}'>asetussivulle</a> ja yhdistä."
       daniels_account: "Danielin Happening In-käyttäjätili"
       love_to_try: "Kokeile sinäkin."
       making_the_connection: "Yhteyden muodostaminen"

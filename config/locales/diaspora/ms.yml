@@ -21,7 +21,7 @@ ms:
               taken: "mestilah perbeza di kenalan dalam pengguna ini."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "sudah diambil."
         request:
           attributes:
@@ -73,7 +73,7 @@ ms:
         explanation: "Cubbi.es adalah aplikasi pertama Happening In dalam pembangunan."
         heading: "Sambung kepada Cubbi.es"
         learn_more: "Ketahui lebih lanjut"
-      Happening In_id:
+      diaspora_id:
         content_1: "ID Happening In anda adalah:"
         content_2: "Beri kepada sesiapa dan mereka akan dapat mencari anda di Happening In."
         heading: "ID Happening In"
@@ -85,7 +85,7 @@ ms:
         tag_feature: "#feature"
         tag_question: "#question"
       unfollow_tag: "berhenti mengikut #%{tag}"
-      welcome_to_Happening In: "Selamat datang ke Happening In, %{name}!"
+      welcome_to_diaspora: "Selamat datang ke Happening In, %{name}!"
       your_aspects: "Aspek Anda"
     many: "%{count} aspek"
     move_contact:

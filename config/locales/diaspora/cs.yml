@@ -21,7 +21,7 @@ cs:
               taken: "musí být unikátní v rámci kontaktů tohoto uživatele."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "je již obsazen."
         request:
           attributes:
@@ -93,7 +93,7 @@ cs:
         explanation: "Cubbi.es je první Happening In aplikace ve vývoji."
         heading: "Připojit se na Cubbi.es"
         learn_more: "Dozvědět se více"
-      Happening In_id:
+      diaspora_id:
         content_1: "Vaše Happening In ID je:"
         content_2: "Dejte to někomu a bude vás moci najít na Diaspoře."
       donate: Přispějte
@@ -421,7 +421,7 @@ cs:
     confirm_email:
       click_link: "K aktivaci vaší nové e-mailové adresy %{unconfirmed_email}, použijte prosím tento odkaz:"
       subject: "Prosím aktivujte si svou novou e-mailovou adresu %{unconfirmed_email}"
-    email_sent_by_Happening In: "Tento e-mail odeslala Happening In. Pokud si nepřejete nadále dostávat takovéto e-maily,"
+    email_sent_by_diaspora: "Tento e-mail odeslala Happening In. Pokud si nepřejete nadále dostávat takovéto e-maily,"
     hello: "Vítej %{name}!"
     liked:
       liked: "%{name} si právě oblíbil váš příspěvek"
@@ -651,9 +651,9 @@ cs:
     add_contact:
       add_new_contact: "Přidat nový kontakt"
       create_request: "Hledat podle Happening In ID"
-      enter_a_Happening In_username: "Zadejte uživatelské jméno na Diaspoře:"
+      enter_a_diaspora_username: "Zadejte uživatelské jméno na Diaspoře:"
       know_email: "Znáte jejich e-mailové adresy? Můžete je pozvat"
-      your_Happening In_username_is: "Vaše uživatelské jméno na Diaspoře: %{Happening In_handle}"
+      your_diaspora_username_is: "Vaše uživatelské jméno na Diaspoře: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Přidat do aspektu"
       toggle:
@@ -769,7 +769,7 @@ cs:
   tokens:
     show:
       connect_to_cubbies: "Připojit na Cubbi.es"
-      connecting_is_simple: "Připojení účtu na Diaspoře je tak jednoduché! Zadejte vaše Happening In ID (<b>%{Happening In_id}</b>) z nastavení cubbies a připojte se."
+      connecting_is_simple: "Připojení účtu na Diaspoře je tak jednoduché! Zadejte vaše Happening In ID (<b>%{diaspora_id}</b>) z nastavení cubbies a připojte se."
       love_to_try: "Rádi bychom, aby jste to vyzkoušeli."
       making_the_connection: "Vytvoření spojení"
       screenshot_explanation: "%{link1}. Tato konkrétní cubby je připojena na %{link2}."

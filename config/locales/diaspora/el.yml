@@ -21,7 +21,7 @@ el:
               taken: "πρέπει να είναι μοναδικό μεταξύ των επαφών του χρήστη."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "είναι ήδη σε χρήση"
         request:
           attributes:
@@ -97,7 +97,7 @@ el:
         explanation: "Το Cubbi.es είναι η πρώτη εφαρμογή του Happening In υπό κατασκευή."
         heading: "Συνδεθείτε στο Cubbi.es"
         learn_more: "Μάθετε περισσότερα"
-      Happening In_id:
+      diaspora_id:
         content_1: "Το Happening In αναγνωριστικό σας (ID) είναι:"
         content_2: "Δώστε το σε κάποιον και θα μπορεί να σας βρει στο Happening In."
         heading: "Αναγνωριστικό Happening In (ID)"
@@ -127,7 +127,7 @@ el:
         content: "Μπορείτε να συνδέσετε τις παρακάτω υπηρεσίες στο Happening In:"
         heading: "Συνδέστε Υπηρεσίες"
       unfollow_tag: "Σταματήστε να ακολουθείτε την ετικέτα #%{tag}"
-      welcome_to_Happening In: "Καλωσήρθες στο Happening In, %{name}!"
+      welcome_to_diaspora: "Καλωσήρθες στο Happening In, %{name}!"
       your_aspects: "Οι Πτυχές σας"
     many: "%{count} πτυχές"
     move_contact:
@@ -446,7 +446,7 @@ el:
     confirm_email:
       click_link: "Για να ενεργοποιήσετε την καινούρια διεύθυνση ηλεκτρονικού ταχυδρομείου %{unconfirmed_email}, παρακαλούμε πατήστε στο παρακάτω σύνδεσμο: "
       subject: "Παρακαλούμε ενεργοποιήστε την καινούρια διεύθυνση ηλεκτρονικού ταχυδρομείου %{unconfirmed_email}"
-    email_sent_by_Happening In: "Αυτό το μήνυμα εστάλη από το Happening In. Εάν δεν θέλετε να λαμβάνετε πλεόν μηνύματα σαν κι αυτό,"
+    email_sent_by_diaspora: "Αυτό το μήνυμα εστάλη από το Happening In. Εάν δεν θέλετε να λαμβάνετε πλεόν μηνύματα σαν κι αυτό,"
     hello: "Γειά σου %{name}!"
     liked:
       liked: "στο χρήστη %{name} αρέσει η δημοσίευση σας"
@@ -584,7 +584,7 @@ el:
       your_private_profile: "Το ιδιωτικό σας προφίλ"
       your_public_profile: "Το δημόσιο προφίλ σας"
       your_tags: "Περιγράψτε τον εαυτό σας με 5 λέξεις"
-      your_tags_placeholder: "όπως #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "όπως #gnu #social #opensource #freedomofspeech #humanrights"
     update:
       failed: "Αποτυχία ενημέρωσης προφίλ"
       updated: "Το προφίλ ενημερώθηκε"
@@ -656,7 +656,7 @@ el:
   search: Αναζήτηση
   services:
     create:
-      already_authorized: "Ένας χρήστης με Happening In αναγνωριστικό %{Happening In_id} έχει ήδη εξουσιοδοτήσει αυτόν τον %{service_name} λογαριασμό."
+      already_authorized: "Ένας χρήστης με Happening In αναγνωριστικό %{diaspora_id} έχει ήδη εξουσιοδοτήσει αυτόν τον %{service_name} λογαριασμό."
       failure: "Αποτυχία πιστοποίησης."
       success: "Επιτυχής έλεγχος ταυτότητας."
     destroy:
@@ -692,9 +692,9 @@ el:
     add_contact:
       add_new_contact: "Προσθέστε μια νέα επαφή"
       create_request: "Εύρεση βάσει Happening In ID"
-      enter_a_Happening In_username: "Εισάγετε όνομα χρήστη Happening In:"
+      enter_a_diaspora_username: "Εισάγετε όνομα χρήστη Happening In:"
       know_email: "Ξέρετε τις ηλεκτρονικές τους διευθύνσεις; Τότε πρέπει να τους προσκαλέσετε"
-      your_Happening In_username_is: "Το όνομα χρήστη σας στο Happening In είναι: %{Happening In_handle}"
+      your_diaspora_username_is: "Το όνομα χρήστη σας στο Happening In είναι: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Προσθήκη επαφής"
       toggle:
@@ -842,7 +842,7 @@ el:
   tokens:
     show:
       connect_to_cubbies: "Σύνδεση με Cubbi.es"
-      connecting_is_simple: "Η σύνδεση του Happening In λογαριασμού σας είναι απλούστατη! Απλά εισάγετε το Happening In Αναγνωριστικό σας (ID) (<b>%{Happening In_id}</b>) από το cubbies <a href='%{href_link}'>settings page</a> και πατήστε Σύνδεση. "
+      connecting_is_simple: "Η σύνδεση του Happening In λογαριασμού σας είναι απλούστατη! Απλά εισάγετε το Happening In Αναγνωριστικό σας (ID) (<b>%{diaspora_id}</b>) από το cubbies <a href='%{href_link}'>settings page</a> και πατήστε Σύνδεση. "
       daniels_account: "Happening In λογαριασμό του Daniel"
       love_to_try: "Θα χαιρόμασταν αν το δοκιμάζατε."
       making_the_connection: Σύνδεση

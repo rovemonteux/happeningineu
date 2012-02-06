@@ -21,7 +21,7 @@ da:
               taken: "skal være unik for denne brugers kontakter."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "er allerede taget."
         request:
           attributes:
@@ -97,7 +97,7 @@ da:
         explanation: "Cubbi.es er den første Happening In applikation under udvikling."
         heading: "Tilslut til Cubbi.es"
         learn_more: "Læs mere"
-      Happening In_id:
+      diaspora_id:
         content_1: "Dit Happening In ID er:"
         content_2: "Giv det til hvem som helst og de vil kunne finde dig på Happening In."
       donate: Donér
@@ -126,7 +126,7 @@ da:
         content: "Du kan tilslutte følgende tjenester til Happening In:"
         heading: "Tilslut tjenester"
       unfollow_tag: "Hold op med at følge #%{tag}"
-      welcome_to_Happening In: "Velkommen til Happening In %{name}!"
+      welcome_to_diaspora: "Velkommen til Happening In %{name}!"
       your_aspects: "Dine aspekter"
     many: "%{count} aspekter"
     move_contact:
@@ -448,7 +448,7 @@ da:
     confirm_email:
       click_link: "For at aktivere din nye e-mail adresse %{unconfirmed_email}, skal du følge dette link:"
       subject: "Aktiver venligst din nye e-mail adresse %{unconfirmed_email}"
-    email_sent_by_Happening In: "Denne e-mail blev sendt af Happening In. Hvis du gerne vil holde op med at få e-mails som denne,"
+    email_sent_by_diaspora: "Denne e-mail blev sendt af Happening In. Hvis du gerne vil holde op med at få e-mails som denne,"
     hello: "Hej %{name}!"
     liked:
       liked: "%{name} har lige syntes om dit indlæg"
@@ -657,7 +657,7 @@ da:
   search: Søg
   services:
     create:
-      already_authorized: "En bruger med Happening In ID %{Happening In_id} har allerede godkendt den %{service_name} konto."
+      already_authorized: "En bruger med Happening In ID %{diaspora_id} har allerede godkendt den %{service_name} konto."
       failure: "Godkendelse mislykkedes."
       success: "Godkendelse lykkedes."
     destroy:
@@ -693,9 +693,9 @@ da:
     add_contact:
       add_new_contact: "Tilføj en ny kontakt"
       create_request: "Find med Happening In ID"
-      enter_a_Happening In_username: "Indtast et Happening In handle:"
+      enter_a_diaspora_username: "Indtast et Happening In handle:"
       know_email: "Kender du deres e-mail adresse? Du burde invitere dem"
-      your_Happening In_username_is: "Dit Happening In handle er: %{Happening In_handle}"
+      your_diaspora_username_is: "Dit Happening In handle er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Tilføj kontakt"
       toggle:
@@ -842,7 +842,7 @@ da:
   tokens:
     show:
       connect_to_cubbies: "Forbind til Cubbi.es"
-      connecting_is_simple: "Tilslutning af din Happening In konto er simpelt! Du skal bare indtaste dit Happening In ID (<b>%{Happening In_id}</b>) fra dine Cubbi.es <a href='%{href_link}'>indstillinger</a> og tryk forbind."
+      connecting_is_simple: "Tilslutning af din Happening In konto er simpelt! Du skal bare indtaste dit Happening In ID (<b>%{diaspora_id}</b>) fra dine Cubbi.es <a href='%{href_link}'>indstillinger</a> og tryk forbind."
       daniels_account: "Daniels Happening In konto"
       love_to_try: "Vi ville ønske at du prøvede det."
       making_the_connection: "Opretter forbindelsen"

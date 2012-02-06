@@ -414,9 +414,9 @@ mk:
   shared:
     add_contact:
       create_request: "Најди според Happening In корисничко име"
-      Happening In_handle: "Happening In корисничко име"
-      enter_a_Happening In_username: "Внеси Happening In корисничко име:"
-      your_Happening In_username_is: "Вашето Happening In корисничко име е: %{Happening In_handle}"
+      diaspora_handle: "Happening In корисничко име"
+      enter_a_diaspora_username: "Внеси Happening In корисничко име:"
+      your_diaspora_username_is: "Вашето Happening In корисничко име е: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

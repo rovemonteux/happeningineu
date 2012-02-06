@@ -21,7 +21,7 @@ hu:
               taken: "egyedinek kell lennie."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "már foglalt."
         request:
           attributes:
@@ -96,7 +96,7 @@ hu:
         explanation: "Cubbi.es az első fejlesztés alatt álló Happening In applikáció."
         heading: "Kapcsolódás: Cubbi.es"
         learn_more: "Tudj meg többet"
-      Happening In_id:
+      diaspora_id:
         content_1: "A te Happening In azonosítód:"
         content_2: "Add meg bárkinek és ez alapján meg tud találni a Happening In-n."
         heading: "Happening In azonosító"
@@ -128,7 +128,7 @@ hu:
         content: "A következő szolgáltatásokhoz tudsz kapcsolódni:"
         heading: "Összekapcsolt szolgáltatások"
       unfollow_tag: "Követés leállítása #%{tag}"
-      welcome_to_Happening In: "Üdv a Happening In közösségi oldalon %{name}!"
+      welcome_to_diaspora: "Üdv a Happening In közösségi oldalon %{name}!"
       your_aspects: Csoportjaid
     many: "%{count} csoport"
     move_contact:
@@ -452,7 +452,7 @@ hu:
     confirm_email:
       click_link: "Ahhoz, hogy aktiváld az új email címedet (%{unconfirmed_email}), kattints erre a linkre:"
       subject: "Kérlek aktiváld az új email címedet: %{unconfirmed_email}"
-    email_sent_by_Happening In: "Ezt az emailt a Happening In küldte. Ha nem szeretnél ilyen leveleket kapni,"
+    email_sent_by_diaspora: "Ezt az emailt a Happening In küldte. Ha nem szeretnél ilyen leveleket kapni,"
     hello: "Szia %{name}!"
     liked:
       liked: "%{name} kedveli a bejegyzésedet"
@@ -662,7 +662,7 @@ hu:
   search: Keresés
   services:
     create:
-      already_authorized: "Egy %{Happening In_id} nevű felhasználó, már hitelesítette ezt a %{service_name} fiókot."
+      already_authorized: "Egy %{diaspora_id} nevű felhasználó, már hitelesítette ezt a %{service_name} fiókot."
       failure: "A hitelesítés sikertelen."
       success: "A hitelesítés sikeres."
     destroy:
@@ -698,9 +698,9 @@ hu:
     add_contact:
       add_new_contact: "Új ismerős"
       create_request: "Keresés Happening In azonosító alapján"
-      enter_a_Happening In_username: "Happening In felhasználónév:"
+      enter_a_diaspora_username: "Happening In felhasználónév:"
       know_email: "Tudod az e-mail címüket? Hívd meg őket!"
-      your_Happening In_username_is: "Happening In felhasználóneved: %{Happening In_handle}"
+      your_diaspora_username_is: "Happening In felhasználóneved: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Ismerős hozzáadása"
       toggle:

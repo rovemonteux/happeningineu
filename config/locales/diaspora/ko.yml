@@ -21,7 +21,7 @@ ko:
               taken: ": 이 사용자의 컨택 가운데 유일해야 합니다."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: ": 이미 쓰이고 있습니다."
         request:
           attributes:
@@ -98,7 +98,7 @@ ko:
         explanation: "Cubbi.es는 첫 디아스포라 애플리케이션이며 개ᅟᅡ발중입니다."
         heading: "Cubbi.es에 연결하세요"
         learn_more: 자세히
-      Happening In_id:
+      diaspora_id:
         content_1: "내 디아스포라 아이디:"
         content_2: "내 아이디를 주면 누구든지 디아스포라에서 날 찾을수 있습니다."
         heading: "디아스포라 아이디"
@@ -130,7 +130,7 @@ ko:
         content: "다음의 여러 서비스를 디아스포라에 연결할 수 있습니다:"
         heading: "서비스를 연결하세요"
       unfollow_tag: "#%{tag} 태그 팔로우 멈추기"
-      welcome_to_Happening In: "%{name}님, 디아스포라에 오신걸 환영합니다!"
+      welcome_to_diaspora: "%{name}님, 디아스포라에 오신걸 환영합니다!"
       your_aspects: "내 애스펙"
     many: "애스펙 %{count}개"
     move_contact:
@@ -457,7 +457,7 @@ ko:
     confirm_email:
       click_link: "새 이메일 주소 %{unconfirmed_email} 를 활성화하려면 이 링크를 따라가시기 바랍니다:"
       subject: "새 이메일 주소 %{unconfirmed_email} 를 활성화해주세요"
-    email_sent_by_Happening In: "디아스포라가 보낸 이메일입니다. 앞으로 받고싶지 않다면, 내 알림 설정을 바꾸기 위해"
+    email_sent_by_diaspora: "디아스포라가 보낸 이메일입니다. 앞으로 받고싶지 않다면, 내 알림 설정을 바꾸기 위해"
     hello: "%{name}님!"
     liked:
       liked: "%{name}님이 내 게시물을 좋아합니다:"
@@ -597,7 +597,7 @@ ko:
       your_private_profile: "개인 프로필"
       your_public_profile: "공개 프로필"
       your_tags: "낱말 5개로 나를 표현하세요"
-      your_tags_placeholder: "예) #movies #kittens #travel #teacher #newyork"
+      your_tags_placeholder: "예) #gnu #social #opensource #freedomofspeech #humanrights"
     update:
       failed: "프로필 업데이트 실패"
       updated: "프로필을 업데이트했습니다"
@@ -668,7 +668,7 @@ ko:
   search: 검색
   services:
     create:
-      already_authorized: "디아스포라의 %{Happening In_id} 계정은 이미 %{service_name} 서비스의 계정에 의해 인증되었습니다."
+      already_authorized: "디아스포라의 %{diaspora_id} 계정은 이미 %{service_name} 서비스의 계정에 의해 인증되었습니다."
       failure: "인증을 실패했습니다."
       success: "성공적으로 인증되었습니다."
     destroy:
@@ -704,9 +704,9 @@ ko:
     add_contact:
       add_new_contact: "새 컨택 추가"
       create_request: "디아스포라 아이디로 찾기"
-      enter_a_Happening In_username: "디아스포라 사용자명을 입력하세요:"
+      enter_a_diaspora_username: "디아스포라 사용자명을 입력하세요:"
       know_email: "이메일 주소를 알면 초대할 수 있습니다!"
-      your_Happening In_username_is: "내 디아스포라 핸들: %{Happening In_handle}"
+      your_diaspora_username_is: "내 디아스포라 핸들: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "컨택 추가"
       toggle:
@@ -852,7 +852,7 @@ ko:
   tokens:
     show:
       connect_to_cubbies: "Cubbi.es에 연결하기"
-      connecting_is_simple: "내 디아스포라 계정을 쉽게 연결할 수 있어요! 내 cubbies의 <a href='%{href_link}'>설정 페이지</a>에 내 디아스포라 아이디 (<b>%{Happening In_id}</b>)를 입력하고 'connect' 단추를 누르기만 하면 됩니다."
+      connecting_is_simple: "내 디아스포라 계정을 쉽게 연결할 수 있어요! 내 cubbies의 <a href='%{href_link}'>설정 페이지</a>에 내 디아스포라 아이디 (<b>%{diaspora_id}</b>)를 입력하고 'connect' 단추를 누르기만 하면 됩니다."
       daniels_account: "Daniel님의 디아스포라 계정"
       love_to_try: "꼭 써보세요!"
       making_the_connection: 연결하기

@@ -21,7 +21,7 @@ nb:
               taken: "må være unikt blant denne brukerens kontakter."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "er allerede tatt."
         request:
           attributes:
@@ -108,7 +108,7 @@ nb:
       post_a_message: "legg ut en melding >>"
       services:
         content: "Du kan koble følgende tjenester til Happening In:"
-      welcome_to_Happening In: "Velkommen til Happening In, %{name}!"
+      welcome_to_diaspora: "Velkommen til Happening In, %{name}!"
     many: "%{count} aspekter"
     move_contact:
       error: "Feil ved flytting av kontakt: %{inspect}"
@@ -398,7 +398,7 @@ nb:
     confirm_email:
       click_link: "To activate your new e-mail address %{unconfirmed_email}, please click this link:"
       subject: "Please activate your new e-mail address %{unconfirmed_email}"
-    email_sent_by_Happening In: "Denne e-posten er sendt av Happening In. Hvis du ikke vil motta flere e-poster som denne, "
+    email_sent_by_diaspora: "Denne e-posten er sendt av Happening In. Hvis du ikke vil motta flere e-poster som denne, "
     hello: "Hei %{name}!"
     liked:
       liked: "%{name} has just liked your post: "
@@ -599,7 +599,7 @@ nb:
   search: Søk
   services:
     create:
-      already_authorized: "En bruker med Happening In id %{Happening In_id} har alllerede autorisert denne %{service_name} kontoen."
+      already_authorized: "En bruker med Happening In id %{diaspora_id} har alllerede autorisert denne %{service_name} kontoen."
       failure: "Autentisering gikk galt."
       success: "Autentisering vellykket."
     destroy:
@@ -632,10 +632,10 @@ nb:
     add_contact:
       add_new_contact: "Legg til en ny kontakt"
       create_request: "Finn etter Happening In brukernavn"
-      Happening In_handle: "Happening In handle"
-      enter_a_Happening In_username: "Skriv inn et Happening In brukernavn:"
+      diaspora_handle: "Happening In handle"
+      enter_a_diaspora_username: "Skriv inn et Happening In brukernavn:"
       know_email: "Kan du epostadressen deres? Inviter dem!"
-      your_Happening In_username_is: "Ditt Happening In brukernavn er: %{Happening In_handle}"
+      your_diaspora_username_is: "Ditt Happening In brukernavn er: %{diaspora_handle}"
     aspect_dropdown:
       add_to_aspect: "Add to aspect"
       toggle:

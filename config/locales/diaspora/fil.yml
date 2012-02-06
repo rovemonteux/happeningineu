@@ -21,7 +21,7 @@ fil:
               taken: "maari lamang na walang kaparis."
         person:
           attributes:
-            Happening In_handle:
+            diaspora_handle:
               taken: "ay mayroon ng nagmamay-ari."
         request:
           attributes:
