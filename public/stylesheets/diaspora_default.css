@@ -2082,8 +2082,17 @@ opacity:.7}
 font-weight:bold}
 
 .tag:hover{text-decoration:underline;
-background-color:#eff6fa;
-font-size: 14px;
+background-color: transparent;
+-webkit-transition: all 0.1s linear;
+-moz-transition: all 0.1s linear;
+-o-transition: all 0.1s linear;
+-ms-transition: all 0.1s linear;
+transition: all 0.1s linear;
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+text-decoration:none;
 }
 
 h1.tag{border-bottom:2px dotted #3f8fba}
