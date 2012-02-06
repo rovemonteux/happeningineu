@@ -22,7 +22,7 @@
         = t('users.getting_started.hashtag_explanation')
       %hr{:style => "-webkit-box-shadow:0 0 3px rgba(20,20,20,0.5); -moz-box-shadow:0 0 3px rgba(20,20,20,0.5); box-shadow:0 0 3px rgba(20,20,20,0.5);"}
       %p{:style => "font-size: 12px; padding-left: 25px; padding-right: 25px; padding-bottom: 5px; padding-top: 0px; text-align: justify"}
-        - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,200;').each do |tagname|
+        - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,250;').each do |tagname|
           = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
           &nbsp;&nbsp;
  
