@@ -1579,7 +1579,7 @@ border-top:1px solid black;
 position: relative;
 float: right;
 right: 60px;
-top: -1px;
+top: 0;
 }
 
 ul#landing_nav>li a.login:hover{background-color:#222}
