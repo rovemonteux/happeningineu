@@ -4,4 +4,11 @@
 
 module StatusMessagesHelper
 
+def cleantext(str)
+  unless str.nil? or !str.include? 'youtube'
+    str = str.gsub!(/(?:f|ht)tps?:\/\/www\.youtube\.com[^\s]+/, '')
+  end
+  return str;
+end
+
 end
