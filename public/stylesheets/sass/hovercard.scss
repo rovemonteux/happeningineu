@@ -6,8 +6,8 @@
 
   position: relative;
   background-color: $background;
-  height: 70px;
-  border: 1px solid #999999;
+  height: 200px;
+  border: none;
   font-size: small;
   .avatar {
     position: relative;
@@ -82,7 +82,10 @@
   z-index: 10;
 
   min-width: 250px;
-  max-width: 500px;
+  max-width: 600px;
+
+  min-heigth: 120px;
+  max-heigth: 300px;
 
   padding: 10px {
     top: 5px;
