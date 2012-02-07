@@ -6,12 +6,6 @@ module OEmbedHelper
     html = link_to(title, cache.url, :target => '_blank') 
     return html unless data.has_key?('type')
     case data['type']
-    when 'video', 'rich'
-      if cache.is_trusted_and_has_html?
-        html = data['html']
-      elsif data.has_key?('thumbnail_url')
-        html = link_to_oembed_image(cache)
-      end
     when 'photo'
       if data.has_key?('url')
         img_options = cache.options_hash('')
@@ -19,7 +13,6 @@ module OEmbedHelper
       end
     else
     end
-
     return html.gsub('http://', 'https://').html_safe
   end
 

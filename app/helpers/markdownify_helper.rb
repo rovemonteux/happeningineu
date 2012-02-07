@@ -5,6 +5,35 @@
 require File.expand_path("#{Rails.root}/lib/diaspora/markdownify")
 
 module MarkdownifyHelper
+
+  def markdownifystatus(tmessage, render_options={})
+
+    markdown_options = {
+      :autolink            => true,
+      :fenced_code_blocks  => true,
+      :space_after_headers => true,
+      :strikethrough       => true,
+      :superscript         => true,
+      :tables              => true,
+      :no_intra_emphasis   => true,
+    }
+
+    render_options[:filter_html] = false 
+    render_options[:hard_wrap] ||= true
+
+    return '' if tmessage.blank?
+
+    renderer = Diaspora::Markdownify::HTML.new(render_options)
+    markdown = Redcarpet::Markdown.new(renderer, markdown_options)
+
+    tmessage = markdown.render(tmessage)
+
+    tmessage = Diaspora::Taggable.format_tags(tmessage, :no_escape => true)
+
+    return tmessage
+  end
+
+
   def markdownify(target, render_options={})
 
     markdown_options = {

@@ -2,6 +2,10 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+-#   Copyright (c) 2012, Rove Monteux. This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
 - begin
   - if photos.size > 0
     .photo_attachments
@@ -19,6 +23,5 @@
 
 
 %div{:class => [direction_for(post.text), @expand_post ? "" : "collapsible"]}
-  != markdownify(post)
-  - if post.o_embed_cache_id.present?
-    = o_embed_html(post.o_embed_cache)
+  - originaltext = post.text
+  != markdownifystatus(embedcode(originaltext))
