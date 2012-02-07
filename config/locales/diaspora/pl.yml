@@ -911,7 +911,7 @@ pl:
       your_email: "Adres e-mail"
       your_handle: "Identyfikator Diaspory"
     getting_started:
-      awesome_take_me_to_Happening In: "Świetnie! Zabierz mnie do Diaspory*"
+      awesome_take_me_to_diaspora: "Świetnie! Zabierz mnie do Diaspory*"
       community_welcome: "Społeczności Diaspory cieszy się, że ​​jesteś na pokładzie!"
       hashtag_explanation: "Znaczniki pozwalają łatwo odnaleźć interesujące Cię tematy. Są także świetnym sposobem na nawiązywanie znajomości na Diasporze."
       hashtag_suggestions: "Spróbuj obserwować znaczniki takie jak #sztuka, #filmy, #gif, itd."

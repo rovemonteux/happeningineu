@@ -880,7 +880,7 @@ fi:
       your_email: Sähköpostiosoitteesi
       your_handle: Happening In-tunnuksesi
     getting_started:
-      awesome_take_me_to_Happening In: "Loistavaa! Mennään Happening Inan"
+      awesome_take_me_to_diaspora: "Loistavaa! Mennään Happening Inan"
       community_welcome: "Happening In-yhteisö on iloinen saadessaan sinut mukaan!"
       hashtag_explanation: "Hashtagien avulla voit keskustella ja seurata keskusteluja kiinnostuksen kohteistasi. Ne ovat myös hyvä keino löytää ihmisiä Happening Inssa."
       hashtag_suggestions: "Voit seurata tageja kuten #taide, #elokuvat, #gif jne."
