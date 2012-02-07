@@ -10,7 +10,7 @@ defaults: &defaults
 
   # Hostname of the machine you're running Diaspora on, as seen from the internet.
   # For development and testing, you can leave this as is.
-  pod_url: "https://diaspora.happeningin.eu"
+  pod_url: "https://happeningin.eu"
 
   # Name of this pod
   pod_name: "Happening in EU (happeningin.eu)"
@@ -21,7 +21,7 @@ defaults: &defaults
   pod_min: "rovemonteux"
 
   # address of the account that will be doing general pod announcements
-  pod_announcement_account: "rovemonteux@diaspora.happeningin.eu"
+  pod_announcement_account: "announcements@happeningin.eu"
   # new users automatic follow this account ?
   autofollow_pod_announcements: true
 
@@ -37,7 +37,7 @@ defaults: &defaults
 
   # Setting the root certificate bundle (this is operating system specific). Examples, uncomment one:
   #ca_file: '/etc/pki/tls/certs/ca-bundle.crt' # CentOS
-  ca_file: '/etc/apache2/ssl/sub.class1.server.ca.pem' # Debian
+  ca_file: '/etc/ssl/certs/ca-certificates.crt'
   #ca_file: '/etc/ssl/certs/ca-certificates.crt' # Gentoo
 
   # Secure websocket confguration (wss://).
@@ -77,7 +77,7 @@ defaults: &defaults
   no_follow_diasporahq: true 
 
   public_federation_destinations:
-    - 'https://diaspora.happeningin.eu/'
+    - 'https://happeningin.eu/'
     - 'https://despora.de/'
     - 'https://diasp.eu/'
     - 'https://calispora.org/'
@@ -137,7 +137,7 @@ defaults: &defaults
   # Community Spotlight
   # (expressed as an array of Diaspora IDs)
   community_spotlight:
-    - 'diasporahq@joindiaspora.com'
+    - 'announcements@happeningin.eu'
   # Email to send spotlight suggestions to
   spotlight_suggest_email: ''
 

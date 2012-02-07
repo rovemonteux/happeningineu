@@ -2,8 +2,8 @@
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
-rackup: /home/sites/diaspora/config.ru
-pid: /home/sites/diaspora/tmp/thin.pid
+rackup: /home/happeningineu/config.ru
+pid: /home/happeningineu/tmp/thin.pid
 wait: 30
 timeout: 60 
 log: /var/log/thin
