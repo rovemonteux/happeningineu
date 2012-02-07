@@ -15,7 +15,7 @@ vendor/bundle/*
 vendor/cache/*
 config/database.yml
 .rvmrc_custom
-
+public/.well-known/host-meta.html
 #Mailing list stuff
 config/email_offset
 config/mailing_list.csv
