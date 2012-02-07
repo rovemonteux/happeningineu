@@ -16,7 +16,7 @@ def embedcode(str)
       unless vurl.nil? or !vurl.include? 'video'
         originalurl = vurl.strip
         vurl["/video/"]= "/swf/video/" 
-        embed = "<object align=\"center\" width=\"560\" height=\"315\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\"></embed></object>"
+        embed = "<object align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\"></embed></object>"
         begin
           str[originalurl] = embed 
         rescue Exception=>e 
@@ -32,7 +32,7 @@ def embedcode(str)
         originalurl = vurl.strip
         regex = /youtube.com.*(?:\/|v=)(\w+)/
         vurl = vurl.match(regex)[1]
-        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+vurl+"?fs=1&feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>"
+        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>"
         begin
           str[originalurl] = embed
         rescue Exception=>e
