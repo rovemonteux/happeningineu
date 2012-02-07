@@ -32,11 +32,28 @@ def embedcode(str)
         originalurl = vurl.strip
         regex = /youtube.com.*(?:\/|v=)(\w+)/
         vurl = vurl.match(regex)[1]
-        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>"
+        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
         begin
           str[originalurl] = embed
         rescue Exception=>e
           str = str + ":" +  originalurl + ":" 
+          embed = ""
+        end
+      end
+    end
+  end
+  unless str.nil? or !str.include? 'vimeo'
+    videourl = str.split.grep(/(?:f|ht)tps?:\/\/vimeo\.com[^\s]+/)
+    videourl.each do |vurl|
+      unless vurl.nil? or !vurl.include? 'vimeo'
+        originalurl = vurl.strip
+        vurl["vimeo.com"]= "player.vimeo.com/video" 
+        vurl["http:"]= "https:"
+        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\""+vurl+"?wmode=opaque\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+        begin
+          str[originalurl] = embed
+        rescue Exception=>e
+          str = str + ":" +  originalurl + ":"
           embed = ""
         end
       end
