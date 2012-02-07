@@ -2,7 +2,7 @@ INSTALLATION
 ============
 
 
-1. Read and follow all instructions from https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora carefully. Make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9-full, not ruby-full. The database used in the development is MySQL, so some ActiveRecords might not work with PostgreSQL.
+1. Read and follow all instructions from https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora carefully. Make sure you are running Ruby 1.9+, not Ruby 1.8. The Debian package is named ruby1.9, not ruby-full. The database used in the development is MySQL, so some ActiveRecords might not work with PostgreSQL.
 
 Just, of course, grab the Diaspora source from the happeningin.eu repository rather the official repository, using the following commands:
 
@@ -19,7 +19,7 @@ cd happeningineu
 
 6. Copy diaspora-init.d as /etc/init.d/diaspora, and then chmod +x /etc/init.d/diaspora
 
-7. Again, make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9, not ruby.
+7. Again, make sure you are running Ruby 1.9+, not Ruby 1.8. Debian package is named ruby1.9, not ruby-full. If necessary, remove the ruby1.8 binary, link the ruby binary to ruby1.9, and install gem again.
 
 8. Run "bundle install && bundle update"
 
@@ -30,4 +30,4 @@ cd happeningineu
 11. Do not get frustrated if it fails at first, it is normal, a bit of patience, and the log file above will help you diagnose and know your system better.
 
 
-If you run into any problems, please contact the developer at https://diaspora.happeningin.eu/u/rovemonteux, via Twitter @monteuxrove, or via web http://rovemonteux.net/. 
+If you run into any problems, please contact the developer at https://happeningin.eu/u/rovemonteux, via Twitter @monteuxrove, or via web http://rovemonteux.net/. Announcements concerning this software are made via announcements@happeningin.eu (https://happeningin.eu/u/announcements). 
