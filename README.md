@@ -1,11 +1,10 @@
 # Happening In (happeningin.eu) 
 
-The privacy aware, personally controlled, do-it-all, open source social
-network.
+Open Social Networking
 
-This is a fork of the 2011 Diapora* source code. No code has been shared since, and this project is taking a different direction from the Diaspora* main branch.
+This software a fork of the 2011 Diapora* source code, and it is not source code compatible with the current official Diaspora* branch. 
 
-While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this fork are not the same as the main Diaspora* software.
+While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this software are not the same as the official Diaspora* software.
  
 If you have never seen nor used happeningin.eu, it is live at, 
 
@@ -23,6 +22,7 @@ You can sign up for an account in one of the hosts listed in the link below,
 
 [List of hosts using the Happening In (happeningin.eu) software](https://github.com/rovemonteux/happeningineu/wiki/Hosts-using-the-happeningin.eu-software)
 
+[Supported video formats](https://github.com/rovemonteux/happeningineu/wiki/Supported-video-formats)
 
 ## Are you a developer?
 
