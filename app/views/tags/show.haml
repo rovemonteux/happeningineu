@@ -33,7 +33,7 @@
 - content_for :body_class do
   = "tags_show"
 
-.span-20.append-2.prepend-2.last
+.span-22.append-1.prepend-1.last
   .stream_container{:style => "border: none;"}
     #author_info
       - if user_signed_in?
@@ -42,8 +42,8 @@
             = button_to t('.follow', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :post,   :class => 'button take_action'
           - else
             = button_to t('.following', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :delete,   :class => 'button red_on_hover tag_following in_aspects take_action'
-      %h1{:style => "font-size: 26px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
-        = t('conversations.new.subject').titleize + ": " + @stream.tag_name.titleize
+      %h1{:style => "font-size: 20px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
+        = @stream.tag_name.titleize
 
     %br
 
