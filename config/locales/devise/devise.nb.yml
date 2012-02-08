@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,13 +35,13 @@ nb:
         be_yourself: "Vær deg selv"
         be_yourself_paragraph: "Nettet har gitt oss enestående nye måter for å uttrykke oss selv på. %{strong_diaspora} lar deg være deg selv og dele akkurat som du vil det, med eller uten ditt ekte navn."
         displaying_correctly: "E-post vises ikke riktig? %{link} i din browser"
-        email_us: "For generelle spørsmål eller hjelp med din Diaspora-konto, send oss en e-post på %{email}."
+        email_us: "For generelle spørsmål eller hjelp med din Happening In-konto, send oss en e-post på %{email}."
         finally: "Endelig - det er her"
         friends_saying: "Det vennene dine sier..."
         get_connected_paragraph: "Som en internasjonal bevegelse som deler en visjon om et bedre internett, %{strong_diaspora}'s #1 egenskap er felleskapet. Møt nye mennesker, finn vennene dine, og bli med på moroa. "
         have_fun: "Ha det gøy"
         have_fun_paragraph: "%{strong_diaspora} handler om å finne utrolig nytt innhold og nye mennesker online. %{link}, den første %{strong_diaspora} applikasjonen i verden, er bare begynnelsen. Finn og del alt som gjør nettet til et fantastisk sted."
-        help_fund: "hjelp med å finansiere Diaspora"
+        help_fund: "hjelp med å finansiere Happening In"
         here: her
         ignore: "Hvis du ikke ønsker å godta invitasjonen, kan du se bort fra denne e-posten."
         join_team: "Bli med på laget"
@@ -51,11 +51,11 @@ nb:
         no_account_till: "Brukeren din vil ikke opprettes før du besøker lenken over og registrerer deg."
         or: eller
         sign_up_now: "Registrer deg nå &rarr;"
-        subject: "Du har blitt invitert til Diaspora!"
+        subject: "Du har blitt invitert til Happening In!"
         unsubscribe: "For å avregistrere deg klikk på %{link}."
         view_in: "Se i"
       inviter:
-        have_invited_you: "%{names} har invitert deg til Diaspora"
+        have_invited_you: "%{names} har invitert deg til Happening In"
       reset_password_instructions:
         change: "Endre passordet mitt"
         ignore: "Hvis du ikke har bedt om det, kan du overse denne e-posten."

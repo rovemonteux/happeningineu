@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -34,14 +34,14 @@ ms:
         be_yourself: "Jadi Diri Sendiri"
         be_yourself_paragraph: "Internet telah mencipta cara-cara baru yang unik bagi kita untuk menyatakan diri kita sendiri. % {strong_diaspora} membolehkan anda menjadi diri sendiri dan berkongsi walau bagaimanapun anda mahu, dengan atau tanpa nama sebenar anda."
         displaying_correctly: "E-mel tidak memaparkan dengan betul? % {link} dalam pelayar anda"
-        email_us: "Untuk sebarang pertanyaan umum atau sokongan dengan akaun Diaspora anda, sila e-mel kepada kami di% {email}."
+        email_us: "Untuk sebarang pertanyaan umum atau sokongan dengan akaun Happening In anda, sila e-mel kepada kami di% {email}."
         finally: "Akhirnya - ia telah tiba"
         friends_saying: "Apa yang rakan anda katakan ..."
         get_connected: "Dapatkan Sambungkan"
         get_connected_paragraph: "Satu pergerakan antarabangsa dengan wawasan yang dikongsi bersama bagi \"web\" yang lebih baik, ciri #1 % {strong_diaspora} adalah komunitinya. Bertemu orang baru, berhubung dengan rakan-rakan, dan menyertai keseronokan."
         have_fun: "Dapat Keseronokan"
         have_fun_paragraph: "% {strong_diaspora} adalah untuk menemui kandungan baru yang menakjubkan dan orang-orang dalam talian. % {link},% adalah aplikasi {strong_diaspora} yang pertama di dunia hanyalah satu permulaan. Mengumpul dan berkongsi laman web di dalam semua kemuliaan."
-        help_fund: "Bantuan dana Diaspora"
+        help_fund: "Bantuan dana Happening In"
         here: "di sini"
         ignore: "Jika anda tidak mahu menerima jemputan, sila abaikan email ini."
         join_team: "Sertai pasukan kami"
@@ -51,13 +51,13 @@ ms:
         no_account_till: "Akaun anda tidak akan diwujudkan sehingga anda mengakses pautan di atas dan daftar."
         or: atau
         sign_up_now: "Daftar sekarang &rarr;"
-        subject: "Anda telah dijemput untuk menyertai Diaspora!"
-        team_diaspora: "Kumpulan Diaspora"
+        subject: "Anda telah dijemput untuk menyertai Happening In!"
+        team_diaspora: "Kumpulan Happening In"
         unsubscribe: "Untuk menghentikan langganan, sila klik %{link}."
         view_in: "Lihat dalam"
       inviter:
         accept_at: "pada% {url}, anda boleh menerimanya melalui link di bawah."
-        have_invited_you: "%{names} telah menjemput anda untuk menyertai Diaspora"
+        have_invited_you: "%{names} telah menjemput anda untuk menyertai Happening In"
       reset_password_instructions:
         change: "Tukar kata laluan saya"
         ignore: "Jika anda tidak membuat permintaan ini, sila abaikan email ini."

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ el:
         be_yourself: "Να είσαι ο εαυτός σου"
         be_yourself_paragraph: "Το Διαδίκτυο έχει δημιουργήσει μοναδικούς τρόπους για να εκφραστούμε.Το %{strong_diaspora} σας επιτρέπει να είστε ο εαυτός σας και να μοιράζεστε όπως θέλετε, με το πραγματικό σας όνομα η και όχι. "
         displaying_correctly: "Το Email δεν εμφανίζεται σωστά; %{link} "
-        email_us: "Για γενικές ερωτήσεις ή υποστήριξη για τον Diaspora λογαριασμό σας, παρακαλούμε επικοινωνήστε στο  %{email}."
+        email_us: "Για γενικές ερωτήσεις ή υποστήριξη για τον Happening In λογαριασμό σας, παρακαλούμε επικοινωνήστε στο  %{email}."
         finally: "Επιτέλους - είναι εδώ"
         friends_saying: "Τι λένε οι φίλοι σου..."
         get_connected: Συνδεθείτε
         get_connected_paragraph: "Ως ένα διεθνές κίνημα με κοινό όραμα το καλύτερο διαδίκτυο, το #1 χαρακτηριστικό του %{strong_diaspora} είναι η κοινότητά του. Γνωρίστε νέα άτομα, συνδεθείτε με φίλους και διασκεδάστε."
         have_fun: Διασκεδάστε
         have_fun_paragraph: "Με το %{strong_diaspora} θα ανακλύψετε νέα εκπληκτικά πράγματα και ανθρώπους στο διαδίκτυο. %{link}, η πρώτη παγκόσμια εφαρμογή του %{strong_diaspora} είναι μόνο η αρχή. Συλλέξτε και μοιραστείτε το διαδίκτυο σε όλη τη δόξα του. "
-        help_fund: "βοηθείστε τη χορηγία του Diaspora "
+        help_fund: "βοηθείστε τη χορηγία του Happening In "
         here: εδώ
         ignore: "Εάν δεν θέλετε να αποδεχτείτε την πρόσκληση, παρακαλώ αγνοήστε αυτό το email."
         join_team: "Γίνετε μέλος στην ομάδα μας"
@@ -52,13 +52,13 @@ el:
         no_account_till: "Ο λογαριασμός σας δεν θα δημιουργηθεί μέχρι να μεταβείτε στον παρακάτω σύνδεσμο και συνδεθείτε. "
         or: "ή "
         sign_up_now: "Εγγραφείτε τώρα &rarr;"
-        subject: "Έχετε προσκληθεί να συμμετάσχετε στο Diaspora!"
-        team_diaspora: "Η Ομάδα του Diaspora"
+        subject: "Έχετε προσκληθεί να συμμετάσχετε στο Happening In!"
+        team_diaspora: "Η Ομάδα του Happening In"
         unsubscribe: "Για να διαγραφείτε παρακαλούμε πατήστε στο σύνδεσμο : %{link}."
         view_in: "Δείτε το στο φυλλομετρητή σας. "
       inviter:
         accept_at: "στο %{url}, μπορείτε να το αποδεχτείτε μέσω του παρακάτω συνδέσμου."
-        have_invited_you: "οι χρήστες %{names} σας προσκάλεσαν να συνδεθείτε στο Diaspora"
+        have_invited_you: "οι χρήστες %{names} σας προσκάλεσαν να συνδεθείτε στο Happening In"
       reset_password_instructions:
         change: "Αλλαγή του κωδικού μου"
         ignore: "Εάν δεν το ζητήσατε, παρακαλούμε να αγνοήσετε αυτό το μήνυμα."

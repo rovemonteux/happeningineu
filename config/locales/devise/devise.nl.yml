@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -34,16 +34,16 @@ nl:
         be_yourself: "Wees jezelf"
         be_yourself_paragraph: "Het Internet heeft unieke nieuwe manieren mogelijk gemaakt om onszelf te uiten. %{strong_diaspora} laat jou jezelf zijn en laat jou delen hoe je dat wilt, met of zonder je echte naam."
         displaying_correctly: "Ziet deze e-mail er niet goed uit? %{link} in jouw browser"
-        email_us: "Voor algemene vragen of hulp met je Diaspora account kun je een e-mail sturen naar %{email}."
+        email_us: "Voor algemene vragen of hulp met je Happening In account kun je een e-mail sturen naar %{email}."
         finally: "Eindelijk - het is er"
         friends_saying: "Wat je vrienden zeggen..."
         ignore: "Als je de uitnodiging niet wilt accepteren, negeer dan deze E-mail."
         no_account_till: "Je account wordt niet aangemaakt totdat je de bovenstaande link bezoekt en je aanmeldt."
-        subject: "Je bent uitgenodigd om lid te worden van Diaspora!"
+        subject: "Je bent uitgenodigd om lid te worden van Happening In!"
         view_in: "View in"
       inviter:
         accept_at: "op %{url}, je kunt deze accepteren via onderstaande link."
-        have_invited_you: "%{names} hebben je uitgenodigd om lid te worden van Diaspora"
+        have_invited_you: "%{names} hebben je uitgenodigd om lid te worden van Happening In"
       reset_password_instructions:
         change: "Wijzig mijn wachtwoord"
         ignore: "Als je hier niet om hebt gevraagd kun je deze mail gewoon negeren."

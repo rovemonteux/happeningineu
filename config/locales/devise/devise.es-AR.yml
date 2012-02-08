@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ es-AR:
         be_yourself: "Sé vos mismo/a"
         be_yourself_paragraph: "Internet creó nuevas formas únicas para que nos expresemos. %{strong_diaspora} te permite ser uno mismo y compartir lo que te parezca, con o sin tu nombre real."
         displaying_correctly: "¿El email no se ve correctamente? %{link}"
-        email_us: "Para consultas generales o pedido de ayuda con su cuenta de Diaspora, por favor envianos un email a %{email}."
+        email_us: "Para consultas generales o pedido de ayuda con su cuenta de Happening In, por favor envianos un email a %{email}."
         finally: "Por fin - Ya llegó"
         friends_saying: "Lo que tus amigos están diciendo..."
         get_connected: Conectate
         get_connected_paragraph: "Un movimiento internacional que comparte la visión de una red mejor, la principal característica de %{strong_diaspora} es su comunidad. Conocé gente nueva, conectáte con amigos y unite a la diversión."
         have_fun: Divertite
         have_fun_paragraph: "%{strong_diaspora} es descubrir contenido nuevo y sorprendente de personas que están online. %{link}, la primera aplicación del mundo para %{strong_diaspora} es sólo el comienzo. Recopilar y compartir en la web en toda su gloria."
-        help_fund: "ayudá a financiar Diaspora"
+        help_fund: "ayudá a financiar Happening In"
         here: aquí
         ignore: "Si no querés aceptar la invitación, por favor ignorá este correo."
         join_team: "Unite a nuestro Equipo"
@@ -53,13 +53,13 @@ es-AR:
         or: o
         sign_up_now: "Registrate ahora &rarr;"
         subject: "¡Te invitaron a unirte a Diáspora*!"
-        team_diaspora: "Equipo Diaspora"
+        team_diaspora: "Equipo Happening In"
         unsubscribe: "Para desuscribirte cliqueá %{link}."
         view_in: "Ver en tu navegador."
       inviter:
         accept_at: "en %{url}, podes aceptarlo desde el link  de abajo "
-        has_invited_you: "%{name} te ha invitado a unirte a Diaspora"
-        have_invited_you: "%{names} te han invitado a unirte a Diaspora"
+        has_invited_you: "%{name} te ha invitado a unirte a Happening In"
+        have_invited_you: "%{names} te han invitado a unirte a Happening In"
       reset_password_instructions:
         change: "Cambiar mi contraseña"
         ignore: "Si vos no hiciste la solicitud, por favor ignorá este correo."

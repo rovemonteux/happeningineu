@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -34,11 +34,11 @@ eu:
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
         ignore: "Ez baduzu gonbidapena onartu nahi, mesedez egin iezaiozu ez-ikusi mezu honi."
         no_account_till: "Zure kontua ez da sortuko hemengo esteka jarraitu eta izena eman arte."
-        subject: "Diasporara batzera gonbidatua izan zara!"
+        subject: "Happening Inra batzera gonbidatua izan zara!"
         view_in: "View in"
       inviter:
         accept_at: "%{url}(e)n, onartu dezakezu beheko esteka jarraituz."
-        have_invited_you: "%{names}(e)k Diasporara batzera gonbidatu zaituzte"
+        have_invited_you: "%{names}(e)k Happening Inra batzera gonbidatu zaituzte"
       reset_password_instructions:
         change: "Pasahitza aldatu"
         ignore: "Hau eskatu ez bazenuen, mesedez gutxietsi mezu hau."

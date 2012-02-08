@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ ka:
         be_yourself: "იყავი შენი თავი"
         be_yourself_paragraph: "ინტერნეტმა მოგვცა ჩვენი თავის გამოკვლევის ახალი, უნიკალური გზები. %{strong_diaspora} გაძლევთ საშუალებას რომ იყოთ ის რაც ხართ და გააზიაროთ ის რაც გსურთ, ნამდვილი ან მოგონილი სახელით."
         displaying_correctly: "ელ-ფოსტა სწორად არ ჩანს? %{link}"
-        email_us: "თქვენს Diaspora ანგარიშთან დაკავშირებული შეკითხვებისთვის და მხარდაჭერისთვის, გთხოვთ მოგვმართეთ ელ-ფოსტაზე %{email}."
+        email_us: "თქვენს Happening In ანგარიშთან დაკავშირებული შეკითხვებისთვის და მხარდაჭერისთვის, გთხოვთ მოგვმართეთ ელ-ფოსტაზე %{email}."
         finally: "როგორც იქნა - ის აქაა"
         friends_saying: "რას ამბობენ თქვენი მეგობრები..."
         get_connected: დაუკავშირდით
         get_connected_paragraph: "საერთაშორისო მოძრაობა, რომელსაც გააჩნია საერთო ხედვა უკეთესი ინტერნეტისთვის, %{strong_diaspora}-ს #1 უპირატესობა მისი საზოგადოებაა. შეხვდით ახალ ხალხს, დაუკავშირდით მეგობრებს და შეურთდით მხიარულებას."
         have_fun: იმხიარულეთ
         have_fun_paragraph: "%{strong_diaspora} გაძლევთ გასაოცარი ახალი შიგთავსის და ხალხის პოვნის საშულაებას ქსელში. %{link}, მსოფლიოს პირველი %{strong_diaspora} პროგრამა მხოლოდ დასაწყისია. შეაგროვეთ და გააზიარეთ ინტერნეტი მისი სრული სილამაზით."
-        help_fund: "Diaspora-ს დახმარება"
+        help_fund: "Happening In-ს დახმარება"
         here: აქ
         ignore: "თუ არ გსურთ მოსაწვევის მიღება, გთხოვთ ყურადღება არ მიაქციოთ ამ ელ-ფოსტას."
         join_team: "შეურთდით ჩვენს ჯგუფს"
@@ -52,13 +52,13 @@ ka:
         no_account_till: "თქვენი ანგარიში არ შეიქმნება, სანამ თქვენ არ გადახვალთ ქვემოთ მოცემულ ბმულზე და არ დარგისტრირდებით."
         or: ან
         sign_up_now: "დარეგისტრირდით ახლავე &rarr;"
-        subject: "თქვენი მიწვეული ხართ Diaspora-ში!"
-        team_diaspora: "Diaspora-ს გუნდი"
+        subject: "თქვენი მიწვეული ხართ Happening In-ში!"
+        team_diaspora: "Happening In-ს გუნდი"
         unsubscribe: "ხელმოწერის გასაუქმებლად გთხოვთ დააწკაპუნეთ %{link}."
         view_in: "ნახეთ ის თქვენს ბრაუზერში."
       inviter:
         accept_at: "%{url}, თქვენ შეგიძლიათ დაეთანხმოთ ქვემოთ მოცემული ბმულის გამოყენებით."
-        have_invited_you: "მომხმარებელმა %{names} მოგიწვიათ რათა შეურთდეთ Diaspora-ს"
+        have_invited_you: "მომხმარებელმა %{names} მოგიწვიათ რათა შეურთდეთ Happening In-ს"
       reset_password_instructions:
         change: "ჩემი პაროლის შეცვლა"
         ignore: "თუ თქვენ ეს არ მოგითხოვიათ, გთხოვთ ყურადღება არ მიაქციოთ ამ ელ-ფოსტას."

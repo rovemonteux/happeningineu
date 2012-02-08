@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ fr:
         be_yourself: "Soyez vous-même"
         be_yourself_paragraph: "L'Internet a créé de nouvelles façons uniques pour nous de nous exprimer. %{strong_diaspora} vous permet d'être vous-même et de partager comme vous le voulez, avec ou sans votre vrai nom."
         displaying_correctly: "Ce courriel ne s'affiche pas correctement ? %{link}"
-        email_us: "Pour des renseignements généraux ou de l'aide sur votre compte Diaspora, merci de nous envoyer un courriel à %{email}."
+        email_us: "Pour des renseignements généraux ou de l'aide sur votre compte Happening In, merci de nous envoyer un courriel à %{email}."
         finally: "Enfin - c'est ici"
         friends_saying: "Ce que disent vos amis..."
         get_connected: "Soyez Connecté"
         get_connected_paragraph: "Un mouvement international avec une vision partagée pour un meilleur web,  la première caractéristique de %{strong_diaspora} est sa communauté. Rencontrez de nouvelles personnes, connectez-vous avec vos amis, et amusez-vous."
         have_fun: "Prenez plaisir"
         have_fun_paragraph: "%{strong_diaspora} est tout un projet étonnant permettant de découvrir de nouveaux contenus et des gens en ligne. %{link}, la première application %{strong_diaspora}, et c'est juste le commencement. Recueillir et partager sur le Web dans toute sa gloire."
-        help_fund: "aider à financer Diaspora"
+        help_fund: "aider à financer Happening In"
         here: ici
         ignore: "Si vous ne voulez pas accepter l'invitation, merci d'ignorer ce courriel."
         join_team: "Rejoignez notre Équipe"
@@ -52,13 +52,13 @@ fr:
         no_account_till: "Votre compte ne sera créé que lorsque vous irez sur le lien ci-dessus et que vous vous inscrirez."
         or: ou
         sign_up_now: "Inscrivez-vous →"
-        subject: "Vous avez été invité à rejoindre Diaspora!"
-        team_diaspora: "L'Équipe Diaspora"
+        subject: "Vous avez été invité à rejoindre Happening In!"
+        team_diaspora: "L'Équipe Happening In"
         unsubscribe: "Pour vous désinscrire, merci de cliquer sur %{link}."
         view_in: "L'afficher dans votre navigateur."
       inviter:
         accept_at: "à %{url}, vous pouvez l'accepter à travers le lien ci-dessous."
-        have_invited_you: "%{names} vous a invité à rejoindre Diaspora"
+        have_invited_you: "%{names} vous a invité à rejoindre Happening In"
       reset_password_instructions:
         change: "Changer mon mot de passe"
         ignore: "Si vous n'avez pas demandé cela, merci d'ignorer cet e-mail."

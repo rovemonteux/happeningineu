@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -34,11 +34,11 @@ id:
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
         ignore: "Mohon abaikan e-mail ini, jika anda tidak setuju untuk menerima undangan ini."
         no_account_till: "Akun anda tidak akan diciptakan sampai anda mengakses tautan di atas dan mendaftar."
-        subject: "Anda telah diundang untuk bergabung di Diaspora!"
+        subject: "Anda telah diundang untuk bergabung di Happening In!"
         view_in: "View in"
       inviter:
         accept_at: "di %{url}, anda dapat menerimanya melalui tautan di bawah ini."
-        have_invited_you: "%{names} telah mengundang anda untuk bergabung di Diaspora"
+        have_invited_you: "%{names} telah mengundang anda untuk bergabung di Happening In"
       reset_password_instructions:
         change: "Ubah kata sandi saya"
         ignore: "Tolong abaikan e-mail ini jika anda tidak memintanya."

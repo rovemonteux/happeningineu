@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -33,13 +33,13 @@ ro:
         accept: "Acceptă invitaţia"
         be_yourself_paragraph: "Internetul a creat moduri unice de a ne exprima %{strong_diaspora} te lasa sa fi tu insuti si sa arati ce vrei, cum vrei - cu sau fara numele tau adevarat."
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
-        email_us: "Pentru intrebari generice sau probleme cu contul de Diaspora, trimiteti un email la %{email}."
+        email_us: "Pentru intrebari generice sau probleme cu contul de Happening In, trimiteti un email la %{email}."
         get_connected: Conecteaza-te
         have_fun: Distractie!
         ignore: "Dacă nu doreşti sa accepţi invitaţia, ignoră acest mesaj."
         join_team: "Haideti in echipa"
         no_account_till: "Contul dvs. nu va fi creat până când nu veţi accesa linkul de mai sus şi vă veţi înscrie."
-        subject: "Un prieten te-a invitat pe Diaspora!"
+        subject: "Un prieten te-a invitat pe Happening In!"
         view_in: "View in"
       reset_password_instructions:
         change: "Schimbă-mi parola"

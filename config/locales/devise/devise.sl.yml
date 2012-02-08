@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -50,13 +50,13 @@ sl:
         no_account_till: "Vaš račun ne bo ustvarjen, dokler ne boste obiskali  povezave zgoraj in se vpisali."
         or: ali
         sign_up_now: "Registriraj se zdaj &rarr;"
-        subject: "Povabljeni ste, da se pridružite omrežju Diaspora!"
+        subject: "Povabljeni ste, da se pridružite omrežju Happening In!"
         team_diaspora: "Tim Diaspore"
         unsubscribe: "Za odjavo kliknite %{link}."
         view_in: "Poglej v"
       inviter:
         accept_at: "na %{url}, sprejmete lahko preko spodnje povezave."
-        have_invited_you: "%{names} so vas povabili v omrežje Diaspora"
+        have_invited_you: "%{names} so vas povabili v omrežje Happening In"
       reset_password_instructions:
         change: "Spremeni geslo"
         ignore: "V kolikor tega niste zahtevali, jemljite to e-pošto kot brezpredmetno."

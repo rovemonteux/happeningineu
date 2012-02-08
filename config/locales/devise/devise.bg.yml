@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,29 +35,29 @@ bg:
         be_yourself: "Бъдете себе си"
         be_yourself_paragraph: "Internet предоставя уникални възможности за изразяване. %{strong_diaspora} ви позволява да бъдете себе си и да споделяте както желаете, с когото пожелаете, ползвайки или не името си."
         displaying_correctly: "Съдържанието не се визуализира правилно? %{link} във вашия браузър"
-        email_us: "За общи запитвания и поддръжка на вашия акаунт в Diaspora моля пишете ни на %{email}."
+        email_us: "За общи запитвания и поддръжка на вашия акаунт в Happening In моля пишете ни на %{email}."
         finally: "Най-накрая е тук"
         friends_saying: "Какво казват приятелите ви..."
         get_connected: "Свържете се"
         get_connected_paragraph: "Международно движение със споделена визия за по-добра мрежа, първата черта на %{strong_diaspora} е общността. Срещнете нови хора, свържете се с приятели и се включете в забавата."
         have_fun: "Забавлявайте се"
         have_fun_paragraph: "%{strong_diaspora} е е посветена на откриването на ново съдържание и хора. %{link} първото приложение за %{strong_diaspora} е само началото. Събирайте и споделяйте мрежата в целия ѝ блясък."
-        help_fund: "помогнете за финансирането на Diaspora"
+        help_fund: "помогнете за финансирането на Happening In"
         here: тук
         ignore: "Ако не желаете да приемете поканата, моля игнорирайте писмото."
         join_team: "Присъединете се към нашия отбор"
         made_by_people: "%{strong_diaspora} е създадена от хора, които обичат Internet. %{jointeam} или %{helpfund}!"
-        more_people: "Дори повече са развълнувани да ви видят в Diaspora!"
+        more_people: "Дори повече са развълнувани да ви видят в Happening In!"
         no_account_till: "Акаунтът няма да бъде създаден докато не посетите горната връзката и се регистрирате."
         or: или
         sign_up_now: "Регистрирайте се сега &rarr;"
-        subject: "Поканени сте да се присъедините към Diaspora!"
-        team_diaspora: "Екипът на Diaspora"
+        subject: "Поканени сте да се присъедините към Happening In!"
+        team_diaspora: "Екипът на Happening In"
         unsubscribe: "За да прекратите абонамента кликнете %{link}."
         view_in: "Преглед в браузъра."
       inviter:
         accept_at: "от %{url}, можете да приемете чрез връзката по-долу в писмото."
-        have_invited_you: "%{names} ви кани да се присъедините към Diaspora"
+        have_invited_you: "%{names} ви кани да се присъедините към Happening In"
       reset_password_instructions:
         change: "Промяна на паролата"
         ignore: "Ако не сте заявили промяната, моля игнорирайте писмото."

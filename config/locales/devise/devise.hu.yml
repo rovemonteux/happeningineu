@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -42,7 +42,7 @@ hu:
         get_connected_paragraph: "Nemzetközi megmozdulás egy közös álom a jobb webről. A %{strong_diaspora} fő funkciója a közösség. Ismerkedj új emberekkel, tartsd a kapcsolatot barátaiddal."
         have_fun: "Jó szórakozást"
         have_fun_paragraph: "%{strong_diaspora} az érdekes új dolgok felfedezéséről szól. %{link}, a világ első %{strong_diaspora} applikációja épp most indult. Gyűjtsd össze és oszd meg a web érdekességeit."
-        help_fund: "segíts a Diaspora* fenntartásában"
+        help_fund: "segíts a Happening In fenntartásában"
         here: itt
         ignore: "Ha nem szeretnél csatlakozni csak hagyd figyelmen kívül ezt a levelet."
         join_team: "Csatlakozz a Csapatunkhoz"
@@ -52,13 +52,13 @@ hu:
         no_account_till: "A fiókod addig nem készül el amíg be nem lépsz a megadott linkkel és be nem regisztrálsz."
         or: vagy
         sign_up_now: "Regisztrálj most &rarr;"
-        subject: "Meghívtak, hogy csatlakozz a Diaspora* közösségi hálóhoz."
-        team_diaspora: "Diaspora* Csapat"
+        subject: "Meghívtak, hogy csatlakozz a Happening In közösségi hálóhoz."
+        team_diaspora: "Happening In Csapat"
         unsubscribe: "Leiratkozáshoz kattints %{link}."
         view_in: "Megtekintés böngészőben"
       inviter:
         accept_at: "Meghívás elfogadása: %{url}"
-        have_invited_you: "%{names} meghívott a Diaspora* közösségi oldalra."
+        have_invited_you: "%{names} meghívott a Happening In közösségi oldalra."
       reset_password_instructions:
         change: "Jelszavam módosítása"
         ignore: "Ha nem kérted ezt, hagyd figyelmen kívül ezt a levelet."

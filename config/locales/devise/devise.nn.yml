@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -34,11 +34,11 @@ nn:
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
         ignore: "Om du ikkje ønskjer å godta invitasjonen, lèt du berre vera å svara på meldinga."
         no_account_till: "Kontoen din vil ikkje verta oppretta før du nyttar lenkja ovanfor og loggar deg på."
-        subject: "Du er vorten invitert til å vera med i Diaspora."
+        subject: "Du er vorten invitert til å vera med i Happening In."
         view_in: "View in"
       inviter:
         accept_at: "på %{url}, du kan godta det gjennom lenkja nedanfor."
-        have_invited_you: "%{names} har invitert deg til å verta med i Diaspora"
+        have_invited_you: "%{names} har invitert deg til å verta med i Happening In"
       reset_password_instructions:
         change: "Endra passordet mitt"
         ignore: "Om du ikkje bad om dette, kan du berre sjå vekk frå meldinga."

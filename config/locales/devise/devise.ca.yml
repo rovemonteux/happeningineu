@@ -1,4 +1,4 @@
-#   Copyright © 2011, Diaspora Inc.  This file is
+#   Copyright © 2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 #   Jordi Mallach <jordi@softcatala.org>, 2011.
@@ -103,7 +103,7 @@ ca:
         love: "Adéu,"
         team_diaspora: "L'equip del Diàspora"
         email_us: "Per preguntes generals o suport amb el vostre compte del diàspora, escriviu-nos a %{email}."
-        email_address: "questions@joindiaspora.com"
+        email_address: "rove.monteux@fluid-rock.com"
         subject: "Us han convidat a unir-vos a Diàspora!"
         accept: "Accepta la invitació"
         ignore: "Si no voleu acceptar la invitació, ignoreu aquest correu electrònic."

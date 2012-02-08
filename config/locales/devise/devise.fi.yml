@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ fi:
         be_yourself: "Ole oma itsesi"
         be_yourself_paragraph: "Internet on luonut uusia, ainutlaatuisia tapoja ilmaista itseämme. %{strong_diaspora}ssa voit olla oma itsesi ja jakaa sisältöä kuten haluat, omalla nimelläsi tai ilman."
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
-        email_us: "Voit lähettää yleisluontoiset Diaspora-tiliisi liittyvät tiedustelut ja tukipyynnöt osoitteeseen %{email}."
+        email_us: "Voit lähettää yleisluontoiset Happening In-tiliisi liittyvät tiedustelut ja tukipyynnöt osoitteeseen %{email}."
         finally: "Vihdoinkin – se on täällä"
         friends_saying: "Mitä ystäväsi sanovat..."
         get_connected: "Liity mukaan"
         get_connected_paragraph: "%{strong_diaspora} on kansainvälinen liike, jolla on näkemys paremmasta internetistä, ja sen ykkösominaisuus on sen yhteisö. Tapaa uusia ihmisiä, pidä yhteyttä ystäviisi ja nauti."
         have_fun: "Pidä hauskaa"
         have_fun_paragraph: "%{strong_diaspora} on uusien ja ihmeellisten sisältöjen ja ihmisten paikka. %{link}, maailman ensimmäinen %{strong_diaspora}-sovellus on vain alkua. Kerää ja jaa webin sisältöä."
-        help_fund: "tue Diasporaa lahjoituksella"
+        help_fund: "tue Happening Ina lahjoituksella"
         here: tästä
         ignore: "Mikäli et halua hyväksyä kutsua, voit jättää tämän viestin huomioimatta."
         join_team: "Liity mukaan"
@@ -52,14 +52,14 @@ fi:
         no_account_till: "Käyttäjätilisi luodaan vasta, kun rekisteröidyt yllä olevan linkin kautta. "
         or: tai
         sign_up_now: "Rekisteröidy heti &rarr;"
-        subject: "Sinut on kutsuttu käyttämään Diasporaa!"
-        team_diaspora: Diaspora-tiimi
+        subject: "Sinut on kutsuttu käyttämään Happening Ina!"
+        team_diaspora: Happening In-tiimi
         unsubscribe: "Voit poistua postituslistalta napsauttamalla %{link}."
         view_in: "View in"
       inviter:
         accept_at: "osoitteessa %{url}, hyväksyminen alla olevasta linkistä."
         has_invited_you: "%{names}"
-        have_invited_you: "%{names} on kutsunut sinut Diasporan käyttäjäksi"
+        have_invited_you: "%{names} on kutsunut sinut Happening Inn käyttäjäksi"
       reset_password_instructions:
         change: "Vaihda salasanani"
         ignore: "Jos et pyytänyt tätä, voit jättää viestin huomiotta."

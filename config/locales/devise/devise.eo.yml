@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -37,7 +37,7 @@ eo:
         friends_saying: "Kion viaj amikoj diras..."
         get_connected: Konektiĝu
         have_fun: Amuziĝu
-        help_fund: "subteni Diaspora"
+        help_fund: "subteni Happening In"
         here: "ĉi tie"
         ignore: "Se vi ne volas akcepti tiun inviton, bonvolu ignori ĉi tiun retpoŝton"
         join_team: "Angiu nian teamon"

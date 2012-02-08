@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -26,7 +26,7 @@ de_formal:
     mailer:
       confirmation_instructions:
         confirm: "Mein Konto bestätigen"
-        subject: "Bestätigung Ihres Diaspora-Kontos"
+        subject: "Bestätigung Ihres Happening In-Kontos"
         you_can_confirm: "Sie können Ihr Konto über den nachfolgenden Link bestätigen:"
       hello: "Hallo %{email}!"
       invitation_instructions:
@@ -34,11 +34,11 @@ de_formal:
         displaying_correctly: "Email not displaying correctly? %{link} in your browser"
         ignore: "Wenn Sie die Einladung nicht annehmen möchten, ignorieren Sie diese E-Mail einfach."
         no_account_till: "Ihr Konto wird nicht erstellt solange Sie sich nicht über den oberen Link registrieren."
-        subject: "Sie wurden zu Diaspora eingeladen!"
+        subject: "Sie wurden zu Happening In eingeladen!"
         view_in: "View in"
       inviter:
         accept_at: "unter %{url}, können Sie sie über den untenstehenden Link akzeptieren."
-        have_invited_you: "%{names} hat Sie eingeladen Diaspora beizutreten"
+        have_invited_you: "%{names} hat Sie eingeladen Happening In beizutreten"
       reset_password_instructions:
         change: "Mein Kennwort ändern"
         ignore: "Wenn Sie dies nicht angefordert haben, ignorieren Sie bitte diese E-Mail."

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -42,7 +42,7 @@ pt-PT:
         get_connected_paragraph: "Um movimento internacional com um ideal comum para uma melhor Web, a primeira característica da %{strong_diaspora} é a sua comunidade. Conheça novas pessoas, ligue-se a amigos e junte-se à diversão."
         have_fun: Divirta-se
         have_fun_paragraph: "%{strong_diaspora} é sobre descobrir incríveis conteúdos novos e pessoas online. %{link}, %{strong_diaspora} é a primeira aplicação mundial e é só o inicio. Colete e partilhe a Web em toda a sua glória."
-        help_fund: "ajude a financiar a Diaspora"
+        help_fund: "ajude a financiar a Happening In"
         here: aqui
         ignore: "Se não deseja aceitar o convite, por favor ignore este email."
         join_team: "Junte-se à nossa equipa\n"
@@ -52,13 +52,13 @@ pt-PT:
         no_account_till: "A sua conta não será criada até que aceda à hiperligação acima e se registe."
         or: ou
         sign_up_now: "Registe-se agora &rarr;"
-        subject: "Foi convidado para se juntar ao Diaspora!"
-        team_diaspora: "Equipa Diaspora"
+        subject: "Foi convidado para se juntar ao Happening In!"
+        team_diaspora: "Equipa Happening In"
         unsubscribe: "Para cancelar a subscrição clique %{link}."
         view_in: "Visualizar no seu navegador."
       inviter:
         accept_at: "em %{url}, pode aceitá-lo através da ligação abaixo."
-        have_invited_you: "%{names} convidaram-no para se juntar ao Diaspora"
+        have_invited_you: "%{names} convidaram-no para se juntar ao Happening In"
       reset_password_instructions:
         change: "Alterar a minha palavra-passe"
         ignore: "Se não fez este pedido, por favor ignore este email."

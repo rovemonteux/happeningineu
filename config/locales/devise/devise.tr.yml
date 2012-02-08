@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ tr:
         be_yourself: "Kendiniz Olun"
         be_yourself_paragraph: "İnternet bize kendimizi ifade etmek için benzersiz yeni yollar yarattı. % {Strong_diaspora}, ister gerçek isminizle ister bir rumuzla kendiniz olmanıza ve istediğiniz gibi paylaşma yapmanıza imkân sağlar."
         displaying_correctly: "E-mail doğru görüntülenmemiş mi? %{link} tarayıcınızda"
-        email_us: "Diaspora hesabınızla ilgili destek veya sorularınız için lütfen iletişime geçiniz: %{email}"
+        email_us: "Happening In hesabınızla ilgili destek veya sorularınız için lütfen iletişime geçiniz: %{email}"
         finally: "Sonunda - o burada!"
         friends_saying: "Arkadaşların ne diyor..."
         get_connected: "Bağlı Kal"
         get_connected_paragraph: "Daha iyi bir İnternet vizyonunu paylaşan ve uluslar arası bir hareket olan %{strong_diaspora}'nın en önemli unsuru topluluğudur. Yeni kişilerle tanışın, arkadaşlarınızla iletişim kurun ve eğlenceye katılın."
         have_fun: "Keyif al"
         have_fun_paragraph: "%{strong_diaspora}, çevrim içinde yeni içerik ve kişiler bulmaya odaklanır. %{link}, dünyanın ilk  %{strong_diaspora} uygulaması, sadece bir başlangıçtır. Tüm görkemiyle İnternet'i toplayın ve paylaşın."
-        help_fund: "Diaspora'ya mali yardım"
+        help_fund: "Happening In'ya mali yardım"
         here: burda
         ignore: "Daveti kabul etmek istemiyorsanız, lütfen bu e-postayı gözardı edin."
         join_team: "Ekibimize katılın"
@@ -52,13 +52,13 @@ tr:
         no_account_till: "Hesabınız yukarıdaki bağlantıya tıklayıp üye olmadan oluşturulmayacaktır."
         or: veya
         sign_up_now: "Şimdi kaydol &rarr;"
-        subject: "Diaspora'ya katılmak için davet edildiniz!"
-        team_diaspora: "Diaspora Ekibi"
+        subject: "Happening In'ya katılmak için davet edildiniz!"
+        team_diaspora: "Happening In Ekibi"
         unsubscribe: "Aboneliğinizi kaldırmak için şu bağlantıyı tıklayınız: %{link}."
         view_in: "Tarayıcınızda görüntüleyin."
       inviter:
         accept_at: "%{url}, aşağıdaki bağlantıya tıklayarak bunu kabul edebilirsiniz."
-        have_invited_you: "%{names} Diaspora'ya katılmanız için davet edildiniz"
+        have_invited_you: "%{names} Happening In'ya katılmanız için davet edildiniz"
       reset_password_instructions:
         change: "Parolamı değiştir"
         ignore: "Eğer bunu siz talep etmediyseniz, lütfen bu e-postayı yoksayın."

@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -7,7 +7,7 @@
 gl:
   devise:
     confirmations:
-      confirmed: "Confirmouse a súa conta, e xa está en Diaspora."
+      confirmed: "Confirmouse a súa conta, e xa está en Happening In."
       new:
         resend_confirmation: "Volver enviar as instrucións de confirmación"
       send_instructions: "Nuns minutos recibirá un correo electrónico con instrucións para confirmar a súa conta."
@@ -33,7 +33,7 @@ gl:
         accept: "Aceptar a invitación"
         ignore: "Se non quere aceptar a invitación, non ten máis que ignorar esta mensaxe."
         no_account_till: "A súa conta non se creará ata que prema a ligazón anterior e se rexistre."
-        subject: "Invitáronte a formar parte de Diaspora!"
+        subject: "Invitáronte a formar parte de Happening In!"
       reset_password_instructions:
         change: "Cambiar o contrasinal"
         ignore: "Se non foi vostede quen solicitou este cambio, non ten máis que ignorar esta mensaxe."

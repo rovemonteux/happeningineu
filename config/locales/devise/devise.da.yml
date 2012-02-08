@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2010-2011, Happening In Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -35,14 +35,14 @@ da:
         be_yourself: "Vær dig selv"
         be_yourself_paragraph: "Internettet har skabt nye unikke måder vi kan udtrykke os på. %{strong_diaspora} lader dig være dig selv og dele som du ønsker det, med eller uden dit rigtige navn."
         displaying_correctly: "Ser e-mailen forkert ud? %{link}"
-        email_us: "For generelle spørgsmål eller hjælp med din Diaspora-konto, send venligst en email til os på %{email}."
+        email_us: "For generelle spørgsmål eller hjælp med din Happening In-konto, send venligst en email til os på %{email}."
         finally: "Endelig er det her"
         friends_saying: "Hvad dine venner siger..."
         get_connected: "Kobl dig på"
         get_connected_paragraph: "Som en international bevægelse med en fælles vision for et bedre web, er %{strong_diaspora}'s vigtigste funktion brugerne. Mød nye mennesker, del med vennerne og hav det sjovt med alle andre."
         have_fun: "Hav det sjovt"
         have_fun_paragraph: "%{strong_diaspora} handler om at opdage nyt fantastisk indhold og nye mennesker online. %{link}, verdens første %{strong_diaspora} program er kun begyndelsen. Saml og del med hele det utrolige web."
-        help_fund: "støt Diaspora økonomisk"
+        help_fund: "støt Happening In økonomisk"
         here: her
         ignore: "Hvis du ikke vil acceptere invitationen skal du blot ignorere denne mail."
         join_team: "Kom med på holdet"
@@ -52,12 +52,12 @@ da:
         no_account_till: "Din konto vil ikke blive oprettet før du har klikket ind på ovenstående link, og skriver dig op."
         or: eller
         sign_up_now: "Tilmeld dig nu &rarr;"
-        subject: "Du er blevet inviteret til at bruge Diaspora!"
+        subject: "Du er blevet inviteret til at bruge Happening In!"
         unsubscribe: "Hvis du gerne vil holde op med at få e-mails som denne, klik %{link}."
         view_in: "Se den i din browser."
       inviter:
         accept_at: "på %{url}, du kan acceptere ved at følge linket nedenunder."
-        have_invited_you: "%{names} har inviteret dig til at deltage i Diaspora."
+        have_invited_you: "%{names} har inviteret dig til at deltage i Happening In."
       reset_password_instructions:
         change: "Skift min adgangskode"
         ignore: "Hvis du ikke har anmodet om dette, bedes du ignorere denne e-mail."
