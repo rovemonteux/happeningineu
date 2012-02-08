@@ -42,7 +42,7 @@
             = button_to t('.follow', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :post,   :class => 'button take_action'
           - else
             = button_to t('.following', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :delete,   :class => 'button red_on_hover tag_following in_aspects take_action'
-      %h1{:style => "font-size: 22px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
+      %h1{:style => "border-bottom: 1px solid grey; padding-bottom: 10px; width: 400px; font-size: 30px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
         = @stream.tag_name.titleize
 
     %br
@@ -50,6 +50,7 @@
     - if current_user
       = render 'shared/publisher', :selected_aspects => @stream.aspect_ids, :aspect_ids => @stream.aspect_ids, :for_all_aspects => true, :aspect => @stream.aspect
 
+    %br
     %hr
 
     #main_stream.stream
