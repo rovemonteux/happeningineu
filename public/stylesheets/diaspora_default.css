@@ -342,7 +342,9 @@ width:30px}
 margin-bottom:10px;
 margin-right:10px}
 
-#author_info h2{margin-bottom:0}
+#author_info h2{
+margin-top: 10px; margin-bottom: 10px;
+}
 
 #author_info.show a{margin-right:1em;
 font-weight:normal}
@@ -1102,7 +1104,9 @@ font-style:italic}
 h1 .description,h2 .description,h3 .description,h4 .description{font-size:70%;
 font-weight:100;
 color:#aaa;
-margin-top:.5em}
+margin-top:.5em;
+margin-bottom: 10px;
+}
 
 h2 .description,h3 .description,h4 .description{font-size:80%;
 font-weight:200}
@@ -2698,7 +2702,8 @@ background-color:rgba(255,255,255,0.95)
 box-shadow:0 1px 2px rgba(0,0,0,0.5);
 }
 
-.new_user_form fieldset .submit_field,.accept_invitation_form fieldset .submit_field{margin-top:15px}
+.new_user_form fieldset .submit_field,.accept_invitation_form fieldset .submit_field{margin-top:15px;
+}
 
 .new_user_form fieldset span.host_uri,.accept_invitation_form fieldset span.host_uri{float:right;
 margin-top:-28px;
