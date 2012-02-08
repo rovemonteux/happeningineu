@@ -26,21 +26,21 @@
       .clearfix
         %b
           = t('username')
-        = f.text_field :username, :title => t('registrations.new.enter_username')
+        = f.text_field :username, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :title => t('registrations.new.enter_username')
         %span.host_uri
           = "@#{AppConfig[:pod_uri].host}"
       .clearfix
         %b
           = t('email')
-        = f.email_field :email, :title => t('registrations.new.enter_email')
+        = f.email_field :email, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :title => t('registrations.new.enter_email')
       .clearfix
         %b
           = t('password')
-        = f.password_field :password, :title => t('registrations.new.enter_password') 
+        = f.password_field :password, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :title => t('registrations.new.enter_password') 
       .clearfix
         %b
           = t('password_confirmation')
-        = f.password_field :password_confirmation, :title => t('registrations.new.enter_password_again') 
+        = f.password_field :password_confirmation, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :title => t('registrations.new.enter_password_again') 
 
       .submit_field
         = f.submit t('registrations.new.create_my_account'), :class => 'in_aspects'
