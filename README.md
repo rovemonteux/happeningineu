@@ -2,7 +2,7 @@
 
 Open Social Networking
 
-This software a fork of the 2011 Diapora* source code, and it is not source code compatible with the current official Diaspora* branch. 
+This software was initially based in a fork of the 2011 Diapora* source code. 
 
 While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this software are not the same as the official Diaspora* software.
  
