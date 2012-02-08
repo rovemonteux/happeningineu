@@ -6,11 +6,11 @@ This software was initially based in a fork of the 2011 Diapora* source code.
 
 While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this software are not the same as the official Diaspora* software.
  
-If you have never seen nor used happeningin.eu, it is live at, 
+If you have never seen nor used happeningin.eu, this source code is live at, 
 
 ###[happeningin.eu](https://happeningin.eu/)
 
-The service is free, and registrations are open.
+Registration is free.
 
 Or you can sign up for an account in the other hosts listed in 
 
