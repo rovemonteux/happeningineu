@@ -42,7 +42,7 @@
             = button_to t('.follow', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :post,   :class => 'button take_action'
           - else
             = button_to t('.following', :tag => @stream.tag_name), tag_tag_followings_path(:name => @stream.tag_name), :method => :delete,   :class => 'button red_on_hover tag_following in_aspects take_action'
-      %h1{:style => "font-size: 26px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
+      %h1
         = t('conversations.new.subject').titleize + ": " + @stream.tag_name.titleize
 
     %br
