@@ -1,5 +1,5 @@
 module NotificationMailers
-  TRUNCATION_LEN = 70
+  TRUNCATION_LEN = 120
 
   class Base
     attr_accessor :recipient, :sender
@@ -28,7 +28,7 @@ module NotificationMailers
         :to => "\"#{@recipient.name}\" <#{@recipient.email}>"
       }
 
-      headers[:from] = "\"#{@sender.name} (Diaspora*)\" <#{AppConfig[:smtp_sender_address]}>" if @sender.present?
+      headers[:from] = "\"#{@sender.name} (Happening In)\" <#{AppConfig[:smtp_sender_address]}>" if @sender.present?
 
       headers
     end
