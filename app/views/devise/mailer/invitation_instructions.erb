@@ -6,20 +6,8 @@
 <p style="background-color: rgb(255, 255, 255); text-align: center; font-size: 11px;"><%= t('.displaying_correctly', :link => link_to(t('.view_in'), invite_email_url(:invitation_token => @resource.invitation_token), :style => "color: #3F8FBA; text-decoration: none;")).html_safe %> </p>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding: 30px 15px 0pt; background-color: rgb(221, 221, 221);">
-        <table style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; color: rgb(51, 51, 51);" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <table style="font-family: Arial,sans-serif; font-size: 16px; color: rgb(51, 51, 51);" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
           <tbody>
-            <tr>
-              <td style="background-color: rgb(0, 0, 0);">
-                <a style="display: block;" href="<%= accept_invitation_url(@resource, :invitation_token => @resource.invitation_token) %>" target="_blank">
-                  <img alt="Happening In" src="https://happeningin.eu/images/asterisk.png" style="border: 0pt none ; display: block;" height="134" width="600">
-                </a>
-              </td>
-            </tr>
-
-            <tr><td style="padding: 0px 20px 0pt; background: rgb(255, 255, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" width="600" height='389'>
-                <a href="<%= accept_invitation_url(@resource, :invitation_token => @resource.invitation_token)%>" target="_blank"><img src="https://happeningin.eu/images/diaspora_collage.png" width="560">
-            </a></td></tr>
-
 
             <tr><td style="padding: 0pt 30px; background: rgb(255, 255, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; line-height: 20px;">
                 <%= t('.arrived', :strong_diaspora => content_tag(:strong, "Happening In")).html_safe %> 
@@ -98,7 +86,7 @@
                       </td>
 
                       <td width="200">
-                        <a href="<%= accept_invitation_url(@resource, :invitation_token => @resource.invitation_token)%>" target="_blank"><img style="border: 0pt none ; padding: 0pt 5px 0px 10px; display: block;" src="http://dl.dropbox.com/u/15865/apolonisaphrodisia.png" height="150" width="170"></a>
+                        <a href="<%= accept_invitation_url(@resource, :invitation_token => @resource.invitation_token)%>" target="_blank"><img style="border: 0pt none ; padding: 0pt 5px 0px 10px; display: block;" src="https://happeningin.eu/images/vimeo.jpg" height="150" width="170"></a>
                       </td>
                     </tr>
                 </tbody></table>
@@ -127,12 +115,6 @@
                     </tr>
                 </tbody>
               </table>
-            </td></tr>
-
-            <tr><td style="padding: 35px 20px 20px; background: rgb(255, 255, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
-            </td></tr>
-            <tr><td style="padding: 35px 40px; font-size: 11px; color: rgb(102, 102, 102); line-height: 16px;">
-                <%= t('.email_us', :email => link_to(t('.email_address'), "mailto:rove.monteux@fluid-rock.com", :style => "color: #3F8FBA; text-decoration: none;")).html_safe %> 
             </td></tr>
           </tbody>
         </table>

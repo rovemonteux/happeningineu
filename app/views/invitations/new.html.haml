@@ -13,7 +13,7 @@
       = form_for User.new, :url => invitation_path(User) do |invite|
         %h4
           = t('email')
-        = invite.text_field :email, :title => t('.comma_seperated_plz')
+        = invite.text_field :email, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :title => t('.comma_seperated_plz')
         %br
 
         %h4
@@ -32,7 +32,7 @@
 
         %h4
           = t('.personal_message')
-        = invite.text_area :invite_messages, :rows => 3, :value => ""
+        = invite.text_area :invite_messages, :style => "-webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5);", :rows => 2, :value => ""
 
         %p
           = invite.submit t('.send_an_invitation')
