@@ -50,6 +50,29 @@ def youtube(str)
   return str
 end
 
+def shortyoutube(str)
+  embed = "";
+  unless str.nil? or !str.include? 'youtu'
+    videourl = str.split.grep(/(?:f|ht)tps?:\/\/youtu\.be[^\s]+/)
+    videourl.each do |vurl|
+      unless vurl.nil? or !vurl.include? 'youtu'
+        originalurl = vurl.strip
+        regex = /youtu.be.*/
+        vurl = vurl.match(regex)[0]
+		vurl["youtu.be/"]= "" 
+        embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+        begin
+          str[originalurl] = embed
+        rescue Exception=>e
+          str = str + " " +  originalurl 
+          embed = ""
+        end
+      end
+    end
+  end
+  return str
+end
+
 def vimeo(str)
   embed = "";
   unless str.nil? or !str.include? 'vimeo'
@@ -73,7 +96,7 @@ def vimeo(str)
 end
 
 def embedcode(str)
-  str = dailymotion(youtube(vimeo(str)))
+  str = dailymotion(shortyoutube(youtube(vimeo(str))))
   return str;
 end
 
