@@ -8,7 +8,7 @@
 
 module StatusMessagesHelper
 
-def embedcode(str)
+def dailymotion(str)
   embed = "";
   unless str.nil? or !str.include? 'dailymotion'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/www\.dailymotion\.com[^\s]+/)
@@ -20,11 +20,16 @@ def embedcode(str)
         begin
           str[originalurl] = embed 
         rescue Exception=>e 
-          str = str + ":" +  originalurl + ":" 
+          str = str + " " +  originalurl 
         end 
       end
     end
   end
+  return str
+end
+
+def youtube(str)
+  embed = "";
   unless str.nil? or !str.include? 'youtube'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/www\.youtube\.com[^\s]+/)
     videourl.each do |vurl|
@@ -36,12 +41,17 @@ def embedcode(str)
         begin
           str[originalurl] = embed
         rescue Exception=>e
-          str = str + ":" +  originalurl + ":" 
+          str = str + " " +  originalurl 
           embed = ""
         end
       end
     end
   end
+  return str
+end
+
+def vimeo(str)
+  embed = "";
   unless str.nil? or !str.include? 'vimeo'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/vimeo\.com[^\s]+/)
     videourl.each do |vurl|
@@ -53,12 +63,17 @@ def embedcode(str)
         begin
           str[originalurl] = embed
         rescue Exception=>e
-          str = str + ":" +  originalurl + ":"
+          str = str + " " +  originalurl
           embed = ""
         end
       end
     end
   end
+  return str
+end
+
+def embedcode(str)
+  str = dailymotion(youtube(vimeo(str)))
   return str;
 end
 
