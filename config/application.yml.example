@@ -133,6 +133,7 @@ defaults: &defaults
     - 'https://diaspora.cloudid.net/'
     - 'https://diaspora.strasweb.fr/'
     - 'https://aixpora.de/'
+    - 'https://diaspora.syntax-austria.org/'
 
   # Community Spotlight
   # (expressed as an array of Diaspora IDs)
