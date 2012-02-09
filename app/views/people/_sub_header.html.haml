@@ -11,15 +11,16 @@
     - elsif user_signed_in? && current_user.person == person
       = link_to t('people.profile_sidebar.edit_my_profile'), edit_profile_path, :class => 'button creation'
 
-  %h2
+  %h1{:style => "border-bottom: 1px solid grey; padding-bottom: 10px; width: 400px; font-size: 34px;font-family: Arial, sans-serif; text-overflow:ellipsis;"}
     = person.name
   %br
-  %span.diaspora_handle{:style => "font-size: 10px;"}
+  %span.diaspora_handle{:style => "font-weight: bold; font-size: 10px;"}
     = person.diaspora_handle
+
   %br
-  .description
+
+  .description{:style => "font-size: 10px;"}
     - if !person.profile.tag_string.blank? && user_signed_in?
-      %br
       = Diaspora::Taggable.format_tags(person.profile.tag_string)
       - if user_signed_in? && person == current_user.person
         %span.hover_edit
@@ -31,4 +32,5 @@
           %span.add_tags
             = link_to t('.add_some'), edit_profile_path
 
+%br
 %hr
