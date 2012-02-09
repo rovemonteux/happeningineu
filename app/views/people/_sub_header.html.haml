@@ -16,9 +16,10 @@
   %br
   %span.diaspora_handle{:style => "font-size: 10px;"}
     = person.diaspora_handle
-
+  %br
   .description
     - if !person.profile.tag_string.blank? && user_signed_in?
+      %br
       = Diaspora::Taggable.format_tags(person.profile.tag_string)
       - if user_signed_in? && person == current_user.person
         %span.hover_edit
