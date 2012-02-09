@@ -35,7 +35,7 @@ def genericflash(str)
     videourl.each do |vurl|
       unless vurl.nil? or !vurl.include? '.swf'
         originalurl = vurl.strip
-        embed = "<object align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object>"
+        embed = "<object align=\"center\" width=\"100%\" height=\"460\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"100%\" height=\"460\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object><br/><span style=\"font-size: 9px; float: right; position: relative; margin-top: -8px;\">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+URI.parse(originalurl).host+"</a></span>"
         begin
           str[originalurl] = embed
         rescue Exception=>e
