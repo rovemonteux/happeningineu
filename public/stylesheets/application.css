@@ -254,9 +254,6 @@ ul.as-selections {
   margin-left: 43px;
   margin-right: 60px; }
 
-.stream audio {
-  display: block;
-  margin: 5px 0; }
 .stream .stream_element {
   padding: 15px;
   min-height: 50px;

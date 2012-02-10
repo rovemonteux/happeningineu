@@ -38,18 +38,6 @@ var Stream = {
   },
 
   setUpAudioLinks: function() {
-    $(".stream a[target='_blank']").each(function(r){
-      var link = $(this);
-      if(this.href.match(/\.mp3$|\.ogg$/)) {
-        $("<audio/>", {
-          preload: "none",
-          src: this.href,
-          controls: "controls"
-        }).appendTo(link.parent());
-
-        link.remove();
-      }
-    });
   }
 };
 
