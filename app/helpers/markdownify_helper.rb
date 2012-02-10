@@ -30,9 +30,6 @@ module MarkdownifyHelper
 
     tmessage = Diaspora::Taggable.format_tags(tmessage, :no_escape => true)
 
-    tmessage.gsub!("&quot;.mp3_", "\".mp3_")
-    tmessage.gsub!("&quot;).jmp3", "\").jmp3")
-
     return tmessage
   end
 

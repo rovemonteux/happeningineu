@@ -60,7 +60,6 @@
       :javascript
         Diaspora.I18n.loadLocale(#{get_javascript_strings_for(I18n.locale).to_json}, "#{I18n.locale}");
         Diaspora.Page = "#{params[:controller].camelcase}#{params[:action].camelcase}";
-      = javascript_include_tag "/javascripts/jquery.jmp3.js"
     - if current_user
       = include_javascripts :flash_socket #unless modern_browser?
       = javascript_include_tag 'web-socket-receiver'
