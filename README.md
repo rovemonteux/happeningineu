@@ -32,6 +32,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
 
+**Content auto-update**
+
+https://github.com/rovemonteux/happeningineu/wiki/Content-auto-update
+
 **Search Engine Optimization of public posts:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Search-Engine-Optimization-of-public-posts
