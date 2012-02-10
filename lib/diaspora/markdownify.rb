@@ -7,7 +7,11 @@ module Diaspora
       include ActionView::Helpers::TagHelper
 
       def autolink(link, type)
-        auto_link(link, :link => :urls, :html => { :target => "_blank" })
+        if !link.include? '.mp3'
+          auto_link(link, :link => :urls, :html => { :target => "_blank" })
+        else
+           return link
+        end
       end
 
     end

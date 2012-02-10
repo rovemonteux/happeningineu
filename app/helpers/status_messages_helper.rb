@@ -28,6 +28,25 @@ def dailymotion(str)
   return str
 end
 
+def mp3(str)
+  embed = "";
+  unless str.nil? or !str.include? '.mp3'
+    videourl = str.split.grep(/(?:f|ht)tps?:\/\/[^\s]+\.mp3/)
+    videourl.each do |vurl|
+      unless vurl.nil? or !vurl.include? '.mp3'
+        originalurl = vurl.strip
+        embed = "<span id=\"external\" style=\"margin-top: -10px; \" class=\"mp3\">"+originalurl+"</span><br/><span style=\"font-size: 9px; margin-top: -5px; padding-top: -5px; float: left;\">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+originalurl+"</a></span><br/>"
+        begin
+          str[originalurl] = embed
+        rescue Exception=>e
+          str = str + " " +  originalurl
+        end
+      end
+    end
+  end
+  return str
+end
+
 def genericflash(str)
   embed = "";
   unless str.nil? or !str.include? '.swf'
@@ -35,7 +54,7 @@ def genericflash(str)
     videourl.each do |vurl|
       unless vurl.nil? or !vurl.include? '.swf'
         originalurl = vurl.strip
-        embed = "<object align=\"center\" width=\"100%\" height=\"460\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"100%\" height=\"460\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object><br/><span style=\"font-size: 9px; float: right; position: relative; margin-top: -8px;\">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+URI.parse(originalurl).host+"</a></span>"
+        embed = "<object align=\"center\" width=\"100%\" height=\"460\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"100%\" height=\"460\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object><br/><span style=\"font-size: 9px; float: right; position: relative; margin-top: -5px; margin-bottom: -40px; \">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+URI.parse(originalurl).host+"</a></span><br/>"
         begin
           str[originalurl] = embed
         rescue Exception=>e
@@ -115,7 +134,7 @@ def vimeo(str)
 end
 
 def embedcode(str)
-  str = genericflash(dailymotion(shortyoutube(youtube(vimeo(str)))))
+  str = mp3(genericflash(dailymotion(shortyoutube(youtube(vimeo(str))))))
   return str;
 end
 
