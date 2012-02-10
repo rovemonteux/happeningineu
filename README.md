@@ -28,9 +28,17 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-video-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
+**Uploading pictures:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
+
 **Search Engine Optimization of public posts:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Search-Engine-Optimization-of-public-posts
+
+**Markdown basics (syntax for writing status updates)**
+
+http://daringfireball.net/projects/markdown/basics
 
 **Source code:**
 
