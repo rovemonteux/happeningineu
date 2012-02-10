@@ -44,6 +44,7 @@ tmp/*
 *.swap
 *.swo
 *.swp
+*.bak
 *~
 bin/*
 nbproject

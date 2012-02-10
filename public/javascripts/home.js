@@ -71,7 +71,7 @@ b.closest(".dropdown").removeClass("active")}else{var a=$('#publisher [name="asp
 Publisher.removeRadioSelection(e);
 if(a.length>0){a.remove()}else{d()}}},createCounter:function(b){var d=$("#publisher .counter");
 d.remove();
-var e=40000;
+var e=80000;
 var c=$(".service_icon:not(.dim)");
 if(c.length>0){$.each(c,function(f,g){var a=parseInt($(g).attr("maxchar"));
 if(e>a){e=a}});
@@ -85,7 +85,7 @@ var e=Publisher.selectedAspectIds();
 if(Publisher.isPublicPost()||Publisher.isToAllAspects()){a=true}else{$.each(Diaspora.page.aspectNavigation.selectedAspects(),function(f,g){if(e.indexOf(parseInt(g))>-1){a=true}})}if(a){ContentUpdater.addPostToStream(b.html);
 Diaspora.page.stream.addPost($("#"+b.post_id))}else{Diaspora.widgets.flashMessages.render({success:true,message:Diaspora.I18n.t("successfully_posted_message_to_an_aspects_that_is_not_visible")})}}Publisher.close();
 Publisher.clear();
-Stream.setUpAudioLinks()},bindAjax:function(){Publisher.form().bind("submit",Publisher.beforeSubmit);
+},bindAjax:function(){Publisher.form().bind("submit",Publisher.beforeSubmit);
 Publisher.form().bind("ajax:loading",Publisher.onSubmit);
 Publisher.form().bind("ajax:failure",Publisher.onFailure);
 Publisher.form().bind("ajax:success",Publisher.onSuccess)},triggerGettingStarted:function(){Publisher.setUpPopovers("#publisher .dropdown",{trigger:"manual",offset:10,id:"message_visibility_explain",placement:"below",html:true},1000);
