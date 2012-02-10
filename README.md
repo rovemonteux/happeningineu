@@ -28,6 +28,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-video-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
+**Search Engine Optimization of public posts:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Search-Engine-Optimization-of-public-posts
+
 **Source code:**
 
 https://github.com/rovemonteux/happeningineu
