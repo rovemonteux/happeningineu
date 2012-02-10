@@ -367,7 +367,7 @@ var Publisher = {
     var counter = $("#publisher .counter");
     counter.remove();
 
-    var min = 40000;
+    var min = 80000;
     var a = $('.service_icon:not(.dim)');
     if(a.length > 0){
       $.each(a, function(index, value){
@@ -440,10 +440,10 @@ var Publisher = {
       }
     }
     //collapse publisher
+	Publisher.clear();
     Publisher.close();
-    Publisher.clear();
+	Publisher.initialize();
     //Stream.setUpImageLinks();
-    Stream.setUpAudioLinks();
   },
   bindAjax: function(){
     Publisher.form().bind('submit', Publisher.beforeSubmit);
