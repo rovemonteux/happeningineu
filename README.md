@@ -36,7 +36,7 @@ https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
 
 https://github.com/rovemonteux/happeningineu/wiki/Search-Engine-Optimization-of-public-posts
 
-**Markdown basics (syntax for writing status updates)**
+**Markdown basics (syntax overview for writing rich text posts)**
 
 http://daringfireball.net/projects/markdown/basics
 
