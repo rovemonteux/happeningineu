@@ -133,8 +133,8 @@ $(document).ready(function(){
 
   var scrollToOffset = function(parent, commentsContainer){
     var commentCount = commentsContainer.find("li.comment").length;
-    if( commentCount > 3 ) {
-      var lastComment = commentsContainer.find("li:nth-child("+(commentCount-4)+")");
+    if( commentCount > 6 ) {
+      var lastComment = commentsContainer.find("li:nth-child("+(commentCount-7)+")");
       $('html,body').animate({
         scrollTop: lastComment.offset().top
       }, 1000);
@@ -227,7 +227,7 @@ $(document).ready(function(){
       selectedServices = $("#new_status_message .service_icon:not(.dim)"),
       provider = service.attr("id"),
       hiddenField = $("#new_status_message input[name='services[]'][value='" + provider + "']"),
-      publisherMaxChars = 40000,
+      publisherMaxChars = 80000,
       serviceMaxChars;
 
 
