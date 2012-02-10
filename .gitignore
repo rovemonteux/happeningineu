@@ -10,6 +10,7 @@ config/initializers/secret_token.rb
 config/redis.conf
 config/deploy_config.yml
 config/newrelic.yml
+.project
 .bundle
 vendor/bundle/*
 vendor/cache/*
