@@ -16,9 +16,9 @@ Registration is free, but Happening In advises that you install your own pod for
 
 If you can't host your own pod, or join your company or friend's pod, you may wish to join one of the existing pods running the Happening In software as listed below.
 
-**List of hosts using the happeningin.eu software:** 
+**List of public hosts using the happeningin.eu software:** 
 
-https://github.com/rovemonteux/happeningineu/wiki/Hosts-using-the-happeningin.eu-software
+https://github.com/rovemonteux/happeningineu/wiki/Public-hosts-using-the-Happening-In-software
 
 **Supported video formats:**
 
