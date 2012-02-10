@@ -32,7 +32,7 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
 
-**Content auto-update**
+**Content auto-update:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Content-auto-update
 
@@ -44,7 +44,11 @@ https://github.com/rovemonteux/happeningineu/wiki/Search-Engine-Optimization-of-
 
 https://github.com/rovemonteux/happeningineu/wiki/Hashtag-Trends-panel
 
-**Markdown basics (syntax overview for writing rich text posts)**
+**Social sharing toolbar:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
+
+**Markdown basics (syntax overview for writing rich text posts):**
 
 http://daringfireball.net/projects/markdown/basics
 
