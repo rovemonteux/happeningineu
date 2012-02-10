@@ -35,7 +35,8 @@ def mp3(str)
     videourl.each do |vurl|
       unless vurl.nil? or !vurl.include? '.mp3'
         originalurl = vurl.strip
-        embed = "<span id=\"external\" style=\"margin-top: -10px; \" class=\"mp3\">"+originalurl+"</span><br/><span style=\"font-size: 9px; margin-top: -5px; padding-top: -5px; float: left;\">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+originalurl+"</a></span><script>$(\".mp3\").jmp3();</script><br/>"
+        classtag = "mp3_" + Random.rand(99999).to_s()
+        embed = "<span id=\"external\" style=\"margin-top: -10px; \" class=\""+classtag+"\">"+originalurl+"</span><br/><span style=\"font-size: 9px; margin-top: -5px; padding-top: -5px; float: left;\">"+t('posts.show.permalink').titleize+": <a href=\""+originalurl+"\" target=\"_blank\" rel=\"nofollow\">"+originalurl+"</a></span><script>$(\"."+classtag+"\").jmp3();</script><br/>"
         begin
           str[originalurl] = embed
         rescue Exception=>e

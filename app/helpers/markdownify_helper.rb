@@ -30,6 +30,8 @@ module MarkdownifyHelper
 
     tmessage = Diaspora::Taggable.format_tags(tmessage, :no_escape => true)
 
+    tmessage.gsub!("&quot;", "\"")
+
     return tmessage
   end
 
