@@ -12,7 +12,11 @@ If you have never seen nor used Happening In, this source code is live at,
 
 https://happeningin.eu/
 
-Registration is free, but Happening In advises that you install your own pod for yourself and your friends or company, keep your private data to yourself, and federate public content to all other pods running the same software - please see the file config/application.yml, directive "public_federation_destinations".
+Registration is free, but Happening In advises that you install your own pod for yourself and your friends or company, keep your private data to yourself, and federate public content to all other hosts in the same network. 
+
+**Automatic content federation**
+
+https://github.com/rovemonteux/happeningineu/wiki/Automatic-content-federation
 
 If you can't host your own pod, or join your company or friend's pod, you may wish to join one of the existing pods running the Happening In software as listed below.
 
@@ -47,10 +51,6 @@ https://github.com/rovemonteux/happeningineu/wiki/Hashtag-Trends-panel
 **Social sharing toolbar:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
-
-**Automatic content federation**
-
-https://github.com/rovemonteux/happeningineu/wiki/Automatic-content-federation
 
 **Announcements robot**
 
