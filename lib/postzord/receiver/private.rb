@@ -1,6 +1,6 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
-#   licensed under the Affero General Public License version 3 or later.  See
-#   the COPYRIGHT file.
+# Copyright (c) 2010-2011, Diaspora Inc. This file is
+# licensed under the Affero General Public License version 3 or later. See
+# the COPYRIGHT file.
 
 require File.join(Rails.root, 'lib/webfinger')
 require File.join(Rails.root, 'lib/diaspora/parser')
@@ -29,6 +29,7 @@ class Postzord::Receiver::Private < Postzord::Receiver
 
   def parse_and_receive(xml)
     @object ||= Diaspora::Parser.from_xml(xml)
+    return if @object.nil?
 
     Rails.logger.info("event=receive status=start recipient=#{@user_person.diaspora_handle} payload_type=#{@object.class} sender=#{@sender.diaspora_handle}")
 
@@ -36,7 +37,7 @@ class Postzord::Receiver::Private < Postzord::Receiver
       set_author!
       receive_object
     else
-      raise "not a valid object:#{@object.inspect}"
+      Rails.logger.warn "Not a valid object: #{@object.inspect}"
     end
   end
 
@@ -48,7 +49,11 @@ class Postzord::Receiver::Private < Postzord::Receiver
       Rails.logger.info("event=receive status=complete recipient=#{@user_person.diaspora_handle} sender=#{@sender.diaspora_handle} payload_type=#{obj.class}")
       obj
     rescue ActiveRecord::RecordNotUnique
-      Rails.logger.debug "Received object (#{@object.class} guid #{@object.guid}) already in local DB."
+      if @object.respond_to?(:guid)
+        Rails.logger.debug "Received object (#{@object.class} guid #{@object.guid}) already in local DB."
+      else
+        Rails.logger.debug "Received object (#{@object.class} id #{@object.id}) already in local DB."
+      end
       nil
     end
   end
@@ -77,12 +82,16 @@ class Postzord::Receiver::Private < Postzord::Receiver
   end
 
   def validate_object
-    raise "Contact required unless request" if contact_required_unless_request
-    raise "Relayable object, but no parent object found" if relayable_without_parent?
+    return if contact_required_unless_request
+
+    if relayable_without_parent?
+      Rails.logger.info "Relayable object, but no parent object found"
+      return nil
+    end
 
     assign_sender_handle_if_request
 
-    raise "Author does not match XML author" if author_does_not_match_xml_author?
+    return if author_does_not_match_xml_author?
 
     @object
   end
