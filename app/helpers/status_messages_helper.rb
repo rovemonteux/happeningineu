@@ -74,8 +74,8 @@ def youtube(str)
     videourl.each do |vurl|
       unless vurl.nil? or !vurl.include? 'watch'
         originalurl = vurl.strip
-        regex = /youtube.com.*(?:\/|v=)(\w+)/
-        vurl = vurl.match(regex)[1]
+        regex = /^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\&\?]*).*/
+        vurl = vurl.match(regex)[5]
         embed = "<iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
         begin
           str[originalurl] = embed

@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.0.0'
 gem 'foreman', '0.34.1'
 gem 'whenever'
 
-gem 'thin', '~> 1.3.1',    :require => false
+gem 'thin'
 
 gem 'whatlanguage'
 gem 'htmlentities'
@@ -46,8 +46,6 @@ gem "rpm_contrib", "~> 2.1.7"
 
 group :production do # we don't install these on travis to speed up test runs
   gem 'rack-ssl', :require => 'rack/ssl'
-  gem 'rack-google-analytics', :require => 'rack/google-analytics'
-  gem 'rack-piwik', :require => 'rack/piwik'
 end
 
 # configuration
