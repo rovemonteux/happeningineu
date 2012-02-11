@@ -12,7 +12,7 @@ If you have never seen nor used Happening In, this source code is live at,
 
 https://happeningin.eu/
 
-Registration is free, but Happening In advises that you install your own pod for yourself and your friends or company, keep your private data to yourself, and federate public content to all other hosts in the same network. 
+Registration is free, but Happening In advises that you use our source code to install your own host for yourself and your friends or company, keep your private data to yourself, and automatically federate your public content across the network.
 
 **Automatic content federation**
 
