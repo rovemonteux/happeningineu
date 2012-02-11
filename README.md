@@ -12,7 +12,7 @@ If you have never seen nor used Happening In, this source code is live at,
 
 https://happeningin.eu/
 
-Registration is free, but Happening In advises that **you use the source code to keep your data private** by installing your own host for yourself and/or your friends or company, and automatically federate **public** content and only across the network.
+Registration is free, but Happening In advises that **you use the source code to keep your data private** by installing your own host for yourself and/or your friends or company, and federate only **public** content across the network.
 
 **Automatic content federation**
 
