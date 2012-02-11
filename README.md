@@ -6,19 +6,19 @@ This software was initially based in a fork of the 2011 Diapora* source code.
 
 While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this software are not the same as the official Diaspora* software.
 
-This software focuses primarily on being lightweight yet featureful, on decentralization and instant automatic distribution of public rich content across multiple federated hosts, and privacy for private posts, by keeping private data stored in as many small hosts as possible, hosts often run by the owner of the private data or by someone the owner of the private data knows and trust, rather keep large scale private data in a single centralized server.
+This software focuses primarily on being lightweight yet featureful, on decentralization and instant automatic distribution of public rich content across multiple federated hosts, and privacy for private posts, by keeping private data stored in as many small hosts as possible, hosts often run by the owner of the private data or by someone the owner of the private data knows and trust, rather store large scale private data in a single centralized server or service.
 
 If you have never seen nor used Happening In, this source code is live at,
 
 https://happeningin.eu/
 
-Registration is free, but Happening In advises that you use our source code to install your own host for yourself and your friends or company, keep your private data to yourself, and automatically federate your public content across the network.
+Registration is free, but Happening In advises that **you use the source code to keep your data private** by installing your own host for yourself and/or your friends or company, and automatically federate **public** content and only across the network.
 
 **Automatic content federation**
 
 https://github.com/rovemonteux/happeningineu/wiki/Automatic-content-federation
 
-If you can't host your own pod, or join your company or friend's pod, you may wish to join one of the existing pods running the Happening In software as listed below.
+If you can't have your own host, or is unable to join your company or a friend's host, you may wish to join one of the existing public hosts running the Happening In software as listed below.
 
 **List of public hosts using the happeningin.eu software:** 
 
@@ -56,7 +56,7 @@ https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
 
 https://github.com/rovemonteux/happeningineu/wiki/Announcements-robot
 
-**Markdown basics (syntax overview for writing rich text content):**
+**Markdown basics (an overview of the syntax used to write rich text content):**
 
 http://daringfireball.net/projects/markdown/basics
 
