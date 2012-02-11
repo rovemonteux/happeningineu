@@ -16,7 +16,7 @@ defaults: &defaults
   pod_name: "Happening in EU (happeningin.eu)"
 
   # For credits and help in footers and headers
-  pod_blog: "http://rovemonteux.net/"
+  pod_blog: "https://github.com/rovemonteux/happeningineu/wiki/"
 
   pod_min: "rovemonteux"
 
@@ -134,7 +134,8 @@ defaults: &defaults
     - 'https://diaspora.strasweb.fr/'
     - 'https://aixpora.de/'
     - 'https://diaspora.syntax-austria.org/'
-
+    - 'https://usediaspora.org/'
+    
   # Community Spotlight
   # (expressed as an array of Diaspora IDs)
   community_spotlight:
