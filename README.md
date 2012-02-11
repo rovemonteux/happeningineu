@@ -6,7 +6,7 @@ This software was initially based in a fork of the 2011 Diapora* source code.
 
 While part of a decentralized network and they all speak together, the code, structure, organization, features, theme, goals and philosophy of this software are not the same as the official Diaspora* software.
 
-This software focuses primarily on being lightweight yet featureful, on decentralization and instant automatic distribution of public rich content across multiple federated pods, and privacy for private posts, by keeping privated data scattered among as many multiple hosts as possible, rather keep large scale private data in a single centralized server.
+This software focuses primarily on being lightweight yet featureful, on decentralization and instant automatic distribution of public rich content across multiple federated hosts, and privacy for private posts, by keeping private data stored in as many small hosts as possible, hosts often run by the owner of the private data or by someone the owner of the private data knows and trust, rather keep large scale private data in a single centralized server.
 
 If you have never seen nor used Happening In, this source code is live at,
 
