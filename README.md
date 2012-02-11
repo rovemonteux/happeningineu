@@ -48,7 +48,15 @@ https://github.com/rovemonteux/happeningineu/wiki/Hashtag-Trends-panel
 
 https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
 
-**Markdown basics (syntax overview for writing rich text posts):**
+**Automatic content federation**
+
+https://github.com/rovemonteux/happeningineu/wiki/Automatic-content-federation
+
+**Announcements robot**
+
+https://github.com/rovemonteux/happeningineu/wiki/Announcements-robot
+
+**Markdown basics (syntax overview for writing rich text content):**
 
 http://daringfireball.net/projects/markdown/basics
 
