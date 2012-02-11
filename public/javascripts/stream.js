@@ -9,8 +9,6 @@ var Stream = {
 
   initialize: function() {
     Diaspora.page.directionDetector.updateBinds();
-
-    Stream.setUpAudioLinks();
   },
 
   initializeLives: function(){

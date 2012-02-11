@@ -9,7 +9,7 @@ defaults: &defaults
   #
 
   # Hostname of the machine you're running Diaspora on, as seen from the internet.
-  # For development and testing, you can leave this as is.
+  # For development and testing, you can leave this as localhost.
   pod_url: "https://happeningin.eu"
 
   # Name of this pod
