@@ -36,12 +36,13 @@ def googlemaps(str)
     vurl= str.match(/^map:.*$/ix)
       unless vurl.nil?
         vurl = vurl.to_s()
+        replaceableurl = vurl.strip
         vurl[0..3] = ''
         originalurl = vurl.strip
         embedurl = URI.escape(originalurl)
-        embed = "<br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=15&size=560x315&maptype=hybrid&sensor=false\"/><br/><br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=16&size=560x315&maptype=hybrid&sensor=false\"/><br/><br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=17&size=560x315&maptype=hybrid&sensor=false\"/><br/><div style=\"width:560px; margin-top: -5px; margin-bottom: 20px;\"><span style=\"font-size: 9px; float: right; position: relative; margin-top: -5px; margin-bottom: -40px; \"><a href=\"http://maps.google.com/?q="+embedurl+"\" target=\"_blank\" rel=\"nofollow\">"+originalurl.strip.titleize+"</a></span></div>"
+        embed = "<br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=15&size=560x315&maptype=hybrid&sensor=false\"/><br/><br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=16&size=560x315&maptype=hybrid&sensor=false\"/><br/><br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=17&size=560x315&maptype=hybrid&sensor=false\"/><br/><div style=\"width:560px; margin-top: -5px; margin-bottom: 25px;\"><span style=\"font-size: 9px; float: right; position: relative; margin-top: -5px; margin-bottom: -40px; \"><a href=\"http://maps.google.com/?q="+embedurl+"\" target=\"_blank\" rel=\"nofollow\">"+originalurl.strip.titleize+"</a></span></div>"
         begin
-          str[originalurl] = embed
+          str[replaceableurl] = embed
         rescue Exception=>e
           str = str + " " +  originalurl
         end
