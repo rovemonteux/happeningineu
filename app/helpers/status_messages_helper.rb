@@ -31,7 +31,6 @@ def dailymotion(str)
 end
 
 def googlemaps(str)
-  str = str + "\n"
   embed = ""
   unless str.nil? or !str.include? 'map'
     vurl= str.match(/^map:.*$/ix)
