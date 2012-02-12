@@ -957,9 +957,6 @@ box-shadow:0 1px 2px rgba(0,0,0,0.5);
 -webkit-border-radius: 1em; 
 -moz-border-radius: 1em; 
 border-radius: 1em;
-filter:alpha(opacity=85);
--moz-opacity: 0.85;
-opacity: 0.85;
 }
 
 #thumbnails a img{height:80px}
@@ -969,6 +966,12 @@ opacity: 0.85;
     -moz-transform: scale(6);
     -o-transform: scale(6);
     -ms-transform: scale(6);
+    filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    -webkit-box-shadow:0 1px 2px rgba(0,0,0,1);
+    -moz-box-shadow:0 1px 2px rgba(0,0,0,1);
+    box-shadow:0 1px 2px rgba(0,0,0,1);
 }
 
 header #global_search{display:inline;
