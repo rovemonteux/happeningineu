@@ -19,7 +19,7 @@
     .last_author
       .timestamp
         = t('ago', :time =>  time_ago_in_words(conversation.updated_at))
-      - unless authors[conversation.id].name.nil?
+      - unless authors[conversation.id].nil?
         = authors[conversation.id].name
 
       - if conversation.participants.size > 2
