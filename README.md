@@ -52,6 +52,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Hashtag-Trends-panel
 
 https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
 
+**Location mapping:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Location-mapping
+
 **Announcements robot**
 
 https://github.com/rovemonteux/happeningineu/wiki/Announcements-robot
