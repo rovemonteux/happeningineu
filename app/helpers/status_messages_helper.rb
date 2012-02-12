@@ -6,10 +6,12 @@
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
+require 'uri'
+
 module StatusMessagesHelper
 
 def dailymotion(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? 'dailymotion'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/www\.dailymotion\.com[^\s]+/)
     videourl.each do |vurl|
@@ -28,8 +30,28 @@ def dailymotion(str)
   return str
 end
 
+def googlemaps(str)
+  embed = ""
+  unless str.nil? or !str.include? 'map'
+    while vurl= str.match(/^map:.*$/ix) do
+      vurl = vurl.to_s()
+      unless vurl.nil?
+        originalurl = vurl.strip
+        embedurl = URI.escape(originalurl)
+        embed = "<br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=14&size=560x315&maptype=hybrid&sensor=false\"/><br/><br/><img src=\"https://maps.googleapis.com/maps/api/staticmap?center="+embedurl+"&zoom=17&size=560x315&maptype=hybrid&sensor=false\"/><br/><span style=\"font-size: 9px; float: right; position: relative; margin-top: -5px; margin-bottom: -40px; \">"+vurl.strip.titleize+"</span><br/>"
+        begin
+          str[originalurl] = embed
+        rescue Exception=>e
+          str = str + " " +  originalurl
+        end
+      end
+    end
+  end
+  return str
+end
+
 def mp3(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? '.mp3'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/[^\s]+\.mp3/)
     videourl.each do |vurl|
@@ -49,7 +71,7 @@ def mp3(str)
 end
 
 def genericflash(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? '.swf'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/[^\s]+\.swf/)
     videourl.each do |vurl|
@@ -68,7 +90,7 @@ def genericflash(str)
 end
 
 def youtube(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? 'youtube'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/www\.youtube\.com[^\s]+/)
     videourl.each do |vurl|
@@ -90,7 +112,7 @@ def youtube(str)
 end
 
 def shortyoutube(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? 'youtu'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/youtu\.be[^\s]+/)
     videourl.each do |vurl|
@@ -113,7 +135,7 @@ def shortyoutube(str)
 end
 
 def vimeo(str)
-  embed = "";
+  embed = ""
   unless str.nil? or !str.include? 'vimeo'
     videourl = str.split.grep(/(?:f|ht)tps?:\/\/vimeo\.com[^\s]+/)
     videourl.each do |vurl|
@@ -135,8 +157,8 @@ def vimeo(str)
 end
 
 def embedcode(str)
-  str = mp3(genericflash(dailymotion(shortyoutube(youtube(vimeo(str))))))
-  return str;
+  str = googlemaps(mp3(genericflash(dailymotion(shortyoutube(youtube(vimeo(str)))))))
+  return str
 end
 
 end
