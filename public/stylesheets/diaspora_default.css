@@ -956,9 +956,17 @@ box-shadow:0 2px 4px rgba(0,0,0,0.5);
 -ms-transition: all 0.5s ease-in-out;
 }
 
-#thumbnails a img{height:80px}
+#thumbnails a img{height:80px;
+-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.5);
+-moz-box-shadow:0 2px 4px rgba(0,0,0,0.5);
+box-shadow:0 2px 4px rgba(0,0,0,0.5);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+}
 
-#thumbnails img:hover{
+#thumbnails a img:hover{
     -webkit-transform: scale(4);
     -moz-transform: scale(4);
     -o-transform: scale(4);
