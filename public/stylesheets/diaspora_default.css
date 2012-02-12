@@ -974,9 +974,9 @@ box-shadow:0 2px 4px rgba(0,0,0,0.5);
     filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-    -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.3);
-    -moz-box-shadow:0 2px 4px rgba(0,0,0,0.3);
-    box-shadow:0 2px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
 }
 
 header #global_search{display:inline;
