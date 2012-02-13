@@ -3,6 +3,6 @@
 -#   the COPYRIGHT file.
 
 
-#thumbnails.span-18.last
+#thumbnails.span-20.last
   - for photo in photos
     = link_to (image_tag photo.url(:thumb_large), "data-message-guid" => photo.status_message_guid), photo_path(photo)
