@@ -56,6 +56,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Social-sharing-toolbar
 
 https://github.com/rovemonteux/happeningineu/wiki/Location-mapping
 
+**Markdown editor:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Markdown-editor
+
 **Announcements robot**
 
 https://github.com/rovemonteux/happeningineu/wiki/Announcements-robot
