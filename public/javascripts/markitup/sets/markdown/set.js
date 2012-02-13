@@ -33,12 +33,12 @@ mySettings = {
         {separator:'---------------' },
 		{name:'YouTube', key:'Y', openWith:'[![YouTube URL:!:https://www.youtube.com/]!]'},
         {name:'Dailymotion', key:'D', openWith:'[![Dailymotion URL:!:https://www.dailymotion.com/]!]'},
-        {name:'Vimeo', key:'V', openWith:'[![Vimeo URL:!:https://www.vimeo.com/]!]'},
+        {name:'Vimeo', key:'M', openWith:'[![Vimeo URL:!:https://www.vimeo.com/]!]'},
         {separator:'---------------' },
-        {name:'Podcast', key:'P', openWith:'[![Podcast .mp3 URL:!:https://site.com/podcast.mp3]!]'},
-        {name:'Flash', key:'F', openWith:'[![Flash .swf URL:!:https://site.com/flash.swf]!]'},
+        {name:'Podcast', key:'O', openWith:'[![Podcast .mp3 URL:!:https://site.com/podcast.mp3]!]'},
+        {name:'Flash', key:'L', openWith:'[![Flash .swf URL:!:https://site.com/flash.swf]!]'},
         {separator:'---------------' },
-        {name:'Map', key:'M', closeWith:'[![Map:!:Mikulov, Czech Republic]!]', openWith:'map: '}
+        {name:'Map', key:'W', closeWith:'[![Map:!:Mikulov, Czech Republic]!]', openWith:'map: '}
 	]
 }
 
