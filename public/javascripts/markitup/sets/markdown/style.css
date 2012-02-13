@@ -1,0 +1,309 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp .markItUpButton1 a {
+	background-image:url(images/h1.png); 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton1 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton2 a {
+	background-image:url(images/h2.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton2 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton3 a {
+	background-image:url(images/h3.png); 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton3 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton4 a {
+	background-image:url(images/h4.png); 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton4 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton5 a {
+	background-image:url(images/h5.png); 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton5 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton6 a {
+	background-image:url(images/h6.png); 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton6 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton7 a {
+	background-image:url(images/bold.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton7 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton8 a {
+	background-image:url(images/italic.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton8 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton9 a {
+	background-image:url(images/list-bullet.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton9 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton10 a {
+	background-image:url(images/list-numeric.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton10 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton11 a {
+    background-image:url(images/tag.ico);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton11 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton12 a {
+	background-image:url(images/youtube.ico);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton12 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton13 a {
+	background-image:url(images/dailymotion.ico);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton13 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton14 a	{
+	background-image:url(images/vimeo.ico);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton14 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton15 a	{
+	background-image:url(images/mp3.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton15 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton16 a   {
+    background-image:url(images/flash.png);
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton16 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.markItUp .markItUpButton17 a   {
+    background-image:url(images/map.ico);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+	filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton17 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}

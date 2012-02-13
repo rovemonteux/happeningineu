@@ -60,6 +60,10 @@
       :javascript
         Diaspora.I18n.loadLocale(#{get_javascript_strings_for(I18n.locale).to_json}, "#{I18n.locale}");
         Diaspora.Page = "#{params[:controller].camelcase}#{params[:action].camelcase}";
+      = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+      = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+      %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+      %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
     - if current_user
       = include_javascripts :flash_socket #unless modern_browser?
       = javascript_include_tag 'web-socket-receiver'
@@ -72,6 +76,7 @@
       $(this).toggleClass("active");
       return false;
       });
+      $('#status_message_fake_text').markItUp(mySettings);
       });
  
     = yield(:head)
