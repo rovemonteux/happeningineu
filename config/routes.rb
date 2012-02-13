@@ -124,6 +124,8 @@ Diaspora::Application.routes.draw do
 
   get 'stream' => "multis#index", :as => 'multi'
 
+  get 'explore' => "multis#index", :as => 'multi'
+
   resources :people, :except => [:edit, :update] do
     resources :status_messages
     resources :photos

@@ -59,7 +59,7 @@ html {
 /* via blueprint */
 body {
   font-size: 75%;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   color: #222222;
   background: white;
   margin-left: 100px; }
@@ -103,7 +103,7 @@ label {
 
 input[type='text'],
 input[type='password'] {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   padding: 0.3em;
   width: 395px;
   border-top: 1px solid #999999; }

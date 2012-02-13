@@ -1,6 +1,6 @@
-package_assets: on
+package_assets: off
 embed_assets: datauri
-compress_assets: on
+compress_assets: off
 gzip_assets: off
 javascripts:
   flash_socket:
