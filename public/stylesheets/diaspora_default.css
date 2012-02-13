@@ -967,13 +967,13 @@ box-shadow:0 2px 4px rgba(0,0,0,0.2);
 }
 
 #thumbnails a img:hover{
-    -webkit-transform: scale(8);
-    -moz-transform: scale(8);
-    -o-transform: scale(8);
-    -ms-transform: scale(8);
-    filter:alpha(opacity=75);
-    -moz-opacity: 0.75;
-    opacity: 0.75;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -o-transform: scale(6);
+    -ms-transform: scale(6);
+    filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
     -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);
     box-shadow:0 2px 4px rgba(0,0,0,0.2);
