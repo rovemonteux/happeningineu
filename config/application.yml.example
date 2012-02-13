@@ -51,15 +51,6 @@ defaults: &defaults
   # leave it empty for the default (localhost)
   redis_url: ''
 
-  # Amazon S3 for photos
-
-  # s3 config - if set, carrierwave will store your photos on s3. Otherwise they're on the filesystem.
-  #s3_key: 'key'
-  #s3_secret: 'secret'
-  #s3_bucket: 'my_photos'
-  s3_region: 'us-east-1'
-
-
   #
   # Settings
   #
@@ -71,9 +62,6 @@ defaults: &defaults
   open_invitations: true
 
   # Set this to true if you don't want your users to follow the diasporahq@joindiaspora.com
-  # account on account creation.  The diasporahq account helps users start with some
-  # activity in their stream and get news about Diaspora, but if you don't want your server
-  # to contact joindiaspora.com, set this to true:
   no_follow_diasporahq: true 
 
   public_federation_destinations:
@@ -176,7 +164,7 @@ defaults: &defaults
   single_process_mode: false
 
   # File containing pid of running script/websocket_server.rb
-  socket_pidfile: "/home/sites/diaspora/tmp/diaspora-wsd.pid"
+  socket_pidfile: "/home/happeningineu/tmp/diaspora-wsd.pid"
 
   # Do not touch unless you know what you're doing
   socket_collection_name: 'websocket'
@@ -232,7 +220,7 @@ defaults: &defaults
   smtp_password: 'secret'
 
   # Sender address in Diaspora's outgoing mail.
-  smtp_sender_address: 'diaspora@happeningin.eu'
+  smtp_sender_address: 'notifications@happeningin.eu'
 
   # Redis cache
 

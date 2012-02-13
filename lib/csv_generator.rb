@@ -1,7 +1,7 @@
 module CsvGenerator
 
   PATH = '/tmp/'
-  BACKER_CSV_LOCATION = File.join('/usr/local/app/diaspora/', 'backer_list.csv')
+  BACKER_CSV_LOCATION = File.join('/home/happeningineu/', 'backer_list.csv')
   #BACKER_CSV_LOCATION = File.join('/home/ilya/workspace/diaspora/', 'backer_list.csv')
   WAITLIST_LOCATION = File.join(Rails.root, 'config', 'mailing_list.csv')
   OFFSET_LOCATION = File.join(Rails.root, 'config', 'email_offset')
@@ -73,7 +73,7 @@ SQL
           UNION
             SELECT `users`.email AS '%EMAIL%',
                     'Friend of Diaspora*' AS '%NAME%',
-                CONCAT( 'https://joindiaspora.com/users/invitation/accept?invitation_token=', `users`.invitation_token) AS '%INVITATION_LINK%'
+                CONCAT( 'https://happeningin.eu/users/invitation/accept?invitation_token=', `users`.invitation_token) AS '%INVITATION_LINK%'
                 #{self.output_syntax(file)}
              FROM `users`
             WHERE #{self.has_email} AND #{self.has_invitation_token} AND #{self.backer_email_condition} AND #{self.unsubscribe_email_condition} AND #{self.never_login_query};
@@ -105,7 +105,7 @@ SQL
           UNION
             SELECT `users`.email AS '%EMAIL%',
                     'Friend of Diaspora*' AS '%NAME%',
-                CONCAT( 'https://joindiaspora.com/users/invitation/accept?invitation_token=', `users`.invitation_token) AS '%INVITATION_LINK%'
+                CONCAT( 'https://happeningin.eu/users/invitation/accept?invitation_token=', `users`.invitation_token) AS '%INVITATION_LINK%'
                 #{self.output_syntax(file)}
              FROM `users`
             WHERE #{self.has_email} AND #{self.has_invitation_token} AND #{self.non_backer_email_condition} AND #{self.unsubscribe_email_condition} AND #{self.never_login_query};
@@ -129,7 +129,7 @@ SQL
             SELECT `users`.email AS '%EMAIL%',
                    IF( `profiles`.first_name IS NOT NULL AND `profiles`.first_name != "",
                                                `profiles`.first_name, 'Friend of Diaspora*') AS '%NAME%',
-                IF(`users`.invitation_token, CONCAT( 'https://joindiaspora.com/users/invitation/accept?invitation_token=', `users`.invitation_token) ,NULL) AS '%INVITATION_LINK%'
+                IF(`users`.invitation_token, CONCAT( 'https://happeningin.eu/users/invitation/accept?invitation_token=', `users`.invitation_token) ,NULL) AS '%INVITATION_LINK%'
                 #{self.output_syntax(file)}
              FROM `users`
              JOIN `people` ON `users`.id = `people`.owner_id JOIN `profiles` ON `people`.id = `profiles`.person_id
@@ -183,17 +183,6 @@ SQL
     array.join(", ")
   end
   
-  # BACKER RECENT LOGIN
-  # User.where("last_sign_in_at > ?", (Time.now - 1.month).to_i).where(:email => ["maxwell@joindiaspora.com"]).count
-  #
-  # "SELECT `users`.* FROM `users` WHERE `users`.`email` IN ('maxwell@joindiaspora.com') AND (last_sign_in_at > 1312663724)"
-
-  # NON BACKER RECENT LOGIN
-  # User.where("last_sign_in_at > ?", (Time.now - 1.month).to_i).where("email NOT IN (?)", 'maxwell@joindiaspora.com').to_sql
-  # "SELECT `users`.* FROM `users` WHERE (last_sign_in_at > 1312665370) AND (email NOT IN ('maxwell@joindiaspora.com'))" 
- 
-
-
 
   # ---------------- HELPER METHODS -------------------------
   def self.load_waiting_list_csv(filename)

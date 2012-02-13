@@ -144,7 +144,6 @@ function start_services {
         exit 6
     fi
 
-    # See http://bugs.joindiaspora.com/issues/722
     services=$( chk_service 5379 )
     if [ -n "$services" ]; then
         echo "FATAL: Error:  Someone (another redis server?) is using redis port 5379" >&2
