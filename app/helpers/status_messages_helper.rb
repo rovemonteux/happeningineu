@@ -21,7 +21,7 @@ def dailymotion(str)
       unless vurl.nil? or !vurl.include? 'video'
         originalurl = vurl.strip
         vurl["/video/"]= "/swf/video/" 
-        embed = "<span class=\"clear\" /><object align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object>"
+        embed = "<span class=\"clear\" /><object align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\"><param name=\"movie\" value=\""+vurl+"\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><embed type=\"application/x-shockwave-flash\" src=\""+vurl+"\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\"></embed></object><span class=\"clear\" />"
         begin
           str[originalurl] = embed 
         rescue Exception=>e 
@@ -113,7 +113,7 @@ def youtube(str)
 		  hashes = CGI.parse(URI.parse(vurl).query)
           vurl = hashes.fetch("v")[0]
           unless vurl.nil? or vurl.empty?
-            embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+            embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe><span class=\"clear\" />"
             begin
               str[originalurl] = embed
 			  maxcount = maxcount + 1
@@ -141,7 +141,7 @@ def shortyoutube(str)
         regex = /youtu.be.*/
         vurl = vurl.match(regex)[0]
 		vurl["youtu.be/"]= "" 
-        embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+        embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\"https://www.youtube.com/embed/"+vurl+"?wmode=opaque&fs=1&feature=oembed\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe><span class=\"clear\" />"
         begin
           str[originalurl] = embed
         rescue Exception=>e
@@ -166,7 +166,7 @@ def vimeo(str)
         originalurl = vurl.strip
         vurl["vimeo.com"]= "player.vimeo.com/video" 
         vurl["http:"]= "https:"
-        embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\""+vurl+"?wmode=opaque\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+        embed = "<span class=\"clear\" /><iframe align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\" src=\""+vurl+"?wmode=opaque\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe><span class=\"clear\" />"
         begin
           str[originalurl] = embed
         rescue Exception=>e
