@@ -25,9 +25,17 @@ cd happeningineu
 
 9. Start the server with SERVER_ROOT/start.sh , restart with SERVER_ROOT/restart.sh.
 
-10. Read the file log/production.log as often as you can, All errors and performance statistics are input in this file. 
+10. Websockets for real time notifications and post refreshing
 
-11. Do not get frustrated if it fails at first, it is normal, a bit of patience, and the log file above will help you diagnose and know your system better.
+Most common error is lack of policy for it - if you get an error like
+
+"cannot connect to Web Socket server at wss://host:8001/ (SecurityError: Error #2048) make sure the server is running and Flash socket policy file is correctly placed "
+
+You might need to install this, http://socketpolicyserver.com/ as the server is not serving the policy to allow the websocket to talk.
+
+11. Read the file log/production.log as often as you can, All errors and performance statistics are input in this file.
+
+12. Do not get frustrated if it fails at first, it is normal, a bit of patience, and the log file above will help you diagnose and know your system better.
 
 
 If you run into any problems, please contact the developer at https://happeningin.eu/u/rovemonteux, via Twitter @monteuxrove, or via web http://rovemonteux.net/. Announcements concerning this software are made via announcements@happeningin.eu (https://happeningin.eu/u/announcements). 
