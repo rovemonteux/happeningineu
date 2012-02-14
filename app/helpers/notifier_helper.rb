@@ -24,6 +24,10 @@ module NotifierHelper
     text
   end
 
+  def post_individual_url(post)
+    return "/!/"+post.author.diaspora_handle.match(/^[^@]*/)[0]+"/"+post.guid
+  end
+
   def invite_email_title
     names = @invites.collect{|x| x.sender.person.name}.uniq
     if @invites.empty? && names.empty?

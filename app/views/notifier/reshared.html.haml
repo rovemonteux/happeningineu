@@ -5,4 +5,4 @@
   = post_message(@notification.reshare.root, :process_newlines => true)
 
 %p
-  = link_to t('.view_post'), post_url(@notification.reshare)
+  = link_to t('.view_post'), post_individual_url(@notification.reshare)
