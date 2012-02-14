@@ -17,7 +17,7 @@ gem 'whatlanguage'
 gem 'htmlentities'
 
 gem 'em-synchrony', :platforms => :ruby_19
-gem 'em-websocket'
+gem 'em-websocket', :git => 'git://github.com/igrigorik/em-websocket.git'
 
 # authentication
 
