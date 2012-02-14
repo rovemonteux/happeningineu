@@ -36,6 +36,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
 
+**Emoticons in comments:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Emoticons-in-comments
+
 **Content auto-update:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Content-auto-update
