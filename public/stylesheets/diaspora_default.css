@@ -2888,6 +2888,7 @@ box-shadow:0 0px 1px rgba(0,0,0,0.5);
 .ui-autocomplete{left:-11px}
 
 .button_upload_picture{
+z-index:1000;
 background-color:#eee;
 filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=$from,endColorstr=$to);
 -ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=white, endColorstr=#dddddd)";
