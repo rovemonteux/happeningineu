@@ -130,6 +130,7 @@ def youtube(str)
 end
 
 def shortyoutube(str)
+  begin
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? 'youtu'
@@ -151,6 +152,8 @@ def shortyoutube(str)
 	  end
       end
     end
+  end
+  rescue
   end
   return str
 end
