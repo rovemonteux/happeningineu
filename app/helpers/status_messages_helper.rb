@@ -12,6 +12,7 @@ require 'cgi'
 module StatusMessagesHelper
 
 def dailymotion(str)
+  begin
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? 'dailymotion'
@@ -31,10 +32,13 @@ def dailymotion(str)
       end
     end
   end
+  rescue
+  end
   return str
 end
 
 def googlemaps(str)
+  begin
   str = "\n" +  str + "\n"
   embed = ""
   unless str.nil? or !str.include? 'map'
@@ -53,10 +57,13 @@ def googlemaps(str)
         end
       end
     end
+	rescue
+	end
   return str
 end
 
 def mp3(str)
+  begine
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? '.mp3'
@@ -76,10 +83,13 @@ def mp3(str)
       end
     end
   end
+  rescue
+  end
   return str
 end
 
 def genericflash(str)
+  begin
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? '.swf'
@@ -98,10 +108,13 @@ def genericflash(str)
       end
     end
   end
+  rescue
+  end
   return str
 end
 
 def youtube(str)
+  begin
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? 'youtube'
@@ -125,6 +138,8 @@ def youtube(str)
         end
 	  end
     end
+  end
+  rescue
   end
   return str
 end
@@ -184,6 +199,7 @@ def vimeo(str)
 end
 
 def guardian(str)
+  begin
   maxcount = 0
   embed = ""
   unless str.nil? or !str.include? 'www.guardian.co.uk'
@@ -203,6 +219,8 @@ def guardian(str)
 	  end
       end
     end
+  end
+  rescue
   end
   return str
 end
