@@ -2,6 +2,10 @@
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
+#   Copyright (c) 2010-2012, Rove Monteux.  This file is
+#   licensed under the Affero General Public License version 3 or later.  See
+#   the COPYRIGHT file.
+
 module CommentsHelper
   GSUB_THIS = "FIUSDHVIUSHDVIUBAIUHAPOIUXJM"
   def comment_toggle(post, commenting_disabled=false)
@@ -30,6 +34,34 @@ module CommentsHelper
     else
       nil
     end
+  end
+
+  def emoticonize(str)
+    emoticon = [":-))",":))"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/more_than_happy.png\" class=\"smiley\" />")
+    end
+    emoticon = [":]",":-)",":)",":o)",":]",":3",":c)","=]","=)",":}",":^)"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/smile.png\" class=\"smiley\" />")
+    end
+	emoticon = [":D",":-D","8-D","x-D","X-D","=-D","=D","8-)"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/laugh.png\" class=\"smiley\" />")
+    end
+	emoticon = [":[",":-(",":-c",":-["]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/sad.png\" class=\"smiley\" />")
+    end
+	emoticon = [":-||",":-|"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/silent.png\" class=\"smiley\" />")
+    end
+	emoticon = [":-P",":-p",":-b"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/tounge_out.png\" class=\"smiley\" />")
+    end
+	return str
   end
 
   def commenting_disabled?(post)
