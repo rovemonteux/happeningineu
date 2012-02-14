@@ -34,7 +34,7 @@ mySettings = {
 		{name:'YouTube', key:'Y', openWith:'[![YouTube URL:!:https://www.youtube.com/]!]'},
         {name:'Dailymotion', key:'D', openWith:'[![Dailymotion URL:!:https://www.dailymotion.com/]!]'},
         {name:'Vimeo', key:'M', openWith:'[![Vimeo URL:!:https://www.vimeo.com/]!]'},
-        {name:'guardian.co.uk', key:'G', openWith:'[![guardian.co.uk URL:!:http://www.guardian.co.uk/world/video/2012/feb/13/greece-begins-cleanup-rioting-video]!]'}, 
+        {name:'guardian.co.uk', key:'G', openWith:'[![guardian.co.uk video page URL:!:http://www.guardian.co.uk/world/video/2012/feb/13/greece-begins-cleanup-rioting-video]!]'}, 
         {separator:'---------------' },
         {name:'Podcast', key:'O', openWith:'[![Podcast .mp3 URL:!:https://site.com/podcast.mp3]!]'},
         {name:'Flash', key:'L', openWith:'[![Flash .swf URL:!:https://site.com/flash.swf]!]'},
