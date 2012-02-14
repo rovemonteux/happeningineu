@@ -180,8 +180,32 @@ def vimeo(str)
   return str
 end
 
+def guardian(str)
+  maxcount = 0
+  embed = ""
+  unless str.nil? or !str.include? 'www.guardian.co.uk'
+    videourl = str.split.grep(/(?:f|ht)tps?:\/\/www\.guardian\.co\.uk[^\s]+/)
+	unless maxcount > 2 
+    videourl.each do |vurl|
+      unless vurl.nil? or !vurl.include? '/video/'
+        originalurl = vurl.strip
+        vurl["-video"] = "-video/json"
+        embed = "<span class=\"clear\" /><object align=\"center\" width=\"560\" height=\"315\" wmode=\"transparent\"><param name=\"movie\" value=\"http://www.guardian.co.uk/video/embed\"></param><param name=\"wmode\" value=\"transparent\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowScriptAccess\" value=\"always\"></param><param name=\"flashvars\" value=\"endpoint="+vurl+"\"></param><embed type=\"application/x-shockwave-flash\" src=\"http://www.guardian.co.uk/video/embed\" width=\"560\" height=\"315\" allowfullscreen=\"true\" allowscriptaccess=\"always\" wmode=\"transparent\" flashvars=\"endpoint="+vurl+"\"></embed></object><span class=\"clear\" />"
+        begin
+          str[originalurl] = embed
+        rescue Exception=>e
+          str = str + " " +  originalurl
+          embed = ""
+        end
+	  end
+      end
+    end
+  end
+  return str
+end
+
 def embedcode(str)
-  str = googlemaps(mp3(genericflash(dailymotion(shortyoutube(youtube(vimeo(str)))))))
+  str = googlemaps(mp3(genericflash(guardian(dailymotion(shortyoutube(youtube(vimeo(str))))))))
   return str
 end
 
