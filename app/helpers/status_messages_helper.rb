@@ -124,13 +124,12 @@ def youtube(str)
             end
 		  end
 		  rescue
-		  vurl = originalstring
+		  vurl = originalurl
 		  end
-		  end
+	    end
         end
 	  end
     end
-  end
   return str
 end
 
