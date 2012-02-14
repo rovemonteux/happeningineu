@@ -122,6 +122,7 @@ def youtube(str)
               str = str + " " +  originalurl 
               embed = ""
             end
+		  end
 		  rescue
 		  vurl = originalstring
 		  end
