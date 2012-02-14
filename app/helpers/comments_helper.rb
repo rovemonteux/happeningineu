@@ -61,6 +61,10 @@ module CommentsHelper
 	emoticon.each do |emo|  
 	  str.gsub!(emo,"<img src=\"/images/emoticons/tounge_out.png\" class=\"smiley\" />")
     end
+	emoticon = [":-/",":-\\"]
+	emoticon.each do |emo|  
+	  str.gsub!(emo,"<img src=\"/images/emoticons/angry.png\" class=\"smiley\" />")
+    end
 	return str
   end
 

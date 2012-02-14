@@ -50,20 +50,20 @@ text-align:right}
 .smiley{
 border: 0;
 vspace: 2;
-filter:alpha(opacity=95);
--moz-opacity: 0.95;
-opacity: 0.95;
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
+width: 20px;
+height: 20px;
+margin-bottom: -4px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
 }
 
 .smiley:hover {
-    -webkit-transform: rotate(-30deg);
-    -moz-transform: rotate(-30deg);
-    -o-transform: rotate(-30deg);
-    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg) scale(1.5);
+    -moz-transform: rotate(-30deg) scale(1.5);
+    -o-transform: rotate(-30deg) scale(1.5);
+    -ms-transform: rotate(-30deg) scale(1.5);
 }
 
 .avatar{width:50px;
