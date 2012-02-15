@@ -31,7 +31,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-tumblr'
 gem 'omniauth-twitter'
 
-gem 'twitter', '2.0.2'
+gem 'twitter'
 
 gem 'cloudfiles'
 
@@ -90,10 +90,9 @@ gem 'ruby-oembed'
 
 # queue
 
-gem 'resque', '1.19.0'
+gem 'resque'
 gem 'resque-ensure-connected', :git => 'https://github.com/socialcast/resque-ensure-connected.git'
-gem 'resque-timeout', '1.0.0'
-gem 'SystemTimer', '1.2.3', :platforms => :ruby_18
+gem 'resque-timeout'
 
 # tags
 
@@ -101,7 +100,7 @@ gem 'acts-as-taggable-on', :git => 'git://github.com/diaspora/acts-as-taggable-o
 
 # URIs and HTTP
 
-gem 'addressable', '2.2.4', :require => 'addressable/uri'
+gem 'addressable', :require => 'addressable/uri'
 gem 'http_accept_language', '~> 1.0.2'
 gem 'typhoeus'
 
