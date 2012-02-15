@@ -32,6 +32,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-video-formats
 
 https://github.com/rovemonteux/happeningineu/wiki/Supported-media-formats
 
+**Supported services:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Supported-services
+
 **Uploading pictures:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
