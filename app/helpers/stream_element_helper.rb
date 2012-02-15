@@ -9,10 +9,6 @@ module StreamElementHelper
     end
   end
 
-  def post_individual_url(post)
-    return "/!/"+post.author.diaspora_handle.match(/^[^@]*/)[0]+"/"+post.guid
-  end
-
   def delete_or_hide_button(post)
     if user_signed_in? && current_user.owns?(post)
       link_to image_tag('deletelabel.png'), post_path(post), :confirm => t('are_you_sure'), :method => :delete, :remote => true, :class => "delete control_icon remove_post", :title => t('delete')

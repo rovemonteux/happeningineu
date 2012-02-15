@@ -85,7 +85,6 @@ Diaspora::Application.routes.draw do
     match 'privacy'                 => :privacy_settings, :as => 'privacy_settings'
     get 'getting_started_completed' => :getting_started_completed
     get 'confirm_email/:token'      => :confirm_email,    :as => 'confirm_email'
-    get '!/:username/:id' => 'posts#show', :as => 'short_post'
   end
 
   # This is a hack to overide a route created by devise.
@@ -124,8 +123,6 @@ Diaspora::Application.routes.draw do
   get 'community_spotlight' => "contacts#spotlight", :as => 'community_spotlight'
 
   get 'stream' => "multis#index", :as => 'multi'
-
-  get 'explore' => "multis#index", :as => 'multi'
 
   resources :people, :except => [:edit, :update] do
     resources :status_messages
