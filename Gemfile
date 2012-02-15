@@ -83,9 +83,9 @@ gem 'rails-i18n'
 
 # parsing
 
-gem 'nokogiri', '~> 1.5.0'
-gem 'redcarpet', "2.0.1"
-gem 'roxml', :git => 'git://github.com/Empact/roxml.git', :ref => '7ea9a9ffd2338aaef5b0'
+gem 'nokogiri'
+gem 'redcarpet', :git => 'https://github.com/tanoku/redcarpet.git'
+gem 'roxml', :git => 'git://github.com/Empact/roxml.git'
 gem 'ruby-oembed'
 
 # queue

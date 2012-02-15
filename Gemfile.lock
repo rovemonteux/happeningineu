@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/Empact/roxml.git
-  revision: 7ea9a9ffd2338aaef5b04cb792060ae8c98f346a
-  ref: 7ea9a9ffd2338aaef5b0
+  revision: 8ef370c53acc21325ab3750d4405bfa04439acb7
   specs:
-    roxml (3.1.6)
+    roxml (3.3.1)
       activesupport (>= 2.3.0)
       nokogiri (>= 1.3.3)
 
@@ -57,6 +56,12 @@ GIT
     resque-ensure-connected (0.2.0)
       activerecord (>= 2.3.5)
       resque (>= 1.10.0)
+
+GIT
+  remote: https://github.com/tanoku/redcarpet.git
+  revision: e196b453b29c13e4b5c1817929785944f0c312e1
+  specs:
+    redcarpet (2.1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -335,7 +340,6 @@ GEM
     rbx-require-relative (0.0.5)
     rdoc (3.12)
       json (~> 1.4)
-    redcarpet (2.0.1)
     redis (2.2.2)
     redis-namespace (1.0.3)
       redis (< 3.0.0)
@@ -489,7 +493,7 @@ DEPENDENCIES
   mock_redis
   mongrel
   mysql2 (= 0.2.18)
-  nokogiri (~> 1.5.0)
+  nokogiri
   oauth2-provider (= 0.0.19)
   omniauth (= 1.0.1)
   omniauth-facebook
@@ -499,7 +503,7 @@ DEPENDENCIES
   rack-ssl
   rails (= 3.0.11)
   rails-i18n
-  redcarpet (= 2.0.1)
+  redcarpet!
   resque (= 1.19.0)
   resque-ensure-connected!
   resque-timeout (= 1.0.0)
