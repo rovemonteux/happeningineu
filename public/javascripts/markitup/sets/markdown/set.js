@@ -32,14 +32,16 @@ mySettings = {
         {name:'Tag', key:'T', openWith:'#', closeWith:'[![Tag:!:happeningin]!]'},
         {separator:'---------------' },
 		{name:'YouTube', key:'Y', openWith:'[![YouTube URL:!:https://www.youtube.com/]!]'},
-        {name:'Dailymotion', key:'D', openWith:'[![Dailymotion URL:!:https://www.dailymotion.com/]!]'},
+        {name:'Dailymotion', key:'D', openWith:'[![Dailymotion URL:!:https://www.dailymotion.com/video/xh19od_orphaned-land-unplugged-in-turkish-university_music]!]'},
         {name:'Vimeo', key:'M', openWith:'[![Vimeo URL:!:https://www.vimeo.com/]!]'},
         {name:'guardian.co.uk', key:'G', openWith:'[![guardian.co.uk video page URL:!:http://www.guardian.co.uk/world/video/2012/feb/13/greece-begins-cleanup-rioting-video]!]'}, 
         {separator:'---------------' },
         {name:'Podcast', key:'O', openWith:'[![Podcast .mp3 URL:!:https://site.com/podcast.mp3]!]'},
         {name:'Flash', key:'L', openWith:'[![Flash .swf URL:!:https://site.com/flash.swf]!]'},
         {separator:'---------------' },
-        {name:'Map', key:'W', closeWith:'[![Map:!:Mikulov, Czech Republic]!]', openWith:'map: '}
+        {name:'Map', key:'W', closeWith:'[![Map:!:Mikulov, Czech Republic]!]', openWith:'map: '},
+        {separator:'---------------' },
+        {name:'Pastebin', key:'B', openWith:'[![pastebin.com URL:!:http://pastebin.com/tg0jRRTX]!]'}
 	]
 }
 

@@ -325,3 +325,22 @@
     -o-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
 }
+
+.markItUp .markItUpButton19 a   {
+    background-image:url(images/pastebin.png);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.markItUp .markItUpButton19 a:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
