@@ -142,7 +142,7 @@ group :test do
   gem 'rspec-core', '~> 2.8.0'
   gem 'rspec-instafail', '>= 0.1.7', :require => false
   gem 'rspec-rails', '>= 2.0.0'
-  gem 'selenium-webdriver', '~> 2.16.0'
+  gem 'selenium-webdriver'
   gem 'webmock', :require => false
   gem 'sqlite3'
   gem 'mock_redis'
