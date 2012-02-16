@@ -35,6 +35,8 @@ gem 'twitter'
 
 gem 'jammit'
 
+gem 'cloudfiles'
+
 # mail
 
 gem 'messagebus_ruby_api', '1.0.3'
