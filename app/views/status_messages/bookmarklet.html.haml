@@ -2,54 +2,75 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-= javascript_include_tag "/javascripts/jquery.js"
+-#   Copyright (c) 2012, Rove Monteux.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
 
-= javascript_include_tag "/javascripts/default.js"
-= stylesheet_link_tag "diaspora_default", :media => 'all'
-= stylesheet_link_tag "blueprint/screen", :media => 'screen'
-= javascript_include_tag "publisher.js"
+!!!
+%html{:lang => "en", :dir => (rtl?) ? 'rtl' : 'ltr'}
+  %head
+    %meta{:charset => 'utf-8'}/
 
-= javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
-= javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
-%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
-%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+    %title
+      = "Widget"
 
+    %link{:rel => 'shortcut icon', :href => '/favicon.png'}/
+    %link{:rel => 'apple-touch-icon', :href => '/apple-touch-icon.png'}/
 
+    / Social Media Icons are by Paul Robert Lloyd @ http://paulrobertlloyd.com/2009/06/social_media_icons
 
-:javascript
-  Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
-  $(document).ready(function() 
-    {
-      $('#status_message_fake_text').markItUp(mySettings);
-      Publisher.open();
-      Publisher.bookmarklet = true;
-      $("#publisher").bind('ajax:success', function(){
-        Publisher.clear();
-        Publisher.close();
-        Publisher.open();
-        $('input.button')[0].removeAttribute('disabled');
+    / Application icons are by Everaldo Coelho @ http://everaldo.com/crystal/
+
+    / Emoticon icons are by LayzCrazy @ http://lazycrazy.deviantart.com/
+
+    = javascript_include_tag "/javascripts/jquery.js"
+
+    = javascript_include_tag "/javascripts/default.js"
+    = stylesheet_link_tag "diaspora_default", :media => 'all'
+    = stylesheet_link_tag "blueprint/screen", :media => 'screen'
+    = javascript_include_tag "publisher.js"
+
+    = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+    = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+    %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+    %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+
+    :javascript
+      Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
+      $(document).ready(function() 
+        {
+          $('#status_message_fake_text').markItUp(mySettings);
+          Publisher.open();
+          Publisher.bookmarklet = true;
+          $("#publisher").bind('ajax:success', function(){
+            Publisher.clear();
+            Publisher.close();
+            Publisher.open();
+            $('input.button')[0].removeAttribute('disabled');
+          });
+
+          if ("#{params[:title]}".length > 0){
+            contents = contents + "#{params[:title]} ";
+            $("#publisher #status_message_fake_text").val(contents);
+            $("#publisher #status_message_text").val(contents);
+          }
+          if ("#{params[:url]}".length > 0){
+            contents = contents + "#{params[:url]} ";
+            $("#publisher #status_message_fake_text").val(contents);
+            $("#publisher #status_message_text").val(contents);
+          }
+          if ("#{params[:notes]}".length > 0){
+            contents = contents + "#{params[:notes]}";
+            $("#publisher #status_message_fake_text").val(contents);
+            $("#publisher #status_message_text").val(contents);
+          }
+
+          $('input.button')[0].removeAttribute('disabled');
       });
 
-      if ("#{params[:title]}".length > 0){
-        contents = contents + "#{params[:title]} ";
-        $("#publisher #status_message_fake_text").val(contents);
-        $("#publisher #status_message_text").val(contents);
-      }
-      if ("#{params[:url]}".length > 0){
-        contents = contents + "#{params[:url]} ";
-        $("#publisher #status_message_fake_text").val(contents);
-        $("#publisher #status_message_text").val(contents);
-      }
-      if ("#{params[:notes]}".length > 0){
-        contents = contents + "#{params[:notes]}";
-        $("#publisher #status_message_fake_text").val(contents);
-        $("#publisher #status_message_text").val(contents);
-      }
+  %body{:class => "#{yield(:body_class)}"}
 
-      $('input.button')[0].removeAttribute('disabled');
-  });
-
-#new_status_message_pane
-  .span-16.last
-    = render :partial => 'shared/publisher', :locals => { :aspect => :profile, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
+  #new_status_message_pane
+    .span-16.last
+      = render :partial => 'shared/publisher', :locals => { :aspect => :profile, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
 
