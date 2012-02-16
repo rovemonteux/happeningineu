@@ -2,8 +2,9 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-= include_javascripts :jquery
-= include_javascripts :main
+= javascript_include_tag "/javascripts/jquery.js"
+
+= javascript_include_tag "/javascripts/default.js"
 = include_stylesheets :default, :media => 'all'
 = stylesheet_link_tag "blueprint/screen", :media => 'screen'
 = javascript_include_tag "publisher.js"

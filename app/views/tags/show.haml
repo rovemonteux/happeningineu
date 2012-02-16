@@ -9,7 +9,9 @@
     = t('.whatup', :pod => @pod_url)
 
 - content_for :head do
-  = include_javascripts :home
+  = javascript_include_tag "/javascripts/publisher.js"
+  = javascript_include_tag "/javascripts/aspect-edit-pane.js"
+  = javascript_include_tag "/javascripts/fileuploader-custom.js"
   :javascript
     $(document).ready(function(){
       // Change the text and color of the "follow this tag" button on hover.

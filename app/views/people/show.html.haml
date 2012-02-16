@@ -4,7 +4,8 @@
 
 
 - content_for :head do
-  = include_javascripts :people
+  = javascript_include_tag "/javascripts/vendor/jquery.autoSuggest.custom.js"
+  = javascript_include_tag "/javascripts/aspect-edit-pane.js"
 
 - content_for :page_title do
   = @person.name

@@ -133,8 +133,6 @@ GEM
       ffi (~> 1.0.6)
     chronic (0.6.7)
     client_side_validations (3.1.4)
-    cloudfiles (1.5.0.1)
-      json
     columnize (0.3.6)
     crack (0.3.1)
     cucumber (1.1.4)
@@ -457,7 +455,6 @@ DEPENDENCIES
   capybara (~> 1.1.2)
   carrierwave (= 0.5.8)
   client_side_validations
-  cloudfiles
   cucumber-api-steps (= 0.6)
   cucumber-rails (= 1.2.1)
   database_cleaner (= 0.7.1)

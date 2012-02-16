@@ -6,7 +6,9 @@
   = "everything happening from #{@app}"
 
 - content_for :head do
-  = include_javascripts :home
+  = javascript_include_tag "/javascripts/publisher.js"
+  = javascript_include_tag "/javascripts/aspect-edit-pane.js"
+  = javascript_include_tag "/javascripts/fileuploader-custom.js"
 
 - content_for :body_class do
   = "apps_show"

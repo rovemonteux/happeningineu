@@ -33,10 +33,6 @@ gem 'omniauth-twitter'
 
 gem 'twitter'
 
-gem 'cloudfiles'
-
-# todo: replace all include_javascripts and remove jammit 
-
 gem 'jammit'
 
 # mail

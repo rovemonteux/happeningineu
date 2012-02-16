@@ -67,7 +67,9 @@
       %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
       %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
     - if current_user
-      = include_javascripts :flash_socket #unless modern_browser?
+      = javascript_include_tag "/javascripts/vendor/FABridge.js"
+      = javascript_include_tag "/javascripts/vendor/swfobject.js"
+      = javascript_include_tag "/javascripts/vendor/web_socket.js"
       = javascript_include_tag 'web-socket-receiver'
       = render 'js/websocket_js'
 

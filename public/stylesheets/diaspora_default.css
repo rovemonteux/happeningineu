@@ -988,10 +988,10 @@ box-shadow:0 2px 4px rgba(0,0,0,0.2);
 }
 
 #thumbnails a img:hover{
-    -webkit-transform: scale(6);
-    -moz-transform: scale(6);
-    -o-transform: scale(6);
-    -ms-transform: scale(6);
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -o-transform: scale(4);
+    -ms-transform: scale(4);
     filter:alpha(opacity=99);
     -moz-opacity: 0.99;
     opacity: 0.99;

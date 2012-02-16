@@ -3,7 +3,7 @@
 -#   the COPYRIGHT file.
 
 - content_for :head do
-  = include_javascripts :profile
+  = javascript_include_tag "/vendor/jquery.autoSuggest.custom.js"
 
   :javascript
     $(document).ready(function () {

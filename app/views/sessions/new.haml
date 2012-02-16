@@ -6,7 +6,7 @@
   = t('devise.sessions.new.sign_in')
 
 = content_for :head do
-  = include_javascripts :login
+  = javascript_include_tag "/javascripts/login.js"
 
   :css
     header, #flash_alert { display:none; }
