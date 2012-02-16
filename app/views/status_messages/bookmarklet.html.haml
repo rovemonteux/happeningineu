@@ -5,36 +5,51 @@
 = javascript_include_tag "/javascripts/jquery.js"
 
 = javascript_include_tag "/javascripts/default.js"
-= include_stylesheets :default, :media => 'all'
+= stylesheet_link_tag "diaspora_default", :media => 'all'
 = stylesheet_link_tag "blueprint/screen", :media => 'screen'
 = javascript_include_tag "publisher.js"
+
+= javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+= javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+
+
 
 :javascript
   Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
   $(document).ready(function() 
     {
+      $('#status_message_fake_text').markItUp(mySettings);
       Publisher.open();
       Publisher.bookmarklet = true;
       $("#publisher").bind('ajax:success', function(){
-        $('h4').text("#{t('bookmarklet.post_success')}");
+        Publisher.clear();
         Publisher.close();
-
-        window.setTimeout(window.close, 2000, true);
+        Publisher.open();
+        $('input.button')[0].removeAttribute('disabled');
       });
 
-      var contents = "#{params[:title]} - #{params[:url]}";
+      if ("#{params[:title]}".length > 0){
+        contents = contents + "#{params[:title]} ";
+        $("#publisher #status_message_fake_text").val(contents);
+        $("#publisher #status_message_text").val(contents);
+      }
+      if ("#{params[:url]}".length > 0){
+        contents = contents + "#{params[:url]} ";
+        $("#publisher #status_message_fake_text").val(contents);
+        $("#publisher #status_message_text").val(contents);
+      }
       if ("#{params[:notes]}".length > 0){
-        contents = contents + " - #{params[:notes]}";
+        contents = contents + "#{params[:notes]}";
+        $("#publisher #status_message_fake_text").val(contents);
+        $("#publisher #status_message_text").val(contents);
       }
 
-      $("#publisher #status_message_fake_text").val(contents);
-      $("#publisher #status_message_text").val(contents);
       $('input.button')[0].removeAttribute('disabled');
   });
 
 #new_status_message_pane
-  .span-15.last
-    %h4
-      =t('bookmarklet.post_something')
+  .span-16.last
     = render :partial => 'shared/publisher', :locals => { :aspect => :profile, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
 

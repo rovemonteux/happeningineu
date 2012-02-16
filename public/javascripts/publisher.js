@@ -3,7 +3,11 @@
  *   the COPYRIGHT file.
  */
 
-//TODO: make this a widget
+/*   Copyright (c) 2012, Rove Monteux.  This file is
+ *   licensed under the Affero General Public License version 3 or later.  See
+ *   the COPYRIGHT file.
+ */
+
 var Publisher = {
 
   bookmarklet : false,
@@ -58,7 +62,6 @@ var Publisher = {
       max : 5,
       onSelect : Publisher.autocompletion.onSelect,
       searchTermFromValue: Publisher.autocompletion.searchTermFromValue,
-      scroll : false,
       formatItem: function(row, i, max) {
           return "<img src='"+ row.avatar +"' class='avatar'/>" + row.name;
       },
