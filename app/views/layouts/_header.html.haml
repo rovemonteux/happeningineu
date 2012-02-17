@@ -29,9 +29,8 @@
     Publisher.bookmarklet = false;
     $("#publisher").bind('ajax:success', function(){
     Publisher.clear();
-    Publisher.close();
+    Publisher.form().find("textarea.ac_input").css('height', '80px');
     $(".publisherpanel").toggle("slow");
-    Publisher.open();
     $('input.button')[0].removeAttribute('disabled');
     });
     $('input.button')[0].removeAttribute('disabled');
