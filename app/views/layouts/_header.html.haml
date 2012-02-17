@@ -2,7 +2,7 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-- if (current_user || !@landing_page)
+- if (current_user)
 
   = javascript_include_tag "/javascripts/publisher.js"
   = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
@@ -11,7 +11,9 @@
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
 
   :javascript
+    - begin
     Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
+    - rescue
     $(document).ready(function() 
     {
     $(".trigger").click(function(){
