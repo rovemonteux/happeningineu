@@ -11,9 +11,7 @@
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
 
   :javascript
-    - begin
     Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
-    - rescue
     $(document).ready(function() 
     {
     $(".trigger").click(function(){
@@ -38,6 +36,11 @@
     });
     $('input.button')[0].removeAttribute('disabled');
     });
+
+- else
+
+  :javascript
+    Diaspora.I18n.loadLocale(#{get_javascript_strings_for(I18n.locale).to_json}, "#{I18n.locale}");
 
 .container{:style => "position:relative;"}
   - if !current_user
