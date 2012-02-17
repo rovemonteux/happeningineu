@@ -6,8 +6,6 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-= javascript_include_tag "/javascripts/vendor/jquery.autoresize.min.js"
-
 = form_tag( post_comments_path(post_id), :id => "new_comment_on_#{post_id}", :class => 'new_comment', :remote => true) do
   = person_image_tag(current_user)
   %p

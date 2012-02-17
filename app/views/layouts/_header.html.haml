@@ -4,12 +4,12 @@
 
 - if (current_user)
 
+  = javascript_include_tag "/javascripts/vendor/jquery.autoresize.min.js"
   = javascript_include_tag "/javascripts/publisher.js"
   = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
   = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
-  = javascript_include_tag "/javascripts/vendor/jquery.autoresize.js"
 
   :javascript
     Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
