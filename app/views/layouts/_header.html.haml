@@ -65,7 +65,7 @@
 
     .publisherpanel
       #new_status_message_pane
-        - @aspect = :all
+        - @aspect = :profile
         - @aspects = current_user.aspects
         - @aspect_ids = @aspects.map{|x| x.id}
         - if !request.url.include? '/notifications'

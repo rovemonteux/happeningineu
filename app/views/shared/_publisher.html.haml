@@ -80,11 +80,11 @@
             = link_to( image_tag('deletelabel.png'), "#", :id => "hide_publisher", :title => t('.discard_post'))
             %ul#photodropzone
             - if current_user.getting_started?
-              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "height: 80px; max-height: 80px; resize: none; width: 580px; scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind'),
+              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "height: 80px; min-height: 80px; max-height: 80px; resize: none; width: 580px; scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind'),
                 :title => popover_with_close_html( '1. ' + t('shared.public_explain.share') ),
                 'data-content' => t('shared.public_explain.new_user_welcome_message')
             - else
-              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "max-height: 80px;  width: 580px; height: 80px; resize: none; scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind')
+              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "min-height: 80px; max-height: 80px; width: 580px; height: 80px; resize: none; scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind')
             = status.hidden_field :text, :value => h(publisher_hidden_text), :class => 'clear_on_submit'
 
             #file-upload{:title => t('.upload_photos')}

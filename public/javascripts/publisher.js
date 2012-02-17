@@ -20,7 +20,7 @@ var Publisher = {
   open: function(){
     Publisher.form().removeClass('closed');
     Publisher.form().find("#publisher_textarea_wrapper").addClass('active');
-    Publisher.form().find("textarea.ac_input").css('min-height', '42px');
+    Publisher.form().find("textarea.ac_input").css('min-height', '80px');
     Publisher.determineSubmitAvailability();
   },
 

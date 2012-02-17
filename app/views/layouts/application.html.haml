@@ -86,7 +86,7 @@
 
     - unless @page == :logged_out
       - flash.each do |name, msg|
-        %div{:id => "flash_#{name}"}
+        %div{:id => "flash_#{name}", :style => "color: #cacaca;"}
           .message
             = msg
 
