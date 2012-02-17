@@ -2,6 +2,41 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+= javascript_include_tag "/javascripts/publisher.js"
+= javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+= javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+
+:javascript
+  Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
+  $(document).ready(function() 
+  {
+  var original = $("#publisher.closed").html();
+  $(".trigger").click(function(){
+  $(".panel").toggle("fast");
+  $(this).toggleClass("active");
+  return false;
+  });
+  $(".publishertrigger").click(function(){ 
+  $("#publisher.closed").html(original);
+  $(".publisherpanel").toggle("fast");
+  $(this).toggleClass("active");
+  return false;
+  });
+  $('#status_message_fake_text').markItUp(mySettings);
+  Publisher.open();
+  Publisher.bookmarklet = false;
+  $("#publisher").bind('ajax:success', function(){
+  Publisher.clear();
+  Publisher.close();
+  $(".publisherpanel").toggle("slow");
+  Publisher.open();
+  $('input.button')[0].removeAttribute('disabled');
+  });
+  $('input.button')[0].removeAttribute('disabled');
+  });
+
 .container{:style => "position:relative;"}
   - if !current_user
     = link_to image_tag('logo_small.png', :style => 'z-index: 10;position:absolute;top:5px;'), "/stream" 
@@ -11,10 +46,8 @@
   - if !current_user
     %ul#landing_nav
       %li= link_to t('.login'), new_user_session_path, :class => 'login'
-    #nav_badges
-      #tagcloud_badge.badge
-        = link_to "#", :class => "trigger", :title => t('users.getting_started.hashtag_explanation') do
-          = image_tag 'icons/tagcloud.png', :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation')
+
+  - elsif (current_user || !@landing_page)
 
     .panel
       = image_tag 'icons/tagcloud.png', :style => "width: 19px; height: 19px; float:left;margin:10px 10px 10px 10px; vertical-align: middle;", :id => "notification-flag", :alt => t('users.getting_started.hashtag_explanation')
@@ -25,8 +58,15 @@
         - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,250;').each do |tagname|
           = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
           &nbsp;&nbsp;
- 
-  - elsif (current_user || !@landing_page)
+
+    .publisherpanel
+      #new_status_message_pane
+        - @aspect = :all
+        - @aspects = current_user.aspects
+        - @aspect_ids = @aspects.map{|x| x.id}
+        - if !request.url.include? '/notifications'
+          = render :partial => 'shared/publisher', :locals => { :aspect => @aspect, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
+
     #global_search{:style => "z=index:0;"}
       = form_tag(people_path, :method => 'get', :class => "search_form") do
         = text_field_tag 'q', params[:q], :class => "search_box", :style => "margin-left: 210px; margin-top: 4px; padding-left: 10px; width: 140px; padding-right: 10px; border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 10px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;", :placeholder => t('find_people'), :type => 'search', :results => 15
@@ -47,6 +87,11 @@
           = image_tag 'icons/mail_grey.png', :alt => new_message_text(@unread_message_count)
           .badge_count{:class => ("hidden" if @unread_message_count == 0)}
             = @unread_message_count
+
+      - if !request.url.include? '/notifications'
+        #publisher_badge.badge
+          = link_to "#", :class => "publishertrigger", :title => t('bookmarklet.post_something').titleize do
+            = image_tag 'icons/publisher.png', :id => "notification-flag", :alt => t('bookmarklet.post_something').titleize
 
       #tagcloud_badge.badge
         = link_to "#", :class => "trigger", :title => t('users.getting_started.hashtag_explanation') do

@@ -43,7 +43,6 @@
           Publisher.open();
           Publisher.bookmarklet = true;
           $("#publisher").bind('ajax:success', function(){
-            $('h4').text("#{t('conversations.create.sent')}");
             Publisher.clear();
             Publisher.close();
             Publisher.open();
@@ -69,7 +68,7 @@
           $('input.button')[0].removeAttribute('disabled');
       });
 
-  %body{:class => "#{yield(:body_class)}", :style => "margin: 0px; padding: 0px; background-color:transparent;"}
+  %body{:class => "#{yield(:body_class)}", :style => "margin: 0px; padding: 0px;"}
 
   #new_status_message_pane
     .span-16.last

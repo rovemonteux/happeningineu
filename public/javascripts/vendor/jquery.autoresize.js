@@ -39,8 +39,7 @@
 		position: 'absolute',
 		top: -9999,
 		left: -9999,
-		opacity: 0,
-		overflow: 'hidden'
+		opacity: 0
 	};
 
 	autoResize.resizableFilterSelector = [
@@ -86,8 +85,7 @@
 
 		if (this.nodeName === 'textarea') {
 			el.css({
-				resize: 'none',
-				overflowY: 'hidden'
+				resize: 'none'
 			});
 		}
 
@@ -217,47 +215,11 @@
 
 			// TEXTAREA
 			
-			clone.width(el.width()).height(0).val(value).scrollTop(10000);
-			
-			var scrollTop = clone[0].scrollTop;
-				
-			// Don't do anything if scrollTop hasen't changed:
-			if (this.previousScrollTop === scrollTop) {
-				return;
-			}
-
-			this.previousScrollTop = scrollTop;
-			
-			if (scrollTop + config.extraSpace >= config.maxHeight) {
-				el.css('overflowY', '');
-				scrollTop = config.maxHeight;
-				immediate = true;
-			} else if (scrollTop <= config.minHeight) {
-				scrollTop = config.minHeight;
-			} else {
-				el.css('overflowY', 'hidden');
-				scrollTop += config.extraSpace;
-			}
-
-			config.onBeforeResize.call(el);
-			config.onResize.call(el);
-
-			// Either animate or directly apply height:
-			if (config.animate && !immediate) {
-				el.stop(1,1).animate({
-					height: scrollTop
-				}, config.animate);
-			} else {
-				el.height(scrollTop);
-				config.onAfterResize.call(el);
-			}
-
 		},
 
 		destroy: function() {
 			this.unbind();
 			this.el.removeData('AutoResizer');
-			this.clone.remove();
 			delete this.el;
 			delete this.clone;
 		},

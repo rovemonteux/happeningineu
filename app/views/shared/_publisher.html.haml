@@ -2,6 +2,8 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+= javascript_include_tag "/javascripts/vendor/jquery.autoresize.js"
+
 :javascript
   $(function() {
     $(".question_mark").twipsy({trigger: 'hover', placement: 'bottom'});
@@ -27,20 +29,11 @@
     = form_for(StatusMessage.new, :remote => remote?, :html => {"data-type" => "json"}) do |status|
       = status.error_messages
       %p
-        %params
-          #publisher_textarea_wrapper{:style => "padding: 2px; border-width: 0px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"}
-            = link_to( image_tag('deletelabel.png'), "#", :id => "hide_publisher", :title => t('.discard_post'))
-            %ul#photodropzone
-            - if current_user.getting_started?
-              = status.text_area :fake_text, :cols => 120, :rows => 2, :value => h(publisher_formatted_text), :tabindex => 1, :style => "padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind'),
-                :title => popover_with_close_html( '1. ' + t('shared.public_explain.share') ),
-                'data-content' => t('shared.public_explain.new_user_welcome_message')
-            - else
-              = status.text_area :fake_text, :cols => 120, :rows => 2, :value => h(publisher_formatted_text), :tabindex => 1, :style => "padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind')
-            = status.hidden_field :text, :value => h(publisher_hidden_text), :class => 'clear_on_submit'
 
-            #file-upload{:title => t('.upload_photos')}
-              = image_tag 'icons/camera.png', :alt => t('.upload_photos').titleize
+      = image_tag 'icons/publisher.png', :style => "width: 19px; height: 19px; float:left;margin:10px 10px 10px 10px; vertical-align: middle;", :id => "notification-flag", :alt =>  t('bookmarklet.post_something')
+      %h4{:style => "color:white; vertical-align: middle; padding: 10px; 10px; 10px; 10px;"}
+        = t('bookmarklet.post_something').titleize
+      %hr{:style => "-webkit-box-shadow:0 0 3px rgba(20,20,20,0.5); -moz-box-shadow:0 0 3px rgba(20,20,20,0.5); box-shadow:0 0 3px rgba(20,20,20,0.5);"}
 
       - if publisher_public
         = hidden_field_tag 'aspect_ids[]', "public"
@@ -56,7 +49,6 @@
             - if current_user.services
               - for service in current_user.services
                 = image_tag "social_media_logos/#{service.provider}-16x16.png", :title => service.provider.titleize, :class => "service_icon dim", :id =>"#{service.provider}", :maxchar => "#{service.class::MAX_CHARACTERS}"
-            = link_to (image_tag "icons/monotone_wrench_settings.png"), "#question_mark_pane", :class => 'question_mark', :rel => 'facebox', :title => t('shared.public_explain.manage')
 
           .dropdown{ ! current_user.getting_started? ? {:class => "hang_right"} : { :class => "hang_right", :title => popover_with_close_html("2. #{t('shared.public_explain.control_your_audience')}"), 'data-content'=> t('shared.public_explain.visibility_dropdown')} }
             .button.toggle.publisher
@@ -82,7 +74,23 @@
                   = aspect_dropdown_list_item(aspect, !all_aspects_selected?(selected_aspects) && selected_aspects.include?(aspect) )
 
           = status.submit t('.share'), :disable_with => t('.posting'), :class => 'button creation', :tabindex => 2
+        
+        %br
 
+        %params
+          #publisher_textarea_wrapper{:style => "padding: 2px; border-width: 0px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em;"}
+            = link_to( image_tag('deletelabel.png'), "#", :id => "hide_publisher", :title => t('.discard_post'))
+            %ul#photodropzone
+            - if current_user.getting_started?
+              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "height: 80px; width: 580px; scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind'),
+                :title => popover_with_close_html( '1. ' + t('shared.public_explain.share') ),
+                'data-content' => t('shared.public_explain.new_user_welcome_message')
+            - else
+              = status.text_area :fake_text, :value => h(publisher_formatted_text), :tabindex => 1, :style => "width: 580px; height: 80px;  scrollbar-base-color:#cacaca; scrollbar-width:3px; padding: 2px; font-family: Arial, sans-serif;", :placeholder => t('.whats_on_your_mind')
+            = status.hidden_field :text, :value => h(publisher_hidden_text), :class => 'clear_on_submit'
+
+            #file-upload{:title => t('.upload_photos')}
+              = image_tag 'icons/camera.png', :alt => t('.upload_photos').titleize
           .facebox_content
             #question_mark_pane
               = render 'shared/public_explain'
@@ -90,5 +98,5 @@
 
 
     #publisher_photo_upload
-      = render 'photos/new_photo', :aspect_ids => aspect_ids.join(',')
+      = render 'photos/new_photo', :aspect_ids => 0
 

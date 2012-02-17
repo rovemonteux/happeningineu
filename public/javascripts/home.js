@@ -265,7 +265,7 @@ return b&&b.effectAllowed!="none"&&(b.files||(!a&&b.types.contains&&b.types.cont
 qq.UploadButton=function(a){this._options={element:null,multiple:false,name:"file",onChange:function(b){},hoverClass:"qq-upload-button-hover",focusClass:"qq-upload-button-focus"};
 qq.extend(this._options,a);
 this._element=this._options.element;
-qq.css(this._element,{position:"relative",overflow:"hidden",direction:"ltr"});
+qq.css(this._element,{position:"relative",direction:"ltr"});
 this._input=this._createInput()};
 qq.UploadButton.prototype={getInput:function(){return this._input},reset:function(){if(this._input.parentNode){qq.remove(this._input)}qq.removeClass(this._element,this._options.focusClass);
 this._input=this._createInput()},_createInput:function(){var b=document.createElement("input");

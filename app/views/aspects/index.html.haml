@@ -35,6 +35,12 @@
     %ul.left_nav
       %li
         %b
+          = link_to t('aspects.index.post_a_message').titleize, '#', :class => 'publishertrigger home_selector'
+
+  .section
+    %ul.left_nav
+      %li
+        %b
           = link_to t('.profile'), local_or_remote_person_path(current_user.person), :class => "home_selector"
 
   .section

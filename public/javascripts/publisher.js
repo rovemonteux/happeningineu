@@ -62,6 +62,7 @@ var Publisher = {
       max : 5,
       onSelect : Publisher.autocompletion.onSelect,
       searchTermFromValue: Publisher.autocompletion.searchTermFromValue,
+      scroll : false,
       formatItem: function(row, i, max) {
           return "<img src='"+ row.avatar +"' class='avatar'/>" + row.name;
       },
@@ -417,6 +418,8 @@ var Publisher = {
   },
   onSuccess: function(data, json, xhr){
     if (Publisher.bookmarklet == false) {
+      try
+      {
       var isPostVisible = Diaspora.page.aspectNavigation.selectedAspects().length == 0;
       var postedTo = Publisher.selectedAspectIds();
 
@@ -435,17 +438,23 @@ var Publisher = {
         ContentUpdater.addPostToStream(json.html);
         Diaspora.page.stream.addPost($("#" + json.post_id));
       }
+
       else {
         Diaspora.widgets.flashMessages.render({
           success: true,
           message: Diaspora.I18n.t('successfully_posted_message_to_an_aspects_that_is_not_visible')
         });
       }
+	  }
+      catch(err)
+  {
+}
     }
     //collapse publisher
 	Publisher.clear();
     Publisher.close();
 	Publisher.initialize();
+	Publisher.open();
     //Stream.setUpImageLinks();
   },
   bindAjax: function(){
