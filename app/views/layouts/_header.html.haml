@@ -2,38 +2,40 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-= javascript_include_tag "/javascripts/publisher.js"
-= javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
-= javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
-%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
-%link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+- if (current_user || !@landing_page)
 
-:javascript
-  Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
-  $(document).ready(function() 
-  {
-  $(".trigger").click(function(){
-  $(".panel").toggle("fast");
-  $(this).toggleClass("active");
-  return false;
-  });
-  $(".publishertrigger").click(function(){ 
-  $(".publisherpanel").toggle("fast");
-  $(this).toggleClass("active");
-  return false;
-  });
-  $('#status_message_fake_text').markItUp(mySettings);
-  Publisher.open();
-  Publisher.bookmarklet = false;
-  $("#publisher").bind('ajax:success', function(){
-  Publisher.clear();
-  Publisher.close();
-  $(".publisherpanel").toggle("slow");
-  Publisher.open();
-  $('input.button')[0].removeAttribute('disabled');
-  });
-  $('input.button')[0].removeAttribute('disabled');
-  });
+  = javascript_include_tag "/javascripts/publisher.js"
+  = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+  = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+  %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+  %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+
+  :javascript
+    Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
+    $(document).ready(function() 
+    {
+    $(".trigger").click(function(){
+    $(".panel").toggle("fast");
+    $(this).toggleClass("active");
+    return false;
+    });
+    $(".publishertrigger").click(function(){ 
+    $(".publisherpanel").toggle("fast");
+    $(this).toggleClass("active");
+    return false;
+    });
+    $('#status_message_fake_text').markItUp(mySettings);
+    Publisher.open();
+    Publisher.bookmarklet = false;
+    $("#publisher").bind('ajax:success', function(){
+    Publisher.clear();
+    Publisher.close();
+    $(".publisherpanel").toggle("slow");
+    Publisher.open();
+    $('input.button')[0].removeAttribute('disabled');
+    });
+    $('input.button')[0].removeAttribute('disabled');
+    });
 
 .container{:style => "position:relative;"}
   - if !current_user
