@@ -12,14 +12,12 @@
   Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
   $(document).ready(function() 
   {
-  var original = $("#publisher.closed").html();
   $(".trigger").click(function(){
   $(".panel").toggle("fast");
   $(this).toggleClass("active");
   return false;
   });
   $(".publishertrigger").click(function(){ 
-  $("#publisher.closed").html(original);
   $(".publisherpanel").toggle("fast");
   $(this).toggleClass("active");
   return false;

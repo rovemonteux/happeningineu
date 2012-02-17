@@ -2,11 +2,17 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+-#   Copyright (c) 2012, Rove Monteux.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+= javascript_include_tag "/javascripts/vendor/jquery.autoresize.min.js"
+
 = form_tag( post_comments_path(post_id), :id => "new_comment_on_#{post_id}", :class => 'new_comment', :remote => true) do
   = person_image_tag(current_user)
   %p
     = label_tag "comment_text_on_#{post_id}", t('.comment')
-    = text_area_tag :text, nil, :rows => 2, :class => "comment_box", :style => "width: 92%", :id => "comment_text_on_#{post_id}"
+    = text_area_tag :text, nil, :rows => 3, :class => "comment_box", :style => "width: 92%", :id => "comment_text_on_#{post_id}"
   .submit_button
     = submit_tag t('.comment'), :id => "comment_submit_#{post_id}", :class => "comment_submit button creation", :disable_with => t('.commenting')
 
