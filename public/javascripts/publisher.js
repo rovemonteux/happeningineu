@@ -452,7 +452,6 @@ var Publisher = {
     }
     //collapse publisher
 	Publisher.clear();
-	Publisher.initialize();
     //Stream.setUpImageLinks();
   },
   bindAjax: function(){

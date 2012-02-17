@@ -9,6 +9,7 @@
   = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+  = javascript_include_tag "/javascripts/vendor/jquery.autoresize.js"
 
   :javascript
     Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
@@ -64,12 +65,11 @@
           &nbsp;&nbsp;
 
     .publisherpanel
-      #new_status_message_pane
-        - @aspect = :profile
-        - @aspects = current_user.aspects
-        - @aspect_ids = @aspects.map{|x| x.id}
-        - if !request.url.include? '/notifications'
-          = render :partial => 'shared/publisher', :locals => { :aspect => @aspect, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
+      - @aspect = :profile
+      - @aspects = current_user.aspects
+      - @aspect_ids = @aspects.map{|x| x.id}
+      - if !request.url.include? '/notifications'
+        = render :partial => 'shared/publisher', :locals => { :aspect => @aspect, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
 
     #global_search{:style => "z=index:0;"}
       = form_tag(people_path, :method => 'get', :class => "search_form") do

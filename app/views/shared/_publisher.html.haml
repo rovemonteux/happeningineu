@@ -4,13 +4,6 @@
 
 = javascript_include_tag "/javascripts/vendor/jquery.autoresize.js"
 
-:javascript
-  $(function() {
-    $(".question_mark").twipsy({trigger: 'hover', placement: 'bottom'});
-    $(".service_icon").twipsy({trigger: 'hover', placement: 'bottom'});
-    $(".public_icon").twipsy({trigger: 'hover', placement: 'bottom'});
-  });
-
 - if publisher_open
   :javascript
     $(document).ready(function() {
