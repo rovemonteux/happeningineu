@@ -10,13 +10,13 @@ opacity:0;
 animation:myfade 0.3s 0.5s ease-in-out 1, stopfade 0.3s 1s infinite;
 }
 
-@-webkit-keyframes myfade { 0% {opacity:0.8;} 100% {opacity:1;} }
+@-webkit-keyframes myfade { 0% {opacity:0;} 100% {opacity:1;} }
 @-webkit-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
-@-moz-keyframes myfade { 0% {opacity:0.8;} 100% {opacity:1;} }
+@-moz-keyframes myfade { 0% {opacity:0;} 100% {opacity:1;} }
 @-moz-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
-@keyframes myfade { 0% {opacity:0.8;} 100% {opacity:1;} }
+@keyframes myfade { 0% {opacity:0;} 100% {opacity:1;} }
 @keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
 a{color:#3f8fba;
