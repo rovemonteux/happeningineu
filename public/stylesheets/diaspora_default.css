@@ -3,7 +3,21 @@ margin:0;
 margin-top:33px;
 background-color:white;
 font-family:Arial,sans-serif;
-font-size:12px}
+font-size:12px;
+opacity:0;
+-webkit-animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
+-moz-animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
+animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
+}
+
+@-webkit-keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@-webkit-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
+
+@-moz-keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@-moz-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
+
+@keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
 a{color:#3f8fba;
 text-decoration:none}
@@ -542,7 +556,8 @@ height:30px}
 
 ul.comments li,ul.show_comments li,.likes_container li,.stream_element .reshare li{list-style:none;
 padding:8px 5px;
-border-bottom:1px dotted #aaa}
+border-bottom:1px dotted #aaa;
+}
 
 ul.comments li .from,ul.show_comments li .from,.likes_container li .from,.stream_element .reshare li .from{font-size:1em;
 margin-bottom:0}
