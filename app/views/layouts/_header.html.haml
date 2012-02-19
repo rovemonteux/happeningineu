@@ -88,7 +88,7 @@
           .badge_count{:class => ("hidden" if @unread_message_count == 0)}
             = @unread_message_count
 
-      - if !request.url.include? '/notifications' and !request.url.include? '/u/'
+      - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people'
         #publisher_badge.badge
           = link_to "#", :class => "publishertrigger", :title => t('bookmarklet.post_something').titleize do
             = image_tag 'icons/publisher.png', :id => "notification-flag", :alt => t('bookmarklet.post_something').titleize
