@@ -141,9 +141,9 @@ box-shadow:0 1px 2px rgba(0,0,0,0.5);
 border:3px solid #ccc;
 height:100%
 opacity:0;
--webkit-animation:myfade 1s 2s ease-in-out 1, stopfade 2s 4s infinite;
--moz-animation:myfade 1s 2s ease-in-out 1, stopfade 2s 4s infinite;
-animation:myfade 1s 2s ease-in-out 1, stopfade 2s 4s infinite;
+-webkit-animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
+-moz-animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
+animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
 }
 
 #flash_notice,#flash_error,#flash_alert{z-index:999;
