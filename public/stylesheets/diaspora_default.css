@@ -5,18 +5,18 @@ background-color:white;
 font-family:Arial,sans-serif;
 font-size:12px;
 opacity:0;
--webkit-animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
--moz-animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
-animation:myfade 0.5s 0.5s ease-in-out 1, stopfade 0.5s 1s infinite;
+-webkit-animation:myfade 0.3s 0.3s ease-in-out 1, stopfade 0.3s 0.8s infinite;
+-moz-animation:myfade 0.3s 0.3s ease-in-out 1, stopfade 0.3s 0.8s infinite;
+animation:myfade 0.3s 0.3s ease-in-out 1, stopfade 0.3s 0.8s infinite;
 }
 
-@-webkit-keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@-webkit-keyframes myfade { 0% {opacity:0.3;} 100% {opacity:1;} }
 @-webkit-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
-@-moz-keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@-moz-keyframes myfade { 0% {opacity:0.3;} 100% {opacity:1;} }
 @-moz-keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
-@keyframes myfade { 0% {opacity:0.2;} 100% {opacity:1;} }
+@keyframes myfade { 0% {opacity:0.3;} 100% {opacity:1;} }
 @keyframes stopfade { 0% {opacity:1;} 100% {opacity:1;} }
 
 a{color:#3f8fba;
