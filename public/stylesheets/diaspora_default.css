@@ -545,7 +545,7 @@ height:30px}
 
 ul.comments li,ul.show_comments li,.likes_container li,.stream_element .reshare li{list-style:none;
 padding:8px 5px;
-border-bottom:1px dotted #aaa;
+border: none;
 }
 
 ul.comments li .from,ul.show_comments li .from,.likes_container li .from,.stream_element .reshare li .from{font-size:1em;

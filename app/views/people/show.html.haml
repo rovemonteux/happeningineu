@@ -2,6 +2,9 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+-#   Copyright (c) 2012, Rove Monteux.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
 
 - content_for :head do
   = javascript_include_tag "/javascripts/vendor/jquery.autoSuggest.custom.js"
@@ -23,7 +26,7 @@
       - if @contacts_of_contact.count > 8
         %p.see_all= link_to t('.see_all'), person_contacts_path(@person)
 
-.span-18.last
+.span-16.last
   .stream_container
     = render 'people/sub_header', :person => @person, :contact => @contact
     / hackity hack until we get a photo stream
