@@ -16,7 +16,7 @@
               = link_to "##{tg.name}", tag_path(:name => tg.name), :class => "tag_selector"
         %li
           = form_for TagFollowing.new do |tg|
-            = text_field_tag :name, "", :class => "tag_input", :placeholder => t('streams.followed_tag.add_a_tag'),  :style => "border: none; margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 10px;"
+            = text_field_tag :name, "", :class => "tag_input", :placeholder => t('streams.followed_tag.add_a_tag'),  :style => "border: none; margin-top: 5px; min-width: 50px; max-width: 150px; font-family: Arial, sans-serif; font-size: 12px;"
             = tg.submit t('streams.followed_tag.follow'), :class => "button hidden"
 
   %hr
