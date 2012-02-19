@@ -4,8 +4,6 @@
 
 - if (current_user)
 
-  = javascript_include_tag "/javascripts/vendor/jquery.autoresize.min.js"
-  = javascript_include_tag "/javascripts/publisher.js"
   = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
   = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
   %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
@@ -32,9 +30,7 @@
     Publisher.clear();
     Publisher.form().find("textarea.ac_input").css('height', '80px');
     $(".publisherpanel").toggle("slow");
-    $('input.button')[0].removeAttribute('disabled');
     });
-    $('input.button')[0].removeAttribute('disabled');
     });
 
 - else
@@ -63,13 +59,13 @@
         - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,250;').each do |tagname|
           = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
           &nbsp;&nbsp;
-
-    .publisherpanel
-      - @aspect = :profile
-      - @aspects = current_user.aspects
-      - @aspect_ids = @aspects.map{|x| x.id}
-      - if !request.url.include? '/notifications'
-        = render :partial => 'shared/publisher', :locals => { :aspect => @aspect, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
+    
+    - if !request.url.include? '/notifications' and !request.url.include? '/stream' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/like_stream' and !request.url.include? '/comment_stream' and !request.url.include? '/mentions'
+      .publisherpanel
+        - @aspect = :profile
+        - @aspects = current_user.aspects
+        - @aspect_ids = @aspects.map{|x| x.id}
+        = render :partial => 'shared/publisher', :locals => { :aspect => :profile, :selected_aspects => @aspects,  :aspect_ids => @aspect_ids }
 
     #global_search{:style => "z=index:0;"}
       = form_tag(people_path, :method => 'get', :class => "search_form") do
@@ -92,7 +88,7 @@
           .badge_count{:class => ("hidden" if @unread_message_count == 0)}
             = @unread_message_count
 
-      - if !request.url.include? '/notifications'
+      - if !request.url.include? '/notifications' and !request.url.include? '/u/'
         #publisher_badge.badge
           = link_to "#", :class => "publishertrigger", :title => t('bookmarklet.post_something').titleize do
             = image_tag 'icons/publisher.png', :id => "notification-flag", :alt => t('bookmarklet.post_something').titleize

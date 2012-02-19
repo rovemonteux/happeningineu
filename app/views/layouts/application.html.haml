@@ -84,6 +84,9 @@
 
   %body{:class => "#{yield(:body_class)}"}
 
+    %header{:class=>('landing' unless current_user)}
+      = render 'layouts/header'
+
     - unless @page == :logged_out
       - flash.each do |name, msg|
         %div{:id => "flash_#{name}", :style => "color: #cacaca;"}
@@ -95,9 +98,6 @@
         &#8679;
 
       #notifications
-
-    %header{:class=>('landing' unless current_user)}
-      = render 'layouts/header'
 
     .container{:style=> "#{yield(:break_the_mold)}"}
       - if @aspsect == :getting_started || @page == :logged_out
