@@ -68,6 +68,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Location-mapping
 
 https://github.com/rovemonteux/happeningineu/wiki/Markdown-editor
 
+**Detached text editor**
+
+https://github.com/rovemonteux/happeningineu/wiki/Detached-text-editor
+
 **Announcements robot**
 
 https://github.com/rovemonteux/happeningineu/wiki/Announcements-robot
