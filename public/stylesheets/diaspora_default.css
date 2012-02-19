@@ -28,15 +28,6 @@ animation:myfade 0.3s 0.5s ease-in-out 1, stopfade 0.3s 1s infinite;
 @keyframes myafade { 0% {opacity:0;} 100% {opacity:1;} }
 @keyframes stopafade { 0% {opacity:1;} 100% {opacity:1;} }
 
-@-webkit-keyframes mycfade { 0% {opacity:0;} 100% {opacity:1;} }
-@-webkit-keyframes stopcfade { 0% {opacity:1;} 100% {opacity:1;} }
-
-@-moz-keyframes mycfade { 0% {opacity:0;} 100% {opacity:1;} }
-@-moz-keyframes stopcfade { 0% {opacity:1;} 100% {opacity:1;} }
-
-@keyframes mycfade { 0% {opacity:0;} 100% {opacity:1;} }
-@keyframes stopcfade { 0% {opacity:1;} 100% {opacity:1;} }
-
 a{color:#3f8fba;
 text-decoration:none}
 
@@ -131,19 +122,16 @@ box-shadow:0 1px 2px rgba(0,0,0,0.5);
 }
 
 .map:hover{
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    -o-transform: scale(1.4);
-    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
 }
 
 #content{background-color:white;
 border:3px solid #ccc;
 height:100%
 opacity:0;
--webkit-animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
--moz-animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
-animation:mycfade 1s 2s ease-in-out 1, stopcfade 2s 4s infinite;
 }
 
 #flash_notice,#flash_error,#flash_alert{z-index:999;
