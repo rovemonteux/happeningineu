@@ -21,6 +21,12 @@ transition: all 0.2s linear;
 border-radius: 1em;
 }
 
+#slideshow {
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
 p{word-wrap:break-word;
 line-height: 1.35;
 }

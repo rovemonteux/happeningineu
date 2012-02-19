@@ -2,7 +2,20 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
+= javascript_include_tag "/javascripts/jquery.cross-slide.min.js"
 
 #thumbnails.span-18.last
-  - for photo in photos
-    = link_to (image_tag photo.url(:thumb_large), "data-message-guid" => photo.status_message_guid), photo_path(photo)
+  #slideshow
+  %script
+    $(function() {
+    $('#slideshow').crossSlide({
+    sleep: 2,
+    fade: 1,
+    variant: true,
+    easing: 'easeInOutQuad'
+    }, [
+    - for photo in photos
+      { src: '#{photo.url(:scaled_full)}' },
+    { src: '/images/stars-small.png' }
+    ])
+    });

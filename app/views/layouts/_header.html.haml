@@ -4,12 +4,13 @@
 
 - if (current_user)
 
-  = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
-  = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
-  %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
-  %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
+  - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile'
+    = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
+    = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
+    %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
+    %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/sets/markdown/style.css'}
 
-  :javascript
+  %script
     Diaspora.I18n.loadLocale(#{get_javascript_strings_for(current_user.language).to_json}, "#{current_user.language}");
     $(document).ready(function() 
     {
@@ -24,13 +25,14 @@
     $(this).toggleClass("active");
     return false;
     });
-    $('#status_message_fake_text').markItUp(mySettings);
-    Publisher.open();
-    Publisher.bookmarklet = false;
-    $("#publisher").bind('ajax:success', function(){
-    Publisher.clear();
-    Publisher.form().find("textarea.ac_input").css('height', '80px');
-    $(".publisherpanel").toggle("slow");
+    - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile'
+      $('#status_message_fake_text').markItUp(mySettings);
+      Publisher.open();
+      Publisher.bookmarklet = false;
+      $("#publisher").bind('ajax:success', function(){
+      Publisher.clear();
+      Publisher.form().find("textarea.ac_input").css('height', '80px');
+      $(".publisherpanel").toggle("slow");
     });
     });
 
