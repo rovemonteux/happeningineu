@@ -13,11 +13,17 @@
         %br
         - if @contact.mutual?
           = link_to t('people.show.message'), new_conversation_path(:contact_id => @contact.id, :name => @contact.person.name), :class => 'button', :rel => 'facebox'
-      %br
-      %br
-      %hr
-      %br
+  %br
+  %br
+  %hr
+  %br
 
+  %ul.left_nav
+    %li
+      %b
+        = link_to t('_photos').titleize, person_photos_path(person), :class => "home_selector"
+
+  - if user_signed_in?
     -if contact.sharing? || person == current_user.person
       %ul#profile_information
         - unless person.profile.bio.blank?
