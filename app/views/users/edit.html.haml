@@ -22,7 +22,7 @@
     = form_for 'user', :url => user_path, :html => { :method => :put } do |f|
       = f.error_messages
       %p
-        = f.text_field :email, :class => "search_box", :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 12px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;", :value => @user.unconfirmed_email || @user.email
+        = f.text_field :email, :class => "search_box", :style => "border: none; font-size: 12px; font-family: Arial, sans-serif; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;", :value => @user.unconfirmed_email || @user.email
         = f.submit t('.change_email'), :class => "button"
     %br
     - if @user.unconfirmed_email.present?
@@ -41,13 +41,13 @@
 
     %p
       = f.label :current_password, t('.current_password')
-      = f.password_field :current_password, :class => "search_box", :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 12px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
+      = f.password_field :current_password, :class => "search_box", :style => "border: none; font-size: 12px; font-family: Arial, sans-serif; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
     %p
       = f.label :password, t('.new_password')
-      = f.password_field :password, :class => "search_box", :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 12px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
+      = f.password_field :password, :class => "search_box", :style => "border: none; font-size: 12px; font-family: Arial, sans-serif; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
     %p
       = f.label :password_confirmation, t('password_confirmation')
-      = f.password_field :password_confirmation, :class => "search_box", :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 12px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
+      = f.password_field :password_confirmation, :class => "search_box", :style => "border: none; font-size: 12px; font-family: Arial, sans-serif; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
 
     .submit_block
       = link_to t('cancel'), edit_user_path
@@ -65,7 +65,7 @@
     = f.error_messages
 
     %p
-      = f.select :language, available_language_options, :class => "search_box", :style => "border: none; -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow:0 1px 2px rgba(0,0,0,0.5); box-shadow:0 1px 2px rgba(0,0,0,0.5); font-size: 12px; font-family: Arial, sans-serif; -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
+      = f.select :language, available_language_options, :class => "search_box", :style => "border: none; font-size: 12px; font-family: Arial, sans-serif; filter:alpha(opacity=65); -moz-opacity: 0.65; opacity: 0.65;"
       = f.submit t('.change_language'), :class => "button"
 
   %br
