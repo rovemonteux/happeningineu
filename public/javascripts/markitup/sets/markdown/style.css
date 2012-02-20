@@ -13,13 +13,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton1 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton2 a {
 	background-image:url(images/h2.png);
     -webkit-transition: all 0.1s ease-in-out;
@@ -29,13 +22,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton2 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton3 a {
@@ -49,13 +35,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton3 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton4 a {
 	background-image:url(images/h4.png); 
     -webkit-transition: all 0.1s ease-in-out;
@@ -65,13 +44,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton4 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton5 a {
@@ -85,13 +57,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton5 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton6 a {
 	background-image:url(images/h6.png); 
     -webkit-transition: all 0.1s ease-in-out;
@@ -102,14 +67,6 @@
     -moz-opacity: 0.85;
     opacity: 0.85;
 }
-
-.markItUp .markItUpButton6 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton7 a {
 	background-image:url(images/bold.png);
     -webkit-transition: all 0.1s ease-in-out;
@@ -119,13 +76,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton7 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton8 a {
@@ -139,13 +89,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton8 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton9 a {
 	background-image:url(images/list-bullet.png);
     -webkit-transition: all 0.1s ease-in-out;
@@ -155,13 +98,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton9 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton10 a {
@@ -175,13 +111,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton10 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton11 a {
     background-image:url(images/tag.ico);
     -webkit-transition: all 0.1s ease-in-out;
@@ -191,13 +120,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton11 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton12 a {
@@ -211,13 +133,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton12 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton13 a {
 	background-image:url(images/dailymotion.ico);
     -webkit-transition: all 0.1s ease-in-out;
@@ -227,13 +142,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton13 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton14 a	{
@@ -247,13 +155,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton14 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton15 a   {
     background-image:url(images/guardian.ico);
     -webkit-transition: all 0.1s ease-in-out;
@@ -263,13 +164,6 @@
     filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton15 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton16 a	{
@@ -283,13 +177,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton16 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton17 a   {
     background-image:url(images/flash.png);
 	-webkit-transition: all 0.1s ease-in-out;
@@ -299,13 +186,6 @@
 	filter:alpha(opacity=85);
     -moz-opacity: 0.85;
     opacity: 0.85;
-}
-
-.markItUp .markItUpButton17 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
 }
 
 .markItUp .markItUpButton18 a   {
@@ -319,13 +199,6 @@
     opacity: 0.85;
 }
 
-.markItUp .markItUpButton18 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
 .markItUp .markItUpButton19 a   {
     background-image:url(images/pastebin.png);
     -webkit-transition: all 0.1s ease-in-out;
@@ -336,11 +209,3 @@
     -moz-opacity: 0.85;
     opacity: 0.85;
 }
-
-.markItUp .markItUpButton19 a:hover {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-}
-
