@@ -106,7 +106,7 @@
         .span-24.last{:style=> "#{yield(:break_the_mold)}"}
           = yield
 
-    - if !request.url.include? '/photos'
+    - if !request.url.end_with? '/photos'
       %footer
         .container
           #footertags

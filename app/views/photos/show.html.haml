@@ -51,6 +51,8 @@
         - for _photo in additional_photos
           = link_to (image_tag _photo.url(:thumb_small), :class => 'thumb_small'), photo_path(_photo)
 
+    %hr
+
   #photo_edit_options
     %h4= t('.edit_delete_photo').titleize
     - if photo.status_message
