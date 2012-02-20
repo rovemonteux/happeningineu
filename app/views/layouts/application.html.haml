@@ -84,8 +84,9 @@
 
   %body{:class => "#{yield(:body_class)}"}
 
-    %header{:class=>('landing' unless current_user)}
-      = render 'layouts/header'
+    - if !request.url.end_with? '/getting_started'
+      %header{:class=>('landing' unless current_user)}
+        = render 'layouts/header'
 
     - unless @page == :logged_out
       - flash.each do |name, msg|

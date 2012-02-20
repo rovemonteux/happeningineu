@@ -8,13 +8,6 @@
         Publisher.open();
       });
 
--if publisher_explain
-  :javascript
-    $(document).ready(function()
-      {
-        Publisher.triggerGettingStarted();
-      });
-
 #publisher.closed{:class => (aspect == :all)? 'mention_popup' : nil}
   .content_creation
     = form_for(StatusMessage.new, :remote => remote?, :html => {"data-type" => "json"}) do |status|
