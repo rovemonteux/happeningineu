@@ -106,19 +106,20 @@
         .span-24.last{:style=> "#{yield(:break_the_mold)}"}
           = yield
 
-    %footer
-      .container
-        #footertags
-          - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,18;').each do |tagname|
-            = link_to("#"+"#{tagname}", "/tags/#{tagname}")
-            &nbsp;&nbsp;
-        %br
-        %ul#footer_nav
-          %li= link_to t('terms_and_conditions'), AppConfig[:pod_url] + "disclaimer.html"
-          %li= link_to 'Webmaster', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
-          %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
-          %li= link_to t('layouts.header.code'), "https://github.com/rovemonteux/happeningineu"
-          %li= link_to(t('layouts.application.toggle'), toggle_mobile_path)  if is_mobile_device?  
-        %span{:style => "font-size: 9px;"}
-          Powered by
-          = link_to('Happening In (happeningin.eu)', 'https://github.com/rovemonteux/happeningineu') 
+    - if !request.url.include? '/photos'
+      %footer
+        .container
+          #footertags
+            - ActiveRecord::Base.connection.select_values('select name, count(name) as counter from tags LEFT JOIN taggings ON taggings.tag_id = tags.id WHERE created_at > DATE_SUB(CONCAT(CURDATE(), \' 00:00:00\'), INTERVAL '+ AppConfig[:trends_hours] +' HOUR) AND name NOT LIKE \'%rss%\' GROUP BY name ORDER BY counter DESC, name ASC LIMIT 0,18;').each do |tagname|
+              = link_to("#"+"#{tagname}", "/tags/#{tagname}")
+              &nbsp;&nbsp;
+          %br
+          %ul#footer_nav
+            %li= link_to t('terms_and_conditions'), AppConfig[:pod_url] + "disclaimer.html"
+            %li= link_to 'Webmaster', AppConfig[:pod_url] + "u/" + AppConfig[:pod_min]
+            %li= link_to t('layouts.header.blog'), AppConfig[:pod_blog]
+            %li= link_to t('layouts.header.code'), "https://github.com/rovemonteux/happeningineu"
+            %li= link_to(t('layouts.application.toggle'), toggle_mobile_path)  if is_mobile_device?  
+          %span{:style => "font-size: 9px;"}
+            Powered by
+            = link_to('Happening In (happeningin.eu)', 'https://github.com/rovemonteux/happeningineu') 

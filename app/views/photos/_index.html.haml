@@ -2,6 +2,33 @@
 -#   licensed under the Affero General Public License version 3 or later.  See
 -#   the COPYRIGHT file.
 
-#thumbnails.span-15.last
-  - for photo in photos
-    = link_to (image_tag photo.url(:thumb_large), "data-message-guid" => photo.status_message_guid ), photo_path(photo)
+-#   Copyright (c) 2012, Rove Monteux.  This file is
+-#   licensed under the Affero General Public License version 3 or later.  See
+-#   the COPYRIGHT file.
+
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/slideshow/css/supersized.css'}
+%link{:rel => 'stylesheet', :type => "text/css", :href => '/slideshow/theme/supersized.shutter.css'}
+= javascript_include_tag "/slideshow/js/supersized.3.2.6.min.js"
+= javascript_include_tag "/slideshow/theme/supersized.shutter.min.js"		
+
+#thumbnails.span-18.last
+  %script
+    jQuery(function($){		
+    $.supersized({		
+    slide_interval          :   5000,
+    transition              :   1,
+    transition_speed		:	700,
+    slide_links				:	'blank',
+    slides 					:  	[
+    - for photo in photos
+      {image : '#{photo.url(:scaled_full)}', title : '#{photo.author.name}', thumb : '#{photo.url(:thumb_large)}', url : '#{photo_path(photo)}'},
+    {image : '', title : '', thumb : '', url : ''}
+    ]
+    });
+    });
+  %a{:id => "prevslide", :class => "load-item" }
+  %a{:id => "nextslide", :class => "load-item" }
+  #controls-wrapper{:class => "load-item"}
+    #controls
+      #slidecaption
+      %ul{:id => "slide-list"}

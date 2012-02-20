@@ -13,37 +13,28 @@
 - content_for :page_title do
   = @person.name
 
-.span-6
-  = render :partial => 'people/profile_sidebar', :locals => {:person => @person, :contact => @contact }
+- if (@posts && @posts.length > 0) || (@stream && @stream.stream_posts.length > 0)
+  -if @post_type == :photos
+    = render 'photos/index', :photos => @posts
+  - else
+    .span-6
+      = render :partial => 'people/profile_sidebar', :locals => {:person => @person, :contact => @contact }
+    .span-16.last
+      = render 'people/sub_header', :person => @person, :contact => @contact
+      #main_stream.stream
+        = render 'shared/stream', :posts => @stream.stream_posts
+        #pagination
+          =link_to(t('more'), next_page_path, :class => 'paginate')
 
-  - if user_signed_in? && @contact.persisted? && @contacts_of_contact.count > 0
-    .span-5.last#contacts_of_contact
-      .section.contact_pictures
-        %h4
-          = t('contacts', :count => @contacts_of_contact_count)
-        - for person in @contacts_of_contact
-          = person_image_link person
-      - if @contacts_of_contact.count > 8
-        %p.see_all= link_to t('.see_all'), person_contacts_path(@person)
-
-.span-16.last
-  .stream_container
+- else
+  .span-6
+    = render :partial => 'people/profile_sidebar', :locals => {:person => @person, :contact => @contact }
+  .span-16.last
     = render 'people/sub_header', :person => @person, :contact => @contact
-    / hackity hack until we get a photo stream
-    - if (@posts && @posts.length > 0) || (@stream && @stream.stream_posts.length > 0)
-      -if @post_type == :photos
-        = render 'photos/index', :photos => @posts
-      - else
-        #main_stream.stream
-          = render 'shared/stream', :posts => @stream.stream_posts
-          #pagination
-            =link_to(t('more'), next_page_path, :class => 'paginate')
-
-    - else
-      #main_stream
-        %div{:style=>"text-align:center;", :class => "dull"}
-          - if @block.present?
-            = t('.ignoring', :name => @person.first_name)
-          - else
-            = t('.has_not_shared_with_you_yet', :name => @person.first_name)
+    #main_stream
+      %div{:style=>"text-align:center;", :class => "dull"}
+        - if @block.present?
+          = t('.ignoring', :name => @person.first_name)
+        - else
+          = t('.has_not_shared_with_you_yet', :name => @person.first_name)
 
