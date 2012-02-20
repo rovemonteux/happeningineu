@@ -40,6 +40,10 @@ https://github.com/rovemonteux/happeningineu/wiki/Supported-services
 
 https://github.com/rovemonteux/happeningineu/wiki/Uploading-pictures
 
+**Full screen photo gallery slideshow:**
+
+https://github.com/rovemonteux/happeningineu/wiki/Full-screen-photo-gallery-slideshow
+
 **Emoticons in comments:**
 
 https://github.com/rovemonteux/happeningineu/wiki/Emoticons-in-comments
