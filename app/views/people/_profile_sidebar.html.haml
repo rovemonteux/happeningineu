@@ -18,10 +18,12 @@
   %hr
   %br
 
-  %ul.left_nav
+  %ul.left_nav{:style => "font-size: 14px;"}
     %li
       %b
         = link_to t('_photos').titleize, person_photos_path(person), :class => "home_selector"
+
+  %br
 
   - if user_signed_in?
     -if contact.sharing? || person == current_user.person
