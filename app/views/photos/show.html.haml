@@ -5,13 +5,13 @@
 - content_for :head do
   = javascript_include_tag "/javascripts/photo-show.js"
 
-.span-16.append-4.prepend-4.last
+.span-22.append-1.prepend-1.last
   #photo_controls
     -if additional_photos && additional_photos.length > 1
       .right
-        =link_to "← #{t('previous')}", previous_photo, :rel => 'prefetch', :id => 'photo_show_left'
+        =link_to "← #{t('previous')}", previous_photo, :rel => 'prefetch', :class => "home_selector", :id => 'photo_show_left'
         \/
-        =link_to "#{t('next')} →", next_photo, :rel => 'prefetch',  :id => 'photo_show_right'
+        =link_to "#{t('next')} →", next_photo, :rel => 'prefetch', :class => "home_selector", :id => 'photo_show_right'
 
   #original_post_info
     = render 'shared/author_info', :person => photo.author, :post => photo
@@ -29,35 +29,34 @@
 
     - if ownership
       .photo_options{:data=>{:actor=>"#{photo.author.owner.id}", :actor_person => "#{photo.author.id}", :image_url => "#{photo.url(:thumb_large)}"}}
-        = link_to t('.make_profile_photo'), photo_make_profile_photo_path(photo), :method => :put, :remote => true, :class => 'make_profile_photo'
+        = link_to t('.make_profile_photo').titleize, photo_make_profile_photo_path(photo), :method => :put, :remote => true, :class => 'make_profile_photo'
         |
-        = link_to t('.edit'), '#', :id => "edit_photo_toggle"
+        = link_to t('.edit').titleize, '#', :id => "edit_photo_toggle"
       %br
 
   %hr
 
   - if photo.status_message
 
-    .span-8.last
+    .span-22.last
       %p
         = markdownify(photo.status_message, :oembed => true)
-      %span{:style=>'font-size:smaller'}
-        =link_to t('.collection_permalink'), post_path(photo.status_message)
+      %span{:style=>'font-size: 12px;'}
+        =link_to t('posts.show.permalink').titleize, post_path(photo.status_message), :class => "home_selector"
       %br
       %br
-
-    .span-7.prepend-1
+      
+    .span-16.prepend-1
       .show_photo_attachments
         - for _photo in additional_photos
           = link_to (image_tag _photo.url(:thumb_small), :class => 'thumb_small'), photo_path(_photo)
 
-
   #photo_edit_options
-    %h4= t('.edit_delete_photo')
+    %h4= t('.edit_delete_photo').titleize
     - if photo.status_message
       %p
         = form_for photo, :remote => true do |p|
           = p.text_field :text, :value => photo.text
-          = p.submit t('.update_photo')
+          = p.submit t('.update_photo').titleize
     %p
-      = button_to t('.delete_photo'), photo, :confirm => t('are_you_sure'), :method => :delete
+      = button_to t('.delete_photo').titleize, photo, :confirm => t('are_you_sure'), :method => :delete
