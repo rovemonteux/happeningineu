@@ -123,6 +123,13 @@ defaults: &defaults
     - 'https://aixpora.de/'
     - 'https://diaspora.syntax-austria.org/'
     - 'https://usediaspora.org/'
+    - 'https://redblack.me/'
+    - 'https://diaspora.erchache2000.es'
+    - 'https://diaspora.n-durch-x.com'
+    - 'https://diaspora.yafd.de'
+    - 'https://kosmospora.net'
+
+
     
   # Community Spotlight
   # (expressed as an array of Diaspora IDs)
