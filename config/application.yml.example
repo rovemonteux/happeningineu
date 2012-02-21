@@ -128,6 +128,7 @@ defaults: &defaults
     - 'https://diaspora.n-durch-x.com/'
     - 'https://diaspora.yafd.de/'
     - 'https://kosmospora.net/'
+    - 'https://c0unt.org/'
 
   # Community Spotlight
   # (expressed as an array of Diaspora IDs)
