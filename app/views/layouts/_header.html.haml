@@ -4,7 +4,7 @@
 
 - if (current_user)
 
-  - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile'
+  - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile' and !request.url.include? '/photos'
     = javascript_include_tag "/javascripts/markitup/jquery.markitup.js"
     = javascript_include_tag "/javascripts/markitup/sets/markdown/set.js"
     %link{:rel => 'stylesheet', :type => "text/css", :href => '/javascripts/markitup/skins/simple/style.css'}
@@ -27,7 +27,7 @@
     $(this).toggleClass("active");
     return false;
     });
-    - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile'
+    - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile' and !request.url.include? '/photos'
       $('#status_message_fake_text').markItUp(mySettings);
       Publisher.open();
       Publisher.bookmarklet = false;
@@ -65,7 +65,7 @@
           = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
           &nbsp;&nbsp;
     
-    - if !request.url.include? '/notifications' and !request.url.include? '/stream' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/like_stream' and !request.url.include? '/comment_stream' and !request.url.include? '/mentions' and !request.url.include? '/profile'
+    - if !request.url.include? '/notifications' and !request.url.include? '/stream' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/like_stream' and !request.url.include? '/comment_stream' and !request.url.include? '/mentions' and !request.url.include? '/profile' and !request.url.include? '/photos'
       .publisherpanel
         - @aspect = :profile
         - @aspects = current_user.aspects
