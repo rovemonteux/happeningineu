@@ -9,6 +9,13 @@ font-size:12px;
 a{color:#3f8fba;
 text-decoration:none}
 
+img{
+-ms-interpolation-mode:bicubic; image-rendering: optimizeQuality;
+}
+
+footerwrapper { margin:0 auto; margin-left: 2%; margin-right: 5%; color:#ccc; align: center; padding:6px 0; padding-left: 20px; height:26px; width:90%; bottom:0px; left:0; z-index:4;  position:fixed; border-top-right-radius: 1em; -moz-border-radius-topright: 1em; -webkit-border-top-right-radius: 1em; border-top-left-radius: 1em; -moz-border-radius-topleft: 1em; -webkit-border-top-left-radius: 1em; filter:alpha(opacity=90); -moz-opacity: 0.90; opacity: 0.90; z-index:1001; border: none; background-color:black; -webkit-box-shadow:0px 2px 4px 2px rgba(0,0,0,0.5); -moz-box-shadow:0px 2px 4px 2px rgba(0,0,0,0.5); box-shadow:0px 2px 4px 2px rgba(0,0,0,0.5); }
+
+
 a:hover{color:#3f8fba;
 text-decoration:underline;
 -webkit-transition: all 0.2s linear;
@@ -22,90 +29,8 @@ border-radius: 1em;
 }
 
 #slideshow {
-  width: 400px;
-  height: 280px;
+  width: 100%;
   border: none;
-}
-
-.nivoSlider {
-	position:relative;
-}
-.nivoSlider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-}
-
-.nivoSlider a.nivo-imageLink {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:100%;
-	border:0;
-	padding:0;
-	margin:0;
-	z-index:6;
-	display:none;
-}
-
-.nivo-slice {
-	display:block;
-	position:absolute;
-	z-index:5;
-	height:100%;
-}
-.nivo-box {
-	display:block;
-	position:absolute;
-	z-index:5;
-}
-
-.nivo-caption {
-	position:absolute;
-	left:0px;
-	bottom:0px;
-	background:#000;
-	color:#fff;
-	opacity:0.8; /* Overridden by captionOpacity setting */
-	width:100%;
-	z-index:8;
-}
-.nivo-caption p {
-	padding:5px;
-	margin:0;
-}
-.nivo-caption a {
-	display:inline !important;
-}
-.nivo-html-caption {
-    display:none;
-}
-
-.nivo-directionNav a {
-	position:absolute;
-	top:45%;
-	z-index:9;
-	cursor:pointer;
-}
-.nivo-prevNav {
-	left:0px;
-}
-.nivo-nextNav {
-	right:0px;
-}
-
-.nivo-controlNav a {
-	position:relative;
-	z-index:9;
-	cursor:pointer;
-}
-.nivo-controlNav a.active {
-	font-weight:bold;
-}
-
-.theme-orman.slider-wrapper {
-    margin-top:150px;
 }
 
 p{word-wrap:break-word;
