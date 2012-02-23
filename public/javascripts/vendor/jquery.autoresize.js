@@ -39,11 +39,12 @@
 		position: 'absolute',
 		top: -9999,
 		left: -9999,
-		opacity: 0
+		opacity: 0,
+		overflow: 'hidden'
 	};
 
 	autoResize.resizableFilterSelector = [
-		'textarea:not(textarea.' + uid + ')',
+		'textarea[class=comment_box]',
 		'input:not(input[type])',
 		'input[type=text]',
 		'input[type=password]',
@@ -68,7 +69,7 @@
 			el.data('AutoResizer').destroy();
 		}
 		
-		config = this.config = $.extend({}, autoResize.defaults, config);
+		config = this.config = $.extend(true, {}, autoResize.defaults, config);
 		this.el = el;
 
 		this.nodeName = el[0].nodeName.toLowerCase();
@@ -85,7 +86,8 @@
 
 		if (this.nodeName === 'textarea') {
 			el.css({
-				resize: 'none'
+				resize: 'none',
+				overflowY: 'hidden'
 			});
 		}
 
@@ -215,11 +217,47 @@
 
 			// TEXTAREA
 			
+			clone.width(el.width()).height(0).val(value).scrollTop(10000);
+			
+			var scrollTop = clone[0].scrollTop;
+				
+			// Don't do anything if scrollTop hasen't changed:
+			if (this.previousScrollTop === scrollTop) {
+				return;
+			}
+
+			this.previousScrollTop = scrollTop;
+			
+			if (scrollTop + config.extraSpace >= config.maxHeight) {
+				el.css('overflowY', '');
+				scrollTop = config.maxHeight;
+				immediate = true;
+			} else if (scrollTop <= config.minHeight) {
+				scrollTop = config.minHeight;
+			} else {
+				el.css('overflowY', 'hidden');
+				scrollTop += config.extraSpace;
+			}
+
+			config.onBeforeResize.call(el);
+			config.onResize.call(el);
+
+			// Either animate or directly apply height:
+			if (config.animate && !immediate) {
+				el.stop(1,1).animate({
+					height: scrollTop
+				}, config.animate);
+			} else {
+				el.height(scrollTop);
+				config.onAfterResize.call(el);
+			}
+
 		},
 
 		destroy: function() {
 			this.unbind();
 			this.el.removeData('AutoResizer');
+			this.clone.remove();
 			delete this.el;
 			delete this.clone;
 		},

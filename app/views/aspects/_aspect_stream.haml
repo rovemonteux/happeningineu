@@ -14,7 +14,9 @@
     = stream.title
 
 .publisherpanel
-  = render 'aspects/no_posts_message'
+  = render 'shared/publisher', :selected_aspects => stream.aspects, :aspect_ids => stream.aspect_ids, :for_all_aspects => stream.for_all_aspects?, :aspect => stream.aspect
+
+= render 'aspects/no_posts_message'
 
 #gs-shim{:title => popover_with_close_html("3. #{t('.stay_updated')}"), 'data-content' => t('.stay_updated_explanation')}
 

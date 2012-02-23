@@ -1,7 +1,7 @@
 /*
- * jQuery.fn.autoResize 1.14
+ * jQuery.fn.autoResizeComment 1.14
  * --
- * https://github.com/padolsey/jQuery.fn.autoResize
+ * https://github.com/padolsey/jQuery.fn.autoResizeComment
  * --
  * This program is free software. It comes without any warranty, to
  * the extent permitted by applicable law. You can redistribute it
@@ -13,7 +13,7 @@
 
 	var uid = 'ar' + +new Date,
 
-		defaults = autoResize.defaults = {
+		defaults = autoResizeComment.defaults = {
 			onResize: function(){},
 			onBeforeResize: function(){return 123},
 			onAfterResize: function(){return 555},
@@ -28,30 +28,30 @@
 			maxWidth: 500
 		};
 
-	autoResize.cloneCSSProperties = [
+	autoResizeComment.cloneCSSProperties = [
 		'lineHeight', 'textDecoration', 'letterSpacing',
 		'fontSize', 'fontFamily', 'fontStyle', 'fontWeight',
 		'textTransform', 'textAlign', 'direction', 'wordSpacing', 'fontSizeAdjust',
 		'paddingTop', 'paddingLeft', 'paddingBottom', 'paddingRight', 'width'
 	];
 
-	autoResize.cloneCSSValues = {
+	autoResizeComment.cloneCSSValues = {
 		position: 'absolute',
 		top: -9999,
 		left: -9999,
 		opacity: 0
 	};
 
-	autoResize.resizableFilterSelector = [
+	autoResizeComment.resizableFilterSelector = [
 		'textarea[class=comment_box]'
 	].join(',');
 
-	autoResize.AutoResizer = AutoResizer;
+	autoResizeComment.AutoResizer = AutoResizer;
 
-	$.fn.autoResize = autoResize;
+	$.fn.autoResizeComment = autoResizeComment;
 
-	function autoResize(config) {
-		this.filter(autoResize.resizableFilterSelector).each(function(){
+	function autoResizeComment(config) {
+		this.filter(autoResizeComment.resizableFilterSelector).each(function(){
 			new AutoResizer( $(this), config );
 		});
 		return this;
@@ -63,7 +63,7 @@
 			el.data('AutoResizer').destroy();
 		}
 		
-		config = this.config = $.extend({}, autoResize.defaults, config);
+		config = this.config = $.extend({}, autoResizeComment.defaults, config);
 		this.el = el;
 
 		this.nodeName = el[0].nodeName.toLowerCase();
@@ -111,10 +111,10 @@
 			this.unbind();
 
 			this.el
-				.bind('keyup.autoResize', check)
-				.bind('keydown.autoResize', check)
-				.bind('change.autoResize', check)
-				.bind('paste.autoResize', function() {
+				.bind('keyup.autoResizeComment', check)
+				.bind('keydown.autoResizeComment', check)
+				.bind('change.autoResizeComment', check)
+				.bind('paste.autoResizeComment', function() {
 					setTimeout(function() { check(); }, 0);
 				});
 			
@@ -125,7 +125,7 @@
 		},
 
 		unbind: function() {
-			this.el.unbind('.autoResize');
+			this.el.unbind('.autoResizeComment');
 		},
 
 		createClone: function() {
@@ -135,7 +135,7 @@
 
 			this.clone = clone;
 
-			$.each(autoResize.cloneCSSProperties, function(i, p){
+			$.each(autoResizeComment.cloneCSSProperties, function(i, p){
 				clone[0].style[p] = el.css(p);
 			});
 
@@ -144,7 +144,7 @@
 				.removeAttr('id')
 				.addClass(uid)
 				.attr('tabIndex', -1)
-				.css(autoResize.cloneCSSValues);
+				.css(autoResizeComment.cloneCSSValues);
 
 			if (this.nodeName === 'textarea') {
 				clone.height('auto');
@@ -257,8 +257,8 @@
 
 		injectClone: function() {
 			(
-				autoResize.cloneContainer ||
-				(autoResize.cloneContainer = $('<arclones/>').appendTo('body'))
+				autoResizeComment.cloneContainer ||
+				(autoResizeComment.cloneContainer = $('<arclones/>').appendTo('body'))
 			).append(this.clone);
 		}
 
