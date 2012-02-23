@@ -25,7 +25,6 @@
     $(this).toggleClass("active");
     return false;
     });
-    $( ".publisherpanel" ).draggable();
     $(".publishertrigger").click(function(){ 
     $(".publisherpanel").toggle("fast");
     $(this).toggleClass("active");
@@ -69,7 +68,7 @@
           = link_to "#"+ "#{tagname}", tag_path(:name => tagname), :class => "tag_selector"
           &nbsp;&nbsp;
     
-    - if !request.url.include? '/notifications' and !request.url.include? '/stream' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/like_stream' and !request.url.include? '/comment_stream' and !request.url.include? '/mentions' and !request.url.include? '/profile' and !request.url.include? '/photos'
+    - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile' and !request.url.include? '/photos'
       .publisherpanel
         - @aspect = :profile
         - @aspects = current_user.aspects
@@ -160,3 +159,42 @@
 
   #lightbox-backdrop
 
+- if (current_user)
+  - if !request.url.include? '/photos'
+    .footerwrapper
+      .footercontainer
+        - if !request.url.include? '/notifications' and !request.url.include? '/u/' and !request.url.include? '/people' and !request.url.include? '/profile'
+          %b
+            = link_to t('aspects.index.post_a_message').titleize.sub( " >>", "" ), '#', :class => 'publishertrigger home_selector'
+        %b
+          = link_to t('.profile'), local_or_remote_person_path(current_user.person), :class => "home_selector"
+        %b
+          = link_to t("streams.multi.title"), multi_path, :class => 'home_selector'
+        %b
+          = link_to t("aspects.selected_contacts.view_all_contacts"), "/contacts", :class => "home_selector"
+        %b
+          = link_to t('streams.mentions.title'), mentions_path, :class => 'home_selector'
+        %b
+          = link_to t('streams.comment_stream.title'), comment_stream_path, :class => 'home_selector'
+        %b
+          = link_to t('streams.like_stream.title'), like_stream_path, :class => 'home_selector'
+        - if AppConfig[:open_invitations]
+          .invitationwrapper
+            %b
+              = t('shared.invitations.invite_someone')+":"
+              - if AppConfig.configured_services.include?('facebook')
+                - if defined? remote
+                  = link_to t('.from_facebook'), friend_finder_path('facebook', :remote => remote), :class => "home_selector"
+                -else
+                  = link_to t('.from_facebook'), friend_finder_path('facebook'), :class => "home_selector" 
+  
+              = link_to t('shared.invitations.by_email'), new_user_invitation_path, :title => t('shared.invitations.invite_someone'), :class => "home_selector", :rel => 'facebox'
+
+        - unless AppConfig.configured_services.blank? || all_services_connected?
+          = t('aspects.index.services.heading')
+          - AppConfig.configured_services.each do |service|
+            - unless current_user.services.any?{|x| x.provider == service}
+              = link_to(image_tag("social_media_logos/#{service.to_s.downcase}-24x24.png", :title => service.to_s.titleize, :style => "width: 19px; height: 19px;"), "/auth/#{service}")
+
+
+          

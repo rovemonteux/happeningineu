@@ -30,51 +30,9 @@
 
   %br
   %hr
-  
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t('aspects.index.post_a_message').titleize.sub( " >>", "" ), '#', :class => 'publishertrigger home_selector'
-
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t('.profile'), local_or_remote_person_path(current_user.person), :class => "home_selector"
-
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t("streams.multi.title"), multi_path, :class => 'home_selector'
-
-  .section  
-    %ul.left_nav
-      %li
-        %b
-          = link_to @stream.contacts_link_title, @stream.contacts_link, :class => "home_selector"
 
   .section
     = render 'aspects/aspect_listings', :stream => @stream
-
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t('streams.mentions.title'), mentions_path, :class => 'home_selector'
-
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t('streams.comment_stream.title'), comment_stream_path, :class => 'home_selector'
-
-  .section
-    %ul.left_nav
-      %li
-        %b
-          = link_to t('streams.like_stream.title'), like_stream_path, :class => 'home_selector'
 
   .section#followed_tags_listing
     = render 'tags/followed_tags_listings'
